@@ -12,7 +12,8 @@
     "build:docs": "node scripts/build-docs.mjs",
     "extract:scripts": "python3 scripts/extract-episodes.py && node scripts/enrich-episodes.mjs && node scripts/build-docs.mjs",
     "generate:assets": "node scripts/generate-character-sheets.mjs",
-    "render:ep01": "remotion render src/remotion-entry.ts Episode-01-vertical render.mp4"
+    "render:ep01": "remotion render src/remotion-entry.ts Episode-01-vertical render.mp4",
+    "render:ep01:offline": "python3 scripts/render-ep01-offline.py"
   },
   "dependencies": {
     "@remotion/player": "4.0.545",

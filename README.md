@@ -19,7 +19,14 @@ Remotion compositions are named `Episode-01-vertical`, `Episode-01-square`, `Epi
 npx remotion render src/remotion-entry.ts Episode-01-vertical render.mp4
 ```
 
-Remotion needs its supported Chrome Headless Shell. The current sandbox could not download it from `remotion.media` because that host is outside the available network allowlist, so no MP4/contact sheet is claimed. Use `npx remotion browser ensure` in an environment with the official download host enabled, then run the render command and ffprobe/contact-sheet QA.
+Remotion needs its supported Chrome Headless Shell. The current sandbox could not download it from `remotion.media` (ECONNRESET). A browser-free silent 2D animatic is available for Episode 01:
+
+```sh
+python3 -m pip install -r requirements-render.txt
+npm run render:ep01:offline
+```
+
+It outputs `Episode-01-Orang-Miskin-Dilarang-Miskin-Animatic.mp4` (90 seconds, 720×1280, 15 fps); all six source shot boundaries and total duration are exact. Dialogue is a uniform per-shot timing estimate, not a recorded/VO-aligned performance. This is a silent animatic, not a final production cartoon. The Remotion render remains blocked pending the supported browser; full visual review and audio/VO QA remain outstanding.
 
 ## Edit content / extend
 

@@ -28,7 +28,6 @@
     "status": "Prototype; not production-ready until representative renders and three-ratio tests are reviewed."
   },
   "criticalUnknowns": [
-    "which episode is the first final-production target",
     "approved character model sheets/reference frames",
     "recorded VO and word-level timing",
     "licensed music/SFX files",
@@ -48,6 +47,6 @@
     "shotlist": "shotlist.json",
     "assets": "assets-manifest.json",
     "audioCues": "audio-cues.json",
-    "render": "NOT PRODUCED — Remotion Chrome Headless Shell download blocked; see qa-report.md"
+    "render": "Episode-01 offline silent animatic produced; Remotion render blocked by Chrome Headless Shell download; see qa-report.md"
   }
 }

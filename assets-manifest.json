@@ -120,7 +120,8 @@
     "third-party font files"
   ],
   "generatedOutputs": {
-    "render.mp4": "NOT PRODUCED",
-    "contact-sheet": "NOT PRODUCED — no browser render available"
+    "Episode-01-Orang-Miskin-Dilarang-Miskin-Animatic.mp4": "PRODUCED — silent 90.00s 720x1280 15fps; six shot boundaries source matched; dialogue timing estimated, not VO sync",
+    "remotion-render.mp4": "NOT PRODUCED — Remotion Chrome Headless Shell download blocked",
+    "contact-sheet": "PARTIAL — opening and ending frame spot checks only; full visual QA pending"
   }
 }
