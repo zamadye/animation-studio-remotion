@@ -17,6 +17,7 @@ Remotion 4.0.545. Frame state is the only animation clock. Design tokens and sou
 - Assumption: authored DOCX timecodes are scene lengths; speech will be re-timed after recording.
 - Fiction note: all scripts state they are fictional; keep the disclosure in deliverables.
 
-## Missing final deliverables
-- Render MP4, contact sheet and audiovisual QA are NOT PRODUCED because the Remotion headless browser cannot download in this environment.
-- Character art is concept art, not approved production model sheets.
+## Output status
+- A browser-free Episode 01 silent 2D animatic MP4 is produced with source-matched scene cuts, full-bleed settings, varied character silhouettes and scene blocking. Dialogue timing remains estimated, not VO-aligned.
+- The full Remotion MP4, complete contact sheet, recorded dialogue and audiovisual QA remain unproduced because the Remotion headless browser cannot download.
+- Character art remains concept art, not approved production model sheets.

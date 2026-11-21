@@ -1,12 +1,12 @@
 # Character Bible — Studio Satir (concept v0.2)
 
 ## Source and usage
-Original vector concepts derived from the supplied fictional scripts. They are editable local React/SVG assets, not traced or externally sourced designs. Do not treat as final model approval. Full named cast per episode is retained in `src/data/episodes.json`; the current playable rig stages only the lead and one counterpart at a time.
+Original vector concepts derived from the supplied fictional scripts. They are editable local React/SVG assets, not traced or externally sourced designs. Do not treat as final model approval. Full named cast per episode is retained in `src/data/episodes.json`; the playable rig stages up to two scene participants at a time, including dialogue-derived speakers not listed in the shot cast, while phone/PA voices remain off-screen.
 
 ## Model sheet
 - `public/assets/character-sheets.svg` — eight episode rows, lead/counterpart palette and six lead expression studies (neutral, talk, concern, surprise, frustrated, relief).
 - `src/components/characters/cast-data.json` is the source of truth. `scripts/generate-character-sheets.mjs` builds the SVG from those same tokens, avoiding a separate hand-maintained palette.
-- `src/components/characters/cast.ts` defines role, skin/hair/costume/accent colors, hair silhouette, glasses and apron.
+- `src/components/characters/cast.ts` defines role, skin/hair/costume/accent colors, body silhouette (`slim`/`average`/`broad`), hair silhouette, glasses and apron. The offline Episode 01 render also gives the inferred buyer a distinct curly-hair, lean-costume design rather than duplicating Darto or Petugas.
 - `src/components/characters/CharacterRig.tsx` is the layered renderer. Layer order: ground shadow → legs/feet → torso/costume → pivoted arms/hands → neck → ears/head → hair/headwear → brows/eyes → nose/mouth → costume details.
 
 ## Rig contract
@@ -23,6 +23,6 @@ Each episode has a stable lead/counterpart palette. Use the same character profi
 ## Still open
 - Full pose turnarounds, 6–10 reviewed expressions for every cast member, and separate elbow/hand/finger controls.
 - Child and additional speaking roles should be staged accurately instead of reusing the two-person preview.
-- Eye darts, head turns, walk/contact cycles, anticipation per action, impact/reaction and prop hand-contact need authored shot choreography.
+- Eye darts, full walk/contact cycles, anticipation per action, impact/reaction and hand-to-prop contact need authored shot choreography. A source-cued moving walk and distinct scene-3 buyer blocking are now in the Episode 01 animatic; these are still concept motion, not approved character animation.
 - Approve skin/hair/costume choices, culturally/contextually review headwear, facial features and role portrayal.
 - Lip sync, mouth timing and audio offsets require recorded VO and alignment; do not claim current approximate mouth cycles are lip sync.

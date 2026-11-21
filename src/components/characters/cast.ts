@@ -1,6 +1,6 @@
 import castData from './cast-data.json';
 import type {CharacterProfile} from '../../data/types';
-export type CharacterDesign={name:string;role:string;skin:string;hair:string;outfit:string;accent:string;hairShape:'short'|'bun'|'hijab'|'cap'|'curly';glasses?:boolean;apron?:boolean};
+export type CharacterDesign={name:string;role:string;skin:string;hair:string;outfit:string;accent:string;hairShape:'short'|'bun'|'hijab'|'cap'|'curly';bodyShape?:'slim'|'average'|'broad';glasses?:boolean;apron?:boolean};
 export type CastPair={hero:CharacterDesign;foil:CharacterDesign};
 export const cast=castData as Record<string,CastPair>;
 export const fallbackCast:CastPair={hero:{name:'Karakter utama',role:'tokoh cerita',skin:'#b98262',hair:'#302824',outfit:'#526c69',accent:'#d1aa60',hairShape:'short'},foil:{name:'Lawan adegan',role:'tokoh pendamping',skin:'#d5a180',hair:'#38302c',outfit:'#526878',accent:'#c7a95b',hairShape:'bun'}};
@@ -13,7 +13,7 @@ const extraPalettes=[
 ];
 const stableIndex=(value:string)=>[...value].reduce((sum,char)=>(sum*31+char.charCodeAt(0))>>>0,7);
 export const resolveCharacterDesign=(episodeId:string,profile:CharacterProfile):CharacterDesign=>{
- const known=cast[episodeId];if(known){const match=[known.hero,known.foil].find(c=>c.name.toLocaleLowerCase()===profile.name.toLocaleLowerCase());if(match)return match;}
- const hash=stableIndex(`${episodeId}:${profile.name}`);const palette=extraPalettes[hash%extraPalettes.length];const hairShapes:['short','bun','curly']=['short','bun','curly'];
- return {name:profile.name,role:profile.role,...palette,hairShape:hairShapes[(hash>>>3)%hairShapes.length],glasses:/petugas|guru|pejabat|bendahara/i.test(profile.name)?hash%3===0:false,apron:/penjahit|kasir|pedagang/i.test(profile.role)};
+ const known=cast[episodeId];if(known){const match=[known.hero,known.foil].find(c=>c.name.toLocaleLowerCase()===profile.name.toLocaleLowerCase());if(match){const silhouette=match.bodyShape??(/petugas|bendahara|manajer|koordinator|hr/i.test(`${profile.name} ${profile.role}`)?'broad':/anak|murid|siswa|pelajar/i.test(`${profile.name} ${profile.role}`)?'slim':'average');return {...match,bodyShape:silhouette};}}
+ const hash=stableIndex(`${episodeId}:${profile.name}`);const palette=extraPalettes[hash%extraPalettes.length];const hairShapes:['short','bun','curly']=['short','bun','curly'];const bodyShape:CharacterDesign['bodyShape']=/anak|murid|siswa|pelajar/i.test(`${profile.name} ${profile.role}`)?'slim':/pejabat|koordinator/i.test(profile.role)?'broad':(['slim','average','broad'] as const)[(hash>>>5)%3];
+ return {name:profile.name,role:profile.role,...palette,hairShape:hairShapes[(hash>>>3)%hairShapes.length],bodyShape,glasses:/petugas|guru|pejabat|bendahara/i.test(profile.name)?hash%3===0:false,apron:/penjahit|kasir|pedagang/i.test(profile.role)};
 };

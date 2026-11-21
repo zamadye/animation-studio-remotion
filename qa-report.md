@@ -4,7 +4,7 @@
 
 **FRAMEWORK CHECKS: PASS** for source extraction, schema/continuity tests, TypeScript typecheck, Vite build, SVG structure, and dependency audit. The Studio server is live; only HTTP shell/assets have been checked. Character and motion artwork remains concept-grade and not art-directed.
 
-**VIDEO OUTPUT: PARTIAL.** A browser-free silent 2D animatic MP4 now exists for Episode 01. Its duration and six shot-boundary timestamps match the source. Opening-frame and ending-scene layout spot checks passed. It is not the full Remotion composition render or a final voiced/art-directed cartoon; dialogue is estimated and full contact-sheet/playback QA remains incomplete.
+**VIDEO OUTPUT: PARTIAL.** A browser-free silent 2D animatic MP4 now exists for Episode 01. Its duration and six shot-boundary timestamps match the source. Opening-frame and ending-scene layout spot checks passed. The updated cut removes the stage-card enclosure, uses full-bleed location backgrounds with moving outdoor layers, shot-specific actor blocking, varied supporting-character silhouettes/wardrobe, in-world props, and an inferred on-screen buyer in scene 3. It is not the full Remotion composition render or a final voiced/art-directed cartoon; dialogue is estimated and full contact-sheet/playback QA remains incomplete.
 
 ## Executed checks
 
@@ -17,7 +17,7 @@
 - Vite dev server on `0.0.0.0:5174`; HTTP shell and character SVG endpoint responded — PASS as HTTP smoke checks only.
 - `npm audit` — PASS, 0 vulnerabilities.
 - Remotion bundling compiles the entry/source. Composition render stops when Remotion requests Chrome Headless Shell from `remotion.media`; TLS connection is blocked by this environment's host allowlist.
-- `npm run render:ep01:offline` — PASS: creates a silent H.264 MP4 at 720×1280 / 15 fps / exactly 90 seconds (1350 frames). Shot boundaries are 00:00, 00:12, 00:26, 00:40, 00:56, 01:12 and 01:30 from episode source data. Opening (frame 0) and ending (frame 1110 / 01:14) PNG spot checks confirmed title, scene number, actors, dialogue and footer fit; this is not full visual acceptance.
+- `npm run render:ep01:offline` — PASS: creates a silent H.264 MP4 at 720×1280 / 15 fps / exactly 90 seconds (1350 frames). Shot boundaries are 00:00, 00:12, 00:26, 00:40, 00:56, 01:12 and 01:30 from episode source data. Opening (frame 30) and roadside exchange (frame 450) spot checks confirmed world background, scene labels, buyer/Darto blocking and dialogue panel; this is not full visual acceptance.
 
 ## Not verified / unresolved
 

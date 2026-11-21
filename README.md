@@ -26,7 +26,7 @@ python3 -m pip install -r requirements-render.txt
 npm run render:ep01:offline
 ```
 
-It outputs `Episode-01-Orang-Miskin-Dilarang-Miskin-Animatic.mp4` (90 seconds, 720×1280, 15 fps); all six source shot boundaries and total duration are exact. Dialogue is a uniform per-shot timing estimate, not a recorded/VO-aligned performance. This is a silent animatic, not a final production cartoon. The Remotion render remains blocked pending the supported browser; full visual review and audio/VO QA remain outstanding.
+It outputs `Episode-01-Orang-Miskin-Dilarang-Miskin-Animatic.mp4` (90 seconds, 720×1280, 15 fps); all six source shot boundaries and total duration are exact. The design is full-bleed with location-specific depth, actor blocking, differentiated silhouettes/wardrobe, and the shot 3 walk. Dialogue is a uniform per-shot timing estimate, not a recorded/VO-aligned performance. This is a silent animatic, not a final production cartoon. The Remotion render remains blocked pending the supported browser; full visual review and audio/VO QA remain outstanding.
 
 ## Edit content / extend
 

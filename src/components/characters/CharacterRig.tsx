@@ -18,7 +18,7 @@ export const CharacterRig:React.FC<{design:CharacterDesign;frame:number;fps:numb
  const mouthByViseme:Record<Viseme,string>={rest:'M161 233 Q180 245 199 233',open:'M162 232 Q180 260 198 232',wide:'M157 233 Q180 251 203 233',round:'M173 230 Q180 252 187 230',closed:'M159 239 Q180 226 201 239'};
  const mouth=mouthByViseme[viseme];
  const brow=cue==='concern'||cue==='relief'?'M121 160 Q140 169 158 157 M202 157 Q220 169 239 160':cue==='frustrated'||cue==='stern'?'M121 154 Q140 164 158 165 M202 165 Q220 164 239 154':'M121 159 Q140 149 158 158 M202 158 Q220 149 239 159';
- const hairShape=design.hairShape;
+ const hairShape=design.hairShape;const torsoPath=design.bodyShape==='broad'?'M112 281 Q180 253 248 281 L277 411 Q218 438 83 409Z':design.bodyShape==='slim'?'M136 281 Q180 261 224 281 L247 409 Q218 430 113 409Z':'M122 281 Q180 256 238 281 L260 409 Q218 435 101 409Z';
  return <svg aria-label={`${design.name}, character rig`} viewBox="0 0 360 540" width={360*scale} height={540*scale} style={{overflow:'visible',filter:'drop-shadow(0 8px 2px rgba(32,38,43,.12))'}}>
   <ellipse cx="180" cy="511" rx="95" ry="13" fill="#20262b" opacity=".14"/>
   <g transform={`translate(0 ${bob})`} stroke="#20262b" strokeWidth="10" strokeLinejoin="round" strokeLinecap="round">
@@ -26,7 +26,7 @@ export const CharacterRig:React.FC<{design:CharacterDesign;frame:number;fps:numb
    <g transform={`rotate(${walking?leftLegAngle:0} 152 405)`}><path d="M143 405 L135 488 Q134 501 122 505 L170 505 Q178 500 174 489 L184 414" fill={design.outfit}/><path d="M123 505 Q144 497 170 505 L170 516 L119 516Z" fill="#343b3e"/></g>
    <g transform={`rotate(${walking?rightLegAngle:0} 208 405)`}><path d="M184 414 L189 488 Q190 500 181 505 L231 505 Q237 500 227 489 L226 405" fill={design.outfit}/><path d="M181 505 Q205 497 231 505 L237 516 L181 516Z" fill="#343b3e"/></g>
    {/* torso and optional apron */}
-   <path d="M122 281 Q180 256 238 281 L260 409 Q218 435 101 409Z" fill={design.outfit}/>
+   <path d={torsoPath} fill={design.outfit}/>
    {design.apron&&<path d="M143 298 L218 298 L230 411 L130 411Z" fill={design.accent} strokeWidth="7"/>}
    <g transform={`rotate(${-armLift} 122 300)`}><path d="M119 296 Q88 307 78 355" {...line(design.outfit,30)}/><g transform={`rotate(${elbowBend} 78 355)`}><path d="M78 355 L62 396" {...line(design.outfit,25)}/><path d="M62 396 Q56 405 65 411 L83 401" {...line(design.skin,18)}/></g></g>
    <g transform={`rotate(${armLift} 238 300)`}><path d="M241 296 Q272 310 280 354" {...line(design.outfit,30)}/><g transform={`rotate(${-elbowBend} 280 354)`}><path d="M280 354 L296 389" {...line(design.outfit,25)}/><path d="M296 389 Q302 398 292 405 L277 395" {...line(design.skin,18)}/></g></g>

@@ -57,7 +57,7 @@
     {
       "path": "src/components/characters/CharacterRig.tsx",
       "type": "original React/SVG cutout rig",
-      "usage": "frame-driven acting, eyes/mouth, gesture pivot"
+      "usage": "frame-driven expression/gesture rig with per-character body-silhouette variation"
     },
     {
       "path": "src/components/characters/cast-data.json",
@@ -72,7 +72,7 @@
     {
       "path": "src/data/actors.ts",
       "type": "scene actor resolver",
-      "usage": "selects up to two named source cast members per shot"
+      "usage": "selects up to two scene actors, infers named dialogue speakers, excludes phone/PA voices from stage"
     },
     {
       "path": "src/components/SceneSet.tsx",

@@ -38,8 +38,9 @@ const Icon:React.FC<{kind:string;phase:number}>=({kind,phase})=>{
 };
 export const SceneProp:React.FC<{episode:Episode;shot:Shot;frame:number;scale:number;variant?:TemplateId;reducedMotion?:boolean}> = ({episode,shot,frame,scale,variant='CARTOON-STAGE-DIALOGUE',reducedMotion=false})=>{
  const label=(names[episode.id]??names['01'])[shot.number-1]??'PROP'; const type=kind(episode.id,shot.number); const t=reducedMotion?0:frame/30; const enter=reducedMotion?1:Math.min(1,Math.max(0,(frame-shot.startSeconds*30)/10)); const propScale=scale*(variant==='CARTOON-EVIDENCE-INSERT'?1.28:1);
- return <div style={{position:'absolute',left:'50%',top:variant==='CARTOON-EVIDENCE-INSERT'?'4%':'12%',width:144*propScale,height:140*propScale,transform:`translate(-50%,${(1-enter)*8*propScale}px)`,opacity:.96}}>
-  <svg viewBox="0 0 144 140" width="100%" height="100%" style={{overflow:'visible'}}><rect x="3" y="3" width="138" height="134" rx="7" fill="#fffdf8" stroke="#283239" strokeWidth="3"/><Icon kind={type} phase={t}/><path d="M11 119h122" stroke="#d8cdbd" strokeWidth="2"/></svg>
-  <div style={{position:'absolute',left:5,right:5,bottom:6,textAlign:'center',font:'700 8px/1.2 ui-monospace,monospace',letterSpacing:'.04em',color:'#40474a'}}>{label}</div>
+ const propLeft=['59%','47%','66%','51%','61%','54%'][shot.number-1]??'55%';const propFloat=type==='water'||type==='phone'?Math.sin(t*2)*3:0;
+ return <div style={{position:'absolute',left:propLeft,top:variant==='CARTOON-EVIDENCE-INSERT'?'48%':'54%',width:148*propScale,height:156*propScale,transform:`translate(-50%,${(1-enter)*10*propScale+propFloat}px) rotate(${Math.sin(t*.65)*1.5}deg)`,opacity:enter,filter:'drop-shadow(0 8px 3px rgba(30,35,37,.18))'}}>
+  <svg viewBox="0 0 144 140" width="100%" height="88%" style={{overflow:'visible'}}><ellipse cx="72" cy="125" rx="48" ry="8" fill="rgba(32,38,43,.18)"/><Icon kind={type} phase={t}/></svg>
+  <div style={{position:'absolute',left:0,right:0,bottom:0,textAlign:'center',font:'700 8px/1.2 ui-monospace,monospace',letterSpacing:'.04em',color:'#30383b',textShadow:'0 1px 2px rgba(243,238,228,.9)'}}>{label}</div>
  </div>;
 };

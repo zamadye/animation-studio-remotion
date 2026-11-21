@@ -30,19 +30,32 @@ def wrap(draw,text,font,maxw):
 def rr(d,box,r,fill,outline=None,width=1): d.rounded_rectangle(box,radius=r,fill=fill,outline=outline,width=width)
 
 def character(d,cx,base,name,kind,t):
- skin,hair,shirt=('#a96f50','#292824','#426d72') if name=='DARTO' else ('#d5a27e','#383534','#4b5966')
- if name=='ANAK': skin,hair,shirt='#d09a78','#302521','#9e6a67'
- if name=='PEMBELI': skin,hair,shirt='#c88e6a','#362a27','#736779'
+ if name=='DARTO': skin,hair,shirt,half,head,kindHair='#a96f50','#292824','#426d72',53,39,'short'
+ elif name=='PETUGAS': skin,hair,shirt,half,head,kindHair='#d5a27e','#45413d','#4b5966',66,42,'sidepart'
+ elif name=='PEMBELI': skin,hair,shirt,half,head,kindHair='#c88e6a','#362a27','#a27655',43,36,'curly'
+ else: skin,hair,shirt,half,head,kindHair='#bc8062','#342724','#765d69',51,38,'bun'
  bob=round(math.sin(t*5+cx)*3)
- # legs and stable silhouette with articulated forearm/shoulder gestures
- hip=base-138+bob; d.line((cx-20,hip,cx-25,base-5),fill=INK,width=13);d.line((cx+18,hip,cx+25,base-5),fill=INK,width=13)
- d.ellipse((cx-35,base-14,cx-10,base-3),fill='#343b3e');d.ellipse((cx+12,base-14,cx+37,base-3),fill='#343b3e')
- rr(d,(cx-51,base-240+bob,cx+51,base-102+bob),22,shirt,INK,4)
- # neck and face
+ walk=kind=='walk'; step=math.sin(t*7+cx*.01) if walk else 0
+ # Character silhouettes differ in shoulder width, head shape, leg length and wardrobe.
+ hip=base-138+bob;legSwing=int(step*12)
+ d.line((cx-20,hip,cx-25-legSwing,base-5),fill=INK,width=13);d.line((cx+18,hip,cx+25+legSwing,base-5),fill=INK,width=13)
+ d.ellipse((cx-39-legSwing,base-14,cx-14-legSwing,base-3),fill='#343b3e');d.ellipse((cx+12+legSwing,base-14,cx+37+legSwing,base-3),fill='#343b3e')
+ d.polygon([(cx-half+10,base-236+bob),(cx-half,base-211+bob),(cx-half+6,base-103),(cx+half-6,base-103),(cx+half,base-211+bob),(cx+half-10,base-236+bob)],fill=shirt,outline=INK)
+ if name=='PETUGAS':
+  d.polygon([(cx-12,base-230),(cx+12,base-230),(cx+22,base-104),(cx-22,base-104)],fill='#354452');d.line((cx,base-220,cx,base-117),fill='#d4c081',width=4)
+ if name=='PEMBELI':d.line((cx,base-221,cx,base-109),fill='#d7b85e',width=5)
+ # neck and individually shaped faces
  d.rectangle((cx-12,base-261+bob,cx+12,base-230+bob),fill=skin)
- d.ellipse((cx-39,base-337+bob,cx+39,base-253+bob),fill=skin,outline=INK,width=4)
- d.pieslice((cx-42,base-345+bob,cx+42,base-265+bob),180,355,fill=hair,outline=INK,width=3)
- d.ellipse((cx-20,base-302+bob,cx-14,base-296+bob),fill=INK);d.ellipse((cx+13,base-302+bob,cx+19,base-296+bob),fill=INK)
+ d.ellipse((cx-head,base-337+bob,cx+head,base-253+bob),fill=skin,outline=INK,width=4)
+ if kindHair=='curly':
+  for hx,hy,hr in [(-29,-320,14),(-16,-345,16),(5,-350,17),(27,-329,15),(34,-306,12)]:d.ellipse((cx+hx-hr,base+hy+bob-hr,cx+hx+hr,base+hy+bob+hr),fill=hair,outline=INK,width=2)
+ elif kindHair=='bun':
+  d.ellipse((cx+25,base-339+bob,cx+61,base-302+bob),fill=hair,outline=INK,width=2);d.pieslice((cx-42,base-345+bob,cx+42,base-265+bob),180,355,fill=hair,outline=INK,width=3)
+ elif kindHair=='sidepart':
+  d.pieslice((cx-head-3,base-344+bob,cx+head+3,base-263+bob),180,350,fill=hair,outline=INK,width=3);d.line((cx-4,base-336+bob,cx+16,base-331+bob),fill='#b9aba0',width=4)
+ else:d.pieslice((cx-head-3,base-345+bob,cx+head+3,base-265+bob),180,355,fill=hair,outline=INK,width=3)
+ eye_y=base-302+bob;d.ellipse((cx-20,eye_y,cx-14,eye_y+7),fill=INK);d.ellipse((cx+13,eye_y,cx+19,eye_y+7),fill=INK)
+ if name=='PETUGAS':d.arc((cx-25,eye_y-9,cx+25,eye_y+13),180,355,fill=INK,width=3);d.line((cx-5,eye_y,cx+5,eye_y),fill=INK,width=2)
  d.arc((cx-11,base-293+bob,cx+12,base-277+bob),15,160,fill='#613e38',width=3)
  # pose changes follow action beats, never random
  gesture=kind in ('gesture','speak') and int(t*2)%3==0
@@ -56,23 +69,51 @@ def draw_frame(frame):
  sec=frame/FPS; shot=next((s for s in episode['shots'] if s['startSeconds']<=sec<s['endSeconds']),episode['shots'][-1]); idx=shot['number']-1; local=sec-shot['startSeconds']; duration=shot['endSeconds']-shot['startSeconds']
  wall,floor,loc,prop=SCENES[idx]; im=Image.new('RGB',(W,H),PAPER);d=ImageDraw.Draw(im)
  # paper grain is intentionally omitted to keep deterministic and lightweight
- d.rectangle((0,0,W,150),fill='#ede6da');d.text((38,42),'STUDIO / FIKSI SATIR',font=F['small'],fill=MUTED);d.text((W-205,42),f"EP 01  ·  {shot['number']:02d}/06",font=F['small'],fill=MUTED)
+ # Full-bleed location, built as environmental planes rather than a framed illustration card.
+ top,bottom=0,H;d.rectangle((0,top,W,bottom),fill=wall);d.rectangle((0,int(H*.62),W,H),fill=floor)
+ outdoors=idx in (2,5)
+ if outdoors:
+  d.rectangle((0,top+150,W,top+415),fill='#a9c6bf');d.ellipse((500+int(math.sin(sec*.22)*14),top+65,580+int(math.sin(sec*.22)*14),top+145),fill='#e5c985')
+  for i in range(4):
+   x=(i*220+int(sec*10))%900-100;d.polygon([(x,top+410),(x+72,top+205),(x+155,top+410)],fill='#71856b');d.rectangle((x+61,top+375,x+92,top+500),fill='#69553d')
+  d.rectangle((0,top+500,W,top+570),fill='#897d69');d.line((0,top+530,W,top+530),fill='#e9dec6',width=5)
+ else:
+  d.rectangle((42,top+78,220,top+345),fill='#9cb6b2',outline='#a57e57',width=9);d.line((131,top+78,131,top+345),fill='#a57e57',width=6);d.line((42,top+208,220,top+208),fill='#a57e57',width=6)
+  d.rectangle((516,top+120,688,top+390),fill='#a57e57')
+  # wall noticeboard, pinned sheets vary with each desk-facing shot
+  d.rectangle((525,top+145,675,top+335),fill='#d8cba9',outline='#79634a',width=6)
+  for row in range(4):
+   yy=top+169+row*37;d.line((545,yy,650-(row%2)*20,yy),fill='#8e8778',width=4)
+ # Header is a light overlay on the continuous environment, not a fixed scene card.
+ rr(d,(24,22,696,139),14,'#f3eee4')
+ d.text((38,42),'STUDIO / FIKSI SATIR',font=F['small'],fill=MUTED);d.text((W-205,42),f"EP 01  ·  {shot['number']:02d}/06",font=F['small'],fill=MUTED)
  d.text((38,105),f"{int(sec//60):02d}:{int(sec%60):02d}  —  {shot['location'].upper()}",font=F['label'],fill=RUST)
- # scene panel, floor, set details
- top,bottom=190,760;d.rectangle((0,top,W,bottom),fill=wall);d.rectangle((0,top+int((bottom-top)*.73),W,bottom),fill=floor)
- d.rectangle((48,top+64,208,top+236),fill='#9cb6b2',outline='#a57e57',width=8);d.line((128,top+64,128,top+236),fill='#a57e57',width=5);d.line((48,top+150,208,top+150),fill='#a57e57',width=5)
- d.rectangle((536,top+121,663,top+313),fill='#a57e57');d.rectangle((0,bottom-8,W,bottom),fill='#87735e')
- # title block, keep typography clear, title animates to new shot via slight opacity-free placement
+ # Roadside prop is on the background plane; keep faces fully readable in front of it.
+ if idx==2:
+  d.ellipse((390,top+620,492,top+722),outline=INK,width=9);d.ellipse((570,top+620,672,top+722),outline=INK,width=9);d.line((439,top+671,497,top+585,571,top+669,627,top+669),fill='#54736d',width=13);d.line((490,top+585,464,top+561),fill=INK,width=8)
+ # Source-directed actor blocking changes by setup; Darto crosses the outdoor lane in shot 3.
+ names=list(shot['characters']);
+ if idx==2 and 'PEMBELI' not in [name.upper() for name in names]:names.append('PEMBELI')
+ # Cast data marks Anak as a phone voice; keep that character off-screen in this shot.
+ if idx==5:names=[name for name in names if name.upper()!='ANAK']
+ base=875
+ first_x=[210,155,260,190,165,335][idx];second_x=[515,545,500,530,545,510][idx]
+ if idx==2:first_x=170+int(min(1,local/duration)*190)
+ if len(names)>=1: character(d,first_x,base,names[0].upper(),'walk' if idx==2 else ('speak' if local%duration<duration/2 else 'gesture'),sec)
+ if len(names)>=2: character(d,second_x,base,names[1].upper(),'speak' if idx==2 else 'listen',sec+.8)
+ # Props are part of the place, not floating labels: counter/form, failing motor, cash and cracked phone.
+ if idx in (0,1,3,4):
+  d.rectangle((0,top+670,W,top+700),fill='#84654b');d.rectangle((28,top+700,692,top+735),fill='#aa8865');d.rectangle((52,top+735,70,top+790),fill='#765941');d.rectangle((650,top+735,669,top+790),fill='#765941')
+  if idx in (0,1,4):
+   d.polygon([(320,top+648),(380,top+636),(397,top+686),(337,top+694)],fill='#d6c69e',outline=INK);d.line((333,top+661,374,top+653),fill='#8d806b',width=3)
+  if idx==3:
+   d.rounded_rectangle((340,top+648,400,top+686),radius=5,fill='#cfb565',outline=INK,width=3);d.text((352,top+658),'Rp',font=F['tiny'],fill=INK)
+ if idx==5:
+  # the child is heard only over the cracked phone; no physically present child is invented.
+  rr(d,(475,top+473,542,top+602),12,'#323d48',None);rr(d,(482,top+483,535,top+579),8,'#b4cdc5',None);d.text((489,top+508),'☎',font=F['big'],fill=TEAL)
+  d.line((0,top+700,W,top+700),fill='#8b745d',width=10);d.line((72,top+700,72,top+760),fill='#765941',width=10);d.line((647,top+700,647,top+760),fill='#765941',width=10)
+ # Title sits over the world plane; each setup reblocks actors and keeps the environment continuous.
  d.text((38,178),episode['title'],font=F['big'],fill=INK)
- # character staging based on actual shot list
- names=shot['characters']; base=bottom-12
- if len(names)>=1: character(d,250,base,names[0].upper(),'speak' if local%duration<duration/2 else 'gesture',sec)
- if len(names)>=2: character(d,475,base,names[1].upper(),'listen',sec+.8)
- # central symbolic prop for this precise shot
- box=(278,top+112,444,top+274); rr(d,box,10,CREAM,'#283239',4)
- d.text((292,top+132),'INSERT / PROP',font=F['tiny'],fill=TEAL)
- lines=wrap(d,prop,F['label'],135)
- for j,line in enumerate(lines): d.text((292,top+166+j*24),line,font=F['label'],fill=INK)
  # scene objective label
  rr(d,(38,786,682,842),9,'#e7e1d5');d.text((54,803),'AKSI',font=F['tiny'],fill=TEAL)
  obj=shot['objective']; ol=wrap(d,obj,F['label'],515)

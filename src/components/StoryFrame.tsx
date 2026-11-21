@@ -30,8 +30,8 @@ export const StoryFrame:React.FC<{episode:Episode;ratio:AspectRatio;reducedMotio
  const vertical=ratio==='vertical';const referenceWidth=ratio==='landscape'?1920:1080;const unit=width/referenceWidth;const safe=t.safe[ratio];const pad=Math.round(width*safe.x);const titleSize=Math.round((vertical?62:ratio==='square'?54:72)*unit);const beat=dialogueBeatAt(shot,localFrame,fps);
  const sceneActors=resolveSceneActors(episode,shot);const variant=safeTemplate(shot.templateId);const actionCue=emotionFor(shot);const firstSpeaking=speakerMatches(beat.speaker,sceneActors.first.name);const secondSpeaking=speakerMatches(beat.speaker,sceneActors.second.name);const mainCue:ActingCue=reducedMotion?'neutral':actionCue==='walk'?(firstSpeaking?'walkTalk':'walk'):firstSpeaking?'talk':actionCue;const secondaryCue:ActingCue=reducedMotion?'neutral':actionCue==='walk'?(secondSpeaking?'walkTalk':'walk'):secondSpeaking?'talk':shot.number===6?'hold':'neutral';
  const enter=fadeAt(frame,{startFrame:shot.startSeconds*fps,durationFrames:12,easing:'easeOut',reducedMotion});const translate=slideYAt(frame,{startFrame:shot.startSeconds*fps,durationFrames:12,easing:'easeOut',reducedMotion},18*unit);
- const sceneTop=vertical?.355:ratio==='square'?.42:.34;const sceneHeight=vertical?.355:ratio==='square'?.30:.38;
- const roleScale=variant==='CARTOON-MESSAGE-POV'?(vertical?.40:ratio==='square'?.32:.48):variant==='CARTOON-EVIDENCE-INSERT'?(vertical?.50:ratio==='square'?.40:.48):(vertical?.72:ratio==='square'?.54:.68);
+ const sceneTop=0;const sceneHeight=1;
+ const roleScale=variant==='CARTOON-MESSAGE-POV'?(vertical?.34:ratio==='square'?.30:.42):variant==='CARTOON-EVIDENCE-INSERT'?(vertical?.42:ratio==='square'?.36:.44):(vertical?.56:ratio==='square'?.48:.56);const actorTop=vertical?'31%':ratio==='square'?'30%':'28%';const shotLeft=shot.number===3?`${8+24*Math.min(1,localFrame/(14*fps))}%`:['8%','1%','20%','7%','2%','16%'][shot.number-1];const shotRight=['8%','1%','20%','7%','2%','16%'][shot.number-1];
  const firstScale=roleScale*(isChildRole(sceneActors.first)?0.82:1);const secondScale=roleScale*(isChildRole(sceneActors.second)?0.82:1);
  const dialogue=beat.speaker?`${beat.speaker}: ${beat.text}`:beat.text;const captionSize=Math.max(18,Math.min(29*unit,2800/Math.max(60,dialogue.length)));
  const sceneHeadingTop=height*(vertical?.17:ratio==='square'?.155:.19);const captionTop=height*(vertical?.735:ratio==='square'?.755:.755);
@@ -46,13 +46,13 @@ export const StoryFrame:React.FC<{episode:Episode;ratio:AspectRatio;reducedMotio
    <div style={{width:72*unit,height:5*unit,background:t.color.rust,marginTop:18*unit}}/>
   </div>
   <div style={{position:'absolute',left:0,right:0,top:height*sceneTop,height:height*sceneHeight,overflow:'hidden',transform:`translate(${cameraX}px,${cameraY}px) scale(${stageScale})`,transformOrigin:'50% 52%'}}>
-   <SceneSet episodeId={episode.id} location={shot.location} focusBlur={focusBlur}/>
+   <SceneSet episodeId={episode.id} location={shot.location} focusBlur={focusBlur} frame={localFrame}/>
    <div style={{position:'absolute',left:'3%',right:'3%',top:'68%',borderTop:'2px solid rgba(32,38,43,.24)'}}/>
-   <div style={{position:'absolute',left:'8%',top:'1%',opacity:enter,transform:`translateY(${(1-enter)*14*unit}px)`}}><CharacterRig design={sceneActors.firstDesign} frame={reducedMotion?0:localFrame} fps={fps} cue={mainCue} scale={firstScale} gaze="right" reducedMotion={reducedMotion}/></div>
-   <div style={{position:'absolute',right:'8%',top:'1%',opacity:enter,transform:`translateY(${(1-enter)*12*unit}px)`}}><CharacterRig design={sceneActors.secondDesign} frame={reducedMotion?0:localFrame-5} fps={fps} cue={secondaryCue} scale={secondScale} gaze="left" reducedMotion={reducedMotion}/></div>
+   <div style={{position:'absolute',left:shotLeft,top:actorTop,opacity:enter,transform:`translateY(${(1-enter)*14*unit}px)`}}><CharacterRig design={sceneActors.firstDesign} frame={reducedMotion?0:localFrame} fps={fps} cue={mainCue} scale={firstScale} gaze="right" reducedMotion={reducedMotion}/></div>
+   {sceneActors.hasSecond&&<div style={{position:'absolute',right:shotRight,top:actorTop,opacity:enter,transform:`translateY(${(1-enter)*12*unit}px)`}}><CharacterRig design={sceneActors.secondDesign} frame={reducedMotion?0:localFrame-5} fps={fps} cue={secondaryCue} scale={secondScale} gaze="left" reducedMotion={reducedMotion}/></div>}
    {variant==='CARTOON-MESSAGE-POV'?<ConversationPanel shot={shot} beat={beat} frame={reducedMotion?0:localFrame} scale={unit*(vertical?1:ratio==='square'?.68:.82)} reducedMotion={reducedMotion}/>:<SceneProp episode={episode} shot={shot} frame={localFrame} scale={unit} variant={variant} reducedMotion={reducedMotion}/>}
-   <div style={{position:'absolute',left:'8%',top:'76%',font:'700 10px ui-monospace,monospace',color:'#3b7772',letterSpacing:'.08em'}}>{sceneActors.first.name.toUpperCase()}</div>
-   <div style={{position:'absolute',right:'8%',top:'76%',font:'700 10px ui-monospace,monospace',color:'#3b7772',letterSpacing:'.08em'}}>{sceneActors.second.name.toUpperCase()}</div>
+   <div style={{position:'absolute',left:shotLeft,top:'58%',font:'700 10px ui-monospace,monospace',color:'#3b7772',letterSpacing:'.08em'}}>{sceneActors.first.name.toUpperCase()}</div>
+   {sceneActors.hasSecond&&<div style={{position:'absolute',right:shotRight,top:'58%',font:'700 10px ui-monospace,monospace',color:'#3b7772',letterSpacing:'.08em'}}>{sceneActors.second.name.toUpperCase()}</div>}
   </div>
   <div style={{position:'absolute',left:pad,right:pad,top:captionTop,opacity:enter,transform:`translateY(${(1-enter)*8*unit}px)`}}>
    <div style={{fontFamily:t.type.mono,color:t.color.teal,fontSize:Math.max(12,15*unit),letterSpacing:'.06em',textTransform:'uppercase',marginBottom:7*unit}}>ADEGAN {shot.number} · {shot.objective}</div>
