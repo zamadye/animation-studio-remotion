@@ -1,15 +1,19 @@
-export type CharacterDesign = {
-  name: string; role: string; skin: string; hair: string; outfit: string; accent: string;
-  hairShape: 'short'|'bun'|'hijab'|'cap'|'curly'; glasses?: boolean; apron?: boolean;
+import castData from './cast-data.json';
+import type {CharacterProfile} from '../../data/types';
+export type CharacterDesign={name:string;role:string;skin:string;hair:string;outfit:string;accent:string;hairShape:'short'|'bun'|'hijab'|'cap'|'curly';glasses?:boolean;apron?:boolean};
+export type CastPair={hero:CharacterDesign;foil:CharacterDesign};
+export const cast=castData as Record<string,CastPair>;
+export const fallbackCast:CastPair={hero:{name:'Karakter utama',role:'tokoh cerita',skin:'#b98262',hair:'#302824',outfit:'#526c69',accent:'#d1aa60',hairShape:'short'},foil:{name:'Lawan adegan',role:'tokoh pendamping',skin:'#d5a180',hair:'#38302c',outfit:'#526878',accent:'#c7a95b',hairShape:'bun'}};
+const extraPalettes=[
+ {skin:'#b98262',hair:'#302824',outfit:'#6c7c6f',accent:'#d1a451'},
+ {skin:'#d3a183',hair:'#382f2a',outfit:'#526f78',accent:'#c68360'},
+ {skin:'#9f684c',hair:'#292825',outfit:'#876b55',accent:'#cfb06f'},
+ {skin:'#c88e6a',hair:'#3a2e2a',outfit:'#736779',accent:'#7a9a89'},
+ {skin:'#d4aa86',hair:'#362a27',outfit:'#5c7771',accent:'#cf875b'},
+];
+const stableIndex=(value:string)=>[...value].reduce((sum,char)=>(sum*31+char.charCodeAt(0))>>>0,7);
+export const resolveCharacterDesign=(episodeId:string,profile:CharacterProfile):CharacterDesign=>{
+ const known=cast[episodeId];if(known){const match=[known.hero,known.foil].find(c=>c.name.toLocaleLowerCase()===profile.name.toLocaleLowerCase());if(match)return match;}
+ const hash=stableIndex(`${episodeId}:${profile.name}`);const palette=extraPalettes[hash%extraPalettes.length];const hairShapes:['short','bun','curly']=['short','bun','curly'];
+ return {name:profile.name,role:profile.role,...palette,hairShape:hairShapes[(hash>>>3)%hairShapes.length],glasses:/petugas|guru|pejabat|bendahara/i.test(profile.name)?hash%3===0:false,apron:/penjahit|kasir|pedagang/i.test(profile.role)};
 };
-export const cast: Record<string, {hero:CharacterDesign; foil:CharacterDesign}> = {
- '01': {hero:{name:'Darto',role:'buruh harian',skin:'#a96f50',hair:'#292824',outfit:'#426d72',accent:'#c28b4b',hairShape:'short'},foil:{name:'Petugas',role:'petugas layanan',skin:'#d5a27e',hair:'#383534',outfit:'#4b5966',accent:'#c7ab74',hairShape:'short',glasses:true}},
- '02': {hero:{name:'Nina',role:'lulusan baru',skin:'#c98765',hair:'#332725',outfit:'#a6b6aa',accent:'#cc795d',hairShape:'bun'},foil:{name:'HR',role:'perekrut',skin:'#d8ad8f',hair:'#39302c',outfit:'#394d57',accent:'#c1a264',hairShape:'short',glasses:true}},
- '03': {hero:{name:'Pria',role:'warga yang butuh bantuan',skin:'#aa735a',hair:'#332d29',outfit:'#4c7180',accent:'#c38d54',hairShape:'short'},foil:{name:'Influencer',role:'pemburu engagement',skin:'#d8a182',hair:'#392b29',outfit:'#9a5548',accent:'#e1ad55',hairShape:'curly'}},
- '04': {hero:{name:'Ibu Sari',role:'penjahit',skin:'#b97759',hair:'#352825',outfit:'#536f68',accent:'#d2a45c',hairShape:'hijab'},foil:{name:'Bendahara',role:'pengurus sekolah',skin:'#d5a180',hair:'#39322d',outfit:'#7f6554',accent:'#d1b66f',hairShape:'bun',glasses:true}},
- '05': {hero:{name:'Mira',role:'pedagang kampung',skin:'#a96f52',hair:'#302824',outfit:'#637a65',accent:'#d3a04e',hairShape:'hijab'},foil:{name:'Humas',role:'juru bicara',skin:'#d8a488',hair:'#38302c',outfit:'#526a79',accent:'#c8a85f',hairShape:'short',glasses:true}},
- '06': {hero:{name:'Ayah',role:'anggota grup keluarga',skin:'#c18a68',hair:'#302927',outfit:'#566a78',accent:'#cfaa68',hairShape:'short'},foil:{name:'Dini',role:'anak yang menunggu',skin:'#d09a78',hair:'#302521',outfit:'#9e6a67',accent:'#d7b15f',hairShape:'bun'}},
- '07': {hero:{name:'Pak Beni',role:'warga pengantar barang',skin:'#a96e50',hair:'#302824',outfit:'#607466',accent:'#c88d48',hairShape:'cap'},foil:{name:'Koordinator',role:'petugas lapangan',skin:'#d1a081',hair:'#382f2a',outfit:'#4f6574',accent:'#d0a94e',hairShape:'short'}},
- '08': {hero:{name:'Rika',role:'kasir dan ibu',skin:'#bc8062',hair:'#342724',outfit:'#765d69',accent:'#dda454',hairShape:'bun',apron:true},foil:{name:'Manajer',role:'pengelola minimarket',skin:'#d8a587',hair:'#38302b',outfit:'#536878',accent:'#d0aa58',hairShape:'short',glasses:true}},
-};
-export const fallbackCast={hero:{name:'Karakter utama',role:'tokoh cerita',skin:'#b98262',hair:'#302824',outfit:'#526c69',accent:'#d1aa60',hairShape:'short' as const},foil:{name:'Lawan adegan',role:'tokoh pendamping',skin:'#d5a180',hair:'#38302c',outfit:'#526878',accent:'#c7a95b',hairShape:'bun' as const}};

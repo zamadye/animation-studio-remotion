@@ -26,7 +26,7 @@ Remotion needs its supported Chrome Headless Shell. The current sandbox could no
 - `src/data/episodes.json`: normalized script source, 8 episodes / 48 shots, parsed from the provided DOCX files.
 - `src/components/StoryFrame.tsx`: deterministic scene renderer, shot cuts, scene stage and captions.
 - `src/components/characters/CharacterRig.tsx`: original layered vector puppet with frame-derived blink, mouth shapes, acting cues and gesture timing.
-- `src/components/characters/cast.ts`: 16 distinct lead/counterpart palette-and-costume profiles.
+- `src/components/characters/cast.ts` and `src/data/actors.ts`: original lead/counterpart designs plus deterministic per-scene profile resolution for named supporting cast; scene actors are selected from extracted shot data.
 - `src/components/SceneSet.tsx`, `src/components/SceneProp.tsx`: reusable location sets and 48 scene-aware animated prop cards.
 - `public/assets/character-sheets.svg`: editable source-generated character bible / expression and palette reference; open at `/assets/character-sheets.svg`.
 - `scripts/generate-character-sheets.mjs`: regenerates the SVG model sheet.

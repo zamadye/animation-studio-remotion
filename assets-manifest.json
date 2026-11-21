@@ -60,9 +60,19 @@
       "usage": "frame-driven acting, eyes/mouth, gesture pivot"
     },
     {
+      "path": "src/components/characters/cast-data.json",
+      "type": "editable source-of-truth character tokens",
+      "usage": "lead/counterpart names, roles, palette, hair and costume details"
+    },
+    {
       "path": "src/components/characters/cast.ts",
       "type": "editable character design data",
-      "usage": "episode-specific lead/counterpart profiles"
+      "usage": "typed cast plus deterministic extra-cast palette resolver"
+    },
+    {
+      "path": "src/data/actors.ts",
+      "type": "scene actor resolver",
+      "usage": "selects up to two named source cast members per shot"
     },
     {
       "path": "src/components/SceneSet.tsx",
