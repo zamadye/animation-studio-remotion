@@ -1,0 +1,31 @@
+{
+  "name": "satir-cartoon-studio",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "studio": "vite --host 0.0.0.0",
+    "remotion": "remotion studio src/remotion-entry.ts",
+    "typecheck": "tsc --noEmit",
+    "build": "vite build",
+    "test": "node scripts/validate-project.mjs",
+    "build:docs": "node scripts/build-docs.mjs",
+    "extract:scripts": "python3 scripts/extract-episodes.py && node scripts/enrich-episodes.mjs && node scripts/build-docs.mjs",
+    "generate:assets": "node scripts/generate-character-sheets.mjs",
+    "render:ep01": "remotion render src/remotion-entry.ts Episode-01-vertical render.mp4"
+  },
+  "dependencies": {
+    "@remotion/player": "4.0.545",
+    "@vitejs/plugin-react": "5.1.1",
+    "react": "19.2.3",
+    "react-dom": "19.2.3",
+    "remotion": "4.0.545"
+  },
+  "devDependencies": {
+    "@remotion/cli": "4.0.545",
+    "@types/react": "19.2.7",
+    "@types/react-dom": "19.2.3",
+    "typescript": "5.9.3",
+    "vite": "7.3.8"
+  }
+}

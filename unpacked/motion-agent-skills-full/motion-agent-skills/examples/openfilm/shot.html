@@ -1,0 +1,15 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><meta name="viewport" content="width=1920,height=1080">
+<style>body{margin:0;background:#0b1020;color:white;font:800 110px Arial,sans-serif;overflow:hidden}.title{position:absolute;top:40%;left:8%;transform-origin:left center}</style>
+</head><body><div class="title">SYSTEM IN MOTION</div>
+<script>
+// Illustrative deterministic shot. Verify frame(t) contract against installed OpenFilm manual.
+const title = document.querySelector('.title');
+function frame(t) {
+  const progress = Math.max(0, Math.min(1, t / 0.7));
+  const eased = 1 - Math.pow(1 - progress, 3);
+  title.style.opacity = String(eased);
+  title.style.transform = `translateY(${(1-eased)*70}px)`;
+}
+frame(0);
+</script></body></html>

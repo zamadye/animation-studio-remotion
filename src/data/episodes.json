@@ -1,0 +1,1420 @@
+[
+  {
+    "id": "01",
+    "title": "Orang Miskin Dilarang Miskin",
+    "format": "Animasi kartun 2D | 9:16 Shorts | ±90 detik | Bahasa Indonesia",
+    "premise": "Darto ingin bantuan agar anaknya bisa makan; petugas terikat indikator administratif",
+    "theme": "Birokrasi dan paradoks kelayakan",
+    "editorialNote": "Catatan editorial: kisah fiksi satir; tidak mengklaim peristiwa atau prosedur resmi tertentu. Dialog adalah estimasi; validasi durasi melalui rekaman VO dan animatic.",
+    "source": "unpacked/satir-cartoon-8-episode-docs/01_orang_miskin_dilarang_miskin.docx",
+    "characters": [
+      {
+        "name": "Darto",
+        "role": "buruh harian, lelah tetapi gigih"
+      },
+      {
+        "name": "Petugas",
+        "role": "kaku, takut salah prosedur"
+      },
+      {
+        "name": "Anak",
+        "role": "suara telepon, lapar"
+      }
+    ],
+    "shots": [
+      {
+        "id": "01-01",
+        "number": 1,
+        "start": "00:00",
+        "end": "00:12",
+        "location": "Kantor pelayanan",
+        "objective": "Darto menyerahkan map lecek.",
+        "dialogue": "DARTO: Bu, saya mau daftar bantuan. Tiga hari ini dapur kami nggak ngebul.\nPETUGAS: Kendaraan ada?\nDARTO: Motor tua. Kalau hujan, dia ikut mogok.",
+        "camera": "Medium two-shot ke close-up map; push-in halus ke wajah Darto.",
+        "animation": "Cutout puppet: bahu Darto turun, jari meremas map; petugas hanya mengangkat alis.",
+        "audio": "Bunyi kipas, cap dokumen jauh; jeda 0,5 detik setelah “motor”.",
+        "startSeconds": 0,
+        "endSeconds": 12,
+        "templateId": "CARTOON-STAGE-DIALOGUE",
+        "characters": [
+          "Darto",
+          "Petugas"
+        ],
+        "poses": [
+          "anticipate",
+          "gesture",
+          "settle"
+        ]
+      },
+      {
+        "id": "01-02",
+        "number": 2,
+        "start": "00:12",
+        "end": "00:26",
+        "location": "Meja petugas",
+        "objective": "Kepemilikan motor menjadi alasan penolakan.",
+        "dialogue": "PETUGAS: Berarti punya aset. Belum memenuhi kriteria.\nDARTO: Motor itu buat cari kerja, Bu.\nPETUGAS: Sistemnya begitu.",
+        "camera": "Insert formulir, rack focus ke kotak “aset”.",
+        "animation": "Stamp “DITUNDA” turun dengan squash-stretch; wajah Darto hold 12 frame.",
+        "audio": "SFX cap terlalu keras, musik berhenti.",
+        "startSeconds": 12,
+        "endSeconds": 26,
+        "templateId": "CARTOON-EVIDENCE-INSERT",
+        "characters": [
+          "Darto",
+          "Petugas"
+        ],
+        "poses": [
+          "listen",
+          "speak",
+          "hold"
+        ]
+      },
+      {
+        "id": "01-03",
+        "number": 3,
+        "start": "00:26",
+        "end": "00:40",
+        "location": "Pinggir jalan",
+        "objective": "Darto menjual motor murah.",
+        "dialogue": "PEMBELI: Kalau dijual, kerja naik apa?\nDARTO: Jalan kaki. Yang penting anak saya makan.",
+        "camera": "Wide siluet motor lalu close-up tangan menerima uang.",
+        "animation": "Motor tua bergetar saat starter gagal; match-cut uang ke map.",
+        "audio": "Starter batuk; ambience kendaraan.",
+        "startSeconds": 26,
+        "endSeconds": 40,
+        "templateId": "CARTOON-EVIDENCE-INSERT",
+        "characters": [
+          "Darto"
+        ],
+        "poses": [
+          "listen",
+          "speak",
+          "hold"
+        ]
+      },
+      {
+        "id": "01-04",
+        "number": 4,
+        "start": "00:40",
+        "end": "00:56",
+        "location": "Kantor pelayanan",
+        "objective": "Uang hasil penjualan dianggap tabungan.",
+        "dialogue": "DARTO: Motor sudah nggak ada, Bu.\nPETUGAS: Tapi Bapak pegang uang?\nDARTO: Buat beras.\nPETUGAS: Berarti masih punya simpanan.",
+        "camera": "Over-shoulder petugas ke Darto; snap zoom mikro pada “simpanan”.",
+        "animation": "Angka saldo muncul sebagai overlay lalu mengecil; ekspresi Darto bergeser dari lega ke bingung.",
+        "audio": "SFX kalkulator, silence 1 detik.",
+        "startSeconds": 40,
+        "endSeconds": 56,
+        "templateId": "CARTOON-EVIDENCE-INSERT",
+        "characters": [
+          "Darto",
+          "Petugas"
+        ],
+        "poses": [
+          "listen",
+          "speak",
+          "hold"
+        ]
+      },
+      {
+        "id": "01-05",
+        "number": 5,
+        "start": "00:56",
+        "end": "01:12",
+        "location": "Kantor pelayanan",
+        "objective": "Darto kembali setelah uang habis, kini kehilangan ongkos kerja.",
+        "dialogue": "DARTO: Uangnya sudah habis. Sekarang saya nggak punya motor, nggak punya kerja.\nPETUGAS: Harus ada bukti usaha mandiri.\nDARTO: Motor saya itu bukti usaha saya, Bu.",
+        "camera": "Locked-off two-shot dengan jarak fisik makin terasa.",
+        "animation": "Petugas membalik halaman prosedur; Darto hampir bicara lalu menahan diri.",
+        "audio": "Kertas dibalik, napas Darto.",
+        "startSeconds": 56,
+        "endSeconds": 72,
+        "templateId": "CARTOON-EVIDENCE-INSERT",
+        "characters": [
+          "Darto",
+          "Petugas"
+        ],
+        "poses": [
+          "concern",
+          "held"
+        ]
+      },
+      {
+        "id": "01-06",
+        "number": 6,
+        "start": "01:12",
+        "end": "01:30",
+        "location": "Teras kantor",
+        "objective": "Telepon anak mematahkan komedi.",
+        "dialogue": "ANAK (telepon): Pak, hari ini kita makan apa?\nDARTO: ...Bapak usahakan, Nak.\nPENGERAS SUARA: Tidak ada warga yang tertinggal.",
+        "camera": "Close-up ponsel retak; pull-back panjang ke bangku kosong.",
+        "animation": "Gerakan minimal; tangan Darto bergetar, mata menghindar; teks slogan tetap diam.",
+        "audio": "Dering, hum lampu, tanpa musik sampai cut to black.",
+        "startSeconds": 72,
+        "endSeconds": 90,
+        "templateId": "CARTOON-MESSAGE-POV",
+        "characters": [
+          "Darto",
+          "Anak"
+        ],
+        "poses": [
+          "concern",
+          "held"
+        ]
+      }
+    ],
+    "productionNotes": [
+      "Rig: pisahkan kepala, torso, lengan atas/bawah, tangan, mata, alis, mulut; siapkan 6 ekspresi dasar dan 5 viseme minimum.",
+      "Timing: animasikan berbasis frame 30 fps; kunci dialog dan jeda terlebih dahulu, lalu acting, baru gerak kamera.",
+      "Style: flat 2D cutout, outline konsisten, latar 2–4 layer untuk parallax ringan; hindari efek bergerak tanpa fungsi naratif.",
+      "Reframe: master 1080×1920; safe area teks dan wajah di tengah; hindari subtitle menutupi gestur tangan.",
+      "QA: cek lip-sync, kontinuitas properti, arah tatapan, pose silhouette, pacing punchline, clipping, dan peak audio."
+    ]
+  },
+  {
+    "id": "02",
+    "title": "Lowongan Kerja untuk Orang yang Sudah Bekerja",
+    "format": "Animasi kartun 2D | 9:16 Shorts | ±90 detik | Bahasa Indonesia",
+    "premise": "Nina membutuhkan pekerjaan pertama untuk membayar obat ibunya; HR membutuhkan kandidat siap pakai",
+    "theme": "Pasar kerja dan syarat pengalaman",
+    "editorialNote": "Catatan editorial: kisah fiksi satir; tidak mengklaim peristiwa atau prosedur resmi tertentu. Dialog adalah estimasi; validasi durasi melalui rekaman VO dan animatic.",
+    "source": "unpacked/satir-cartoon-8-episode-docs/02_lowongan_kerja_untuk_orang_yang_sudah_bekerja.docx",
+    "characters": [
+      {
+        "name": "Nina",
+        "role": "lulusan baru, cerdas namun terdesak"
+      },
+      {
+        "name": "HR",
+        "role": "mengejar KPI"
+      },
+      {
+        "name": "Ibu",
+        "role": "suara pesan"
+      }
+    ],
+    "shots": [
+      {
+        "id": "02-01",
+        "number": 1,
+        "start": "00:00",
+        "end": "00:12",
+        "location": "Ruang wawancara",
+        "objective": "Nina memperkenalkan diri.",
+        "dialogue": "HR: Posisi ini untuk pemula, ya.\nNINA: Syukurlah, Pak. Ini lamaran pertama saya.\nHR: Pengalaman lima tahun ada?",
+        "camera": "Wide simetris, push-in pada Nina.",
+        "animation": "Alis Nina naik dua tahap, senyum membeku.",
+        "audio": "AC berdengung; beat komedi kering.",
+        "startSeconds": 0,
+        "endSeconds": 12,
+        "templateId": "CARTOON-STAGE-DIALOGUE",
+        "characters": [
+          "Nina",
+          "HR"
+        ],
+        "poses": [
+          "listen",
+          "speak",
+          "hold"
+        ]
+      },
+      {
+        "id": "02-02",
+        "number": 2,
+        "start": "00:12",
+        "end": "00:28",
+        "location": "Ruang wawancara",
+        "objective": "Nina mempertanyakan syarat.",
+        "dialogue": "NINA: Kalau sudah lima tahun, masih disebut pemula?\nHR: Pemula di perusahaan kami.\nNINA: Jadi pemula yang berpengalaman?\nHR: Tepat.",
+        "camera": "Shot-reverse-shot dengan framing HR lebih tinggi.",
+        "animation": "HR menunjuk diagram lingkaran tak masuk akal; ikon pengalaman berputar.",
+        "audio": "Klik pena, pop diagram.",
+        "startSeconds": 12,
+        "endSeconds": 28,
+        "templateId": "CARTOON-STAGE-DIALOGUE",
+        "characters": [
+          "Nina",
+          "HR"
+        ],
+        "poses": [
+          "listen",
+          "speak",
+          "hold"
+        ]
+      },
+      {
+        "id": "02-03",
+        "number": 3,
+        "start": "00:28",
+        "end": "00:43",
+        "location": "Koridor kantor",
+        "objective": "Nina menawarkan magang.",
+        "dialogue": "NINA: Saya magang dulu, tanpa gaji pun boleh.\nHR: Magang hanya untuk mahasiswa aktif.\nNINA: Saya sudah lulus.\nHR: Itu kendalanya.",
+        "camera": "Tracking samping saat HR mengantar Nina keluar.",
+        "animation": "Walk cycle 8 pose; pintu otomatis menutup persis setelah “kendalanya”.",
+        "audio": "Pintu geser, langkah cepat.",
+        "startSeconds": 28,
+        "endSeconds": 43,
+        "templateId": "CARTOON-STAGE-DIALOGUE",
+        "characters": [
+          "Nina",
+          "HR"
+        ],
+        "poses": [
+          "listen",
+          "speak",
+          "hold"
+        ]
+      },
+      {
+        "id": "02-04",
+        "number": 4,
+        "start": "00:43",
+        "end": "00:59",
+        "location": "Halte",
+        "objective": "Nina membaca pesan ibunya.",
+        "dialogue": "IBU (pesan suara): Obat Ibu tinggal dua hari. Kamu nggak usah buru-buru, ya.\nNINA (pelan): Justru itu, Bu.",
+        "camera": "Close-up layar ponsel, tilt ke mata Nina.",
+        "animation": "Tangan memegang CV mengendur; kertas turun 4 cm.",
+        "audio": "Lalu lintas jauh; voice note sedikit terkompres.",
+        "startSeconds": 43,
+        "endSeconds": 59,
+        "templateId": "CARTOON-MESSAGE-POV",
+        "characters": [
+          "Nina",
+          "Ibu"
+        ],
+        "poses": [
+          "listen",
+          "speak",
+          "hold"
+        ]
+      },
+      {
+        "id": "02-05",
+        "number": 5,
+        "start": "00:59",
+        "end": "01:15",
+        "location": "Kantor lain",
+        "objective": "Lowongan kedua mensyaratkan pengalaman identik.",
+        "dialogue": "PEWAWANCARA 2: Kenapa ada jeda menganggur?\nNINA: Saya sedang mencari pekerjaan.\nPEWAWANCARA 2: Kami cari yang proaktif.",
+        "camera": "Montase tiga meja berbeda dengan latar berubah warna.",
+        "animation": "Match-cut kursi; pose Nina makin membungkuk tiap cut.",
+        "audio": "Cap “belum sesuai”, tik jam.",
+        "startSeconds": 59,
+        "endSeconds": 75,
+        "templateId": "CARTOON-STAGE-DIALOGUE",
+        "characters": [
+          "Nina"
+        ],
+        "poses": [
+          "listen",
+          "speak",
+          "hold"
+        ]
+      },
+      {
+        "id": "02-06",
+        "number": 6,
+        "start": "01:15",
+        "end": "01:30",
+        "location": "Halte malam",
+        "objective": "Nina menerima tawaran kerja tanpa perlindungan.",
+        "dialogue": "PEREKRUT (telepon): Kerja mulai besok. Bayar per target, tanpa kontrak.\nNINA: ...Saya datang.",
+        "camera": "Extreme close-up tombol terima; wide Nina sendirian.",
+        "animation": "Jempol ragu selama 18 frame; lampu halte flicker.",
+        "audio": "Satu notifikasi, musik nada rendah; cut.",
+        "startSeconds": 75,
+        "endSeconds": 90,
+        "templateId": "CARTOON-MESSAGE-POV",
+        "characters": [
+          "Nina"
+        ],
+        "poses": [
+          "concern",
+          "held"
+        ]
+      }
+    ],
+    "productionNotes": [
+      "Rig: pisahkan kepala, torso, lengan atas/bawah, tangan, mata, alis, mulut; siapkan 6 ekspresi dasar dan 5 viseme minimum.",
+      "Timing: animasikan berbasis frame 30 fps; kunci dialog dan jeda terlebih dahulu, lalu acting, baru gerak kamera.",
+      "Style: flat 2D cutout, outline konsisten, latar 2–4 layer untuk parallax ringan; hindari efek bergerak tanpa fungsi naratif.",
+      "Reframe: master 1080×1920; safe area teks dan wajah di tengah; hindari subtitle menutupi gestur tangan.",
+      "QA: cek lip-sync, kontinuitas properti, arah tatapan, pose silhouette, pacing punchline, clipping, dan peak audio."
+    ]
+  },
+  {
+    "id": "03",
+    "title": "Tolong! Tapi Tunggu Kamera Dulu",
+    "format": "Animasi kartun 2D | 9:16 Shorts | ±90 detik | Bahasa Indonesia",
+    "premise": "Pria terjebak selokan; influencer mengejar engagement, anak dan petugas kebersihan memilih bertindak",
+    "theme": "Ekonomi perhatian dan performatif empati",
+    "editorialNote": "Catatan editorial: kisah fiksi satir; tidak mengklaim peristiwa atau prosedur resmi tertentu. Dialog adalah estimasi; validasi durasi melalui rekaman VO dan animatic.",
+    "source": "unpacked/satir-cartoon-8-episode-docs/03_tolong_tapi_tunggu_kamera_dulu.docx",
+    "characters": [
+      {
+        "name": "Pria",
+        "role": "panik"
+      },
+      {
+        "name": "Influencer",
+        "role": "haus perhatian"
+      },
+      {
+        "name": "Anak",
+        "role": "praktis"
+      },
+      {
+        "name": "Petugas kebersihan",
+        "role": "sigap"
+      }
+    ],
+    "shots": [
+      {
+        "id": "03-01",
+        "number": 1,
+        "start": "00:00",
+        "end": "00:11",
+        "location": "Selokan jalan",
+        "objective": "Pria terperosok.",
+        "dialogue": "PRIA: Tolong! Kaki saya kejepit!\nINFLUENCER: Ya ampun! Saya bantu, Pak!",
+        "camera": "Wide jalan lalu whip-pan ke selokan.",
+        "animation": "Smear frame saat jatuh; percikan 2D; influencer masuk dengan pose heroik.",
+        "audio": "Splash, sepatu terseret.",
+        "startSeconds": 0,
+        "endSeconds": 11,
+        "templateId": "CARTOON-STAGE-DIALOGUE",
+        "characters": [
+          "Pria",
+          "Influencer"
+        ],
+        "poses": [
+          "listen",
+          "speak",
+          "hold"
+        ]
+      },
+      {
+        "id": "03-02",
+        "number": 2,
+        "start": "00:11",
+        "end": "00:26",
+        "location": "Pinggir selokan",
+        "objective": "Influencer memasang tripod.",
+        "dialogue": "PRIA: Tarik tangan saya!\nINFLUENCER: Sebentar, Pak. Lighting-nya jelek.",
+        "camera": "Close-up tripod membuka; low angle influencer.",
+        "animation": "Tripod pop-up tiga langkah; mata pria melotot, blink tertunda.",
+        "audio": "Klik tripod, notification ding.",
+        "startSeconds": 11,
+        "endSeconds": 26,
+        "templateId": "CARTOON-EVIDENCE-INSERT",
+        "characters": [
+          "Pria",
+          "Influencer"
+        ],
+        "poses": [
+          "anticipate",
+          "gesture",
+          "settle"
+        ]
+      },
+      {
+        "id": "03-03",
+        "number": 3,
+        "start": "00:26",
+        "end": "00:42",
+        "location": "Pinggir selokan",
+        "objective": "Pengambilan ulang ekspresi simpati.",
+        "dialogue": "INFLUENCER: Guys, ini bukti kita harus peduli... Eh, ulang.\nPRIA: Saya ini bukan figuran, Mas!",
+        "camera": "Split-screen kamera ponsel vs kejadian asli.",
+        "animation": "Mulut influencer sinkron cepat; pria menggapai tangan tanpa hasil.",
+        "audio": "Rewind SFX singkat; suara air.",
+        "startSeconds": 26,
+        "endSeconds": 42,
+        "templateId": "CARTOON-MESSAGE-POV",
+        "characters": [
+          "Pria",
+          "Influencer"
+        ],
+        "poses": [
+          "listen",
+          "speak",
+          "hold"
+        ]
+      },
+      {
+        "id": "03-04",
+        "number": 4,
+        "start": "00:42",
+        "end": "00:56",
+        "location": "Pinggir selokan",
+        "objective": "Anak membawa tali tapi dihalangi.",
+        "dialogue": "ANAK: Om, pakai tali ini!\nINFLUENCER: Geser! Nutupin frame!\nANAK: Bapak itu butuh tangan, bukan penonton.",
+        "camera": "Overhead memperlihatkan posisi tali dan tripod.",
+        "animation": "Anak mengangkat tali dengan arc jelas; influencer geser anak via gesture, tanpa kontak keras.",
+        "audio": "Tali berdesir, musik berhenti.",
+        "startSeconds": 42,
+        "endSeconds": 56,
+        "templateId": "CARTOON-STAGE-DIALOGUE",
+        "characters": [
+          "Influencer",
+          "Anak"
+        ],
+        "poses": [
+          "anticipate",
+          "gesture",
+          "settle"
+        ]
+      },
+      {
+        "id": "03-05",
+        "number": 5,
+        "start": "00:56",
+        "end": "01:13",
+        "location": "Pinggir selokan",
+        "objective": "Petugas kebersihan membantu menarik.",
+        "dialogue": "PETUGAS: Pegang kuat, Pak. Satu, dua, tiga!\nPRIA: Huh... makasih.",
+        "camera": "Side-on staging seluruh tubuh; close-up simpul tali.",
+        "animation": "Anticipation tarikan, squash tubuh saat keluar, secondary motion air menetes.",
+        "audio": "Tarikan serempak, sepatu basah.",
+        "startSeconds": 56,
+        "endSeconds": 73,
+        "templateId": "CARTOON-EVIDENCE-INSERT",
+        "characters": [
+          "Pria",
+          "Petugas kebersihan"
+        ],
+        "poses": [
+          "anticipate",
+          "gesture",
+          "settle"
+        ]
+      },
+      {
+        "id": "03-06",
+        "number": 6,
+        "start": "01:13",
+        "end": "01:30",
+        "location": "Jalan",
+        "objective": "Influencer mengambil kredit.",
+        "dialogue": "INFLUENCER (ke kamera): Kebaikan nggak perlu dipamerkan.\nPETUGAS: Kalau begitu, tolong minggir. Saya mau kerja.",
+        "camera": "Freeze 8 frame pada senyum influencer lalu cut ke petugas berjalan.",
+        "animation": "Kamera virtual pull-out; layar live menunjukkan angka penonton, bukan angka bantuan.",
+        "audio": "Notifikasi viral kontras dengan roda gerobak.",
+        "startSeconds": 73,
+        "endSeconds": 90,
+        "templateId": "CARTOON-EVIDENCE-INSERT",
+        "characters": [
+          "Influencer",
+          "Petugas kebersihan"
+        ],
+        "poses": [
+          "listen",
+          "speak",
+          "hold"
+        ]
+      }
+    ],
+    "productionNotes": [
+      "Rig: pisahkan kepala, torso, lengan atas/bawah, tangan, mata, alis, mulut; siapkan 6 ekspresi dasar dan 5 viseme minimum.",
+      "Timing: animasikan berbasis frame 30 fps; kunci dialog dan jeda terlebih dahulu, lalu acting, baru gerak kamera.",
+      "Style: flat 2D cutout, outline konsisten, latar 2–4 layer untuk parallax ringan; hindari efek bergerak tanpa fungsi naratif.",
+      "Reframe: master 1080×1920; safe area teks dan wajah di tengah; hindari subtitle menutupi gestur tangan.",
+      "QA: cek lip-sync, kontinuitas properti, arah tatapan, pose silhouette, pacing punchline, clipping, dan peak audio."
+    ]
+  },
+  {
+    "id": "04",
+    "title": "Sekolah Gratis, Bayarnya Cuma Segalanya",
+    "format": "Animasi kartun 2D | 9:16 Shorts | ±90 detik | Bahasa Indonesia",
+    "premise": "Ibu ingin anak ikut kegiatan sekolah; pengurus menyebut biaya sebagai sukarela tetapi memberi konsekuensi sosial",
+    "theme": "Biaya tersembunyi pendidikan",
+    "editorialNote": "Catatan editorial: kisah fiksi satir; tidak mengklaim peristiwa atau prosedur resmi tertentu. Dialog adalah estimasi; validasi durasi melalui rekaman VO dan animatic.",
+    "source": "unpacked/satir-cartoon-8-episode-docs/04_sekolah_gratis_bayarnya_cuma_segalanya.docx",
+    "characters": [
+      {
+        "name": "Ibu Sari",
+        "role": "penjahit"
+      },
+      {
+        "name": "Rani",
+        "role": "murid"
+      },
+      {
+        "name": "Bendahara",
+        "role": "formal"
+      },
+      {
+        "name": "Guru",
+        "role": "serba salah"
+      }
+    ],
+    "shots": [
+      {
+        "id": "04-01",
+        "number": 1,
+        "start": "00:00",
+        "end": "00:13",
+        "location": "Aula sekolah",
+        "objective": "Spanduk sekolah gratis.",
+        "dialogue": "KEPALA SEKOLAH (pengeras suara): Pendidikan di sini gratis!\nSARI: Alhamdulillah, Ran.",
+        "camera": "Wide spanduk, tilt ke tangan Sari memegang uang receh.",
+        "animation": "Spanduk masuk dengan bounce; senyum Sari tulus.",
+        "audio": "Tepuk tangan, lonceng.",
+        "startSeconds": 0,
+        "endSeconds": 13,
+        "templateId": "CARTOON-STAGE-DIALOGUE",
+        "characters": [
+          "Ibu Sari"
+        ],
+        "poses": [
+          "listen",
+          "speak",
+          "hold"
+        ]
+      },
+      {
+        "id": "04-02",
+        "number": 2,
+        "start": "00:13",
+        "end": "00:28",
+        "location": "Loket administrasi",
+        "objective": "Muncul rincian biaya.",
+        "dialogue": "BENDAHARA: Seragam tambahan, buku paket, kegiatan kelas.\nSARI: Katanya gratis?\nBENDAHARA: Belajarnya gratis, Bu.",
+        "camera": "Top-down daftar biaya memanjang melewati frame.",
+        "animation": "Kertas accordion extend, mata Sari mengikuti turun.",
+        "audio": "Mesin cetak kuitansi absurd.",
+        "startSeconds": 13,
+        "endSeconds": 28,
+        "templateId": "CARTOON-STAGE-DIALOGUE",
+        "characters": [
+          "Ibu Sari",
+          "Bendahara"
+        ],
+        "poses": [
+          "listen",
+          "speak",
+          "hold"
+        ]
+      },
+      {
+        "id": "04-03",
+        "number": 3,
+        "start": "00:28",
+        "end": "00:44",
+        "location": "Loket",
+        "objective": "Sumbangan disebut sukarela.",
+        "dialogue": "SARI: Kalau belum sanggup, boleh nggak bayar?\nBENDAHARA: Boleh, sukarela. Tapi nama anak yang belum setor kami catat.",
+        "camera": "Two-shot, slow push-in ke buku daftar.",
+        "animation": "Pensil mengetuk kolom nama; Rani menyembunyikan wajah.",
+        "audio": "Ketukan pensil, hening.",
+        "startSeconds": 28,
+        "endSeconds": 44,
+        "templateId": "CARTOON-STAGE-DIALOGUE",
+        "characters": [
+          "Ibu Sari",
+          "Bendahara"
+        ],
+        "poses": [
+          "listen",
+          "speak",
+          "hold"
+        ]
+      },
+      {
+        "id": "04-04",
+        "number": 4,
+        "start": "00:44",
+        "end": "01:00",
+        "location": "Kelas",
+        "objective": "Rani tidak mendapat perlengkapan kegiatan.",
+        "dialogue": "GURU: Yang sudah dapat paket, silakan mulai.\nRANI: Bu, saya boleh pinjam punya teman?\nGURU: Tunggu sebentar, ya.",
+        "camera": "Wide meja teman lengkap, meja Rani kosong.",
+        "animation": "Parallax sederhana; tangan Rani tertahan di udara.",
+        "audio": "Gunting, lem, kursi digeser.",
+        "startSeconds": 44,
+        "endSeconds": 60,
+        "templateId": "CARTOON-STAGE-DIALOGUE",
+        "characters": [
+          "Rani",
+          "Guru"
+        ],
+        "poses": [
+          "concern",
+          "held"
+        ]
+      },
+      {
+        "id": "04-05",
+        "number": 5,
+        "start": "01:00",
+        "end": "01:16",
+        "location": "Rumah",
+        "objective": "Sari menghitung uang dan kebutuhan.",
+        "dialogue": "RANI: Nggak usah bayar, Bu. Aku bisa lihat aja.\nSARI: Kamu sekolah buat belajar, bukan buat jadi penonton.",
+        "camera": "Close-up uang, obat, dan buku; tilt ke Rani.",
+        "animation": "Sari merapikan uang berulang; Rani memeluk tas.",
+        "audio": "Jam dinding, gunting jahit.",
+        "startSeconds": 60,
+        "endSeconds": 76,
+        "templateId": "CARTOON-EVIDENCE-INSERT",
+        "characters": [
+          "Ibu Sari",
+          "Rani"
+        ],
+        "poses": [
+          "listen",
+          "speak",
+          "hold"
+        ]
+      },
+      {
+        "id": "04-06",
+        "number": 6,
+        "start": "01:16",
+        "end": "01:30",
+        "location": "Gerbang sekolah",
+        "objective": "Sari menyerahkan uang dari pesanan jahitan.",
+        "dialogue": "BENDAHARA: Terima kasih atas sumbangan sukarelanya.\nSARI (lirih): Iya... sukarela.",
+        "camera": "Close-up tangan menyerahkan amplop, wide Rani masuk sekolah.",
+        "animation": "Tangan Sari tetap terbuka sesaat setelah amplop diambil.",
+        "audio": "Gerbang berderit; tanpa musik.",
+        "startSeconds": 76,
+        "endSeconds": 90,
+        "templateId": "CARTOON-MESSAGE-POV",
+        "characters": [
+          "Bendahara"
+        ],
+        "poses": [
+          "anticipate",
+          "gesture",
+          "settle"
+        ]
+      }
+    ],
+    "productionNotes": [
+      "Rig: pisahkan kepala, torso, lengan atas/bawah, tangan, mata, alis, mulut; siapkan 6 ekspresi dasar dan 5 viseme minimum.",
+      "Timing: animasikan berbasis frame 30 fps; kunci dialog dan jeda terlebih dahulu, lalu acting, baru gerak kamera.",
+      "Style: flat 2D cutout, outline konsisten, latar 2–4 layer untuk parallax ringan; hindari efek bergerak tanpa fungsi naratif.",
+      "Reframe: master 1080×1920; safe area teks dan wajah di tengah; hindari subtitle menutupi gestur tangan.",
+      "QA: cek lip-sync, kontinuitas properti, arah tatapan, pose silhouette, pacing punchline, clipping, dan peak audio."
+    ]
+  },
+  {
+    "id": "05",
+    "title": "Banjirnya Sudah Naik Kelas",
+    "format": "Animasi kartun 2D | 9:16 Shorts | ±90 detik | Bahasa Indonesia",
+    "premise": "Warga kampung kebanjiran setelah perubahan drainase; pengembang dan pejabat saling mengalihkan tanggung jawab",
+    "theme": "Pembangunan, drainase dan ketimpangan",
+    "editorialNote": "Catatan editorial: kisah fiksi satir; tidak mengklaim peristiwa atau prosedur resmi tertentu. Dialog adalah estimasi; validasi durasi melalui rekaman VO dan animatic.",
+    "source": "unpacked/satir-cartoon-8-episode-docs/05_banjirnya_sudah_naik_kelas.docx",
+    "characters": [
+      {
+        "name": "Mira",
+        "role": "pedagang kampung"
+      },
+      {
+        "name": "Anak Mira",
+        "role": "cemas"
+      },
+      {
+        "name": "Humas",
+        "role": "terlatih"
+      },
+      {
+        "name": "Petugas",
+        "role": "mengutip prosedur"
+      }
+    ],
+    "shots": [
+      {
+        "id": "05-01",
+        "number": 1,
+        "start": "00:00",
+        "end": "00:12",
+        "location": "Kampung tergenang",
+        "objective": "Mira mengangkat barang dagangan.",
+        "dialogue": "ANAK: Bu, airnya masuk lagi!\nMIRA: Naikkan beras ke meja!",
+        "camera": "Wide aerial sederhana, tilt turun ke rumah.",
+        "animation": "Air layer bergelombang; barang naik dengan overshoot.",
+        "audio": "Air gemericik, hujan.",
+        "startSeconds": 0,
+        "endSeconds": 12,
+        "templateId": "CARTOON-STAGE-DIALOGUE",
+        "characters": [
+          "Mira",
+          "Anak Mira"
+        ],
+        "poses": [
+          "anticipate",
+          "gesture",
+          "settle"
+        ]
+      },
+      {
+        "id": "05-02",
+        "number": 2,
+        "start": "00:12",
+        "end": "00:27",
+        "location": "Batas tembok kompleks",
+        "objective": "Air dari saluran baru mengarah ke kampung.",
+        "dialogue": "MIRA: Dulu air lewat parit sana. Sekarang ketutup tembok.\nTETANGGA: Mereka bilang ini modernisasi.",
+        "camera": "Pan mengikuti aliran air ke dinding kompleks.",
+        "animation": "Panah grafis aliran muncul hanya sebagai visualisasi perspektif warga, bukan bukti kausal.",
+        "audio": "Guntur, bunyi pompa.",
+        "startSeconds": 12,
+        "endSeconds": 27,
+        "templateId": "CARTOON-STAGE-DIALOGUE",
+        "characters": [
+          "Mira",
+          "Anak Mira"
+        ],
+        "poses": [
+          "listen",
+          "speak",
+          "hold"
+        ]
+      },
+      {
+        "id": "05-03",
+        "number": 3,
+        "start": "00:27",
+        "end": "00:43",
+        "location": "Posko pengembang",
+        "objective": "Humas mengeluarkan pernyataan.",
+        "dialogue": "HUMAS: Banjir ini akibat cuaca ekstrem.\nMIRA: Tapi saluran yang lama ditutup.\nHUMAS: Itu masih perlu kajian.",
+        "camera": "Low angle humas di podium; reverse ke sandal Mira basah.",
+        "animation": "Humas gestur simetris; tetes air dari baju Mira menggenang.",
+        "audio": "Mikrofon feedback.",
+        "startSeconds": 27,
+        "endSeconds": 43,
+        "templateId": "CARTOON-STAGE-DIALOGUE",
+        "characters": [
+          "Mira",
+          "Anak Mira",
+          "Humas"
+        ],
+        "poses": [
+          "listen",
+          "speak",
+          "hold"
+        ]
+      },
+      {
+        "id": "05-04",
+        "number": 4,
+        "start": "00:43",
+        "end": "00:58",
+        "location": "Balai warga",
+        "objective": "Petugas meminta laporan tertulis.",
+        "dialogue": "PETUGAS: Bukti teknisnya ada?\nMIRA: Rumah saya terendam.\nPETUGAS: Itu bukti dampak, bukan penyebab.",
+        "camera": "Insert formulir dan foto rumah.",
+        "animation": "Foto berlapis membentuk tumpukan; Mira menahan marah.",
+        "audio": "Stapler, hujan mereda.",
+        "startSeconds": 43,
+        "endSeconds": 58,
+        "templateId": "CARTOON-EVIDENCE-INSERT",
+        "characters": [
+          "Mira",
+          "Anak Mira",
+          "Petugas"
+        ],
+        "poses": [
+          "listen",
+          "speak",
+          "hold"
+        ]
+      },
+      {
+        "id": "05-05",
+        "number": 5,
+        "start": "00:58",
+        "end": "01:14",
+        "location": "Rumah Mira",
+        "objective": "Anak mencari buku sekolah yang basah.",
+        "dialogue": "ANAK: Bu, tugas sekolahku hilang.\nMIRA: Kita jemur lagi, ya.\nANAK: Kalau hujan besok?",
+        "camera": "Close-up halaman buku luntur; hold mata anak.",
+        "animation": "Air menetes dari halaman, gerak kecil saja.",
+        "audio": "Tetes air ritmis.",
+        "startSeconds": 58,
+        "endSeconds": 74,
+        "templateId": "CARTOON-EVIDENCE-INSERT",
+        "characters": [
+          "Mira",
+          "Anak Mira"
+        ],
+        "poses": [
+          "listen",
+          "speak",
+          "hold"
+        ]
+      },
+      {
+        "id": "05-06",
+        "number": 6,
+        "start": "01:14",
+        "end": "01:30",
+        "location": "Tembok kompleks",
+        "objective": "Billboard hunian menampilkan slogan “Hidup Lebih Tinggi”.",
+        "dialogue": "HUMAS (iklan): Tingkatkan kualitas hidup Anda.\nMIRA: Airnya juga ikut ditingkatkan.",
+        "camera": "Tilt dari air setinggi lutut ke billboard tinggi.",
+        "animation": "Parallax dua layer; pantulan slogan pada genangan.",
+        "audio": "Jingle iklan bertabrakan dengan suara ember.",
+        "startSeconds": 74,
+        "endSeconds": 90,
+        "templateId": "CARTOON-STAGE-DIALOGUE",
+        "characters": [
+          "Mira",
+          "Anak Mira",
+          "Humas"
+        ],
+        "poses": [
+          "listen",
+          "speak",
+          "hold"
+        ]
+      }
+    ],
+    "productionNotes": [
+      "Rig: pisahkan kepala, torso, lengan atas/bawah, tangan, mata, alis, mulut; siapkan 6 ekspresi dasar dan 5 viseme minimum.",
+      "Timing: animasikan berbasis frame 30 fps; kunci dialog dan jeda terlebih dahulu, lalu acting, baru gerak kamera.",
+      "Style: flat 2D cutout, outline konsisten, latar 2–4 layer untuk parallax ringan; hindari efek bergerak tanpa fungsi naratif.",
+      "Reframe: master 1080×1920; safe area teks dan wajah di tengah; hindari subtitle menutupi gestur tangan.",
+      "QA: cek lip-sync, kontinuitas properti, arah tatapan, pose silhouette, pacing punchline, clipping, dan peak audio."
+    ]
+  },
+  {
+    "id": "06",
+    "title": "Ayah yang Selalu Ada di Grup WhatsApp",
+    "format": "Animasi kartun 2D | 9:16 Shorts | ±90 detik | Bahasa Indonesia",
+    "premise": "Ayah mendapat pengakuan sebagai figur keluarga ideal, tetapi melewatkan momen penting anak",
+    "theme": "Performa moral digital dan pengabaian keluarga",
+    "editorialNote": "Catatan editorial: kisah fiksi satir; tidak mengklaim peristiwa atau prosedur resmi tertentu. Dialog adalah estimasi; validasi durasi melalui rekaman VO dan animatic.",
+    "source": "unpacked/satir-cartoon-8-episode-docs/06_ayah_yang_selalu_ada_di_grup_whatsapp.docx",
+    "characters": [
+      {
+        "name": "Ayah",
+        "role": "sibuk dan haus validasi"
+      },
+      {
+        "name": "Dini",
+        "role": "anak pendiam"
+      },
+      {
+        "name": "Guru",
+        "role": "peduli"
+      }
+    ],
+    "shots": [
+      {
+        "id": "06-01",
+        "number": 1,
+        "start": "00:00",
+        "end": "00:14",
+        "location": "Ruang keluarga",
+        "objective": "Ayah mengetik petuah keluarga.",
+        "dialogue": "AYAH (membaca ketikan): Hadirlah untuk anak sebelum terlambat.\nDINI: Yah, lihat gambarku?\nAYAH: Sebentar.",
+        "camera": "Over-shoulder ponsel, rack focus ke Dini di belakang.",
+        "animation": "Jempol ayah looping; Dini mengangkat gambar perlahan.",
+        "audio": "Keyboard tap, notifikasi.",
+        "startSeconds": 0,
+        "endSeconds": 14,
+        "templateId": "CARTOON-STAGE-DIALOGUE",
+        "characters": [
+          "Ayah",
+          "Dini"
+        ],
+        "poses": [
+          "listen",
+          "speak",
+          "hold"
+        ]
+      },
+      {
+        "id": "06-02",
+        "number": 2,
+        "start": "00:14",
+        "end": "00:29",
+        "location": "Meja makan",
+        "objective": "Dini mengundang ayah ke acara sekolah.",
+        "dialogue": "DINI: Besok aku tampil jam sepuluh. Ayah datang?\nAYAH: Ayah usahakan.\nDINI: Janji?\nAYAH: Iya, iya.",
+        "camera": "Medium dua karakter dipisah ponsel foreground.",
+        "animation": "Ayah mengangguk tanpa kontak mata; Dini memegang sendok diam.",
+        "audio": "Sendok menyentuh piring.",
+        "startSeconds": 14,
+        "endSeconds": 29,
+        "templateId": "CARTOON-MESSAGE-POV",
+        "characters": [
+          "Ayah",
+          "Dini"
+        ],
+        "poses": [
+          "listen",
+          "speak",
+          "hold"
+        ]
+      },
+      {
+        "id": "06-03",
+        "number": 3,
+        "start": "00:29",
+        "end": "00:45",
+        "location": "Kantor",
+        "objective": "Ayah membaca pujian grup dan lupa jadwal.",
+        "dialogue": "PESAN GRUP (VO): Bapak panutan para ayah!\nAYAH: Wah, terima kasih.",
+        "camera": "Insert layar chat; match-cut jam 09:58 ke 10:15.",
+        "animation": "Notifikasi bertumpuk; tangan ayah memilih mengetik daripada melihat alarm.",
+        "audio": "Pings pesan makin rapat.",
+        "startSeconds": 29,
+        "endSeconds": 45,
+        "templateId": "CARTOON-MESSAGE-POV",
+        "characters": [
+          "Ayah"
+        ],
+        "poses": [
+          "listen",
+          "speak",
+          "hold"
+        ]
+      },
+      {
+        "id": "06-04",
+        "number": 4,
+        "start": "00:45",
+        "end": "01:01",
+        "location": "Aula sekolah",
+        "objective": "Dini menerima penghargaan, mencari ayah.",
+        "dialogue": "GURU: Orang tuamu belum datang?\nDINI: Mungkin lagi ngajarin orang lain jadi ayah.",
+        "camera": "POV Dini menyapu deretan kursi; close-up kursi kosong.",
+        "animation": "Gerak kepala Dini dua kali, berhenti pada kursi kosong.",
+        "audio": "Tepuk tangan muffled.",
+        "startSeconds": 45,
+        "endSeconds": 61,
+        "templateId": "CARTOON-EVIDENCE-INSERT",
+        "characters": [
+          "Dini",
+          "Guru"
+        ],
+        "poses": [
+          "concern",
+          "held"
+        ]
+      },
+      {
+        "id": "06-05",
+        "number": 5,
+        "start": "01:01",
+        "end": "01:17",
+        "location": "Rumah malam",
+        "objective": "Ayah melihat foto penghargaan di status tetangga.",
+        "dialogue": "AYAH: Loh, kamu menang? Kok nggak bilang?\nDINI: Aku bilang tiga kali.",
+        "camera": "Close-up layar ke close-up wajah ayah tanpa cut komedi.",
+        "animation": "Senyum ayah hilang perlahan; Dini menunduk.",
+        "audio": "Notifikasi putus mendadak.",
+        "startSeconds": 61,
+        "endSeconds": 77,
+        "templateId": "CARTOON-MESSAGE-POV",
+        "characters": [
+          "Ayah",
+          "Dini"
+        ],
+        "poses": [
+          "listen",
+          "speak",
+          "hold"
+        ]
+      },
+      {
+        "id": "06-06",
+        "number": 6,
+        "start": "01:17",
+        "end": "01:30",
+        "location": "Ruang keluarga",
+        "objective": "Ayah meminta melihat gambar, sudah dibuang.",
+        "dialogue": "AYAH: Gambar kemarin masih ada?\nDINI: Udah aku buang.\nAYAH: ...Maaf, ya.",
+        "camera": "Locked-off two-shot dengan ruang kosong antara mereka.",
+        "animation": "Ayah meletakkan ponsel; Dini belum mendekat.",
+        "audio": "Bunyi ponsel bergetar tak dijawab; fade.",
+        "startSeconds": 77,
+        "endSeconds": 90,
+        "templateId": "CARTOON-EVIDENCE-INSERT",
+        "characters": [
+          "Ayah",
+          "Dini"
+        ],
+        "poses": [
+          "concern",
+          "held"
+        ]
+      }
+    ],
+    "productionNotes": [
+      "Rig: pisahkan kepala, torso, lengan atas/bawah, tangan, mata, alis, mulut; siapkan 6 ekspresi dasar dan 5 viseme minimum.",
+      "Timing: animasikan berbasis frame 30 fps; kunci dialog dan jeda terlebih dahulu, lalu acting, baru gerak kamera.",
+      "Style: flat 2D cutout, outline konsisten, latar 2–4 layer untuk parallax ringan; hindari efek bergerak tanpa fungsi naratif.",
+      "Reframe: master 1080×1920; safe area teks dan wajah di tengah; hindari subtitle menutupi gestur tangan.",
+      "QA: cek lip-sync, kontinuitas properti, arah tatapan, pose silhouette, pacing punchline, clipping, dan peak audio."
+    ]
+  },
+  {
+    "id": "07",
+    "title": "Rakyat Harus Sabar, Pejabat Harus Cepat",
+    "format": "Animasi kartun 2D | 9:16 Shorts | ±90 detik | Bahasa Indonesia",
+    "premise": "Warga menunggu jembatan diperbaiki; ketika kunjungan pejabat dijadwalkan, akses sementara dibangun kilat",
+    "theme": "Prioritas infrastruktur dan insentif kekuasaan",
+    "editorialNote": "Catatan editorial: kisah fiksi satir; tidak mengklaim peristiwa atau prosedur resmi tertentu. Dialog adalah estimasi; validasi durasi melalui rekaman VO dan animatic.",
+    "source": "unpacked/satir-cartoon-8-episode-docs/07_rakyat_harus_sabar_pejabat_harus_cepat.docx",
+    "characters": [
+      {
+        "name": "Pak Beni",
+        "role": "warga pengantar barang"
+      },
+      {
+        "name": "Lala",
+        "role": "anak sekolah"
+      },
+      {
+        "name": "Koordinator",
+        "role": "petugas lapangan"
+      },
+      {
+        "name": "Pejabat",
+        "role": "hadir sekilas"
+      }
+    ],
+    "shots": [
+      {
+        "id": "07-01",
+        "number": 1,
+        "start": "00:00",
+        "end": "00:13",
+        "location": "Jembatan rusak",
+        "objective": "Beni menuntun Lala melewati papan.",
+        "dialogue": "LALA: Pak, papan ini goyang lagi.\nBENI: Pegang tangan Bapak. Pelan.",
+        "camera": "Wide jembatan rusak, low angle kaki melangkah.",
+        "animation": "Papan flex dengan pivot; tangan saling menggenggam.",
+        "audio": "Kayu berderit, air sungai.",
+        "startSeconds": 0,
+        "endSeconds": 13,
+        "templateId": "CARTOON-STAGE-DIALOGUE",
+        "characters": [
+          "Pak Beni",
+          "Lala"
+        ],
+        "poses": [
+          "listen",
+          "speak",
+          "hold"
+        ]
+      },
+      {
+        "id": "07-02",
+        "number": 2,
+        "start": "00:13",
+        "end": "00:28",
+        "location": "Kantor layanan",
+        "objective": "Beni menanyakan laporan tiga tahun.",
+        "dialogue": "BENI: Sudah tiga tahun kami lapor.\nPETUGAS: Masih antre prioritas.\nBENI: Yang antre jembatannya atau kami?",
+        "camera": "Two-shot loket, insert nomor tiket lama.",
+        "animation": "Tiket memanjang seperti gulungan; petugas shrug kecil.",
+        "audio": "Printer tiket, jam.",
+        "startSeconds": 13,
+        "endSeconds": 28,
+        "templateId": "CARTOON-EVIDENCE-INSERT",
+        "characters": [
+          "Pak Beni"
+        ],
+        "poses": [
+          "listen",
+          "speak",
+          "hold"
+        ]
+      },
+      {
+        "id": "07-03",
+        "number": 3,
+        "start": "00:28",
+        "end": "00:43",
+        "location": "Kantor kecamatan",
+        "objective": "Kunjungan pejabat diumumkan.",
+        "dialogue": "KOORDINATOR: Besok rombongan lewat sini! Jalur harus siap!\nPETUGAS: Tapi jembatannya rusak.\nKOORDINATOR: Berarti malam ini beres.",
+        "camera": "Whip-pan dari kalender ke peta rute.",
+        "animation": "Karakter berlari smear frame; peta menyala pada rute VIP.",
+        "audio": "Alarm, stapler, drum beat.",
+        "startSeconds": 28,
+        "endSeconds": 43,
+        "templateId": "CARTOON-EVIDENCE-INSERT",
+        "characters": [
+          "Koordinator"
+        ],
+        "poses": [
+          "listen",
+          "speak",
+          "hold"
+        ]
+      },
+      {
+        "id": "07-04",
+        "number": 4,
+        "start": "00:43",
+        "end": "00:59",
+        "location": "Jembatan malam",
+        "objective": "Pekerja membangun akses sementara.",
+        "dialogue": "PEKERJA: Tiga tahun nggak ada anggaran, malam ini ada?\nKOORDINATOR: Jangan banyak tanya, pasang papan!",
+        "camera": "Time-lapse wide dengan jam di sudut.",
+        "animation": "Modular prop assembly, siklus palu 6 frame, lampu bergerak.",
+        "audio": "Palu, bor, jangkrik.",
+        "startSeconds": 43,
+        "endSeconds": 59,
+        "templateId": "CARTOON-STAGE-DIALOGUE",
+        "characters": [
+          "Koordinator"
+        ],
+        "poses": [
+          "listen",
+          "speak",
+          "hold"
+        ]
+      },
+      {
+        "id": "07-05",
+        "number": 5,
+        "start": "00:59",
+        "end": "01:15",
+        "location": "Jembatan pagi",
+        "objective": "Rombongan melewati akses baru.",
+        "dialogue": "PEJABAT: Bagus. Infrastruktur harus responsif.\nBENI (ke Lala): Ternyata bisa cepat.",
+        "camera": "Tracking kendaraan; cut ke Beni dan Lala di tepi.",
+        "animation": "Debu secondary motion; ekspresi Beni senyum pahit.",
+        "audio": "Klakson pendek, tepuk tangan.",
+        "startSeconds": 59,
+        "endSeconds": 75,
+        "templateId": "CARTOON-STAGE-DIALOGUE",
+        "characters": [
+          "Lala",
+          "Pejabat"
+        ],
+        "poses": [
+          "listen",
+          "speak",
+          "hold"
+        ]
+      },
+      {
+        "id": "07-06",
+        "number": 6,
+        "start": "01:15",
+        "end": "01:30",
+        "location": "Jembatan siang",
+        "objective": "Papan akses sementara dibongkar.",
+        "dialogue": "BENI: Kenapa dibuka lagi?\nKOORDINATOR: Jalur khusus acara sudah selesai.\nLALA: Berarti sekolahku belum jadi acara penting, Pak?",
+        "camera": "Static wide pekerja mengangkat papan, reveal sungai.",
+        "animation": "Satu papan diangkat perlahan; Lala tetap memegang tangan Beni.",
+        "audio": "Baut jatuh, air mengalir, cut.",
+        "startSeconds": 75,
+        "endSeconds": 90,
+        "templateId": "CARTOON-EVIDENCE-INSERT",
+        "characters": [
+          "Pak Beni",
+          "Lala",
+          "Koordinator"
+        ],
+        "poses": [
+          "anticipate",
+          "gesture",
+          "settle"
+        ]
+      }
+    ],
+    "productionNotes": [
+      "Rig: pisahkan kepala, torso, lengan atas/bawah, tangan, mata, alis, mulut; siapkan 6 ekspresi dasar dan 5 viseme minimum.",
+      "Timing: animasikan berbasis frame 30 fps; kunci dialog dan jeda terlebih dahulu, lalu acting, baru gerak kamera.",
+      "Style: flat 2D cutout, outline konsisten, latar 2–4 layer untuk parallax ringan; hindari efek bergerak tanpa fungsi naratif.",
+      "Reframe: master 1080×1920; safe area teks dan wajah di tengah; hindari subtitle menutupi gestur tangan.",
+      "QA: cek lip-sync, kontinuitas properti, arah tatapan, pose silhouette, pacing punchline, clipping, dan peak audio."
+    ]
+  },
+  {
+    "id": "08",
+    "title": "Kejujuran Tidak Termasuk Diskon",
+    "format": "Animasi kartun 2D | 9:16 Shorts | ±90 detik | Bahasa Indonesia",
+    "premise": "Kasir dipuji karena jujur pada pelanggan, lalu dihukum karena mengambil makanan yang akan dibuang tanpa izin",
+    "theme": "Etika korporasi, upah dan kebutuhan",
+    "editorialNote": "Catatan editorial: kisah fiksi satir; tidak mengklaim peristiwa atau prosedur resmi tertentu. Dialog adalah estimasi; validasi durasi melalui rekaman VO dan animatic.",
+    "source": "unpacked/satir-cartoon-8-episode-docs/08_kejujuran_tidak_termasuk_diskon.docx",
+    "characters": [
+      {
+        "name": "Rika",
+        "role": "kasir orang tua tunggal"
+      },
+      {
+        "name": "Manajer",
+        "role": "mengejar citra dan kepatuhan"
+      },
+      {
+        "name": "Anak Rika",
+        "role": "menunggu makan"
+      },
+      {
+        "name": "Pelanggan",
+        "role": "terbantu"
+      }
+    ],
+    "shots": [
+      {
+        "id": "08-01",
+        "number": 1,
+        "start": "00:00",
+        "end": "00:13",
+        "location": "Kasir minimarket",
+        "objective": "Rika mengembalikan uang berlebih.",
+        "dialogue": "RIKA: Bu, kembalian Ibu kelebihan seratus ribu.\nPELANGGAN: Ya ampun, untung kamu jujur.",
+        "camera": "Close-up uang dan tangan, cut ke senyum pelanggan.",
+        "animation": "Gerak tangan jelas, uang mengikuti arc; mata Rika hangat.",
+        "audio": "Scanner bip, koin.",
+        "startSeconds": 0,
+        "endSeconds": 13,
+        "templateId": "CARTOON-STAGE-DIALOGUE",
+        "characters": [
+          "Rika",
+          "Anak Rika",
+          "Pelanggan"
+        ],
+        "poses": [
+          "listen",
+          "speak",
+          "hold"
+        ]
+      },
+      {
+        "id": "08-02",
+        "number": 2,
+        "start": "00:13",
+        "end": "00:28",
+        "location": "Area kasir",
+        "objective": "Manajer merekam pujian.",
+        "dialogue": "MANAJER: Rekam, rekam! Ini budaya integritas kita.\nRIKA: Pak, saya masih harus tutup kas.",
+        "camera": "Medium dengan ponsel foreground; shot dalam shot.",
+        "animation": "Manajer pose heroik; Rika senyum kaku.",
+        "audio": "Shutter, jingle perusahaan.",
+        "startSeconds": 13,
+        "endSeconds": 28,
+        "templateId": "CARTOON-MESSAGE-POV",
+        "characters": [
+          "Rika",
+          "Manajer",
+          "Anak Rika"
+        ],
+        "poses": [
+          "listen",
+          "speak",
+          "hold"
+        ]
+      },
+      {
+        "id": "08-03",
+        "number": 3,
+        "start": "00:28",
+        "end": "00:44",
+        "location": "Gudang malam",
+        "objective": "Rika melihat makanan yang akan dimusnahkan.",
+        "dialogue": "RIKA: Pak, roti ini besok dibuang?\nMANAJER: Iya, lewat batas jual.\nRIKA: Kalau saya bawa pulang, boleh?\nMANAJER: Prosedurnya nggak boleh.",
+        "camera": "Over-shoulder rak, insert label tanggal.",
+        "animation": "Tangan Rika tertahan dekat roti; manajer menunjuk SOP.",
+        "audio": "Lampu neon, troli.",
+        "startSeconds": 28,
+        "endSeconds": 44,
+        "templateId": "CARTOON-EVIDENCE-INSERT",
+        "characters": [
+          "Rika",
+          "Manajer",
+          "Anak Rika"
+        ],
+        "poses": [
+          "listen",
+          "speak",
+          "hold"
+        ]
+      },
+      {
+        "id": "08-04",
+        "number": 4,
+        "start": "00:44",
+        "end": "00:58",
+        "location": "Rumah",
+        "objective": "Anak Rika bertanya makan malam.",
+        "dialogue": "ANAK: Bu, rotinya jadi?\nRIKA: Ibu cari cara lain, ya.\nANAK: Aku masih bisa tunggu.",
+        "camera": "Close-up meja kosong, push ke wajah Rika.",
+        "animation": "Rika membuka tas kosong; anak memaksa tersenyum.",
+        "audio": "Kipas angin, perut keroncongan halus.",
+        "startSeconds": 44,
+        "endSeconds": 58,
+        "templateId": "CARTOON-EVIDENCE-INSERT",
+        "characters": [
+          "Rika",
+          "Anak Rika"
+        ],
+        "poses": [
+          "concern",
+          "held"
+        ]
+      },
+      {
+        "id": "08-05",
+        "number": 5,
+        "start": "00:58",
+        "end": "01:14",
+        "location": "Gudang",
+        "objective": "Rika mengambil satu roti dari kotak pembuangan, terlihat kamera.",
+        "dialogue": "RIKA (berbisik): Maaf.\nMANAJER (dari pintu): Rika. Kita perlu bicara.",
+        "camera": "High angle CCTV dengan overlay waktu; cut ke normal view.",
+        "animation": "Gerakan tangan cepat lalu freeze saat dipanggil.",
+        "audio": "CCTV beep, napas tertahan.",
+        "startSeconds": 58,
+        "endSeconds": 74,
+        "templateId": "CARTOON-EVIDENCE-INSERT",
+        "characters": [
+          "Rika",
+          "Manajer"
+        ],
+        "poses": [
+          "concern",
+          "held"
+        ]
+      },
+      {
+        "id": "08-06",
+        "number": 6,
+        "start": "01:14",
+        "end": "01:30",
+        "location": "Depan minimarket",
+        "objective": "Rika keluar membawa surat pemutusan kerja; poster integritas masih terpajang.",
+        "dialogue": "MANAJER: Aturan tetap aturan.\nRIKA: Kalau yang dibuang makanan, kenapa yang kehilangan kerja saya?",
+        "camera": "Wide poster “Kejujuran Nilai Utama” dan Rika di bawahnya.",
+        "animation": "Poster tetap statis; Rika berjalan keluar dengan langkah berat.",
+        "audio": "Pintu otomatis, jingle promo dari dalam.",
+        "startSeconds": 74,
+        "endSeconds": 90,
+        "templateId": "CARTOON-EVIDENCE-INSERT",
+        "characters": [
+          "Rika",
+          "Manajer",
+          "Anak Rika"
+        ],
+        "poses": [
+          "concern",
+          "held"
+        ]
+      }
+    ],
+    "productionNotes": [
+      "Rig: pisahkan kepala, torso, lengan atas/bawah, tangan, mata, alis, mulut; siapkan 6 ekspresi dasar dan 5 viseme minimum.",
+      "Timing: animasikan berbasis frame 30 fps; kunci dialog dan jeda terlebih dahulu, lalu acting, baru gerak kamera.",
+      "Style: flat 2D cutout, outline konsisten, latar 2–4 layer untuk parallax ringan; hindari efek bergerak tanpa fungsi naratif.",
+      "Reframe: master 1080×1920; safe area teks dan wajah di tengah; hindari subtitle menutupi gestur tangan.",
+      "QA: cek lip-sync, kontinuitas properti, arah tatapan, pose silhouette, pacing punchline, clipping, dan peak audio."
+    ]
+  }
+]

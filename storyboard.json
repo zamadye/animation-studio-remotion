@@ -1,0 +1,1960 @@
+[
+  {
+    "id": "01-01",
+    "startFrame": 0,
+    "durationFrames": 360,
+    "description": "Darto menyerahkan map lecek.",
+    "characters": [
+      "Darto",
+      "Petugas"
+    ],
+    "poses": [
+      "anticipate",
+      "gesture",
+      "settle"
+    ],
+    "camera": {
+      "type": "push-in",
+      "description": "Medium two-shot ke close-up map; push-in halus ke wajah Darto."
+    },
+    "dialogue": "DARTO: Bu, saya mau daftar bantuan. Tiga hari ini dapur kami nggak ngebul.\nPETUGAS: Kendaraan ada?\nDARTO: Motor tua. Kalau hujan, dia ikut mogok.",
+    "sfx": [],
+    "background": "Kantor pelayanan",
+    "safeArea": "primary actor face/hands or named evidence/phone; use per-ratio layout; platform overlays still require client safe-zone values",
+    "transition": "opening into first scripted action; hard cut, no unmotivated effect",
+    "objective": "Darto menyerahkan map lecek.",
+    "visualMetaphor": "Character distance, gaze and gesture stage the stated conflict; movement is limited to the scene beat.",
+    "hierarchy": "face/hand acting > dialogue caption > location set",
+    "templateId": "CARTOON-STAGE-DIALOGUE",
+    "entrance": {
+      "type": "short ease-out opacity/vertical settle",
+      "startFrame": 0,
+      "durationFrames": 12
+    },
+    "hold": {
+      "startFrame": 12,
+      "durationFrames": 348
+    },
+    "exit": {
+      "type": "motivated editorial cut at scene end",
+      "frame": 360
+    }
+  },
+  {
+    "id": "01-02",
+    "startFrame": 360,
+    "durationFrames": 420,
+    "description": "Kepemilikan motor menjadi alasan penolakan.",
+    "characters": [
+      "Darto",
+      "Petugas"
+    ],
+    "poses": [
+      "listen",
+      "speak",
+      "hold"
+    ],
+    "camera": {
+      "type": "authored",
+      "description": "Insert formulir, rack focus ke kotak “aset”."
+    },
+    "dialogue": "PETUGAS: Berarti punya aset. Belum memenuhi kriteria.\nDARTO: Motor itu buat cari kerja, Bu.\nPETUGAS: Sistemnya begitu.",
+    "sfx": [],
+    "background": "Meja petugas",
+    "safeArea": "primary actor face/hands or named evidence/phone; use per-ratio layout; platform overlays still require client safe-zone values",
+    "transition": "hard cut at authored scene boundary; use prop/eyeline match only when supported by adjacent staging",
+    "objective": "Kepemilikan motor menjadi alasan penolakan.",
+    "visualMetaphor": "The named document/prop carries the conflict into a readable evidence insert; it does not imply independent factual proof.",
+    "hierarchy": "named prop/evidence > acting context > dialogue caption",
+    "templateId": "CARTOON-EVIDENCE-INSERT",
+    "entrance": {
+      "type": "short ease-out opacity/vertical settle",
+      "startFrame": 360,
+      "durationFrames": 12
+    },
+    "hold": {
+      "startFrame": 372,
+      "durationFrames": 408
+    },
+    "exit": {
+      "type": "motivated editorial cut at scene end",
+      "frame": 780
+    }
+  },
+  {
+    "id": "01-03",
+    "startFrame": 780,
+    "durationFrames": 420,
+    "description": "Darto menjual motor murah.",
+    "characters": [
+      "Darto"
+    ],
+    "poses": [
+      "listen",
+      "speak",
+      "hold"
+    ],
+    "camera": {
+      "type": "authored",
+      "description": "Wide siluet motor lalu close-up tangan menerima uang."
+    },
+    "dialogue": "PEMBELI: Kalau dijual, kerja naik apa?\nDARTO: Jalan kaki. Yang penting anak saya makan.",
+    "sfx": [],
+    "background": "Pinggir jalan",
+    "safeArea": "primary actor face/hands or named evidence/phone; use per-ratio layout; platform overlays still require client safe-zone values",
+    "transition": "hard cut at authored scene boundary; use prop/eyeline match only when supported by adjacent staging",
+    "objective": "Darto menjual motor murah.",
+    "visualMetaphor": "The named document/prop carries the conflict into a readable evidence insert; it does not imply independent factual proof.",
+    "hierarchy": "named prop/evidence > acting context > dialogue caption",
+    "templateId": "CARTOON-EVIDENCE-INSERT",
+    "entrance": {
+      "type": "short ease-out opacity/vertical settle",
+      "startFrame": 780,
+      "durationFrames": 12
+    },
+    "hold": {
+      "startFrame": 792,
+      "durationFrames": 408
+    },
+    "exit": {
+      "type": "motivated editorial cut at scene end",
+      "frame": 1200
+    }
+  },
+  {
+    "id": "01-04",
+    "startFrame": 1200,
+    "durationFrames": 480,
+    "description": "Uang hasil penjualan dianggap tabungan.",
+    "characters": [
+      "Darto",
+      "Petugas"
+    ],
+    "poses": [
+      "listen",
+      "speak",
+      "hold"
+    ],
+    "camera": {
+      "type": "push-in",
+      "description": "Over-shoulder petugas ke Darto; snap zoom mikro pada “simpanan”."
+    },
+    "dialogue": "DARTO: Motor sudah nggak ada, Bu.\nPETUGAS: Tapi Bapak pegang uang?\nDARTO: Buat beras.\nPETUGAS: Berarti masih punya simpanan.",
+    "sfx": [],
+    "background": "Kantor pelayanan",
+    "safeArea": "primary actor face/hands or named evidence/phone; use per-ratio layout; platform overlays still require client safe-zone values",
+    "transition": "hard cut at authored scene boundary; use prop/eyeline match only when supported by adjacent staging",
+    "objective": "Uang hasil penjualan dianggap tabungan.",
+    "visualMetaphor": "The named document/prop carries the conflict into a readable evidence insert; it does not imply independent factual proof.",
+    "hierarchy": "named prop/evidence > acting context > dialogue caption",
+    "templateId": "CARTOON-EVIDENCE-INSERT",
+    "entrance": {
+      "type": "short ease-out opacity/vertical settle",
+      "startFrame": 1200,
+      "durationFrames": 12
+    },
+    "hold": {
+      "startFrame": 1212,
+      "durationFrames": 468
+    },
+    "exit": {
+      "type": "motivated editorial cut at scene end",
+      "frame": 1680
+    }
+  },
+  {
+    "id": "01-05",
+    "startFrame": 1680,
+    "durationFrames": 480,
+    "description": "Darto kembali setelah uang habis, kini kehilangan ongkos kerja.",
+    "characters": [
+      "Darto",
+      "Petugas"
+    ],
+    "poses": [
+      "concern",
+      "held"
+    ],
+    "camera": {
+      "type": "authored",
+      "description": "Locked-off two-shot dengan jarak fisik makin terasa."
+    },
+    "dialogue": "DARTO: Uangnya sudah habis. Sekarang saya nggak punya motor, nggak punya kerja.\nPETUGAS: Harus ada bukti usaha mandiri.\nDARTO: Motor saya itu bukti usaha saya, Bu.",
+    "sfx": [],
+    "background": "Kantor pelayanan",
+    "safeArea": "primary actor face/hands or named evidence/phone; use per-ratio layout; platform overlays still require client safe-zone values",
+    "transition": "hard cut at authored scene boundary; use prop/eyeline match only when supported by adjacent staging",
+    "objective": "Darto kembali setelah uang habis, kini kehilangan ongkos kerja.",
+    "visualMetaphor": "The named document/prop carries the conflict into a readable evidence insert; it does not imply independent factual proof.",
+    "hierarchy": "named prop/evidence > acting context > dialogue caption",
+    "templateId": "CARTOON-EVIDENCE-INSERT",
+    "entrance": {
+      "type": "short ease-out opacity/vertical settle",
+      "startFrame": 1680,
+      "durationFrames": 12
+    },
+    "hold": {
+      "startFrame": 1692,
+      "durationFrames": 468
+    },
+    "exit": {
+      "type": "motivated editorial cut at scene end",
+      "frame": 2160
+    }
+  },
+  {
+    "id": "01-06",
+    "startFrame": 2160,
+    "durationFrames": 540,
+    "description": "Telepon anak mematahkan komedi.",
+    "characters": [
+      "Darto",
+      "Anak"
+    ],
+    "poses": [
+      "concern",
+      "held"
+    ],
+    "camera": {
+      "type": "authored",
+      "description": "Close-up ponsel retak; pull-back panjang ke bangku kosong."
+    },
+    "dialogue": "ANAK (telepon): Pak, hari ini kita makan apa?\nDARTO: ...Bapak usahakan, Nak.\nPENGERAS SUARA: Tidak ada warga yang tertinggal.",
+    "sfx": [],
+    "background": "Teras kantor",
+    "safeArea": "primary actor face/hands or named evidence/phone; use per-ratio layout; platform overlays still require client safe-zone values",
+    "transition": "hard cut at authored scene boundary; use prop/eyeline match only when supported by adjacent staging",
+    "objective": "Telepon anak mematahkan komedi.",
+    "visualMetaphor": "The phone/message surface stands in for mediated attention; message order follows source script, not inferred audio timing.",
+    "hierarchy": "source dialogue bubbles > speaker context > set",
+    "templateId": "CARTOON-MESSAGE-POV",
+    "entrance": {
+      "type": "short ease-out opacity/vertical settle",
+      "startFrame": 2160,
+      "durationFrames": 12
+    },
+    "hold": {
+      "startFrame": 2172,
+      "durationFrames": 528
+    },
+    "exit": {
+      "type": "motivated editorial cut at scene end",
+      "frame": 2700
+    }
+  },
+  {
+    "id": "02-01",
+    "startFrame": 0,
+    "durationFrames": 360,
+    "description": "Nina memperkenalkan diri.",
+    "characters": [
+      "Nina",
+      "HR"
+    ],
+    "poses": [
+      "listen",
+      "speak",
+      "hold"
+    ],
+    "camera": {
+      "type": "push-in",
+      "description": "Wide simetris, push-in pada Nina."
+    },
+    "dialogue": "HR: Posisi ini untuk pemula, ya.\nNINA: Syukurlah, Pak. Ini lamaran pertama saya.\nHR: Pengalaman lima tahun ada?",
+    "sfx": [],
+    "background": "Ruang wawancara",
+    "safeArea": "primary actor face/hands or named evidence/phone; use per-ratio layout; platform overlays still require client safe-zone values",
+    "transition": "opening into first scripted action; hard cut, no unmotivated effect",
+    "objective": "Nina memperkenalkan diri.",
+    "visualMetaphor": "Character distance, gaze and gesture stage the stated conflict; movement is limited to the scene beat.",
+    "hierarchy": "face/hand acting > dialogue caption > location set",
+    "templateId": "CARTOON-STAGE-DIALOGUE",
+    "entrance": {
+      "type": "short ease-out opacity/vertical settle",
+      "startFrame": 0,
+      "durationFrames": 12
+    },
+    "hold": {
+      "startFrame": 12,
+      "durationFrames": 348
+    },
+    "exit": {
+      "type": "motivated editorial cut at scene end",
+      "frame": 360
+    }
+  },
+  {
+    "id": "02-02",
+    "startFrame": 360,
+    "durationFrames": 480,
+    "description": "Nina mempertanyakan syarat.",
+    "characters": [
+      "Nina",
+      "HR"
+    ],
+    "poses": [
+      "listen",
+      "speak",
+      "hold"
+    ],
+    "camera": {
+      "type": "authored",
+      "description": "Shot-reverse-shot dengan framing HR lebih tinggi."
+    },
+    "dialogue": "NINA: Kalau sudah lima tahun, masih disebut pemula?\nHR: Pemula di perusahaan kami.\nNINA: Jadi pemula yang berpengalaman?\nHR: Tepat.",
+    "sfx": [],
+    "background": "Ruang wawancara",
+    "safeArea": "primary actor face/hands or named evidence/phone; use per-ratio layout; platform overlays still require client safe-zone values",
+    "transition": "hard cut at authored scene boundary; use prop/eyeline match only when supported by adjacent staging",
+    "objective": "Nina mempertanyakan syarat.",
+    "visualMetaphor": "Character distance, gaze and gesture stage the stated conflict; movement is limited to the scene beat.",
+    "hierarchy": "face/hand acting > dialogue caption > location set",
+    "templateId": "CARTOON-STAGE-DIALOGUE",
+    "entrance": {
+      "type": "short ease-out opacity/vertical settle",
+      "startFrame": 360,
+      "durationFrames": 12
+    },
+    "hold": {
+      "startFrame": 372,
+      "durationFrames": 468
+    },
+    "exit": {
+      "type": "motivated editorial cut at scene end",
+      "frame": 840
+    }
+  },
+  {
+    "id": "02-03",
+    "startFrame": 840,
+    "durationFrames": 450,
+    "description": "Nina menawarkan magang.",
+    "characters": [
+      "Nina",
+      "HR"
+    ],
+    "poses": [
+      "listen",
+      "speak",
+      "hold"
+    ],
+    "camera": {
+      "type": "authored",
+      "description": "Tracking samping saat HR mengantar Nina keluar."
+    },
+    "dialogue": "NINA: Saya magang dulu, tanpa gaji pun boleh.\nHR: Magang hanya untuk mahasiswa aktif.\nNINA: Saya sudah lulus.\nHR: Itu kendalanya.",
+    "sfx": [],
+    "background": "Koridor kantor",
+    "safeArea": "primary actor face/hands or named evidence/phone; use per-ratio layout; platform overlays still require client safe-zone values",
+    "transition": "hard cut at authored scene boundary; use prop/eyeline match only when supported by adjacent staging",
+    "objective": "Nina menawarkan magang.",
+    "visualMetaphor": "Character distance, gaze and gesture stage the stated conflict; movement is limited to the scene beat.",
+    "hierarchy": "face/hand acting > dialogue caption > location set",
+    "templateId": "CARTOON-STAGE-DIALOGUE",
+    "entrance": {
+      "type": "short ease-out opacity/vertical settle",
+      "startFrame": 840,
+      "durationFrames": 12
+    },
+    "hold": {
+      "startFrame": 852,
+      "durationFrames": 438
+    },
+    "exit": {
+      "type": "motivated editorial cut at scene end",
+      "frame": 1290
+    }
+  },
+  {
+    "id": "02-04",
+    "startFrame": 1290,
+    "durationFrames": 480,
+    "description": "Nina membaca pesan ibunya.",
+    "characters": [
+      "Nina",
+      "Ibu"
+    ],
+    "poses": [
+      "listen",
+      "speak",
+      "hold"
+    ],
+    "camera": {
+      "type": "authored",
+      "description": "Close-up layar ponsel, tilt ke mata Nina."
+    },
+    "dialogue": "IBU (pesan suara): Obat Ibu tinggal dua hari. Kamu nggak usah buru-buru, ya.\nNINA (pelan): Justru itu, Bu.",
+    "sfx": [],
+    "background": "Halte",
+    "safeArea": "primary actor face/hands or named evidence/phone; use per-ratio layout; platform overlays still require client safe-zone values",
+    "transition": "hard cut at authored scene boundary; use prop/eyeline match only when supported by adjacent staging",
+    "objective": "Nina membaca pesan ibunya.",
+    "visualMetaphor": "The phone/message surface stands in for mediated attention; message order follows source script, not inferred audio timing.",
+    "hierarchy": "source dialogue bubbles > speaker context > set",
+    "templateId": "CARTOON-MESSAGE-POV",
+    "entrance": {
+      "type": "short ease-out opacity/vertical settle",
+      "startFrame": 1290,
+      "durationFrames": 12
+    },
+    "hold": {
+      "startFrame": 1302,
+      "durationFrames": 468
+    },
+    "exit": {
+      "type": "motivated editorial cut at scene end",
+      "frame": 1770
+    }
+  },
+  {
+    "id": "02-05",
+    "startFrame": 1770,
+    "durationFrames": 480,
+    "description": "Lowongan kedua mensyaratkan pengalaman identik.",
+    "characters": [
+      "Nina"
+    ],
+    "poses": [
+      "listen",
+      "speak",
+      "hold"
+    ],
+    "camera": {
+      "type": "authored",
+      "description": "Montase tiga meja berbeda dengan latar berubah warna."
+    },
+    "dialogue": "PEWAWANCARA 2: Kenapa ada jeda menganggur?\nNINA: Saya sedang mencari pekerjaan.\nPEWAWANCARA 2: Kami cari yang proaktif.",
+    "sfx": [],
+    "background": "Kantor lain",
+    "safeArea": "primary actor face/hands or named evidence/phone; use per-ratio layout; platform overlays still require client safe-zone values",
+    "transition": "hard cut at authored scene boundary; use prop/eyeline match only when supported by adjacent staging",
+    "objective": "Lowongan kedua mensyaratkan pengalaman identik.",
+    "visualMetaphor": "Character distance, gaze and gesture stage the stated conflict; movement is limited to the scene beat.",
+    "hierarchy": "face/hand acting > dialogue caption > location set",
+    "templateId": "CARTOON-STAGE-DIALOGUE",
+    "entrance": {
+      "type": "short ease-out opacity/vertical settle",
+      "startFrame": 1770,
+      "durationFrames": 12
+    },
+    "hold": {
+      "startFrame": 1782,
+      "durationFrames": 468
+    },
+    "exit": {
+      "type": "motivated editorial cut at scene end",
+      "frame": 2250
+    }
+  },
+  {
+    "id": "02-06",
+    "startFrame": 2250,
+    "durationFrames": 450,
+    "description": "Nina menerima tawaran kerja tanpa perlindungan.",
+    "characters": [
+      "Nina"
+    ],
+    "poses": [
+      "concern",
+      "held"
+    ],
+    "camera": {
+      "type": "authored",
+      "description": "Extreme close-up tombol terima; wide Nina sendirian."
+    },
+    "dialogue": "PEREKRUT (telepon): Kerja mulai besok. Bayar per target, tanpa kontrak.\nNINA: ...Saya datang.",
+    "sfx": [],
+    "background": "Halte malam",
+    "safeArea": "primary actor face/hands or named evidence/phone; use per-ratio layout; platform overlays still require client safe-zone values",
+    "transition": "hard cut at authored scene boundary; use prop/eyeline match only when supported by adjacent staging",
+    "objective": "Nina menerima tawaran kerja tanpa perlindungan.",
+    "visualMetaphor": "The phone/message surface stands in for mediated attention; message order follows source script, not inferred audio timing.",
+    "hierarchy": "source dialogue bubbles > speaker context > set",
+    "templateId": "CARTOON-MESSAGE-POV",
+    "entrance": {
+      "type": "short ease-out opacity/vertical settle",
+      "startFrame": 2250,
+      "durationFrames": 12
+    },
+    "hold": {
+      "startFrame": 2262,
+      "durationFrames": 438
+    },
+    "exit": {
+      "type": "motivated editorial cut at scene end",
+      "frame": 2700
+    }
+  },
+  {
+    "id": "03-01",
+    "startFrame": 0,
+    "durationFrames": 330,
+    "description": "Pria terperosok.",
+    "characters": [
+      "Pria",
+      "Influencer"
+    ],
+    "poses": [
+      "listen",
+      "speak",
+      "hold"
+    ],
+    "camera": {
+      "type": "authored",
+      "description": "Wide jalan lalu whip-pan ke selokan."
+    },
+    "dialogue": "PRIA: Tolong! Kaki saya kejepit!\nINFLUENCER: Ya ampun! Saya bantu, Pak!",
+    "sfx": [],
+    "background": "Selokan jalan",
+    "safeArea": "primary actor face/hands or named evidence/phone; use per-ratio layout; platform overlays still require client safe-zone values",
+    "transition": "opening into first scripted action; hard cut, no unmotivated effect",
+    "objective": "Pria terperosok.",
+    "visualMetaphor": "Character distance, gaze and gesture stage the stated conflict; movement is limited to the scene beat.",
+    "hierarchy": "face/hand acting > dialogue caption > location set",
+    "templateId": "CARTOON-STAGE-DIALOGUE",
+    "entrance": {
+      "type": "short ease-out opacity/vertical settle",
+      "startFrame": 0,
+      "durationFrames": 12
+    },
+    "hold": {
+      "startFrame": 12,
+      "durationFrames": 318
+    },
+    "exit": {
+      "type": "motivated editorial cut at scene end",
+      "frame": 330
+    }
+  },
+  {
+    "id": "03-02",
+    "startFrame": 330,
+    "durationFrames": 450,
+    "description": "Influencer memasang tripod.",
+    "characters": [
+      "Pria",
+      "Influencer"
+    ],
+    "poses": [
+      "anticipate",
+      "gesture",
+      "settle"
+    ],
+    "camera": {
+      "type": "authored",
+      "description": "Close-up tripod membuka; low angle influencer."
+    },
+    "dialogue": "PRIA: Tarik tangan saya!\nINFLUENCER: Sebentar, Pak. Lighting-nya jelek.",
+    "sfx": [],
+    "background": "Pinggir selokan",
+    "safeArea": "primary actor face/hands or named evidence/phone; use per-ratio layout; platform overlays still require client safe-zone values",
+    "transition": "hard cut at authored scene boundary; use prop/eyeline match only when supported by adjacent staging",
+    "objective": "Influencer memasang tripod.",
+    "visualMetaphor": "The named document/prop carries the conflict into a readable evidence insert; it does not imply independent factual proof.",
+    "hierarchy": "named prop/evidence > acting context > dialogue caption",
+    "templateId": "CARTOON-EVIDENCE-INSERT",
+    "entrance": {
+      "type": "short ease-out opacity/vertical settle",
+      "startFrame": 330,
+      "durationFrames": 12
+    },
+    "hold": {
+      "startFrame": 342,
+      "durationFrames": 438
+    },
+    "exit": {
+      "type": "motivated editorial cut at scene end",
+      "frame": 780
+    }
+  },
+  {
+    "id": "03-03",
+    "startFrame": 780,
+    "durationFrames": 480,
+    "description": "Pengambilan ulang ekspresi simpati.",
+    "characters": [
+      "Pria",
+      "Influencer"
+    ],
+    "poses": [
+      "listen",
+      "speak",
+      "hold"
+    ],
+    "camera": {
+      "type": "authored",
+      "description": "Split-screen kamera ponsel vs kejadian asli."
+    },
+    "dialogue": "INFLUENCER: Guys, ini bukti kita harus peduli... Eh, ulang.\nPRIA: Saya ini bukan figuran, Mas!",
+    "sfx": [],
+    "background": "Pinggir selokan",
+    "safeArea": "primary actor face/hands or named evidence/phone; use per-ratio layout; platform overlays still require client safe-zone values",
+    "transition": "hard cut at authored scene boundary; use prop/eyeline match only when supported by adjacent staging",
+    "objective": "Pengambilan ulang ekspresi simpati.",
+    "visualMetaphor": "The phone/message surface stands in for mediated attention; message order follows source script, not inferred audio timing.",
+    "hierarchy": "source dialogue bubbles > speaker context > set",
+    "templateId": "CARTOON-MESSAGE-POV",
+    "entrance": {
+      "type": "short ease-out opacity/vertical settle",
+      "startFrame": 780,
+      "durationFrames": 12
+    },
+    "hold": {
+      "startFrame": 792,
+      "durationFrames": 468
+    },
+    "exit": {
+      "type": "motivated editorial cut at scene end",
+      "frame": 1260
+    }
+  },
+  {
+    "id": "03-04",
+    "startFrame": 1260,
+    "durationFrames": 420,
+    "description": "Anak membawa tali tapi dihalangi.",
+    "characters": [
+      "Influencer",
+      "Anak"
+    ],
+    "poses": [
+      "anticipate",
+      "gesture",
+      "settle"
+    ],
+    "camera": {
+      "type": "authored",
+      "description": "Overhead memperlihatkan posisi tali dan tripod."
+    },
+    "dialogue": "ANAK: Om, pakai tali ini!\nINFLUENCER: Geser! Nutupin frame!\nANAK: Bapak itu butuh tangan, bukan penonton.",
+    "sfx": [],
+    "background": "Pinggir selokan",
+    "safeArea": "primary actor face/hands or named evidence/phone; use per-ratio layout; platform overlays still require client safe-zone values",
+    "transition": "hard cut at authored scene boundary; use prop/eyeline match only when supported by adjacent staging",
+    "objective": "Anak membawa tali tapi dihalangi.",
+    "visualMetaphor": "Character distance, gaze and gesture stage the stated conflict; movement is limited to the scene beat.",
+    "hierarchy": "face/hand acting > dialogue caption > location set",
+    "templateId": "CARTOON-STAGE-DIALOGUE",
+    "entrance": {
+      "type": "short ease-out opacity/vertical settle",
+      "startFrame": 1260,
+      "durationFrames": 12
+    },
+    "hold": {
+      "startFrame": 1272,
+      "durationFrames": 408
+    },
+    "exit": {
+      "type": "motivated editorial cut at scene end",
+      "frame": 1680
+    }
+  },
+  {
+    "id": "03-05",
+    "startFrame": 1680,
+    "durationFrames": 510,
+    "description": "Petugas kebersihan membantu menarik.",
+    "characters": [
+      "Pria",
+      "Petugas kebersihan"
+    ],
+    "poses": [
+      "anticipate",
+      "gesture",
+      "settle"
+    ],
+    "camera": {
+      "type": "authored",
+      "description": "Side-on staging seluruh tubuh; close-up simpul tali."
+    },
+    "dialogue": "PETUGAS: Pegang kuat, Pak. Satu, dua, tiga!\nPRIA: Huh... makasih.",
+    "sfx": [],
+    "background": "Pinggir selokan",
+    "safeArea": "primary actor face/hands or named evidence/phone; use per-ratio layout; platform overlays still require client safe-zone values",
+    "transition": "hard cut at authored scene boundary; use prop/eyeline match only when supported by adjacent staging",
+    "objective": "Petugas kebersihan membantu menarik.",
+    "visualMetaphor": "The named document/prop carries the conflict into a readable evidence insert; it does not imply independent factual proof.",
+    "hierarchy": "named prop/evidence > acting context > dialogue caption",
+    "templateId": "CARTOON-EVIDENCE-INSERT",
+    "entrance": {
+      "type": "short ease-out opacity/vertical settle",
+      "startFrame": 1680,
+      "durationFrames": 12
+    },
+    "hold": {
+      "startFrame": 1692,
+      "durationFrames": 498
+    },
+    "exit": {
+      "type": "motivated editorial cut at scene end",
+      "frame": 2190
+    }
+  },
+  {
+    "id": "03-06",
+    "startFrame": 2190,
+    "durationFrames": 510,
+    "description": "Influencer mengambil kredit.",
+    "characters": [
+      "Influencer",
+      "Petugas kebersihan"
+    ],
+    "poses": [
+      "listen",
+      "speak",
+      "hold"
+    ],
+    "camera": {
+      "type": "authored",
+      "description": "Freeze 8 frame pada senyum influencer lalu cut ke petugas berjalan."
+    },
+    "dialogue": "INFLUENCER (ke kamera): Kebaikan nggak perlu dipamerkan.\nPETUGAS: Kalau begitu, tolong minggir. Saya mau kerja.",
+    "sfx": [],
+    "background": "Jalan",
+    "safeArea": "primary actor face/hands or named evidence/phone; use per-ratio layout; platform overlays still require client safe-zone values",
+    "transition": "hard cut at authored scene boundary; use prop/eyeline match only when supported by adjacent staging",
+    "objective": "Influencer mengambil kredit.",
+    "visualMetaphor": "The named document/prop carries the conflict into a readable evidence insert; it does not imply independent factual proof.",
+    "hierarchy": "named prop/evidence > acting context > dialogue caption",
+    "templateId": "CARTOON-EVIDENCE-INSERT",
+    "entrance": {
+      "type": "short ease-out opacity/vertical settle",
+      "startFrame": 2190,
+      "durationFrames": 12
+    },
+    "hold": {
+      "startFrame": 2202,
+      "durationFrames": 498
+    },
+    "exit": {
+      "type": "motivated editorial cut at scene end",
+      "frame": 2700
+    }
+  },
+  {
+    "id": "04-01",
+    "startFrame": 0,
+    "durationFrames": 390,
+    "description": "Spanduk sekolah gratis.",
+    "characters": [
+      "Ibu Sari"
+    ],
+    "poses": [
+      "listen",
+      "speak",
+      "hold"
+    ],
+    "camera": {
+      "type": "authored",
+      "description": "Wide spanduk, tilt ke tangan Sari memegang uang receh."
+    },
+    "dialogue": "KEPALA SEKOLAH (pengeras suara): Pendidikan di sini gratis!\nSARI: Alhamdulillah, Ran.",
+    "sfx": [],
+    "background": "Aula sekolah",
+    "safeArea": "primary actor face/hands or named evidence/phone; use per-ratio layout; platform overlays still require client safe-zone values",
+    "transition": "opening into first scripted action; hard cut, no unmotivated effect",
+    "objective": "Spanduk sekolah gratis.",
+    "visualMetaphor": "Character distance, gaze and gesture stage the stated conflict; movement is limited to the scene beat.",
+    "hierarchy": "face/hand acting > dialogue caption > location set",
+    "templateId": "CARTOON-STAGE-DIALOGUE",
+    "entrance": {
+      "type": "short ease-out opacity/vertical settle",
+      "startFrame": 0,
+      "durationFrames": 12
+    },
+    "hold": {
+      "startFrame": 12,
+      "durationFrames": 378
+    },
+    "exit": {
+      "type": "motivated editorial cut at scene end",
+      "frame": 390
+    }
+  },
+  {
+    "id": "04-02",
+    "startFrame": 390,
+    "durationFrames": 450,
+    "description": "Muncul rincian biaya.",
+    "characters": [
+      "Ibu Sari",
+      "Bendahara"
+    ],
+    "poses": [
+      "listen",
+      "speak",
+      "hold"
+    ],
+    "camera": {
+      "type": "authored",
+      "description": "Top-down daftar biaya memanjang melewati frame."
+    },
+    "dialogue": "BENDAHARA: Seragam tambahan, buku paket, kegiatan kelas.\nSARI: Katanya gratis?\nBENDAHARA: Belajarnya gratis, Bu.",
+    "sfx": [],
+    "background": "Loket administrasi",
+    "safeArea": "primary actor face/hands or named evidence/phone; use per-ratio layout; platform overlays still require client safe-zone values",
+    "transition": "hard cut at authored scene boundary; use prop/eyeline match only when supported by adjacent staging",
+    "objective": "Muncul rincian biaya.",
+    "visualMetaphor": "Character distance, gaze and gesture stage the stated conflict; movement is limited to the scene beat.",
+    "hierarchy": "face/hand acting > dialogue caption > location set",
+    "templateId": "CARTOON-STAGE-DIALOGUE",
+    "entrance": {
+      "type": "short ease-out opacity/vertical settle",
+      "startFrame": 390,
+      "durationFrames": 12
+    },
+    "hold": {
+      "startFrame": 402,
+      "durationFrames": 438
+    },
+    "exit": {
+      "type": "motivated editorial cut at scene end",
+      "frame": 840
+    }
+  },
+  {
+    "id": "04-03",
+    "startFrame": 840,
+    "durationFrames": 480,
+    "description": "Sumbangan disebut sukarela.",
+    "characters": [
+      "Ibu Sari",
+      "Bendahara"
+    ],
+    "poses": [
+      "listen",
+      "speak",
+      "hold"
+    ],
+    "camera": {
+      "type": "push-in",
+      "description": "Two-shot, slow push-in ke buku daftar."
+    },
+    "dialogue": "SARI: Kalau belum sanggup, boleh nggak bayar?\nBENDAHARA: Boleh, sukarela. Tapi nama anak yang belum setor kami catat.",
+    "sfx": [],
+    "background": "Loket",
+    "safeArea": "primary actor face/hands or named evidence/phone; use per-ratio layout; platform overlays still require client safe-zone values",
+    "transition": "hard cut at authored scene boundary; use prop/eyeline match only when supported by adjacent staging",
+    "objective": "Sumbangan disebut sukarela.",
+    "visualMetaphor": "Character distance, gaze and gesture stage the stated conflict; movement is limited to the scene beat.",
+    "hierarchy": "face/hand acting > dialogue caption > location set",
+    "templateId": "CARTOON-STAGE-DIALOGUE",
+    "entrance": {
+      "type": "short ease-out opacity/vertical settle",
+      "startFrame": 840,
+      "durationFrames": 12
+    },
+    "hold": {
+      "startFrame": 852,
+      "durationFrames": 468
+    },
+    "exit": {
+      "type": "motivated editorial cut at scene end",
+      "frame": 1320
+    }
+  },
+  {
+    "id": "04-04",
+    "startFrame": 1320,
+    "durationFrames": 480,
+    "description": "Rani tidak mendapat perlengkapan kegiatan.",
+    "characters": [
+      "Rani",
+      "Guru"
+    ],
+    "poses": [
+      "concern",
+      "held"
+    ],
+    "camera": {
+      "type": "authored",
+      "description": "Wide meja teman lengkap, meja Rani kosong."
+    },
+    "dialogue": "GURU: Yang sudah dapat paket, silakan mulai.\nRANI: Bu, saya boleh pinjam punya teman?\nGURU: Tunggu sebentar, ya.",
+    "sfx": [],
+    "background": "Kelas",
+    "safeArea": "primary actor face/hands or named evidence/phone; use per-ratio layout; platform overlays still require client safe-zone values",
+    "transition": "hard cut at authored scene boundary; use prop/eyeline match only when supported by adjacent staging",
+    "objective": "Rani tidak mendapat perlengkapan kegiatan.",
+    "visualMetaphor": "Character distance, gaze and gesture stage the stated conflict; movement is limited to the scene beat.",
+    "hierarchy": "face/hand acting > dialogue caption > location set",
+    "templateId": "CARTOON-STAGE-DIALOGUE",
+    "entrance": {
+      "type": "short ease-out opacity/vertical settle",
+      "startFrame": 1320,
+      "durationFrames": 12
+    },
+    "hold": {
+      "startFrame": 1332,
+      "durationFrames": 468
+    },
+    "exit": {
+      "type": "motivated editorial cut at scene end",
+      "frame": 1800
+    }
+  },
+  {
+    "id": "04-05",
+    "startFrame": 1800,
+    "durationFrames": 480,
+    "description": "Sari menghitung uang dan kebutuhan.",
+    "characters": [
+      "Ibu Sari",
+      "Rani"
+    ],
+    "poses": [
+      "listen",
+      "speak",
+      "hold"
+    ],
+    "camera": {
+      "type": "authored",
+      "description": "Close-up uang, obat, dan buku; tilt ke Rani."
+    },
+    "dialogue": "RANI: Nggak usah bayar, Bu. Aku bisa lihat aja.\nSARI: Kamu sekolah buat belajar, bukan buat jadi penonton.",
+    "sfx": [],
+    "background": "Rumah",
+    "safeArea": "primary actor face/hands or named evidence/phone; use per-ratio layout; platform overlays still require client safe-zone values",
+    "transition": "hard cut at authored scene boundary; use prop/eyeline match only when supported by adjacent staging",
+    "objective": "Sari menghitung uang dan kebutuhan.",
+    "visualMetaphor": "The named document/prop carries the conflict into a readable evidence insert; it does not imply independent factual proof.",
+    "hierarchy": "named prop/evidence > acting context > dialogue caption",
+    "templateId": "CARTOON-EVIDENCE-INSERT",
+    "entrance": {
+      "type": "short ease-out opacity/vertical settle",
+      "startFrame": 1800,
+      "durationFrames": 12
+    },
+    "hold": {
+      "startFrame": 1812,
+      "durationFrames": 468
+    },
+    "exit": {
+      "type": "motivated editorial cut at scene end",
+      "frame": 2280
+    }
+  },
+  {
+    "id": "04-06",
+    "startFrame": 2280,
+    "durationFrames": 420,
+    "description": "Sari menyerahkan uang dari pesanan jahitan.",
+    "characters": [
+      "Bendahara"
+    ],
+    "poses": [
+      "anticipate",
+      "gesture",
+      "settle"
+    ],
+    "camera": {
+      "type": "authored",
+      "description": "Close-up tangan menyerahkan amplop, wide Rani masuk sekolah."
+    },
+    "dialogue": "BENDAHARA: Terima kasih atas sumbangan sukarelanya.\nSARI (lirih): Iya... sukarela.",
+    "sfx": [],
+    "background": "Gerbang sekolah",
+    "safeArea": "primary actor face/hands or named evidence/phone; use per-ratio layout; platform overlays still require client safe-zone values",
+    "transition": "hard cut at authored scene boundary; use prop/eyeline match only when supported by adjacent staging",
+    "objective": "Sari menyerahkan uang dari pesanan jahitan.",
+    "visualMetaphor": "The phone/message surface stands in for mediated attention; message order follows source script, not inferred audio timing.",
+    "hierarchy": "source dialogue bubbles > speaker context > set",
+    "templateId": "CARTOON-MESSAGE-POV",
+    "entrance": {
+      "type": "short ease-out opacity/vertical settle",
+      "startFrame": 2280,
+      "durationFrames": 12
+    },
+    "hold": {
+      "startFrame": 2292,
+      "durationFrames": 408
+    },
+    "exit": {
+      "type": "motivated editorial cut at scene end",
+      "frame": 2700
+    }
+  },
+  {
+    "id": "05-01",
+    "startFrame": 0,
+    "durationFrames": 360,
+    "description": "Mira mengangkat barang dagangan.",
+    "characters": [
+      "Mira",
+      "Anak Mira"
+    ],
+    "poses": [
+      "anticipate",
+      "gesture",
+      "settle"
+    ],
+    "camera": {
+      "type": "authored",
+      "description": "Wide aerial sederhana, tilt turun ke rumah."
+    },
+    "dialogue": "ANAK: Bu, airnya masuk lagi!\nMIRA: Naikkan beras ke meja!",
+    "sfx": [],
+    "background": "Kampung tergenang",
+    "safeArea": "primary actor face/hands or named evidence/phone; use per-ratio layout; platform overlays still require client safe-zone values",
+    "transition": "opening into first scripted action; hard cut, no unmotivated effect",
+    "objective": "Mira mengangkat barang dagangan.",
+    "visualMetaphor": "Character distance, gaze and gesture stage the stated conflict; movement is limited to the scene beat.",
+    "hierarchy": "face/hand acting > dialogue caption > location set",
+    "templateId": "CARTOON-STAGE-DIALOGUE",
+    "entrance": {
+      "type": "short ease-out opacity/vertical settle",
+      "startFrame": 0,
+      "durationFrames": 12
+    },
+    "hold": {
+      "startFrame": 12,
+      "durationFrames": 348
+    },
+    "exit": {
+      "type": "motivated editorial cut at scene end",
+      "frame": 360
+    }
+  },
+  {
+    "id": "05-02",
+    "startFrame": 360,
+    "durationFrames": 450,
+    "description": "Air dari saluran baru mengarah ke kampung.",
+    "characters": [
+      "Mira",
+      "Anak Mira"
+    ],
+    "poses": [
+      "listen",
+      "speak",
+      "hold"
+    ],
+    "camera": {
+      "type": "authored",
+      "description": "Pan mengikuti aliran air ke dinding kompleks."
+    },
+    "dialogue": "MIRA: Dulu air lewat parit sana. Sekarang ketutup tembok.\nTETANGGA: Mereka bilang ini modernisasi.",
+    "sfx": [],
+    "background": "Batas tembok kompleks",
+    "safeArea": "primary actor face/hands or named evidence/phone; use per-ratio layout; platform overlays still require client safe-zone values",
+    "transition": "hard cut at authored scene boundary; use prop/eyeline match only when supported by adjacent staging",
+    "objective": "Air dari saluran baru mengarah ke kampung.",
+    "visualMetaphor": "Character distance, gaze and gesture stage the stated conflict; movement is limited to the scene beat.",
+    "hierarchy": "face/hand acting > dialogue caption > location set",
+    "templateId": "CARTOON-STAGE-DIALOGUE",
+    "entrance": {
+      "type": "short ease-out opacity/vertical settle",
+      "startFrame": 360,
+      "durationFrames": 12
+    },
+    "hold": {
+      "startFrame": 372,
+      "durationFrames": 438
+    },
+    "exit": {
+      "type": "motivated editorial cut at scene end",
+      "frame": 810
+    }
+  },
+  {
+    "id": "05-03",
+    "startFrame": 810,
+    "durationFrames": 480,
+    "description": "Humas mengeluarkan pernyataan.",
+    "characters": [
+      "Mira",
+      "Anak Mira",
+      "Humas"
+    ],
+    "poses": [
+      "listen",
+      "speak",
+      "hold"
+    ],
+    "camera": {
+      "type": "authored",
+      "description": "Low angle humas di podium; reverse ke sandal Mira basah."
+    },
+    "dialogue": "HUMAS: Banjir ini akibat cuaca ekstrem.\nMIRA: Tapi saluran yang lama ditutup.\nHUMAS: Itu masih perlu kajian.",
+    "sfx": [],
+    "background": "Posko pengembang",
+    "safeArea": "primary actor face/hands or named evidence/phone; use per-ratio layout; platform overlays still require client safe-zone values",
+    "transition": "hard cut at authored scene boundary; use prop/eyeline match only when supported by adjacent staging",
+    "objective": "Humas mengeluarkan pernyataan.",
+    "visualMetaphor": "Character distance, gaze and gesture stage the stated conflict; movement is limited to the scene beat.",
+    "hierarchy": "face/hand acting > dialogue caption > location set",
+    "templateId": "CARTOON-STAGE-DIALOGUE",
+    "entrance": {
+      "type": "short ease-out opacity/vertical settle",
+      "startFrame": 810,
+      "durationFrames": 12
+    },
+    "hold": {
+      "startFrame": 822,
+      "durationFrames": 468
+    },
+    "exit": {
+      "type": "motivated editorial cut at scene end",
+      "frame": 1290
+    }
+  },
+  {
+    "id": "05-04",
+    "startFrame": 1290,
+    "durationFrames": 450,
+    "description": "Petugas meminta laporan tertulis.",
+    "characters": [
+      "Mira",
+      "Anak Mira",
+      "Petugas"
+    ],
+    "poses": [
+      "listen",
+      "speak",
+      "hold"
+    ],
+    "camera": {
+      "type": "authored",
+      "description": "Insert formulir dan foto rumah."
+    },
+    "dialogue": "PETUGAS: Bukti teknisnya ada?\nMIRA: Rumah saya terendam.\nPETUGAS: Itu bukti dampak, bukan penyebab.",
+    "sfx": [],
+    "background": "Balai warga",
+    "safeArea": "primary actor face/hands or named evidence/phone; use per-ratio layout; platform overlays still require client safe-zone values",
+    "transition": "hard cut at authored scene boundary; use prop/eyeline match only when supported by adjacent staging",
+    "objective": "Petugas meminta laporan tertulis.",
+    "visualMetaphor": "The named document/prop carries the conflict into a readable evidence insert; it does not imply independent factual proof.",
+    "hierarchy": "named prop/evidence > acting context > dialogue caption",
+    "templateId": "CARTOON-EVIDENCE-INSERT",
+    "entrance": {
+      "type": "short ease-out opacity/vertical settle",
+      "startFrame": 1290,
+      "durationFrames": 12
+    },
+    "hold": {
+      "startFrame": 1302,
+      "durationFrames": 438
+    },
+    "exit": {
+      "type": "motivated editorial cut at scene end",
+      "frame": 1740
+    }
+  },
+  {
+    "id": "05-05",
+    "startFrame": 1740,
+    "durationFrames": 480,
+    "description": "Anak mencari buku sekolah yang basah.",
+    "characters": [
+      "Mira",
+      "Anak Mira"
+    ],
+    "poses": [
+      "listen",
+      "speak",
+      "hold"
+    ],
+    "camera": {
+      "type": "authored",
+      "description": "Close-up halaman buku luntur; hold mata anak."
+    },
+    "dialogue": "ANAK: Bu, tugas sekolahku hilang.\nMIRA: Kita jemur lagi, ya.\nANAK: Kalau hujan besok?",
+    "sfx": [],
+    "background": "Rumah Mira",
+    "safeArea": "primary actor face/hands or named evidence/phone; use per-ratio layout; platform overlays still require client safe-zone values",
+    "transition": "hard cut at authored scene boundary; use prop/eyeline match only when supported by adjacent staging",
+    "objective": "Anak mencari buku sekolah yang basah.",
+    "visualMetaphor": "The named document/prop carries the conflict into a readable evidence insert; it does not imply independent factual proof.",
+    "hierarchy": "named prop/evidence > acting context > dialogue caption",
+    "templateId": "CARTOON-EVIDENCE-INSERT",
+    "entrance": {
+      "type": "short ease-out opacity/vertical settle",
+      "startFrame": 1740,
+      "durationFrames": 12
+    },
+    "hold": {
+      "startFrame": 1752,
+      "durationFrames": 468
+    },
+    "exit": {
+      "type": "motivated editorial cut at scene end",
+      "frame": 2220
+    }
+  },
+  {
+    "id": "05-06",
+    "startFrame": 2220,
+    "durationFrames": 480,
+    "description": "Billboard hunian menampilkan slogan “Hidup Lebih Tinggi”.",
+    "characters": [
+      "Mira",
+      "Anak Mira",
+      "Humas"
+    ],
+    "poses": [
+      "listen",
+      "speak",
+      "hold"
+    ],
+    "camera": {
+      "type": "authored",
+      "description": "Tilt dari air setinggi lutut ke billboard tinggi."
+    },
+    "dialogue": "HUMAS (iklan): Tingkatkan kualitas hidup Anda.\nMIRA: Airnya juga ikut ditingkatkan.",
+    "sfx": [],
+    "background": "Tembok kompleks",
+    "safeArea": "primary actor face/hands or named evidence/phone; use per-ratio layout; platform overlays still require client safe-zone values",
+    "transition": "hard cut at authored scene boundary; use prop/eyeline match only when supported by adjacent staging",
+    "objective": "Billboard hunian menampilkan slogan “Hidup Lebih Tinggi”.",
+    "visualMetaphor": "Character distance, gaze and gesture stage the stated conflict; movement is limited to the scene beat.",
+    "hierarchy": "face/hand acting > dialogue caption > location set",
+    "templateId": "CARTOON-STAGE-DIALOGUE",
+    "entrance": {
+      "type": "short ease-out opacity/vertical settle",
+      "startFrame": 2220,
+      "durationFrames": 12
+    },
+    "hold": {
+      "startFrame": 2232,
+      "durationFrames": 468
+    },
+    "exit": {
+      "type": "motivated editorial cut at scene end",
+      "frame": 2700
+    }
+  },
+  {
+    "id": "06-01",
+    "startFrame": 0,
+    "durationFrames": 420,
+    "description": "Ayah mengetik petuah keluarga.",
+    "characters": [
+      "Ayah",
+      "Dini"
+    ],
+    "poses": [
+      "listen",
+      "speak",
+      "hold"
+    ],
+    "camera": {
+      "type": "authored",
+      "description": "Over-shoulder ponsel, rack focus ke Dini di belakang."
+    },
+    "dialogue": "AYAH (membaca ketikan): Hadirlah untuk anak sebelum terlambat.\nDINI: Yah, lihat gambarku?\nAYAH: Sebentar.",
+    "sfx": [],
+    "background": "Ruang keluarga",
+    "safeArea": "primary actor face/hands or named evidence/phone; use per-ratio layout; platform overlays still require client safe-zone values",
+    "transition": "opening into first scripted action; hard cut, no unmotivated effect",
+    "objective": "Ayah mengetik petuah keluarga.",
+    "visualMetaphor": "Character distance, gaze and gesture stage the stated conflict; movement is limited to the scene beat.",
+    "hierarchy": "face/hand acting > dialogue caption > location set",
+    "templateId": "CARTOON-STAGE-DIALOGUE",
+    "entrance": {
+      "type": "short ease-out opacity/vertical settle",
+      "startFrame": 0,
+      "durationFrames": 12
+    },
+    "hold": {
+      "startFrame": 12,
+      "durationFrames": 408
+    },
+    "exit": {
+      "type": "motivated editorial cut at scene end",
+      "frame": 420
+    }
+  },
+  {
+    "id": "06-02",
+    "startFrame": 420,
+    "durationFrames": 450,
+    "description": "Dini mengundang ayah ke acara sekolah.",
+    "characters": [
+      "Ayah",
+      "Dini"
+    ],
+    "poses": [
+      "listen",
+      "speak",
+      "hold"
+    ],
+    "camera": {
+      "type": "authored",
+      "description": "Medium dua karakter dipisah ponsel foreground."
+    },
+    "dialogue": "DINI: Besok aku tampil jam sepuluh. Ayah datang?\nAYAH: Ayah usahakan.\nDINI: Janji?\nAYAH: Iya, iya.",
+    "sfx": [],
+    "background": "Meja makan",
+    "safeArea": "primary actor face/hands or named evidence/phone; use per-ratio layout; platform overlays still require client safe-zone values",
+    "transition": "hard cut at authored scene boundary; use prop/eyeline match only when supported by adjacent staging",
+    "objective": "Dini mengundang ayah ke acara sekolah.",
+    "visualMetaphor": "The phone/message surface stands in for mediated attention; message order follows source script, not inferred audio timing.",
+    "hierarchy": "source dialogue bubbles > speaker context > set",
+    "templateId": "CARTOON-MESSAGE-POV",
+    "entrance": {
+      "type": "short ease-out opacity/vertical settle",
+      "startFrame": 420,
+      "durationFrames": 12
+    },
+    "hold": {
+      "startFrame": 432,
+      "durationFrames": 438
+    },
+    "exit": {
+      "type": "motivated editorial cut at scene end",
+      "frame": 870
+    }
+  },
+  {
+    "id": "06-03",
+    "startFrame": 870,
+    "durationFrames": 480,
+    "description": "Ayah membaca pujian grup dan lupa jadwal.",
+    "characters": [
+      "Ayah"
+    ],
+    "poses": [
+      "listen",
+      "speak",
+      "hold"
+    ],
+    "camera": {
+      "type": "authored",
+      "description": "Insert layar chat; match-cut jam 09:58 ke 10:15."
+    },
+    "dialogue": "PESAN GRUP (VO): Bapak panutan para ayah!\nAYAH: Wah, terima kasih.",
+    "sfx": [],
+    "background": "Kantor",
+    "safeArea": "primary actor face/hands or named evidence/phone; use per-ratio layout; platform overlays still require client safe-zone values",
+    "transition": "hard cut at authored scene boundary; use prop/eyeline match only when supported by adjacent staging",
+    "objective": "Ayah membaca pujian grup dan lupa jadwal.",
+    "visualMetaphor": "The phone/message surface stands in for mediated attention; message order follows source script, not inferred audio timing.",
+    "hierarchy": "source dialogue bubbles > speaker context > set",
+    "templateId": "CARTOON-MESSAGE-POV",
+    "entrance": {
+      "type": "short ease-out opacity/vertical settle",
+      "startFrame": 870,
+      "durationFrames": 12
+    },
+    "hold": {
+      "startFrame": 882,
+      "durationFrames": 468
+    },
+    "exit": {
+      "type": "motivated editorial cut at scene end",
+      "frame": 1350
+    }
+  },
+  {
+    "id": "06-04",
+    "startFrame": 1350,
+    "durationFrames": 480,
+    "description": "Dini menerima penghargaan, mencari ayah.",
+    "characters": [
+      "Dini",
+      "Guru"
+    ],
+    "poses": [
+      "concern",
+      "held"
+    ],
+    "camera": {
+      "type": "authored",
+      "description": "POV Dini menyapu deretan kursi; close-up kursi kosong."
+    },
+    "dialogue": "GURU: Orang tuamu belum datang?\nDINI: Mungkin lagi ngajarin orang lain jadi ayah.",
+    "sfx": [],
+    "background": "Aula sekolah",
+    "safeArea": "primary actor face/hands or named evidence/phone; use per-ratio layout; platform overlays still require client safe-zone values",
+    "transition": "hard cut at authored scene boundary; use prop/eyeline match only when supported by adjacent staging",
+    "objective": "Dini menerima penghargaan, mencari ayah.",
+    "visualMetaphor": "The named document/prop carries the conflict into a readable evidence insert; it does not imply independent factual proof.",
+    "hierarchy": "named prop/evidence > acting context > dialogue caption",
+    "templateId": "CARTOON-EVIDENCE-INSERT",
+    "entrance": {
+      "type": "short ease-out opacity/vertical settle",
+      "startFrame": 1350,
+      "durationFrames": 12
+    },
+    "hold": {
+      "startFrame": 1362,
+      "durationFrames": 468
+    },
+    "exit": {
+      "type": "motivated editorial cut at scene end",
+      "frame": 1830
+    }
+  },
+  {
+    "id": "06-05",
+    "startFrame": 1830,
+    "durationFrames": 480,
+    "description": "Ayah melihat foto penghargaan di status tetangga.",
+    "characters": [
+      "Ayah",
+      "Dini"
+    ],
+    "poses": [
+      "listen",
+      "speak",
+      "hold"
+    ],
+    "camera": {
+      "type": "authored",
+      "description": "Close-up layar ke close-up wajah ayah tanpa cut komedi."
+    },
+    "dialogue": "AYAH: Loh, kamu menang? Kok nggak bilang?\nDINI: Aku bilang tiga kali.",
+    "sfx": [],
+    "background": "Rumah malam",
+    "safeArea": "primary actor face/hands or named evidence/phone; use per-ratio layout; platform overlays still require client safe-zone values",
+    "transition": "hard cut at authored scene boundary; use prop/eyeline match only when supported by adjacent staging",
+    "objective": "Ayah melihat foto penghargaan di status tetangga.",
+    "visualMetaphor": "The phone/message surface stands in for mediated attention; message order follows source script, not inferred audio timing.",
+    "hierarchy": "source dialogue bubbles > speaker context > set",
+    "templateId": "CARTOON-MESSAGE-POV",
+    "entrance": {
+      "type": "short ease-out opacity/vertical settle",
+      "startFrame": 1830,
+      "durationFrames": 12
+    },
+    "hold": {
+      "startFrame": 1842,
+      "durationFrames": 468
+    },
+    "exit": {
+      "type": "motivated editorial cut at scene end",
+      "frame": 2310
+    }
+  },
+  {
+    "id": "06-06",
+    "startFrame": 2310,
+    "durationFrames": 390,
+    "description": "Ayah meminta melihat gambar, sudah dibuang.",
+    "characters": [
+      "Ayah",
+      "Dini"
+    ],
+    "poses": [
+      "concern",
+      "held"
+    ],
+    "camera": {
+      "type": "authored",
+      "description": "Locked-off two-shot dengan ruang kosong antara mereka."
+    },
+    "dialogue": "AYAH: Gambar kemarin masih ada?\nDINI: Udah aku buang.\nAYAH: ...Maaf, ya.",
+    "sfx": [],
+    "background": "Ruang keluarga",
+    "safeArea": "primary actor face/hands or named evidence/phone; use per-ratio layout; platform overlays still require client safe-zone values",
+    "transition": "hard cut at authored scene boundary; use prop/eyeline match only when supported by adjacent staging",
+    "objective": "Ayah meminta melihat gambar, sudah dibuang.",
+    "visualMetaphor": "The named document/prop carries the conflict into a readable evidence insert; it does not imply independent factual proof.",
+    "hierarchy": "named prop/evidence > acting context > dialogue caption",
+    "templateId": "CARTOON-EVIDENCE-INSERT",
+    "entrance": {
+      "type": "short ease-out opacity/vertical settle",
+      "startFrame": 2310,
+      "durationFrames": 12
+    },
+    "hold": {
+      "startFrame": 2322,
+      "durationFrames": 378
+    },
+    "exit": {
+      "type": "motivated editorial cut at scene end",
+      "frame": 2700
+    }
+  },
+  {
+    "id": "07-01",
+    "startFrame": 0,
+    "durationFrames": 390,
+    "description": "Beni menuntun Lala melewati papan.",
+    "characters": [
+      "Pak Beni",
+      "Lala"
+    ],
+    "poses": [
+      "listen",
+      "speak",
+      "hold"
+    ],
+    "camera": {
+      "type": "authored",
+      "description": "Wide jembatan rusak, low angle kaki melangkah."
+    },
+    "dialogue": "LALA: Pak, papan ini goyang lagi.\nBENI: Pegang tangan Bapak. Pelan.",
+    "sfx": [],
+    "background": "Jembatan rusak",
+    "safeArea": "primary actor face/hands or named evidence/phone; use per-ratio layout; platform overlays still require client safe-zone values",
+    "transition": "opening into first scripted action; hard cut, no unmotivated effect",
+    "objective": "Beni menuntun Lala melewati papan.",
+    "visualMetaphor": "Character distance, gaze and gesture stage the stated conflict; movement is limited to the scene beat.",
+    "hierarchy": "face/hand acting > dialogue caption > location set",
+    "templateId": "CARTOON-STAGE-DIALOGUE",
+    "entrance": {
+      "type": "short ease-out opacity/vertical settle",
+      "startFrame": 0,
+      "durationFrames": 12
+    },
+    "hold": {
+      "startFrame": 12,
+      "durationFrames": 378
+    },
+    "exit": {
+      "type": "motivated editorial cut at scene end",
+      "frame": 390
+    }
+  },
+  {
+    "id": "07-02",
+    "startFrame": 390,
+    "durationFrames": 450,
+    "description": "Beni menanyakan laporan tiga tahun.",
+    "characters": [
+      "Pak Beni"
+    ],
+    "poses": [
+      "listen",
+      "speak",
+      "hold"
+    ],
+    "camera": {
+      "type": "authored",
+      "description": "Two-shot loket, insert nomor tiket lama."
+    },
+    "dialogue": "BENI: Sudah tiga tahun kami lapor.\nPETUGAS: Masih antre prioritas.\nBENI: Yang antre jembatannya atau kami?",
+    "sfx": [],
+    "background": "Kantor layanan",
+    "safeArea": "primary actor face/hands or named evidence/phone; use per-ratio layout; platform overlays still require client safe-zone values",
+    "transition": "hard cut at authored scene boundary; use prop/eyeline match only when supported by adjacent staging",
+    "objective": "Beni menanyakan laporan tiga tahun.",
+    "visualMetaphor": "The named document/prop carries the conflict into a readable evidence insert; it does not imply independent factual proof.",
+    "hierarchy": "named prop/evidence > acting context > dialogue caption",
+    "templateId": "CARTOON-EVIDENCE-INSERT",
+    "entrance": {
+      "type": "short ease-out opacity/vertical settle",
+      "startFrame": 390,
+      "durationFrames": 12
+    },
+    "hold": {
+      "startFrame": 402,
+      "durationFrames": 438
+    },
+    "exit": {
+      "type": "motivated editorial cut at scene end",
+      "frame": 840
+    }
+  },
+  {
+    "id": "07-03",
+    "startFrame": 840,
+    "durationFrames": 450,
+    "description": "Kunjungan pejabat diumumkan.",
+    "characters": [
+      "Koordinator"
+    ],
+    "poses": [
+      "listen",
+      "speak",
+      "hold"
+    ],
+    "camera": {
+      "type": "authored",
+      "description": "Whip-pan dari kalender ke peta rute."
+    },
+    "dialogue": "KOORDINATOR: Besok rombongan lewat sini! Jalur harus siap!\nPETUGAS: Tapi jembatannya rusak.\nKOORDINATOR: Berarti malam ini beres.",
+    "sfx": [],
+    "background": "Kantor kecamatan",
+    "safeArea": "primary actor face/hands or named evidence/phone; use per-ratio layout; platform overlays still require client safe-zone values",
+    "transition": "hard cut at authored scene boundary; use prop/eyeline match only when supported by adjacent staging",
+    "objective": "Kunjungan pejabat diumumkan.",
+    "visualMetaphor": "The named document/prop carries the conflict into a readable evidence insert; it does not imply independent factual proof.",
+    "hierarchy": "named prop/evidence > acting context > dialogue caption",
+    "templateId": "CARTOON-EVIDENCE-INSERT",
+    "entrance": {
+      "type": "short ease-out opacity/vertical settle",
+      "startFrame": 840,
+      "durationFrames": 12
+    },
+    "hold": {
+      "startFrame": 852,
+      "durationFrames": 438
+    },
+    "exit": {
+      "type": "motivated editorial cut at scene end",
+      "frame": 1290
+    }
+  },
+  {
+    "id": "07-04",
+    "startFrame": 1290,
+    "durationFrames": 480,
+    "description": "Pekerja membangun akses sementara.",
+    "characters": [
+      "Koordinator"
+    ],
+    "poses": [
+      "listen",
+      "speak",
+      "hold"
+    ],
+    "camera": {
+      "type": "authored",
+      "description": "Time-lapse wide dengan jam di sudut."
+    },
+    "dialogue": "PEKERJA: Tiga tahun nggak ada anggaran, malam ini ada?\nKOORDINATOR: Jangan banyak tanya, pasang papan!",
+    "sfx": [],
+    "background": "Jembatan malam",
+    "safeArea": "primary actor face/hands or named evidence/phone; use per-ratio layout; platform overlays still require client safe-zone values",
+    "transition": "hard cut at authored scene boundary; use prop/eyeline match only when supported by adjacent staging",
+    "objective": "Pekerja membangun akses sementara.",
+    "visualMetaphor": "Character distance, gaze and gesture stage the stated conflict; movement is limited to the scene beat.",
+    "hierarchy": "face/hand acting > dialogue caption > location set",
+    "templateId": "CARTOON-STAGE-DIALOGUE",
+    "entrance": {
+      "type": "short ease-out opacity/vertical settle",
+      "startFrame": 1290,
+      "durationFrames": 12
+    },
+    "hold": {
+      "startFrame": 1302,
+      "durationFrames": 468
+    },
+    "exit": {
+      "type": "motivated editorial cut at scene end",
+      "frame": 1770
+    }
+  },
+  {
+    "id": "07-05",
+    "startFrame": 1770,
+    "durationFrames": 480,
+    "description": "Rombongan melewati akses baru.",
+    "characters": [
+      "Lala",
+      "Pejabat"
+    ],
+    "poses": [
+      "listen",
+      "speak",
+      "hold"
+    ],
+    "camera": {
+      "type": "authored",
+      "description": "Tracking kendaraan; cut ke Beni dan Lala di tepi."
+    },
+    "dialogue": "PEJABAT: Bagus. Infrastruktur harus responsif.\nBENI (ke Lala): Ternyata bisa cepat.",
+    "sfx": [],
+    "background": "Jembatan pagi",
+    "safeArea": "primary actor face/hands or named evidence/phone; use per-ratio layout; platform overlays still require client safe-zone values",
+    "transition": "hard cut at authored scene boundary; use prop/eyeline match only when supported by adjacent staging",
+    "objective": "Rombongan melewati akses baru.",
+    "visualMetaphor": "Character distance, gaze and gesture stage the stated conflict; movement is limited to the scene beat.",
+    "hierarchy": "face/hand acting > dialogue caption > location set",
+    "templateId": "CARTOON-STAGE-DIALOGUE",
+    "entrance": {
+      "type": "short ease-out opacity/vertical settle",
+      "startFrame": 1770,
+      "durationFrames": 12
+    },
+    "hold": {
+      "startFrame": 1782,
+      "durationFrames": 468
+    },
+    "exit": {
+      "type": "motivated editorial cut at scene end",
+      "frame": 2250
+    }
+  },
+  {
+    "id": "07-06",
+    "startFrame": 2250,
+    "durationFrames": 450,
+    "description": "Papan akses sementara dibongkar.",
+    "characters": [
+      "Pak Beni",
+      "Lala",
+      "Koordinator"
+    ],
+    "poses": [
+      "anticipate",
+      "gesture",
+      "settle"
+    ],
+    "camera": {
+      "type": "authored",
+      "description": "Static wide pekerja mengangkat papan, reveal sungai."
+    },
+    "dialogue": "BENI: Kenapa dibuka lagi?\nKOORDINATOR: Jalur khusus acara sudah selesai.\nLALA: Berarti sekolahku belum jadi acara penting, Pak?",
+    "sfx": [],
+    "background": "Jembatan siang",
+    "safeArea": "primary actor face/hands or named evidence/phone; use per-ratio layout; platform overlays still require client safe-zone values",
+    "transition": "hard cut at authored scene boundary; use prop/eyeline match only when supported by adjacent staging",
+    "objective": "Papan akses sementara dibongkar.",
+    "visualMetaphor": "The named document/prop carries the conflict into a readable evidence insert; it does not imply independent factual proof.",
+    "hierarchy": "named prop/evidence > acting context > dialogue caption",
+    "templateId": "CARTOON-EVIDENCE-INSERT",
+    "entrance": {
+      "type": "short ease-out opacity/vertical settle",
+      "startFrame": 2250,
+      "durationFrames": 12
+    },
+    "hold": {
+      "startFrame": 2262,
+      "durationFrames": 438
+    },
+    "exit": {
+      "type": "motivated editorial cut at scene end",
+      "frame": 2700
+    }
+  },
+  {
+    "id": "08-01",
+    "startFrame": 0,
+    "durationFrames": 390,
+    "description": "Rika mengembalikan uang berlebih.",
+    "characters": [
+      "Rika",
+      "Anak Rika",
+      "Pelanggan"
+    ],
+    "poses": [
+      "listen",
+      "speak",
+      "hold"
+    ],
+    "camera": {
+      "type": "authored",
+      "description": "Close-up uang dan tangan, cut ke senyum pelanggan."
+    },
+    "dialogue": "RIKA: Bu, kembalian Ibu kelebihan seratus ribu.\nPELANGGAN: Ya ampun, untung kamu jujur.",
+    "sfx": [],
+    "background": "Kasir minimarket",
+    "safeArea": "primary actor face/hands or named evidence/phone; use per-ratio layout; platform overlays still require client safe-zone values",
+    "transition": "opening into first scripted action; hard cut, no unmotivated effect",
+    "objective": "Rika mengembalikan uang berlebih.",
+    "visualMetaphor": "Character distance, gaze and gesture stage the stated conflict; movement is limited to the scene beat.",
+    "hierarchy": "face/hand acting > dialogue caption > location set",
+    "templateId": "CARTOON-STAGE-DIALOGUE",
+    "entrance": {
+      "type": "short ease-out opacity/vertical settle",
+      "startFrame": 0,
+      "durationFrames": 12
+    },
+    "hold": {
+      "startFrame": 12,
+      "durationFrames": 378
+    },
+    "exit": {
+      "type": "motivated editorial cut at scene end",
+      "frame": 390
+    }
+  },
+  {
+    "id": "08-02",
+    "startFrame": 390,
+    "durationFrames": 450,
+    "description": "Manajer merekam pujian.",
+    "characters": [
+      "Rika",
+      "Manajer",
+      "Anak Rika"
+    ],
+    "poses": [
+      "listen",
+      "speak",
+      "hold"
+    ],
+    "camera": {
+      "type": "authored",
+      "description": "Medium dengan ponsel foreground; shot dalam shot."
+    },
+    "dialogue": "MANAJER: Rekam, rekam! Ini budaya integritas kita.\nRIKA: Pak, saya masih harus tutup kas.",
+    "sfx": [],
+    "background": "Area kasir",
+    "safeArea": "primary actor face/hands or named evidence/phone; use per-ratio layout; platform overlays still require client safe-zone values",
+    "transition": "hard cut at authored scene boundary; use prop/eyeline match only when supported by adjacent staging",
+    "objective": "Manajer merekam pujian.",
+    "visualMetaphor": "The phone/message surface stands in for mediated attention; message order follows source script, not inferred audio timing.",
+    "hierarchy": "source dialogue bubbles > speaker context > set",
+    "templateId": "CARTOON-MESSAGE-POV",
+    "entrance": {
+      "type": "short ease-out opacity/vertical settle",
+      "startFrame": 390,
+      "durationFrames": 12
+    },
+    "hold": {
+      "startFrame": 402,
+      "durationFrames": 438
+    },
+    "exit": {
+      "type": "motivated editorial cut at scene end",
+      "frame": 840
+    }
+  },
+  {
+    "id": "08-03",
+    "startFrame": 840,
+    "durationFrames": 480,
+    "description": "Rika melihat makanan yang akan dimusnahkan.",
+    "characters": [
+      "Rika",
+      "Manajer",
+      "Anak Rika"
+    ],
+    "poses": [
+      "listen",
+      "speak",
+      "hold"
+    ],
+    "camera": {
+      "type": "authored",
+      "description": "Over-shoulder rak, insert label tanggal."
+    },
+    "dialogue": "RIKA: Pak, roti ini besok dibuang?\nMANAJER: Iya, lewat batas jual.\nRIKA: Kalau saya bawa pulang, boleh?\nMANAJER: Prosedurnya nggak boleh.",
+    "sfx": [],
+    "background": "Gudang malam",
+    "safeArea": "primary actor face/hands or named evidence/phone; use per-ratio layout; platform overlays still require client safe-zone values",
+    "transition": "hard cut at authored scene boundary; use prop/eyeline match only when supported by adjacent staging",
+    "objective": "Rika melihat makanan yang akan dimusnahkan.",
+    "visualMetaphor": "The named document/prop carries the conflict into a readable evidence insert; it does not imply independent factual proof.",
+    "hierarchy": "named prop/evidence > acting context > dialogue caption",
+    "templateId": "CARTOON-EVIDENCE-INSERT",
+    "entrance": {
+      "type": "short ease-out opacity/vertical settle",
+      "startFrame": 840,
+      "durationFrames": 12
+    },
+    "hold": {
+      "startFrame": 852,
+      "durationFrames": 468
+    },
+    "exit": {
+      "type": "motivated editorial cut at scene end",
+      "frame": 1320
+    }
+  },
+  {
+    "id": "08-04",
+    "startFrame": 1320,
+    "durationFrames": 420,
+    "description": "Anak Rika bertanya makan malam.",
+    "characters": [
+      "Rika",
+      "Anak Rika"
+    ],
+    "poses": [
+      "concern",
+      "held"
+    ],
+    "camera": {
+      "type": "push-in",
+      "description": "Close-up meja kosong, push ke wajah Rika."
+    },
+    "dialogue": "ANAK: Bu, rotinya jadi?\nRIKA: Ibu cari cara lain, ya.\nANAK: Aku masih bisa tunggu.",
+    "sfx": [],
+    "background": "Rumah",
+    "safeArea": "primary actor face/hands or named evidence/phone; use per-ratio layout; platform overlays still require client safe-zone values",
+    "transition": "hard cut at authored scene boundary; use prop/eyeline match only when supported by adjacent staging",
+    "objective": "Anak Rika bertanya makan malam.",
+    "visualMetaphor": "The named document/prop carries the conflict into a readable evidence insert; it does not imply independent factual proof.",
+    "hierarchy": "named prop/evidence > acting context > dialogue caption",
+    "templateId": "CARTOON-EVIDENCE-INSERT",
+    "entrance": {
+      "type": "short ease-out opacity/vertical settle",
+      "startFrame": 1320,
+      "durationFrames": 12
+    },
+    "hold": {
+      "startFrame": 1332,
+      "durationFrames": 408
+    },
+    "exit": {
+      "type": "motivated editorial cut at scene end",
+      "frame": 1740
+    }
+  },
+  {
+    "id": "08-05",
+    "startFrame": 1740,
+    "durationFrames": 480,
+    "description": "Rika mengambil satu roti dari kotak pembuangan, terlihat kamera.",
+    "characters": [
+      "Rika",
+      "Manajer"
+    ],
+    "poses": [
+      "concern",
+      "held"
+    ],
+    "camera": {
+      "type": "authored",
+      "description": "High angle CCTV dengan overlay waktu; cut ke normal view."
+    },
+    "dialogue": "RIKA (berbisik): Maaf.\nMANAJER (dari pintu): Rika. Kita perlu bicara.",
+    "sfx": [],
+    "background": "Gudang",
+    "safeArea": "primary actor face/hands or named evidence/phone; use per-ratio layout; platform overlays still require client safe-zone values",
+    "transition": "hard cut at authored scene boundary; use prop/eyeline match only when supported by adjacent staging",
+    "objective": "Rika mengambil satu roti dari kotak pembuangan, terlihat kamera.",
+    "visualMetaphor": "The named document/prop carries the conflict into a readable evidence insert; it does not imply independent factual proof.",
+    "hierarchy": "named prop/evidence > acting context > dialogue caption",
+    "templateId": "CARTOON-EVIDENCE-INSERT",
+    "entrance": {
+      "type": "short ease-out opacity/vertical settle",
+      "startFrame": 1740,
+      "durationFrames": 12
+    },
+    "hold": {
+      "startFrame": 1752,
+      "durationFrames": 468
+    },
+    "exit": {
+      "type": "motivated editorial cut at scene end",
+      "frame": 2220
+    }
+  },
+  {
+    "id": "08-06",
+    "startFrame": 2220,
+    "durationFrames": 480,
+    "description": "Rika keluar membawa surat pemutusan kerja; poster integritas masih terpajang.",
+    "characters": [
+      "Rika",
+      "Manajer",
+      "Anak Rika"
+    ],
+    "poses": [
+      "concern",
+      "held"
+    ],
+    "camera": {
+      "type": "authored",
+      "description": "Wide poster “Kejujuran Nilai Utama” dan Rika di bawahnya."
+    },
+    "dialogue": "MANAJER: Aturan tetap aturan.\nRIKA: Kalau yang dibuang makanan, kenapa yang kehilangan kerja saya?",
+    "sfx": [],
+    "background": "Depan minimarket",
+    "safeArea": "primary actor face/hands or named evidence/phone; use per-ratio layout; platform overlays still require client safe-zone values",
+    "transition": "hard cut at authored scene boundary; use prop/eyeline match only when supported by adjacent staging",
+    "objective": "Rika keluar membawa surat pemutusan kerja; poster integritas masih terpajang.",
+    "visualMetaphor": "The named document/prop carries the conflict into a readable evidence insert; it does not imply independent factual proof.",
+    "hierarchy": "named prop/evidence > acting context > dialogue caption",
+    "templateId": "CARTOON-EVIDENCE-INSERT",
+    "entrance": {
+      "type": "short ease-out opacity/vertical settle",
+      "startFrame": 2220,
+      "durationFrames": 12
+    },
+    "hold": {
+      "startFrame": 2232,
+      "durationFrames": 468
+    },
+    "exit": {
+      "type": "motivated editorial cut at scene end",
+      "frame": 2700
+    }
+  }
+]

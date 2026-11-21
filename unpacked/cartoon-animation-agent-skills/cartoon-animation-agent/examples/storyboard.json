@@ -1,0 +1,11 @@
+{
+  "project": "Cartoon reaction gag",
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "shots": [
+    {"id":"shot-01","startFrame":0,"durationFrames":45,"description":"Character sees a mysterious button","characters":["hero"],"poses":["idle","curious"],"camera":{"type":"static","scale":1},"dialogue":"Ini tombol apa?","sfx":[],"background":"room","safeArea":"center 80%","transition":"cut"},
+    {"id":"shot-02","startFrame":45,"durationFrames":60,"description":"Character presses button; oversized reaction","characters":["hero"],"poses":["reach","press","shock"],"camera":{"type":"punch-in","scale":1.12},"dialogue":"Waduh!","sfx":["click","boing"],"background":"room","safeArea":"center 80%","transition":"cut"},
+    {"id":"shot-03","startFrame":105,"durationFrames":45,"description":"Reveal the harmless result, hold for laugh","characters":["hero"],"poses":["embarrassed"],"camera":{"type":"static","scale":1},"dialogue":"Oh... lampu.","sfx":["switch"],"background":"room","safeArea":"center 80%","transition":"end"}
+  ]
+}

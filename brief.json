@@ -1,0 +1,53 @@
+{
+  "project": "Studio Satir — editable Remotion animation framework",
+  "language": "id-ID",
+  "contentBasis": "Eight user-provided fictional satirical scripts; no factual/procedural claims are added.",
+  "target": "Short-form social animatics",
+  "engine": {
+    "name": "Remotion",
+    "version": "4.0.545",
+    "rationale": "Typed frame-driven React components and 24 data-driven compositions across three independent aspect layouts."
+  },
+  "spec": {
+    "master": "1080x1920",
+    "fps": 30,
+    "durationSeconds": 90,
+    "aspectRatios": [
+      "9:16",
+      "1:1",
+      "16:9"
+    ]
+  },
+  "template": {
+    "id": "CARTOON-CUTOUT-EDITORIAL",
+    "variants": [
+      "CARTOON-STAGE-DIALOGUE",
+      "CARTOON-EVIDENCE-INSERT",
+      "CARTOON-MESSAGE-POV"
+    ],
+    "status": "Prototype; not production-ready until representative renders and three-ratio tests are reviewed."
+  },
+  "criticalUnknowns": [
+    "which episode is the first final-production target",
+    "approved character model sheets/reference frames",
+    "recorded VO and word-level timing",
+    "licensed music/SFX files",
+    "brand identity and target-platform UI masks"
+  ],
+  "safeDefaults": [
+    "original vector concept art",
+    "source timecodes retained; dialogue timing marked approximate",
+    "no network media, stock footage, or generated audio",
+    "concept assets and script claims carry fiction disclosure"
+  ],
+  "outputs": {
+    "brief": "brief.json",
+    "creativeBrief": "creative-brief.md",
+    "storyboard": "storyboard.md",
+    "storyboardData": "storyboard.json",
+    "shotlist": "shotlist.json",
+    "assets": "assets-manifest.json",
+    "audioCues": "audio-cues.json",
+    "render": "NOT PRODUCED — Remotion Chrome Headless Shell download blocked; see qa-report.md"
+  }
+}

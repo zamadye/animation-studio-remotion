@@ -1,0 +1,8 @@
+node_modules/
+dist/
+build/
+coverage/
+render.mp4
+contact-sheet.png
+qa-frames/
+.DS_Store

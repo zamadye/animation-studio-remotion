@@ -1,0 +1,2 @@
+# Cartoon Animation Agent
+Read `skills/cartoon-animation/SKILL.md` before planning or coding cartoon shots. Keep visual direction, storyboard, assets, animation, and QA as separate stages. Use original character designs unless reference usage is authorized. Never claim to have seen an external video unless its frames were actually provided or inspected. Render a smoke test before producing a full video. Do not mark output complete without QA evidence.

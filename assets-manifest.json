@@ -1,0 +1,116 @@
+{
+  "assets": [
+    {
+      "path": "unpacked/satir-cartoon-8-episode-docs/01_orang_miskin_dilarang_miskin.docx",
+      "type": "user-provided DOCX narrative source",
+      "usage": "fictional source scripts",
+      "rights": "user-provided; no embedded third-party footage/audio asserted"
+    },
+    {
+      "path": "unpacked/satir-cartoon-8-episode-docs/02_lowongan_kerja_untuk_orang_yang_sudah_bekerja.docx",
+      "type": "user-provided DOCX narrative source",
+      "usage": "fictional source scripts",
+      "rights": "user-provided; no embedded third-party footage/audio asserted"
+    },
+    {
+      "path": "unpacked/satir-cartoon-8-episode-docs/03_tolong_tapi_tunggu_kamera_dulu.docx",
+      "type": "user-provided DOCX narrative source",
+      "usage": "fictional source scripts",
+      "rights": "user-provided; no embedded third-party footage/audio asserted"
+    },
+    {
+      "path": "unpacked/satir-cartoon-8-episode-docs/04_sekolah_gratis_bayarnya_cuma_segalanya.docx",
+      "type": "user-provided DOCX narrative source",
+      "usage": "fictional source scripts",
+      "rights": "user-provided; no embedded third-party footage/audio asserted"
+    },
+    {
+      "path": "unpacked/satir-cartoon-8-episode-docs/05_banjirnya_sudah_naik_kelas.docx",
+      "type": "user-provided DOCX narrative source",
+      "usage": "fictional source scripts",
+      "rights": "user-provided; no embedded third-party footage/audio asserted"
+    },
+    {
+      "path": "unpacked/satir-cartoon-8-episode-docs/06_ayah_yang_selalu_ada_di_grup_whatsapp.docx",
+      "type": "user-provided DOCX narrative source",
+      "usage": "fictional source scripts",
+      "rights": "user-provided; no embedded third-party footage/audio asserted"
+    },
+    {
+      "path": "unpacked/satir-cartoon-8-episode-docs/07_rakyat_harus_sabar_pejabat_harus_cepat.docx",
+      "type": "user-provided DOCX narrative source",
+      "usage": "fictional source scripts",
+      "rights": "user-provided; no embedded third-party footage/audio asserted"
+    },
+    {
+      "path": "unpacked/satir-cartoon-8-episode-docs/08_kejujuran_tidak_termasuk_diskon.docx",
+      "type": "user-provided DOCX narrative source",
+      "usage": "fictional source scripts",
+      "rights": "user-provided; no embedded third-party footage/audio asserted"
+    },
+    {
+      "path": "public/assets/character-sheets.svg",
+      "type": "original source-generated vector concept sheet",
+      "usage": "8 episode lead/counterpart palettes and six acting expressions per lead",
+      "license": "created in this repository; pending art-direction approval"
+    },
+    {
+      "path": "src/components/characters/CharacterRig.tsx",
+      "type": "original React/SVG cutout rig",
+      "usage": "frame-driven acting, eyes/mouth, gesture pivot"
+    },
+    {
+      "path": "src/components/characters/cast.ts",
+      "type": "editable character design data",
+      "usage": "episode-specific lead/counterpart profiles"
+    },
+    {
+      "path": "src/components/SceneSet.tsx",
+      "type": "original vector scene sets",
+      "usage": "location context"
+    },
+    {
+      "path": "src/components/SceneProp.tsx",
+      "type": "original frame-driven vector props",
+      "usage": "scene evidence props"
+    },
+    {
+      "path": "src/components/ConversationPanel.tsx",
+      "type": "original vector message panel",
+      "usage": "story dialogue bubble layout; not VO-synced"
+    },
+    {
+      "path": "src/design/tokens.ts",
+      "type": "typed local design tokens",
+      "usage": "palette, motion and ratio safe margins"
+    },
+    {
+      "path": "src/motion/primitives.ts",
+      "type": "pure typed frame motion primitives",
+      "usage": "explicit timeline spans and reduced-motion behavior"
+    },
+    {
+      "path": "character-bible.md",
+      "type": "editable rig/acting specification",
+      "usage": "character continuity and known rig limits"
+    },
+    {
+      "path": "template-spec.json",
+      "type": "template family specification",
+      "usage": "three structural variants, fallback and test requirements"
+    }
+  ],
+  "notProvided": [
+    "approved final character models and full supporting cast rigs",
+    "recorded VO",
+    "music",
+    "SFX",
+    "live footage",
+    "brand logo",
+    "third-party font files"
+  ],
+  "generatedOutputs": {
+    "render.mp4": "NOT PRODUCED",
+    "contact-sheet": "NOT PRODUCED — no browser render available"
+  }
+}

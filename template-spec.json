@@ -1,0 +1,23 @@
+{
+  "id": "CARTOON-CUTOUT-EDITORIAL",
+  "catalogBasis": ["cartoon-animation skill template 4: Cutout comedy", "cartoon-animation skill template 5: Motion-comic", "cartoon-animation skill template 6: Kinetic cartoon captions"],
+  "status": "PROTOTYPE — not production-ready until all ratios and text extremes are rendered and reviewed",
+  "goal": "Translate fictional Indonesian satire scenes into clear mobile-first cutout-cartoon animatics.",
+  "hierarchy": ["character action / focal evidence", "dialogue caption", "scene and location context"],
+  "durationRangeSeconds": [4, 30],
+  "supportedAspectRatios": ["9:16", "1:1", "16:9"],
+  "fps": 30,
+  "requiredAssets": ["typed episode/shot data", "original vector cast profiles", "local vector set/prop primitives"],
+  "semanticProps": ["episode", "shot", "frame", "ratio", "reducedMotion"],
+  "motionPrimitives": ["fade", "slide", "maskReveal", "progress"],
+  "variants": [
+    {"id":"CARTOON-STAGE-DIALOGUE","layout":"two-person staged scene with location set, acting and subtitle band","visualPriority":"face/gesture"},
+    {"id":"CARTOON-EVIDENCE-INSERT","layout":"evidence prop card elevated and enlarged; characters moved to side support positions","visualPriority":"script-named evidence or prop"},
+    {"id":"CARTOON-MESSAGE-POV","layout":"phone/message surface central; staging becomes a framed conversation rather than generic two-shot","visualPriority":"message/phone/recording beat"}
+  ],
+  "density": {"maxDialogueCharsBeforeExcerpt":"wrap by words; never silently rewrite source; show full line in shot data","captionLineTarget":3,"safeMargins":"configurable per ratio; platform UI overlays still need client specification"},
+  "fallbackMode": "unknown variant falls back to CARTOON-STAGE-DIALOGUE; unknown character uses generic original vector palette",
+  "reducedMotion": {"supported":true,"effect":"remove entrances, idle motion and acting interpolation; preserve stable poses and editorial cuts"},
+  "referenceFrames": "NOT PRODUCED — Remotion browser unavailable; do not claim visual approval",
+  "requiredTests": ["all 3 ratios", "frame 0 / scene boundary / middle / last frame", "short and long dialogue", "empty optional fields", "all variants", "reduced motion"]
+}

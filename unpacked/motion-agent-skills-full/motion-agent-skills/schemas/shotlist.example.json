@@ -1,0 +1,26 @@
+{
+  "project": "motion-demo",
+  "fps": 30,
+  "formats": [
+    "16:9",
+    "9:16"
+  ],
+  "scenes": [
+    {
+      "id": "s01",
+      "startSeconds": 0,
+      "durationSeconds": 4,
+      "objective": "Establish the central claim",
+      "templateId": "01",
+      "headline": "A system under pressure",
+      "entrance": "maskReveal",
+      "holdSeconds": 2,
+      "exit": "fade",
+      "audioCue": "vo:0.0",
+      "reframeAnchor": {
+        "x": 0.5,
+        "y": 0.4
+      }
+    }
+  ]
+}
