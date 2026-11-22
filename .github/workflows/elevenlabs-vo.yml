@@ -38,7 +38,8 @@ jobs:
       - name: Discover voices and generate one review take
         env:
           ELEVENLABS_API_KEY: ${{ secrets.ELEVENLABS_API_KEY || secrets.ELEVENLABS_KEY }}
-          ELEVENLABS_VOICE_ID: ${{ inputs.voice_id || vars.ELEVENLABS_VOICE_ID }}
+          # Historical reference-repo voice: technical probe only, not approved cast identity.
+          ELEVENLABS_VOICE_ID: ${{ inputs.voice_id || vars.ELEVENLABS_VOICE_ID || 'ojz6ro9PB1xDu44lymdM' }}
           VO_MODE: ${{ inputs.mode || 'probe' }}
           VO_TEXT: ${{ inputs.text }}
         run: node scripts/elevenlabs-vo.mjs

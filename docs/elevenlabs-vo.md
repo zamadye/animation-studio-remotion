@@ -22,3 +22,7 @@ The reference and this client both use `xi-api-key` against `https://api.elevenl
 HTTP 401 alone does NOT establish a bad key. The client now parses an allowlisted `detail.status` and reports the endpoint plus a safe explanation (invalid credential vs missing permission vs quota vs unusual-activity/account-network restriction). Unknown response bodies and arbitrary provider text are not logged, so credential/PII echoes cannot leak into logs. The reference prints bounded raw error bodies; we intentionally do not copy that behavior. No paid-request automatic retry is enabled.
 
 The voice-list endpoint remains required for `discover` mode or automatic voice selection; without an explicit ID there is no safe basis to choose a voice when discovery fails. Do not adopt the other channel's historical voice as this animation cast's approved voice.
+
+### Live diagnosis after reference comparison
+
+Run 45030782365 returned `HTTP 401 at /v1/voices; code=missing_permissions`. This is endpoint permission denial, not `invalid_api_key`. To test TTS independently, the workflow now defaults to the historical reference-workflow voice `ojz6ro9PB1xDu44lymdM` only when neither an input nor repository variable is configured. This ID is explicitly present in the reference YAML/script; it is NOT taken from the currently internal `voice.json`. It is a technical trial, not an approved character voice. Set `ELEVENLABS_VOICE_ID` repository variable to override it. The actual provider response will establish whether this key can synthesize that voice.
