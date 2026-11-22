@@ -1,0 +1,36 @@
+name: Episode 01 complete VO review
+on:
+  push:
+    branches: ['arena/68a76170-animation-studio-remotion']
+    paths: ['src/episodes/ep01-lines.json', 'scripts/elevenlabs-episode.mjs', '.github/workflows/episode01-vo.yml']
+permissions:
+  contents: write
+concurrency:
+  group: episode01-vo
+  cancel-in-progress: false
+jobs:
+  voice:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: arena/68a76170-animation-studio-remotion
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Generate source-faithful dialogue with character timestamps
+        env:
+          ELEVENLABS_API_KEY: ${{ secrets.ELEVENLABS_API_KEY || secrets.ELEVENLABS_KEY }}
+        run: node scripts/elevenlabs-episode.mjs
+      - name: Preserve completed takes (also after partial failure, avoids paid regeneration)
+        if: always()
+        run: |
+          set -euo pipefail
+          test -d public/audio/episode01-elevenlabs || exit 0
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add public/audio/episode01-elevenlabs
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m "Add ElevenLabs Episode 01 review dialogue takes"
+          git push origin HEAD:refs/heads/arena/68a76170-animation-studio-remotion

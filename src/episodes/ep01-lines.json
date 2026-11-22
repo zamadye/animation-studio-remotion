@@ -1,0 +1,110 @@
+[
+  {
+    "id": "ep01-01",
+    "shot": 1,
+    "speaker": "DARTO",
+    "text": "Bu, saya mau daftar bantuan. Tiga hari ini dapur kami nggak ngebul."
+  },
+  {
+    "id": "ep01-02",
+    "shot": 1,
+    "speaker": "PETUGAS",
+    "text": "Kendaraan ada?"
+  },
+  {
+    "id": "ep01-03",
+    "shot": 1,
+    "speaker": "DARTO",
+    "text": "Motor tua. Kalau hujan, dia ikut mogok."
+  },
+  {
+    "id": "ep01-04",
+    "shot": 2,
+    "speaker": "PETUGAS",
+    "text": "Berarti punya aset. Belum memenuhi kriteria."
+  },
+  {
+    "id": "ep01-05",
+    "shot": 2,
+    "speaker": "DARTO",
+    "text": "Motor itu buat cari kerja, Bu."
+  },
+  {
+    "id": "ep01-06",
+    "shot": 2,
+    "speaker": "PETUGAS",
+    "text": "Sistemnya begitu."
+  },
+  {
+    "id": "ep01-07",
+    "shot": 3,
+    "speaker": "PEMBELI",
+    "text": "Kalau dijual, kerja naik apa?"
+  },
+  {
+    "id": "ep01-08",
+    "shot": 3,
+    "speaker": "DARTO",
+    "text": "Jalan kaki. Yang penting anak saya makan."
+  },
+  {
+    "id": "ep01-09",
+    "shot": 4,
+    "speaker": "DARTO",
+    "text": "Motor sudah nggak ada, Bu."
+  },
+  {
+    "id": "ep01-10",
+    "shot": 4,
+    "speaker": "PETUGAS",
+    "text": "Tapi Bapak pegang uang?"
+  },
+  {
+    "id": "ep01-11",
+    "shot": 4,
+    "speaker": "DARTO",
+    "text": "Buat beras."
+  },
+  {
+    "id": "ep01-12",
+    "shot": 4,
+    "speaker": "PETUGAS",
+    "text": "Berarti masih punya simpanan."
+  },
+  {
+    "id": "ep01-13",
+    "shot": 5,
+    "speaker": "DARTO",
+    "text": "Uangnya sudah habis. Sekarang saya nggak punya motor, nggak punya kerja."
+  },
+  {
+    "id": "ep01-14",
+    "shot": 5,
+    "speaker": "PETUGAS",
+    "text": "Harus ada bukti usaha mandiri."
+  },
+  {
+    "id": "ep01-15",
+    "shot": 5,
+    "speaker": "DARTO",
+    "text": "Motor saya itu bukti usaha saya, Bu."
+  },
+  {
+    "id": "ep01-16",
+    "shot": 6,
+    "speaker": "ANAK (telepon)",
+    "text": "Pak, hari ini kita makan apa?"
+  },
+  {
+    "id": "ep01-17",
+    "shot": 6,
+    "speaker": "DARTO",
+    "text": "...Bapak usahakan, Nak."
+  },
+  {
+    "id": "ep01-18",
+    "shot": 6,
+    "speaker": "PENGERAS SUARA",
+    "text": "Tidak ada warga yang tertinggal."
+  }
+]

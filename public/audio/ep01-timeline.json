@@ -1,0 +1,20 @@
+[
+  {"startSeconds":0.00,"durationSeconds":6.05,"speaker":"DARTO","file":"proof-darto-01.mp3","text":"Bu, saya mau daftar bantuan. Tiga hari ini dapur kami nggak ngebul.","speed":1.06},
+  {"startSeconds":6.05,"durationSeconds":1.63,"speaker":"PETUGAS","file":"proof-petugas-01.mp3","text":"Kendaraan ada?","speed":1.06},
+  {"startSeconds":7.83,"durationSeconds":4.12,"speaker":"DARTO","file":"proof-darto-02.mp3","text":"Motor tua. Kalau hujan, dia ikut mogok.","speed":1.06},
+  {"startSeconds":12.00,"durationSeconds":4.78,"speaker":"PETUGAS","file":"ep01-petugas-02a.mp3","text":"Berarti punya aset. Belum memenuhi kriteria."},
+  {"startSeconds":17.35,"durationSeconds":3.22,"speaker":"DARTO","file":"ep01-darto-02a.mp3","text":"Motor itu buat cari kerja, Bu."},
+  {"startSeconds":21.05,"durationSeconds":2.09,"speaker":"PETUGAS","file":"ep01-petugas-02b.mp3","text":"Sistemnya begitu."},
+  {"startSeconds":26.00,"durationSeconds":2.86,"speaker":"PEMBELI","file":"ep01-pembeli-01.mp3","text":"Kalau dijual, kerja naik apa?"},
+  {"startSeconds":29.35,"durationSeconds":4.18,"speaker":"DARTO","file":"ep01-darto-03a.mp3","text":"Jalan kaki. Yang penting anak saya makan."},
+  {"startSeconds":40.00,"durationSeconds":2.54,"speaker":"DARTO","file":"ep01-darto-04a.mp3","text":"Motor sudah nggak ada, Bu."},
+  {"startSeconds":42.85,"durationSeconds":2.57,"speaker":"PETUGAS","file":"ep01-petugas-03a.mp3","text":"Tapi Bapak pegang uang?"},
+  {"startSeconds":45.70,"durationSeconds":1.78,"speaker":"DARTO","file":"ep01-darto-04b.mp3","text":"Buat beras."},
+  {"startSeconds":47.95,"durationSeconds":2.66,"speaker":"PETUGAS","file":"ep01-petugas-03b.mp3","text":"Berarti masih punya simpanan."},
+  {"startSeconds":56.00,"durationSeconds":5.06,"speaker":"DARTO","file":"ep01-darto-05a.mp3","text":"Uangnya sudah habis. Sekarang saya nggak punya motor, nggak punya kerja."},
+  {"startSeconds":61.45,"durationSeconds":2.90,"speaker":"PETUGAS","file":"ep01-petugas-04.mp3","text":"Harus ada bukti usaha mandiri."},
+  {"startSeconds":64.80,"durationSeconds":3.14,"speaker":"DARTO","file":"ep01-darto-05b.mp3","text":"Motor saya itu bukti usaha saya, Bu."},
+  {"startSeconds":72.00,"durationSeconds":2.74,"speaker":"ANAK · TELEPON","file":"ep01-anak-01.mp3","text":"Pak, hari ini kita makan apa?"},
+  {"startSeconds":77.00,"durationSeconds":2.14,"speaker":"DARTO","file":"ep01-darto-04.mp3","text":"...Bapak usahakan, Nak."},
+  {"startSeconds":84.00,"durationSeconds":2.62,"speaker":"PENGERAS SUARA","file":"ep01-slogan-01.mp3","text":"Tidak ada warga yang tertinggal."}
+]
