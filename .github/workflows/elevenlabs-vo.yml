@@ -1,3 +1,4 @@
+# Credential verification retry after repository secret configuration.
 name: ElevenLabs VO test
 on:
   push:
