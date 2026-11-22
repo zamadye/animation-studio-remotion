@@ -1,0 +1,140 @@
+{
+  "composition": "Face-Expression-Catalog",
+  "fps": 24,
+  "durationSeconds": 40,
+  "movements": [
+    {
+      "label": "00 · Netral + kedip",
+      "emotion": "neutral",
+      "index": 0,
+      "startFrame": 0,
+      "endFrame": 59,
+      "startSeconds": 0
+    },
+    {
+      "label": "01 · Bentuk mulut / fonem",
+      "emotion": "neutral",
+      "phonemes": true,
+      "index": 1,
+      "startFrame": 60,
+      "endFrame": 119,
+      "startSeconds": 2.5
+    },
+    {
+      "label": "02 · Bicara netral",
+      "emotion": "neutral",
+      "speech": true,
+      "index": 2,
+      "startFrame": 120,
+      "endFrame": 179,
+      "startSeconds": 5
+    },
+    {
+      "label": "03 · Senang / senyum",
+      "emotion": "happy",
+      "index": 3,
+      "startFrame": 180,
+      "endFrame": 239,
+      "startSeconds": 7.5
+    },
+    {
+      "label": "04 · Tertawa",
+      "emotion": "laughing",
+      "index": 4,
+      "startFrame": 240,
+      "endFrame": 299,
+      "startSeconds": 10
+    },
+    {
+      "label": "05 · Sedih",
+      "emotion": "sad",
+      "index": 5,
+      "startFrame": 300,
+      "endFrame": 359,
+      "startSeconds": 12.5
+    },
+    {
+      "label": "06 · Menangis / air mata",
+      "emotion": "crying",
+      "index": 6,
+      "startFrame": 360,
+      "endFrame": 419,
+      "startSeconds": 15
+    },
+    {
+      "label": "07 · Marah",
+      "emotion": "angry",
+      "index": 7,
+      "startFrame": 420,
+      "endFrame": 479,
+      "startSeconds": 17.5
+    },
+    {
+      "label": "08 · Marah sambil bicara",
+      "emotion": "angry",
+      "speech": true,
+      "index": 8,
+      "startFrame": 480,
+      "endFrame": 539,
+      "startSeconds": 20
+    },
+    {
+      "label": "09 · Takut / cemas",
+      "emotion": "afraid",
+      "index": 9,
+      "startFrame": 540,
+      "endFrame": 599,
+      "startSeconds": 22.5
+    },
+    {
+      "label": "10 · Terkejut",
+      "emotion": "surprised",
+      "index": 10,
+      "startFrame": 600,
+      "endFrame": 659,
+      "startSeconds": 25
+    },
+    {
+      "label": "11 · Curiga",
+      "emotion": "suspicious",
+      "index": 11,
+      "startFrame": 660,
+      "endFrame": 719,
+      "startSeconds": 27.5
+    },
+    {
+      "label": "12 · Lelah",
+      "emotion": "tired",
+      "index": 12,
+      "startFrame": 720,
+      "endFrame": 779,
+      "startSeconds": 30
+    },
+    {
+      "label": "13 · Malu",
+      "emotion": "embarrassed",
+      "index": 13,
+      "startFrame": 780,
+      "endFrame": 839,
+      "startSeconds": 32.5
+    },
+    {
+      "label": "14 · Sedih sambil bicara",
+      "emotion": "sad",
+      "speech": true,
+      "index": 14,
+      "startFrame": 840,
+      "endFrame": 899,
+      "startSeconds": 35
+    },
+    {
+      "label": "15 · Menangis sambil bicara",
+      "emotion": "crying",
+      "speech": true,
+      "index": 15,
+      "startFrame": 900,
+      "endFrame": 959,
+      "startSeconds": 37.5
+    }
+  ]
+}

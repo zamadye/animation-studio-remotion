@@ -1,0 +1,112 @@
+{
+  "composition": "Full-Rig-Catalog",
+  "fps": 24,
+  "framesPerMovement": 60,
+  "durationSeconds": 32.5,
+  "movements": [
+    {
+      "index": 0,
+      "label": "00 · Netral / semua pivot",
+      "startFrame": 0,
+      "endFrame": 59,
+      "startSeconds": 0,
+      "endSeconds": 2.5
+    },
+    {
+      "index": 1,
+      "label": "01 · Lengan kiri / bahu–siku",
+      "startFrame": 60,
+      "endFrame": 119,
+      "startSeconds": 2.5,
+      "endSeconds": 5
+    },
+    {
+      "index": 2,
+      "label": "02 · Lengan kanan / bahu–siku",
+      "startFrame": 120,
+      "endFrame": 179,
+      "startSeconds": 5,
+      "endSeconds": 7.5
+    },
+    {
+      "index": 3,
+      "label": "03 · Kedua lengan / pergelangan",
+      "startFrame": 180,
+      "endFrame": 239,
+      "startSeconds": 7.5,
+      "endSeconds": 10
+    },
+    {
+      "index": 4,
+      "label": "04 · Kaki kiri / panggul–lutut–ankle",
+      "startFrame": 240,
+      "endFrame": 299,
+      "startSeconds": 10,
+      "endSeconds": 12.5
+    },
+    {
+      "index": 5,
+      "label": "05 · Kaki kanan / panggul–lutut–ankle",
+      "startFrame": 300,
+      "endFrame": 359,
+      "startSeconds": 12.5,
+      "endSeconds": 15
+    },
+    {
+      "index": 6,
+      "label": "06 · Langkah bergantian",
+      "startFrame": 360,
+      "endFrame": 419,
+      "startSeconds": 15,
+      "endSeconds": 17.5
+    },
+    {
+      "index": 7,
+      "label": "07 · Pinggang condong kiri",
+      "startFrame": 420,
+      "endFrame": 479,
+      "startSeconds": 17.5,
+      "endSeconds": 20
+    },
+    {
+      "index": 8,
+      "label": "08 · Pinggang condong kanan",
+      "startFrame": 480,
+      "endFrame": 539,
+      "startSeconds": 20,
+      "endSeconds": 22.5
+    },
+    {
+      "index": 9,
+      "label": "09 · Turun duduk / pelvis + lutut",
+      "startFrame": 540,
+      "endFrame": 599,
+      "startSeconds": 22.5,
+      "endSeconds": 25
+    },
+    {
+      "index": 10,
+      "label": "10 · Duduk / pinggang maju–pulih",
+      "startFrame": 600,
+      "endFrame": 659,
+      "startSeconds": 25,
+      "endSeconds": 27.5
+    },
+    {
+      "index": 11,
+      "label": "11 · Duduk / kedua lengan",
+      "startFrame": 660,
+      "endFrame": 719,
+      "startSeconds": 27.5,
+      "endSeconds": 30
+    },
+    {
+      "index": 12,
+      "label": "12 · Berdiri kembali / kaki rata",
+      "startFrame": 720,
+      "endFrame": 779,
+      "startSeconds": 30,
+      "endSeconds": 32.5
+    }
+  ]
+}

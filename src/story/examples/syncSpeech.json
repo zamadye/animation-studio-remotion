@@ -1,0 +1,774 @@
+[
+  {
+    "id": "darto-line",
+    "speaker": "darto",
+    "start": 180,
+    "end": 256,
+    "text": "Motor itu buat cari kerja, Bu.",
+    "audio": "audio/ep01-darto-02a.mp3",
+    "alignment": "audio-energy-text-estimate",
+    "visemes": [
+      {
+        "start": 0,
+        "end": 1,
+        "viseme": "rest",
+        "openness": 0
+      },
+      {
+        "start": 1,
+        "end": 2,
+        "viseme": "rest",
+        "openness": 0
+      },
+      {
+        "start": 2,
+        "end": 3,
+        "viseme": "rest",
+        "openness": 0
+      },
+      {
+        "start": 3,
+        "end": 4,
+        "viseme": "rest",
+        "openness": 0
+      },
+      {
+        "start": 4,
+        "end": 5,
+        "viseme": "rest",
+        "openness": 0
+      },
+      {
+        "start": 5,
+        "end": 6,
+        "viseme": "rest",
+        "openness": 0
+      },
+      {
+        "start": 6,
+        "end": 7,
+        "viseme": "MBP",
+        "openness": 0.35
+      },
+      {
+        "start": 7,
+        "end": 8,
+        "viseme": "MBP",
+        "openness": 0.968
+      },
+      {
+        "start": 8,
+        "end": 9,
+        "viseme": "MBP",
+        "openness": 1
+      },
+      {
+        "start": 9,
+        "end": 10,
+        "viseme": "MBP",
+        "openness": 1
+      },
+      {
+        "start": 10,
+        "end": 11,
+        "viseme": "O",
+        "openness": 1
+      },
+      {
+        "start": 11,
+        "end": 12,
+        "viseme": "rest",
+        "openness": 0
+      },
+      {
+        "start": 12,
+        "end": 13,
+        "viseme": "rest",
+        "openness": 0
+      },
+      {
+        "start": 13,
+        "end": 14,
+        "viseme": "O",
+        "openness": 1
+      },
+      {
+        "start": 14,
+        "end": 15,
+        "viseme": "O",
+        "openness": 1
+      },
+      {
+        "start": 15,
+        "end": 16,
+        "viseme": "O",
+        "openness": 0.876
+      },
+      {
+        "start": 16,
+        "end": 17,
+        "viseme": "O",
+        "openness": 0.35
+      },
+      {
+        "start": 17,
+        "end": 18,
+        "viseme": "O",
+        "openness": 0.35
+      },
+      {
+        "start": 18,
+        "end": 19,
+        "viseme": "O",
+        "openness": 0.751
+      },
+      {
+        "start": 19,
+        "end": 20,
+        "viseme": "E",
+        "openness": 0.709
+      },
+      {
+        "start": 20,
+        "end": 21,
+        "viseme": "E",
+        "openness": 0.35
+      },
+      {
+        "start": 21,
+        "end": 22,
+        "viseme": "rest",
+        "openness": 0
+      },
+      {
+        "start": 22,
+        "end": 23,
+        "viseme": "rest",
+        "openness": 0
+      },
+      {
+        "start": 23,
+        "end": 24,
+        "viseme": "rest",
+        "openness": 0
+      },
+      {
+        "start": 24,
+        "end": 25,
+        "viseme": "E",
+        "openness": 0.827
+      },
+      {
+        "start": 25,
+        "end": 26,
+        "viseme": "E",
+        "openness": 0.789
+      },
+      {
+        "start": 26,
+        "end": 27,
+        "viseme": "U",
+        "openness": 0.581
+      },
+      {
+        "start": 27,
+        "end": 28,
+        "viseme": "U",
+        "openness": 0.494
+      },
+      {
+        "start": 28,
+        "end": 29,
+        "viseme": "U",
+        "openness": 0.512
+      },
+      {
+        "start": 29,
+        "end": 30,
+        "viseme": "U",
+        "openness": 0.543
+      },
+      {
+        "start": 30,
+        "end": 31,
+        "viseme": "MBP",
+        "openness": 0.623
+      },
+      {
+        "start": 31,
+        "end": 32,
+        "viseme": "MBP",
+        "openness": 0.48
+      },
+      {
+        "start": 32,
+        "end": 33,
+        "viseme": "MBP",
+        "openness": 0.35
+      },
+      {
+        "start": 33,
+        "end": 34,
+        "viseme": "U",
+        "openness": 0.351
+      },
+      {
+        "start": 34,
+        "end": 35,
+        "viseme": "U",
+        "openness": 1
+      },
+      {
+        "start": 35,
+        "end": 36,
+        "viseme": "U",
+        "openness": 1
+      },
+      {
+        "start": 36,
+        "end": 37,
+        "viseme": "U",
+        "openness": 0.751
+      },
+      {
+        "start": 37,
+        "end": 38,
+        "viseme": "rest",
+        "openness": 0
+      },
+      {
+        "start": 38,
+        "end": 39,
+        "viseme": "A",
+        "openness": 0.35
+      },
+      {
+        "start": 39,
+        "end": 40,
+        "viseme": "A",
+        "openness": 1
+      },
+      {
+        "start": 40,
+        "end": 41,
+        "viseme": "A",
+        "openness": 1
+      },
+      {
+        "start": 41,
+        "end": 42,
+        "viseme": "A",
+        "openness": 1
+      },
+      {
+        "start": 42,
+        "end": 43,
+        "viseme": "A",
+        "openness": 0.35
+      },
+      {
+        "start": 43,
+        "end": 44,
+        "viseme": "rest",
+        "openness": 0
+      },
+      {
+        "start": 44,
+        "end": 45,
+        "viseme": "A",
+        "openness": 0.35
+      },
+      {
+        "start": 45,
+        "end": 46,
+        "viseme": "A",
+        "openness": 1
+      },
+      {
+        "start": 46,
+        "end": 47,
+        "viseme": "E",
+        "openness": 1
+      },
+      {
+        "start": 47,
+        "end": 48,
+        "viseme": "E",
+        "openness": 1
+      },
+      {
+        "start": 48,
+        "end": 49,
+        "viseme": "E",
+        "openness": 0.464
+      },
+      {
+        "start": 49,
+        "end": 50,
+        "viseme": "E",
+        "openness": 0.35
+      },
+      {
+        "start": 50,
+        "end": 51,
+        "viseme": "rest",
+        "openness": 0
+      },
+      {
+        "start": 51,
+        "end": 52,
+        "viseme": "E",
+        "openness": 0.605
+      },
+      {
+        "start": 52,
+        "end": 53,
+        "viseme": "E",
+        "openness": 1
+      },
+      {
+        "start": 53,
+        "end": 54,
+        "viseme": "E",
+        "openness": 1
+      },
+      {
+        "start": 54,
+        "end": 55,
+        "viseme": "E",
+        "openness": 1
+      },
+      {
+        "start": 55,
+        "end": 56,
+        "viseme": "A",
+        "openness": 1
+      },
+      {
+        "start": 56,
+        "end": 57,
+        "viseme": "A",
+        "openness": 0.538
+      },
+      {
+        "start": 57,
+        "end": 58,
+        "viseme": "A",
+        "openness": 0.603
+      },
+      {
+        "start": 58,
+        "end": 59,
+        "viseme": "MBP",
+        "openness": 0.786
+      },
+      {
+        "start": 59,
+        "end": 60,
+        "viseme": "MBP",
+        "openness": 0.751
+      },
+      {
+        "start": 60,
+        "end": 61,
+        "viseme": "MBP",
+        "openness": 0.824
+      },
+      {
+        "start": 61,
+        "end": 62,
+        "viseme": "MBP",
+        "openness": 0.783
+      },
+      {
+        "start": 62,
+        "end": 63,
+        "viseme": "U",
+        "openness": 0.886
+      },
+      {
+        "start": 63,
+        "end": 64,
+        "viseme": "U",
+        "openness": 1
+      },
+      {
+        "start": 64,
+        "end": 65,
+        "viseme": "U",
+        "openness": 0.973
+      },
+      {
+        "start": 65,
+        "end": 66,
+        "viseme": "U",
+        "openness": 0.537
+      },
+      {
+        "start": 66,
+        "end": 67,
+        "viseme": "rest",
+        "openness": 0
+      },
+      {
+        "start": 67,
+        "end": 68,
+        "viseme": "rest",
+        "openness": 0
+      },
+      {
+        "start": 68,
+        "end": 69,
+        "viseme": "rest",
+        "openness": 0
+      },
+      {
+        "start": 69,
+        "end": 70,
+        "viseme": "rest",
+        "openness": 0
+      },
+      {
+        "start": 70,
+        "end": 71,
+        "viseme": "rest",
+        "openness": 0
+      },
+      {
+        "start": 71,
+        "end": 72,
+        "viseme": "rest",
+        "openness": 0
+      },
+      {
+        "start": 72,
+        "end": 73,
+        "viseme": "rest",
+        "openness": 0
+      },
+      {
+        "start": 73,
+        "end": 74,
+        "viseme": "rest",
+        "openness": 0
+      },
+      {
+        "start": 74,
+        "end": 75,
+        "viseme": "rest",
+        "openness": 0
+      },
+      {
+        "start": 75,
+        "end": 76,
+        "viseme": "rest",
+        "openness": 0
+      }
+    ]
+  },
+  {
+    "id": "petugas-line",
+    "speaker": "petugas",
+    "start": 288,
+    "end": 337,
+    "text": "Sistemnya begitu.",
+    "audio": "audio/ep01-petugas-02b.mp3",
+    "alignment": "audio-energy-text-estimate",
+    "visemes": [
+      {
+        "start": 0,
+        "end": 1,
+        "viseme": "rest",
+        "openness": 0
+      },
+      {
+        "start": 1,
+        "end": 2,
+        "viseme": "rest",
+        "openness": 0
+      },
+      {
+        "start": 2,
+        "end": 3,
+        "viseme": "rest",
+        "openness": 0
+      },
+      {
+        "start": 3,
+        "end": 4,
+        "viseme": "rest",
+        "openness": 0
+      },
+      {
+        "start": 4,
+        "end": 5,
+        "viseme": "rest",
+        "openness": 0
+      },
+      {
+        "start": 5,
+        "end": 6,
+        "viseme": "rest",
+        "openness": 0
+      },
+      {
+        "start": 6,
+        "end": 7,
+        "viseme": "rest",
+        "openness": 0
+      },
+      {
+        "start": 7,
+        "end": 8,
+        "viseme": "rest",
+        "openness": 0
+      },
+      {
+        "start": 8,
+        "end": 9,
+        "viseme": "E",
+        "openness": 1
+      },
+      {
+        "start": 9,
+        "end": 10,
+        "viseme": "E",
+        "openness": 1
+      },
+      {
+        "start": 10,
+        "end": 11,
+        "viseme": "E",
+        "openness": 0.945
+      },
+      {
+        "start": 11,
+        "end": 12,
+        "viseme": "E",
+        "openness": 0.35
+      },
+      {
+        "start": 12,
+        "end": 13,
+        "viseme": "rest",
+        "openness": 0
+      },
+      {
+        "start": 13,
+        "end": 14,
+        "viseme": "rest",
+        "openness": 0
+      },
+      {
+        "start": 14,
+        "end": 15,
+        "viseme": "E",
+        "openness": 1
+      },
+      {
+        "start": 15,
+        "end": 16,
+        "viseme": "E",
+        "openness": 1
+      },
+      {
+        "start": 16,
+        "end": 17,
+        "viseme": "E",
+        "openness": 1
+      },
+      {
+        "start": 17,
+        "end": 18,
+        "viseme": "MBP",
+        "openness": 1
+      },
+      {
+        "start": 18,
+        "end": 19,
+        "viseme": "MBP",
+        "openness": 1
+      },
+      {
+        "start": 19,
+        "end": 20,
+        "viseme": "MBP",
+        "openness": 1
+      },
+      {
+        "start": 20,
+        "end": 21,
+        "viseme": "A",
+        "openness": 1
+      },
+      {
+        "start": 21,
+        "end": 22,
+        "viseme": "A",
+        "openness": 1
+      },
+      {
+        "start": 22,
+        "end": 23,
+        "viseme": "A",
+        "openness": 1
+      },
+      {
+        "start": 23,
+        "end": 24,
+        "viseme": "MBP",
+        "openness": 1
+      },
+      {
+        "start": 24,
+        "end": 25,
+        "viseme": "MBP",
+        "openness": 0.678
+      },
+      {
+        "start": 25,
+        "end": 26,
+        "viseme": "MBP",
+        "openness": 0.35
+      },
+      {
+        "start": 26,
+        "end": 27,
+        "viseme": "MBP",
+        "openness": 0.709
+      },
+      {
+        "start": 27,
+        "end": 28,
+        "viseme": "E",
+        "openness": 1
+      },
+      {
+        "start": 28,
+        "end": 29,
+        "viseme": "E",
+        "openness": 1
+      },
+      {
+        "start": 29,
+        "end": 30,
+        "viseme": "rest",
+        "openness": 0
+      },
+      {
+        "start": 30,
+        "end": 31,
+        "viseme": "rest",
+        "openness": 0
+      },
+      {
+        "start": 31,
+        "end": 32,
+        "viseme": "rest",
+        "openness": 0
+      },
+      {
+        "start": 32,
+        "end": 33,
+        "viseme": "E",
+        "openness": 1
+      },
+      {
+        "start": 33,
+        "end": 34,
+        "viseme": "E",
+        "openness": 1
+      },
+      {
+        "start": 34,
+        "end": 35,
+        "viseme": "E",
+        "openness": 1
+      },
+      {
+        "start": 35,
+        "end": 36,
+        "viseme": "E",
+        "openness": 1
+      },
+      {
+        "start": 36,
+        "end": 37,
+        "viseme": "U",
+        "openness": 0.832
+      },
+      {
+        "start": 37,
+        "end": 38,
+        "viseme": "U",
+        "openness": 0.585
+      },
+      {
+        "start": 38,
+        "end": 39,
+        "viseme": "U",
+        "openness": 0.397
+      },
+      {
+        "start": 39,
+        "end": 40,
+        "viseme": "U",
+        "openness": 0.35
+      },
+      {
+        "start": 40,
+        "end": 41,
+        "viseme": "rest",
+        "openness": 0
+      },
+      {
+        "start": 41,
+        "end": 42,
+        "viseme": "rest",
+        "openness": 0
+      },
+      {
+        "start": 42,
+        "end": 43,
+        "viseme": "rest",
+        "openness": 0
+      },
+      {
+        "start": 43,
+        "end": 44,
+        "viseme": "rest",
+        "openness": 0
+      },
+      {
+        "start": 44,
+        "end": 45,
+        "viseme": "rest",
+        "openness": 0
+      },
+      {
+        "start": 45,
+        "end": 46,
+        "viseme": "rest",
+        "openness": 0
+      },
+      {
+        "start": 46,
+        "end": 47,
+        "viseme": "rest",
+        "openness": 0
+      },
+      {
+        "start": 47,
+        "end": 48,
+        "viseme": "rest",
+        "openness": 0
+      },
+      {
+        "start": 48,
+        "end": 49,
+        "viseme": "rest",
+        "openness": 0
+      }
+    ]
+  }
+]

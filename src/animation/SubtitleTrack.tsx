@@ -1,0 +1,2 @@
+import React from 'react';
+export const SubtitleTrack:React.FC<{text:string;speaker:string;visible:boolean}> = ({text,speaker,visible})=>!visible||!text?null:<div style={{position:'absolute',left:'8%',right:'8%',bottom:'8.5%',textAlign:'center',color:'#fffdf6',textShadow:'0 3px 5px #161b20,0 1px 12px #161b20',fontFamily:'Arial,sans-serif',fontWeight:800,lineHeight:1.16,fontSize:'clamp(28px,4.2vw,52px)',letterSpacing:'-.015em'}}><div style={{fontSize:'.42em',letterSpacing:'.12em',marginBottom:10,opacity:.9}}>{speaker}</div>{text}</div>;

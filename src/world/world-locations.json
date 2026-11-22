@@ -1,0 +1,1027 @@
+[
+  {
+    "id": "world-01-01",
+    "episodeId": "01",
+    "location": "Kantor pelayanan",
+    "family": "service",
+    "night": false,
+    "closeup": false,
+    "floorY": 900,
+    "actorZones": [
+      {
+        "id": "actor-left",
+        "x": 540,
+        "y": 900
+      },
+      {
+        "id": "actor-right",
+        "x": 980,
+        "y": 900
+      }
+    ],
+    "interaction": {
+      "x": 1320,
+      "y": 690
+    }
+  },
+  {
+    "id": "world-01-02",
+    "episodeId": "01",
+    "location": "Meja petugas",
+    "family": "service",
+    "night": false,
+    "closeup": true,
+    "floorY": 900,
+    "actorZones": [
+      {
+        "id": "actor-left",
+        "x": 540,
+        "y": 900
+      },
+      {
+        "id": "actor-right",
+        "x": 980,
+        "y": 900
+      }
+    ],
+    "interaction": {
+      "x": 1320,
+      "y": 690
+    }
+  },
+  {
+    "id": "world-01-03",
+    "episodeId": "01",
+    "location": "Pinggir jalan",
+    "family": "street",
+    "night": false,
+    "closeup": false,
+    "floorY": 900,
+    "actorZones": [
+      {
+        "id": "actor-left",
+        "x": 540,
+        "y": 900
+      },
+      {
+        "id": "actor-right",
+        "x": 980,
+        "y": 900
+      }
+    ],
+    "interaction": {
+      "x": 1320,
+      "y": 690
+    }
+  },
+  {
+    "id": "world-01-04",
+    "episodeId": "01",
+    "location": "Teras kantor",
+    "family": "service-exterior",
+    "night": false,
+    "closeup": false,
+    "floorY": 900,
+    "actorZones": [
+      {
+        "id": "actor-left",
+        "x": 540,
+        "y": 900
+      },
+      {
+        "id": "actor-right",
+        "x": 980,
+        "y": 900
+      }
+    ],
+    "interaction": {
+      "x": 1320,
+      "y": 690
+    }
+  },
+  {
+    "id": "world-02-01",
+    "episodeId": "02",
+    "location": "Ruang wawancara",
+    "family": "office",
+    "night": false,
+    "closeup": false,
+    "floorY": 900,
+    "actorZones": [
+      {
+        "id": "actor-left",
+        "x": 540,
+        "y": 900
+      },
+      {
+        "id": "actor-right",
+        "x": 980,
+        "y": 900
+      }
+    ],
+    "interaction": {
+      "x": 1320,
+      "y": 690
+    }
+  },
+  {
+    "id": "world-02-02",
+    "episodeId": "02",
+    "location": "Koridor kantor",
+    "family": "office",
+    "night": false,
+    "closeup": false,
+    "floorY": 900,
+    "actorZones": [
+      {
+        "id": "actor-left",
+        "x": 540,
+        "y": 900
+      },
+      {
+        "id": "actor-right",
+        "x": 980,
+        "y": 900
+      }
+    ],
+    "interaction": {
+      "x": 1320,
+      "y": 690
+    }
+  },
+  {
+    "id": "world-02-03",
+    "episodeId": "02",
+    "location": "Halte",
+    "family": "busstop",
+    "night": false,
+    "closeup": false,
+    "floorY": 900,
+    "actorZones": [
+      {
+        "id": "actor-left",
+        "x": 540,
+        "y": 900
+      },
+      {
+        "id": "actor-right",
+        "x": 980,
+        "y": 900
+      }
+    ],
+    "interaction": {
+      "x": 1320,
+      "y": 690
+    }
+  },
+  {
+    "id": "world-02-04",
+    "episodeId": "02",
+    "location": "Kantor lain",
+    "family": "office",
+    "night": false,
+    "closeup": false,
+    "floorY": 900,
+    "actorZones": [
+      {
+        "id": "actor-left",
+        "x": 540,
+        "y": 900
+      },
+      {
+        "id": "actor-right",
+        "x": 980,
+        "y": 900
+      }
+    ],
+    "interaction": {
+      "x": 1320,
+      "y": 690
+    }
+  },
+  {
+    "id": "world-02-05",
+    "episodeId": "02",
+    "location": "Halte malam",
+    "family": "busstop",
+    "night": true,
+    "closeup": false,
+    "floorY": 900,
+    "actorZones": [
+      {
+        "id": "actor-left",
+        "x": 540,
+        "y": 900
+      },
+      {
+        "id": "actor-right",
+        "x": 980,
+        "y": 900
+      }
+    ],
+    "interaction": {
+      "x": 1320,
+      "y": 690
+    }
+  },
+  {
+    "id": "world-03-01",
+    "episodeId": "03",
+    "location": "Selokan jalan",
+    "family": "drain",
+    "night": false,
+    "closeup": false,
+    "floorY": 900,
+    "actorZones": [
+      {
+        "id": "actor-left",
+        "x": 540,
+        "y": 900
+      },
+      {
+        "id": "actor-right",
+        "x": 980,
+        "y": 900
+      }
+    ],
+    "interaction": {
+      "x": 1320,
+      "y": 690
+    }
+  },
+  {
+    "id": "world-03-02",
+    "episodeId": "03",
+    "location": "Pinggir selokan",
+    "family": "drain",
+    "night": false,
+    "closeup": false,
+    "floorY": 900,
+    "actorZones": [
+      {
+        "id": "actor-left",
+        "x": 540,
+        "y": 900
+      },
+      {
+        "id": "actor-right",
+        "x": 980,
+        "y": 900
+      }
+    ],
+    "interaction": {
+      "x": 1320,
+      "y": 690
+    }
+  },
+  {
+    "id": "world-03-03",
+    "episodeId": "03",
+    "location": "Jalan",
+    "family": "drain",
+    "night": false,
+    "closeup": false,
+    "floorY": 900,
+    "actorZones": [
+      {
+        "id": "actor-left",
+        "x": 540,
+        "y": 900
+      },
+      {
+        "id": "actor-right",
+        "x": 980,
+        "y": 900
+      }
+    ],
+    "interaction": {
+      "x": 1320,
+      "y": 690
+    }
+  },
+  {
+    "id": "world-04-01",
+    "episodeId": "04",
+    "location": "Aula sekolah",
+    "family": "school",
+    "night": false,
+    "closeup": false,
+    "floorY": 900,
+    "actorZones": [
+      {
+        "id": "actor-left",
+        "x": 540,
+        "y": 900
+      },
+      {
+        "id": "actor-right",
+        "x": 980,
+        "y": 900
+      }
+    ],
+    "interaction": {
+      "x": 1320,
+      "y": 690
+    }
+  },
+  {
+    "id": "world-04-02",
+    "episodeId": "04",
+    "location": "Loket administrasi",
+    "family": "school",
+    "night": false,
+    "closeup": false,
+    "floorY": 900,
+    "actorZones": [
+      {
+        "id": "actor-left",
+        "x": 540,
+        "y": 900
+      },
+      {
+        "id": "actor-right",
+        "x": 980,
+        "y": 900
+      }
+    ],
+    "interaction": {
+      "x": 1320,
+      "y": 690
+    }
+  },
+  {
+    "id": "world-04-03",
+    "episodeId": "04",
+    "location": "Loket",
+    "family": "school",
+    "night": false,
+    "closeup": true,
+    "floorY": 900,
+    "actorZones": [
+      {
+        "id": "actor-left",
+        "x": 540,
+        "y": 900
+      },
+      {
+        "id": "actor-right",
+        "x": 980,
+        "y": 900
+      }
+    ],
+    "interaction": {
+      "x": 1320,
+      "y": 690
+    }
+  },
+  {
+    "id": "world-04-04",
+    "episodeId": "04",
+    "location": "Kelas",
+    "family": "classroom",
+    "night": false,
+    "closeup": false,
+    "floorY": 900,
+    "actorZones": [
+      {
+        "id": "actor-left",
+        "x": 540,
+        "y": 900
+      },
+      {
+        "id": "actor-right",
+        "x": 980,
+        "y": 900
+      }
+    ],
+    "interaction": {
+      "x": 1320,
+      "y": 690
+    }
+  },
+  {
+    "id": "world-04-05",
+    "episodeId": "04",
+    "location": "Rumah",
+    "family": "home",
+    "night": false,
+    "closeup": false,
+    "floorY": 900,
+    "actorZones": [
+      {
+        "id": "actor-left",
+        "x": 540,
+        "y": 900
+      },
+      {
+        "id": "actor-right",
+        "x": 980,
+        "y": 900
+      }
+    ],
+    "interaction": {
+      "x": 1320,
+      "y": 690
+    }
+  },
+  {
+    "id": "world-04-06",
+    "episodeId": "04",
+    "location": "Gerbang sekolah",
+    "family": "schoolgate",
+    "night": false,
+    "closeup": false,
+    "floorY": 900,
+    "actorZones": [
+      {
+        "id": "actor-left",
+        "x": 540,
+        "y": 900
+      },
+      {
+        "id": "actor-right",
+        "x": 980,
+        "y": 900
+      }
+    ],
+    "interaction": {
+      "x": 1320,
+      "y": 690
+    }
+  },
+  {
+    "id": "world-05-01",
+    "episodeId": "05",
+    "location": "Kampung tergenang",
+    "family": "flood",
+    "night": false,
+    "closeup": false,
+    "floorY": 900,
+    "actorZones": [
+      {
+        "id": "actor-left",
+        "x": 540,
+        "y": 900
+      },
+      {
+        "id": "actor-right",
+        "x": 980,
+        "y": 900
+      }
+    ],
+    "interaction": {
+      "x": 1320,
+      "y": 690
+    }
+  },
+  {
+    "id": "world-05-02",
+    "episodeId": "05",
+    "location": "Batas tembok kompleks",
+    "family": "flood",
+    "night": false,
+    "closeup": false,
+    "floorY": 900,
+    "actorZones": [
+      {
+        "id": "actor-left",
+        "x": 540,
+        "y": 900
+      },
+      {
+        "id": "actor-right",
+        "x": 980,
+        "y": 900
+      }
+    ],
+    "interaction": {
+      "x": 1320,
+      "y": 690
+    }
+  },
+  {
+    "id": "world-05-03",
+    "episodeId": "05",
+    "location": "Posko pengembang",
+    "family": "community",
+    "night": false,
+    "closeup": false,
+    "floorY": 900,
+    "actorZones": [
+      {
+        "id": "actor-left",
+        "x": 540,
+        "y": 900
+      },
+      {
+        "id": "actor-right",
+        "x": 980,
+        "y": 900
+      }
+    ],
+    "interaction": {
+      "x": 1320,
+      "y": 690
+    }
+  },
+  {
+    "id": "world-05-04",
+    "episodeId": "05",
+    "location": "Balai warga",
+    "family": "community",
+    "night": false,
+    "closeup": false,
+    "floorY": 900,
+    "actorZones": [
+      {
+        "id": "actor-left",
+        "x": 540,
+        "y": 900
+      },
+      {
+        "id": "actor-right",
+        "x": 980,
+        "y": 900
+      }
+    ],
+    "interaction": {
+      "x": 1320,
+      "y": 690
+    }
+  },
+  {
+    "id": "world-05-05",
+    "episodeId": "05",
+    "location": "Rumah Mira",
+    "family": "home",
+    "night": false,
+    "closeup": false,
+    "floorY": 900,
+    "actorZones": [
+      {
+        "id": "actor-left",
+        "x": 540,
+        "y": 900
+      },
+      {
+        "id": "actor-right",
+        "x": 980,
+        "y": 900
+      }
+    ],
+    "interaction": {
+      "x": 1320,
+      "y": 690
+    }
+  },
+  {
+    "id": "world-05-06",
+    "episodeId": "05",
+    "location": "Tembok kompleks",
+    "family": "flood",
+    "night": false,
+    "closeup": false,
+    "floorY": 900,
+    "actorZones": [
+      {
+        "id": "actor-left",
+        "x": 540,
+        "y": 900
+      },
+      {
+        "id": "actor-right",
+        "x": 980,
+        "y": 900
+      }
+    ],
+    "interaction": {
+      "x": 1320,
+      "y": 690
+    }
+  },
+  {
+    "id": "world-06-01",
+    "episodeId": "06",
+    "location": "Ruang keluarga",
+    "family": "home",
+    "night": false,
+    "closeup": false,
+    "floorY": 900,
+    "actorZones": [
+      {
+        "id": "actor-left",
+        "x": 540,
+        "y": 900
+      },
+      {
+        "id": "actor-right",
+        "x": 980,
+        "y": 900
+      }
+    ],
+    "interaction": {
+      "x": 1320,
+      "y": 690
+    }
+  },
+  {
+    "id": "world-06-02",
+    "episodeId": "06",
+    "location": "Meja makan",
+    "family": "home",
+    "night": false,
+    "closeup": false,
+    "floorY": 900,
+    "actorZones": [
+      {
+        "id": "actor-left",
+        "x": 540,
+        "y": 900
+      },
+      {
+        "id": "actor-right",
+        "x": 980,
+        "y": 900
+      }
+    ],
+    "interaction": {
+      "x": 1320,
+      "y": 690
+    }
+  },
+  {
+    "id": "world-06-03",
+    "episodeId": "06",
+    "location": "Kantor",
+    "family": "office",
+    "night": false,
+    "closeup": false,
+    "floorY": 900,
+    "actorZones": [
+      {
+        "id": "actor-left",
+        "x": 540,
+        "y": 900
+      },
+      {
+        "id": "actor-right",
+        "x": 980,
+        "y": 900
+      }
+    ],
+    "interaction": {
+      "x": 1320,
+      "y": 690
+    }
+  },
+  {
+    "id": "world-06-04",
+    "episodeId": "06",
+    "location": "Aula sekolah",
+    "family": "school",
+    "night": false,
+    "closeup": false,
+    "floorY": 900,
+    "actorZones": [
+      {
+        "id": "actor-left",
+        "x": 540,
+        "y": 900
+      },
+      {
+        "id": "actor-right",
+        "x": 980,
+        "y": 900
+      }
+    ],
+    "interaction": {
+      "x": 1320,
+      "y": 690
+    }
+  },
+  {
+    "id": "world-06-05",
+    "episodeId": "06",
+    "location": "Rumah malam",
+    "family": "home",
+    "night": true,
+    "closeup": false,
+    "floorY": 900,
+    "actorZones": [
+      {
+        "id": "actor-left",
+        "x": 540,
+        "y": 900
+      },
+      {
+        "id": "actor-right",
+        "x": 980,
+        "y": 900
+      }
+    ],
+    "interaction": {
+      "x": 1320,
+      "y": 690
+    }
+  },
+  {
+    "id": "world-07-01",
+    "episodeId": "07",
+    "location": "Jembatan rusak",
+    "family": "bridge",
+    "night": false,
+    "closeup": false,
+    "floorY": 900,
+    "actorZones": [
+      {
+        "id": "actor-left",
+        "x": 540,
+        "y": 900
+      },
+      {
+        "id": "actor-right",
+        "x": 980,
+        "y": 900
+      }
+    ],
+    "interaction": {
+      "x": 1320,
+      "y": 690
+    }
+  },
+  {
+    "id": "world-07-02",
+    "episodeId": "07",
+    "location": "Kantor layanan",
+    "family": "service",
+    "night": false,
+    "closeup": false,
+    "floorY": 900,
+    "actorZones": [
+      {
+        "id": "actor-left",
+        "x": 540,
+        "y": 900
+      },
+      {
+        "id": "actor-right",
+        "x": 980,
+        "y": 900
+      }
+    ],
+    "interaction": {
+      "x": 1320,
+      "y": 690
+    }
+  },
+  {
+    "id": "world-07-03",
+    "episodeId": "07",
+    "location": "Kantor kecamatan",
+    "family": "service",
+    "night": false,
+    "closeup": false,
+    "floorY": 900,
+    "actorZones": [
+      {
+        "id": "actor-left",
+        "x": 540,
+        "y": 900
+      },
+      {
+        "id": "actor-right",
+        "x": 980,
+        "y": 900
+      }
+    ],
+    "interaction": {
+      "x": 1320,
+      "y": 690
+    }
+  },
+  {
+    "id": "world-07-04",
+    "episodeId": "07",
+    "location": "Jembatan malam",
+    "family": "bridge",
+    "night": true,
+    "closeup": false,
+    "floorY": 900,
+    "actorZones": [
+      {
+        "id": "actor-left",
+        "x": 540,
+        "y": 900
+      },
+      {
+        "id": "actor-right",
+        "x": 980,
+        "y": 900
+      }
+    ],
+    "interaction": {
+      "x": 1320,
+      "y": 690
+    }
+  },
+  {
+    "id": "world-07-05",
+    "episodeId": "07",
+    "location": "Jembatan pagi",
+    "family": "bridge",
+    "night": false,
+    "closeup": false,
+    "floorY": 900,
+    "actorZones": [
+      {
+        "id": "actor-left",
+        "x": 540,
+        "y": 900
+      },
+      {
+        "id": "actor-right",
+        "x": 980,
+        "y": 900
+      }
+    ],
+    "interaction": {
+      "x": 1320,
+      "y": 690
+    }
+  },
+  {
+    "id": "world-07-06",
+    "episodeId": "07",
+    "location": "Jembatan siang",
+    "family": "bridge",
+    "night": false,
+    "closeup": false,
+    "floorY": 900,
+    "actorZones": [
+      {
+        "id": "actor-left",
+        "x": 540,
+        "y": 900
+      },
+      {
+        "id": "actor-right",
+        "x": 980,
+        "y": 900
+      }
+    ],
+    "interaction": {
+      "x": 1320,
+      "y": 690
+    }
+  },
+  {
+    "id": "world-08-01",
+    "episodeId": "08",
+    "location": "Kasir minimarket",
+    "family": "shop",
+    "night": false,
+    "closeup": false,
+    "floorY": 900,
+    "actorZones": [
+      {
+        "id": "actor-left",
+        "x": 540,
+        "y": 900
+      },
+      {
+        "id": "actor-right",
+        "x": 980,
+        "y": 900
+      }
+    ],
+    "interaction": {
+      "x": 1320,
+      "y": 690
+    }
+  },
+  {
+    "id": "world-08-02",
+    "episodeId": "08",
+    "location": "Area kasir",
+    "family": "shop",
+    "night": false,
+    "closeup": true,
+    "floorY": 900,
+    "actorZones": [
+      {
+        "id": "actor-left",
+        "x": 540,
+        "y": 900
+      },
+      {
+        "id": "actor-right",
+        "x": 980,
+        "y": 900
+      }
+    ],
+    "interaction": {
+      "x": 1320,
+      "y": 690
+    }
+  },
+  {
+    "id": "world-08-03",
+    "episodeId": "08",
+    "location": "Gudang malam",
+    "family": "stockroom",
+    "night": true,
+    "closeup": false,
+    "floorY": 900,
+    "actorZones": [
+      {
+        "id": "actor-left",
+        "x": 540,
+        "y": 900
+      },
+      {
+        "id": "actor-right",
+        "x": 980,
+        "y": 900
+      }
+    ],
+    "interaction": {
+      "x": 1320,
+      "y": 690
+    }
+  },
+  {
+    "id": "world-08-04",
+    "episodeId": "08",
+    "location": "Rumah",
+    "family": "home",
+    "night": false,
+    "closeup": false,
+    "floorY": 900,
+    "actorZones": [
+      {
+        "id": "actor-left",
+        "x": 540,
+        "y": 900
+      },
+      {
+        "id": "actor-right",
+        "x": 980,
+        "y": 900
+      }
+    ],
+    "interaction": {
+      "x": 1320,
+      "y": 690
+    }
+  },
+  {
+    "id": "world-08-05",
+    "episodeId": "08",
+    "location": "Gudang",
+    "family": "stockroom",
+    "night": false,
+    "closeup": false,
+    "floorY": 900,
+    "actorZones": [
+      {
+        "id": "actor-left",
+        "x": 540,
+        "y": 900
+      },
+      {
+        "id": "actor-right",
+        "x": 980,
+        "y": 900
+      }
+    ],
+    "interaction": {
+      "x": 1320,
+      "y": 690
+    }
+  },
+  {
+    "id": "world-08-06",
+    "episodeId": "08",
+    "location": "Depan minimarket",
+    "family": "shop-exterior",
+    "night": false,
+    "closeup": false,
+    "floorY": 900,
+    "actorZones": [
+      {
+        "id": "actor-left",
+        "x": 540,
+        "y": 900
+      },
+      {
+        "id": "actor-right",
+        "x": 980,
+        "y": 900
+      }
+    ],
+    "interaction": {
+      "x": 1320,
+      "y": 690
+    }
+  }
+]

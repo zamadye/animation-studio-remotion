@@ -1,0 +1,51 @@
+name: ElevenLabs VO test
+on:
+  push:
+    branches: ['arena/68a76170-animation-studio-remotion']
+    paths: ['.github/workflows/elevenlabs-vo.yml', 'scripts/elevenlabs-vo.mjs']
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: Discover voices only, or generate one short paid test
+        type: choice
+        options: [discover, probe]
+        default: probe
+      voice_id:
+        description: Voice ID from voices.json (blank = first premade voice, review only)
+        type: string
+        required: false
+      text:
+        description: Indonesian test copy, maximum 280 characters (blank = default sample)
+        type: string
+        required: false
+permissions:
+  contents: read
+concurrency:
+  group: elevenlabs-vo-${{ github.ref }}
+  cancel-in-progress: false
+jobs:
+  vo-test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Discover voices and generate one review take
+        env:
+          ELEVENLABS_API_KEY: ${{ secrets.ELEVENLABS_API_KEY }}
+          ELEVENLABS_VOICE_ID: ${{ inputs.voice_id }}
+          VO_MODE: ${{ inputs.mode || 'probe' }}
+          VO_TEXT: ${{ inputs.text }}
+        run: node scripts/elevenlabs-vo.mjs
+      - name: Upload voice list and review audio
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: elevenlabs-vo-${{ github.run_id }}
+          path: artifacts/elevenlabs/
+          if-no-files-found: ignore
+          retention-days: 7

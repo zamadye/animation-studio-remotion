@@ -67,7 +67,27 @@
     {
       "path": "src/components/characters/cast.ts",
       "type": "editable character design data",
-      "usage": "typed cast plus deterministic extra-cast palette resolver"
+      "usage": "typed cast with presentation, costume, lower-garment, silhouette and deterministic extra-cast palette resolver"
+    },
+    {
+      "path": "scripts/episode01_actor.py",
+      "type": "original deterministic offline character design system",
+      "usage": "separate Darto/Petugas/Pembeli body silhouettes, faces, hair, garments, footwear and acting poses"
+    },
+    {
+      "path": "audio/ep01-timeline.json",
+      "type": "line-level generated dialogue cue sheet",
+      "usage": "18 source-matched Indonesian voices with speaker attribution and start/duration timing"
+    },
+    {
+      "path": "audio/ep01-roomtone-synthetic.wav",
+      "type": "procedural synthetic sound bed",
+      "usage": "low-level office, roadside and porch ambience; not a field recording"
+    },
+    {
+      "path": "audio/ep01-foley-synthetic.wav",
+      "type": "procedural synthetic sound effects",
+      "usage": "stamp, starter, page movement and phone ring; not recorded Foley"
     },
     {
       "path": "src/data/actors.ts",
@@ -112,16 +132,17 @@
   ],
   "notProvided": [
     "approved final character models and full supporting cast rigs",
-    "recorded VO",
+    "human-recorded VO and bespoke actor identities",
     "music",
-    "SFX",
+    "recorded/location SFX",
     "live footage",
     "brand logo",
     "third-party font files"
   ],
   "generatedOutputs": {
-    "Episode-01-Orang-Miskin-Dilarang-Miskin-Animatic.mp4": "PRODUCED — silent 90.00s 720x1280 15fps; six shot boundaries source matched; dialogue timing estimated, not VO sync",
+    "Episode-01-Orang-Miskin-Dilarang-Miskin-Animatic.mp4": "PRODUCED — earlier silent 90.00s 720x1280 15fps staging pass",
+    "Episode-01-Orang-Miskin-Dilarang-Miskin-Cinematic.mp4": "PRODUCED — revised 90s 1080x1920 30fps offline staged render; role-distinct Darto/Petugas/Pembeli models, 18 line-level generated dialogue cues and synthetic ambience/foley; phoneme-accurate lip sync and Remotion render not validated",
     "remotion-render.mp4": "NOT PRODUCED — Remotion Chrome Headless Shell download blocked",
-    "contact-sheet": "PARTIAL — opening and ending frame spot checks only; full visual QA pending"
+    "contact-sheet": "PARTIAL — representative frames sampled across all six scene blocks; exhaustive every-frame QA pending"
   }
 }

@@ -1,0 +1,132 @@
+{
+  "id": "darto",
+  "viewBox": [
+    0,
+    0,
+    480,
+    900
+  ],
+  "sourceView": "front",
+  "sourceConcept": "darto-front.png",
+  "canvas": "480x900",
+  "scaleFromSource": 1.185495,
+  "originOffset": [
+    87.07,
+    25
+  ],
+  "drawOrder": [
+    "foot_L",
+    "foot_R",
+    "shin_L",
+    "shin_R",
+    "thigh_L",
+    "thigh_R",
+    "pelvis",
+    "torso",
+    "upper_arm_L",
+    "upper_arm_R",
+    "forearm_L",
+    "forearm_R",
+    "hand_L",
+    "hand_R",
+    "head"
+  ],
+  "pivot": {
+    "pelvis": {
+      "x": 238.81,
+      "y": 467.19
+    },
+    "head": {
+      "x": 238.81,
+      "y": 219.42
+    },
+    "upper_arm_L": {
+      "x": 157.02,
+      "y": 204.01
+    },
+    "elbow_L": {
+      "x": 132.12,
+      "y": 334.41
+    },
+    "wrist_L": {
+      "x": 116.71,
+      "y": 525.28
+    },
+    "upper_arm_R": {
+      "x": 331.28,
+      "y": 204.01
+    },
+    "elbow_R": {
+      "x": 356.18,
+      "y": 334.41
+    },
+    "wrist_R": {
+      "x": 369.22,
+      "y": 525.28
+    },
+    "hip_L": {
+      "x": 189.02,
+      "y": 496.83
+    },
+    "knee_L": {
+      "x": 184.28,
+      "y": 637.9
+    },
+    "ankle_L": {
+      "x": 174.8,
+      "y": 807.43
+    },
+    "hip_R": {
+      "x": 286.23,
+      "y": 496.83
+    },
+    "knee_R": {
+      "x": 298.09,
+      "y": 637.9
+    },
+    "ankle_R": {
+      "x": 306.39,
+      "y": 807.43
+    }
+  },
+  "parent": {
+    "thigh_L": "pelvis",
+    "shin_L": "thigh_L",
+    "foot_L": "shin_L",
+    "thigh_R": "pelvis",
+    "shin_R": "thigh_R",
+    "foot_R": "shin_R",
+    "head": "torso",
+    "upper_arm_L": "torso",
+    "forearm_L": "upper_arm_L",
+    "hand_L": "forearm_L",
+    "upper_arm_R": "torso",
+    "forearm_R": "upper_arm_R",
+    "hand_R": "forearm_R"
+  },
+  "layers": {
+    "head": "head.png",
+    "torso": "torso.png",
+    "pelvis": "pelvis.png",
+    "upper_arm_L": "upper_arm_L.png",
+    "forearm_L": "forearm_L.png",
+    "hand_L": "hand_L.png",
+    "upper_arm_R": "upper_arm_R.png",
+    "forearm_R": "forearm_R.png",
+    "hand_R": "hand_R.png",
+    "thigh_L": "thigh_L.png",
+    "shin_L": "shin_L.png",
+    "foot_L": "foot_L.png",
+    "thigh_R": "thigh_R.png",
+    "shin_R": "shin_R.png",
+    "foot_R": "foot_R.png"
+  },
+  "headVariants": {
+    "neutral": "head-neutral.png",
+    "worried": "head-worried.png"
+  },
+  "notes": [
+    "Experimental raster cutout using hand-authored masks over generated concept artwork.",
+    "Front-view source; joint overlap/paint cleanup and side-turn assets remain required before final production."
+  ]
+}

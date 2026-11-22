@@ -7,3 +7,29 @@ render.mp4
 contact-sheet.png
 qa-frames/
 .DS_Store
+
+# Generated world-design review outputs (source lives in src/world/)
+.cache/
+/world-design-*.png
+/world-design-*.jpg
+/world-design-*.mp4
+/world-location-*.mp4
+/world-location-*.pdf
+/world-character-scale-check.png
+/world-dialogue-proof.mp4
+/world-dialogue-review.jpg
+/held-prop-*.png
+/held-prop-*.jpg
+/held-prop-*.pdf
+/held-prop-*.mp4
+
+# Local credentials and generated render/QA artifacts
+.env
+.env.*
+!.env.example
+/artifacts/
+/audio/
+/*.mp4
+/*.png
+/*.jpg
+/*.pdf

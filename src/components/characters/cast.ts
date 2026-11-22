@@ -1,6 +1,6 @@
 import castData from './cast-data.json';
 import type {CharacterProfile} from '../../data/types';
-export type CharacterDesign={name:string;role:string;skin:string;hair:string;outfit:string;accent:string;hairShape:'short'|'bun'|'hijab'|'cap'|'curly';bodyShape?:'slim'|'average'|'broad';glasses?:boolean;apron?:boolean};
+export type CharacterDesign={heightScale?:number;child?:boolean;name:string;role:string;skin:string;hair:string;outfit:string;accent:string;hairShape:'short'|'bun'|'hijab'|'cap'|'curly';bodyShape?:'slim'|'average'|'broad';presentation?:'masculine'|'feminine'|'androgynous';costume?:'workwear'|'service-uniform'|'casual';lowerGarment?:'trousers'|'skirt';lowerGarmentColor?:string;glasses?:boolean;apron?:boolean};
 export type CastPair={hero:CharacterDesign;foil:CharacterDesign};
 export const cast=castData as Record<string,CastPair>;
 export const fallbackCast:CastPair={hero:{name:'Karakter utama',role:'tokoh cerita',skin:'#b98262',hair:'#302824',outfit:'#526c69',accent:'#d1aa60',hairShape:'short'},foil:{name:'Lawan adegan',role:'tokoh pendamping',skin:'#d5a180',hair:'#38302c',outfit:'#526878',accent:'#c7a95b',hairShape:'bun'}};

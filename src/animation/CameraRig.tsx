@@ -1,0 +1,7 @@
+import React from 'react';
+export type Framing='establishing'|'wide'|'two-shot'|'medium'|'close-up'|'extreme-close-up'|'over-shoulder'|'reaction'|'insert';
+export type CameraMove='hold'|'push-in'|'pull-back'|'pan'|'tilt'|'track';
+export type CameraShot={framing:Framing;move:CameraMove;fromScale?:number;toScale?:number;fromX?:number;toX?:number;fromY?:number;toY?:number;durationFrames:number;focalX?:number;focalY?:number};
+const ease=(x:number)=>x*x*(3-2*x);
+export const cameraStateAt=(shot:CameraShot,frame:number)=>{const p=Math.max(0,Math.min(1,frame/Math.max(1,shot.durationFrames)));const e=ease(p);const scale=(shot.fromScale??(shot.framing==='close-up'?1.5:shot.framing==='extreme-close-up'?2.1:1)) + ((shot.toScale??shot.fromScale??1)-(shot.fromScale??(shot.framing==='close-up'?1.5:shot.framing==='extreme-close-up'?2.1:1)))*e;const x=(shot.fromX??0)+((shot.toX??0)-(shot.fromX??0))*e;const y=(shot.fromY??0)+((shot.toY??0)-(shot.fromY??0))*e;return {scale,x,y,origin:`${shot.focalX??50}% ${shot.focalY??50}%`};};
+export const CameraRig:React.FC<{shot:CameraShot;frame:number;children:React.ReactNode}>=({shot,frame,children})=>{const c=cameraStateAt(shot,frame);return <div style={{position:'absolute',inset:0,overflow:'hidden'}}><div style={{position:'absolute',inset:0,transform:`translate(${c.x}px,${c.y}px) scale(${c.scale})`,transformOrigin:c.origin,willChange:'transform'}}>{children}</div></div>;};

@@ -1,0 +1,9 @@
+import type {CameraShot} from './CameraRig';
+export type ProofShot={id:string;startFrame:number;endFrame:number;purpose:string;camera:CameraShot;dartoClip:string;petugasClip:string;subtitle:string;speaker:'DARTO'|'PETUGAS';prop:'folder'|'none'};
+export const proofShots:ProofShot[]=[
+ {id:'01A-two-shot',startFrame:0,endFrame:192,purpose:'Establish unequal service counter and Darto asking for help; anticipation by tightening his fingers on the folder.',camera:{framing:'two-shot',move:'push-in',fromScale:1,toScale:1.08,durationFrames:192,focalX:49,focalY:48},dartoClip:'pleading',petugasClip:'listening',subtitle:'Bu, saya mau daftar bantuan. Tiga hari ini dapur kami nggak ngebul.',speaker:'DARTO',prop:'folder'},
+ {id:'01A-reaction',startFrame:192,endFrame:244,purpose:'Cut to Petugas reaction, eyebrow raise, brief suspicious look before the question.',camera:{framing:'close-up',move:'hold',fromScale:1.72,toScale:1.72,durationFrames:52,focalX:72,focalY:43},dartoClip:'looking_away',petugasClip:'suspicious',subtitle:'Kendaraan ada?',speaker:'PETUGAS',prop:'none'},
+ {id:'01A-darto-close',startFrame:244,endFrame:375,purpose:'Darto absorbs the question, looks away, then gives a dry joke; hand indicates the old folder as a stand-in for the old motor.',camera:{framing:'close-up',move:'push-in',fromScale:1.55,toScale:1.78,durationFrames:131,focalX:29,focalY:44},dartoClip:'confused',petugasClip:'listening',subtitle:'Motor tua. Kalau hujan, dia ikut mogok.',speaker:'DARTO',prop:'folder'},
+ {id:'01A-hold',startFrame:375,endFrame:390,purpose:'Hold on their shared reaction for a readable comic beat.',camera:{framing:'two-shot',move:'pull-back',fromScale:1.08,toScale:1,durationFrames:15,focalX:50,focalY:50},dartoClip:'embarrassed',petugasClip:'suspicious',subtitle:'',speaker:'DARTO',prop:'none'},
+];
+export const proofShotAt=(frame:number)=>proofShots.find(s=>frame>=s.startFrame&&frame<s.endFrame)??proofShots.at(-1)!;

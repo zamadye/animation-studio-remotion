@@ -1,0 +1,12 @@
+{
+  "status": "Locked by explicit user instruction. Facial work only; do not update this baseline without approval.",
+  "sha256": {
+    "motion-schedule": "ac44b11df182c8c2c3ac0684f91f933d6ae573238f1dd59488ee9babc166cf9b",
+    "body-geometry": "35c7381b431843ea371c2ab28f2fa87c139b48b32ceac40e061e53be56f348d1",
+    "arm-hierarchy": "09668ed404b4201a69f2c930db08dadfe3f0733d41c85f531b6085096b778231",
+    "cast-designs": "0a9533d17e9c2c348fd6921165a30b499067e650d073cb4c321fde6da2381e6e",
+    "body-drawing": "c53c725ae97a31861c95782a8361921be581684aa027e4d731c62e7640898465",
+    "body-adapter": "112247656413f14b52c4b75441f081d5742f21d904b2257fb523d570100e0013",
+    "body-placement": "48c1a1a211a0ba64d758b060048c551e59646734d84932f5d89066da977806ce"
+  }
+}
