@@ -27,4 +27,4 @@ export async function run({env=process.env,request=fetch,dir='artifacts/elevenla
  await fs.writeFile(path.join(dir,'take.json'),JSON.stringify({voice_id:voice.voice_id,name:voice.name,model:'eleven_multilingual_v2',language:'id',text,bytes:bytes.length,selection:env.ELEVENLABS_VOICE_ID?'explicit':'first-premade-review-only',note:'Audio test only; not a locked cast voice or approved phoneme alignment.'},null,2));
  console.log('Saved vo-test-id.mp3 and take.json. Audition before assigning this voice to a character.');return {voices,voice};
 }
-if(path.basename(process.argv[1]??'')==='elevenlabs-vo.mjs')run().catch(error=>{console.error(error.message);process.exitCode=1;});
+if(path.basename(process.argv[1]??'')==='elevenlabs-vo.mjs')run().catch(error=>{console.error(`::error::${error.message}`);process.exitCode=1;});
