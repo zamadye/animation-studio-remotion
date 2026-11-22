@@ -26,3 +26,9 @@ The voice-list endpoint remains required for `discover` mode or automatic voice 
 ### Live diagnosis after reference comparison
 
 Run 45030782365 returned `HTTP 401 at /v1/voices; code=missing_permissions`. This is endpoint permission denial, not `invalid_api_key`. To test TTS independently, the workflow now defaults to the historical reference-workflow voice `ojz6ro9PB1xDu44lymdM` only when neither an input nor repository variable is configured. This ID is explicitly present in the reference YAML/script; it is NOT taken from the currently internal `voice.json`. It is a technical trial, not an approved character voice. Set `ELEVENLABS_VOICE_ID` repository variable to override it. The actual provider response will establish whether this key can synthesize that voice.
+
+### Confirmed result
+
+Run https://github.com/zamadye/animation-studio-remotion/actions/runs/45030862811 SUCCEEDED: the explicit historical reference voice synthesized the short Indonesian sample. Voice-list metadata still reports `missing_permissions`; the TTS capability itself is confirmed. The earlier assertion that HTTP 401 established an invalid credential was not justified. Do not request a replacement key based on the metadata failure alone.
+
+The artifact blob host is inaccessible from this sandbox, as the reference repo also documents. A separate `elevenlabs-collect.yml` workflow downloads that exact successful run's artifact on GitHub and preserves just the small MP3 plus nonsecret take metadata on this session branch. It performs no new synthesis and consumes no additional TTS credit. This one-time recovery is separate from the generation workflow so unrelated source commits never regenerate paid takes.

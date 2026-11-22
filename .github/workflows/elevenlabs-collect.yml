@@ -1,0 +1,39 @@
+name: Collect verified ElevenLabs review take
+# Recover the already-generated MP3 through GitHub: sandbox cannot reach artifact blob hosts.
+# No ElevenLabs API call or paid regeneration in this workflow.
+on:
+  push:
+    branches: ['arena/68a76170-animation-studio-remotion']
+    paths: ['.github/workflows/elevenlabs-collect.yml']
+permissions:
+  contents: write
+  actions: read
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: arena/68a76170-animation-studio-remotion
+      - uses: actions/download-artifact@v4
+        with:
+          name: elevenlabs-vo-45030862811
+          run-id: 45030862811
+          github-token: ${{ github.token }}
+          path: collected-vo
+      - name: Preserve small verified review audio on the session branch
+        shell: bash
+        run: |
+          set -euo pipefail
+          test -s collected-vo/vo-test-id.mp3
+          test "$(stat -c%s collected-vo/vo-test-id.mp3)" -lt 1048576
+          mkdir -p public/audio/vo-tests
+          cp collected-vo/vo-test-id.mp3 public/audio/vo-tests/elevenlabs-reference-probe.mp3
+          cp collected-vo/take.json public/audio/vo-tests/elevenlabs-reference-probe.json
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add public/audio/vo-tests/elevenlabs-reference-probe.mp3 public/audio/vo-tests/elevenlabs-reference-probe.json
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m "Preserve successful ElevenLabs technical voice probe"
+          git push origin HEAD:refs/heads/arena/68a76170-animation-studio-remotion
