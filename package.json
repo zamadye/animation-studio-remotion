@@ -8,7 +8,7 @@
     "remotion": "remotion studio src/remotion-entry.ts",
     "typecheck": "tsc --noEmit",
     "build": "vite build",
-    "test": "node scripts/validate-project.mjs && node scripts/test-character-rig.mjs && npm run test:face && npm run test:story && npm run test:world && npm run test:props && npm run test:vo",
+    "test": "node scripts/validate-project.mjs && node scripts/test-character-rig.mjs && npm run test:face && npm run test:story && npm run test:world && npm run test:props && npm run test:vo && npm run test:episode01",
     "build:docs": "node scripts/build-docs.mjs",
     "extract:scripts": "python3 scripts/extract-episodes.py && node scripts/enrich-episodes.mjs && node scripts/build-docs.mjs",
     "generate:assets": "node scripts/generate-character-sheets.mjs",
@@ -28,7 +28,9 @@
     "render:world-dialogue": "remotion render src/remotion-entry.ts World-Dialogue-Proof world-dialogue-proof.mp4 --codec h264 --crf 22 --public-dir public",
     "render:held-props": "remotion render src/remotion-entry.ts Held-Prop-Camera-Proof held-prop-camera-proof.mp4 --codec h264 --crf 20 --public-dir public",
     "test:props": "node scripts/test-held-props.mjs",
-    "test:vo": "node scripts/test-elevenlabs-vo.mjs"
+    "test:vo": "node scripts/test-elevenlabs-vo.mjs",
+    "test:episode01": "node scripts/test-episode01.mjs",
+    "render:episode01-review": "remotion render src/remotion-entry.ts Episode01-Complete-Review episode01-complete-review.mp4 --codec h264 --crf 21 --public-dir public"
   },
   "dependencies": {
     "@remotion/player": "4.0.545",

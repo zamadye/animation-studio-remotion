@@ -1,3 +1,4 @@
+import {Episode01Review} from './episodes/Episode01Review';
 import {PropCameraProof} from './props/PropCameraProof';
 import React from 'react';
 import {Composition} from 'remotion';
@@ -31,6 +32,8 @@ export const RemotionRoot: React.FC = () => <>
   <Composition id="Proof-01-Opening-Scene" component={ProofScene} durationInFrames={PROOF_DURATION} fps={30} width={1080} height={1920}/>
   <Composition id="Character-Variation-Concepts-1" component={CharacterVariationSheet} durationInFrames={90} fps={30} width={1080} height={1920} defaultProps={{page:0}}/>
   <Composition id="Character-Variation-Concepts-2" component={CharacterVariationSheet} durationInFrames={90} fps={30} width={1080} height={1920} defaultProps={{page:1}}/>
+  <Composition id="Episode01-Complete-Review" component={Episode01Review} durationInFrames={2160} fps={24} width={1080} height={1920} defaultProps={{portrait:true}}/>
+  <Composition id="Episode01-Complete-Landscape" component={Episode01Review} durationInFrames={2160} fps={24} width={1920} height={1080}/>
   <Composition id="Held-Prop-Camera-Proof" component={PropCameraProof} durationInFrames={624} fps={24} width={1920} height={1080}/>
   <Composition id="World-Dialogue-Proof" component={WorldDialogueProof} durationInFrames={288} fps={24} width={1920} height={1080}/>
   <Composition id="World-Character-Scale-Check" component={WorldScaleCheck} durationInFrames={1} fps={24} width={1920} height={1080}/>

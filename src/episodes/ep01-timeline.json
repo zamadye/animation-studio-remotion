@@ -1,0 +1,5360 @@
+[
+  {
+    "id": "ep01-01",
+    "shot": 1,
+    "speaker": "DARTO",
+    "text": "Bu, saya mau daftar bantuan. Tiga hari ini dapur kami nggak ngebul.",
+    "start": 27,
+    "end": 122,
+    "audio": "audio/episode01-elevenlabs/ep01-01.mp3",
+    "alignment": "audio-energy-text-estimate",
+    "timingSource": "elevenlabs-character-timestamps-plus-measured-energy",
+    "visemes": [
+      {
+        "start": 0,
+        "end": 1,
+        "viseme": "rest",
+        "openness": 0
+      },
+      {
+        "start": 1,
+        "end": 2,
+        "viseme": "MBP",
+        "openness": 0.183
+      },
+      {
+        "start": 2,
+        "end": 3,
+        "viseme": "MBP",
+        "openness": 0.923
+      },
+      {
+        "start": 3,
+        "end": 4,
+        "viseme": "U",
+        "openness": 1
+      },
+      {
+        "start": 4,
+        "end": 5,
+        "viseme": "U",
+        "openness": 1
+      },
+      {
+        "start": 5,
+        "end": 6,
+        "viseme": "U",
+        "openness": 0.846
+      },
+      {
+        "start": 6,
+        "end": 7,
+        "viseme": "U",
+        "openness": 0.603
+      },
+      {
+        "start": 7,
+        "end": 8,
+        "viseme": "U",
+        "openness": 0.34
+      },
+      {
+        "start": 8,
+        "end": 9,
+        "viseme": "rest",
+        "openness": 0
+      },
+      {
+        "start": 9,
+        "end": 10,
+        "viseme": "rest",
+        "openness": 0
+      },
+      {
+        "start": 10,
+        "end": 11,
+        "viseme": "A",
+        "openness": 0.144
+      },
+      {
+        "start": 11,
+        "end": 12,
+        "viseme": "A",
+        "openness": 0.168
+      },
+      {
+        "start": 12,
+        "end": 13,
+        "viseme": "A",
+        "openness": 0.858
+      },
+      {
+        "start": 13,
+        "end": 14,
+        "viseme": "A",
+        "openness": 1
+      },
+      {
+        "start": 14,
+        "end": 15,
+        "viseme": "A",
+        "openness": 0.905
+      },
+      {
+        "start": 15,
+        "end": 16,
+        "viseme": "A",
+        "openness": 0.93
+      },
+      {
+        "start": 16,
+        "end": 17,
+        "viseme": "rest",
+        "openness": 0
+      },
+      {
+        "start": 17,
+        "end": 18,
+        "viseme": "MBP",
+        "openness": 0.873
+      },
+      {
+        "start": 18,
+        "end": 19,
+        "viseme": "U",
+        "openness": 0.922
+      },
+      {
+        "start": 19,
+        "end": 20,
+        "viseme": "rest",
+        "openness": 0
+      },
+      {
+        "start": 20,
+        "end": 21,
+        "viseme": "A",
+        "openness": 1
+      },
+      {
+        "start": 21,
+        "end": 22,
+        "viseme": "FV",
+        "openness": 0.253
+      },
+      {
+        "start": 22,
+        "end": 23,
+        "viseme": "rest",
+        "openness": 0
+      },
+      {
+        "start": 23,
+        "end": 24,
+        "viseme": "A",
+        "openness": 0.754
+      },
+      {
+        "start": 24,
+        "end": 25,
+        "viseme": "A",
+        "openness": 0.597
+      },
+      {
+        "start": 25,
+        "end": 26,
+        "viseme": "rest",
+        "openness": 0
+      },
+      {
+        "start": 26,
+        "end": 27,
+        "viseme": "MBP",
+        "openness": 0.898
+      },
+      {
+        "start": 27,
+        "end": 28,
+        "viseme": "A",
+        "openness": 1
+      },
+      {
+        "start": 28,
+        "end": 29,
+        "viseme": "A",
+        "openness": 1
+      },
+      {
+        "start": 29,
+        "end": 30,
+        "viseme": "A",
+        "openness": 0.696
+      },
+      {
+        "start": 30,
+        "end": 31,
+        "viseme": "A",
+        "openness": 0.29
+      },
+      {
+        "start": 31,
+        "end": 32,
+        "viseme": "A",
+        "openness": 0.346
+      },
+      {
+        "start": 32,
+        "end": 33,
+        "viseme": "U",
+        "openness": 0.738
+      },
+      {
+        "start": 33,
+        "end": 34,
+        "viseme": "U",
+        "openness": 0.705
+      },
+      {
+        "start": 34,
+        "end": 35,
+        "viseme": "U",
+        "openness": 0.579
+      },
+      {
+        "start": 35,
+        "end": 36,
+        "viseme": "U",
+        "openness": 0.667
+      },
+      {
+        "start": 36,
+        "end": 37,
+        "viseme": "A",
+        "openness": 0.744
+      },
+      {
+        "start": 37,
+        "end": 38,
+        "viseme": "A",
+        "openness": 0.731
+      },
+      {
+        "start": 38,
+        "end": 39,
+        "viseme": "A",
+        "openness": 0.643
+      },
+      {
+        "start": 39,
+        "end": 40,
+        "viseme": "A",
+        "openness": 0.554
+      },
+      {
+        "start": 40,
+        "end": 41,
+        "viseme": "A",
+        "openness": 0.525
+      },
+      {
+        "start": 41,
+        "end": 42,
+        "viseme": "rest",
+        "openness": 0
+      },
+      {
+        "start": 42,
+        "end": 43,
+        "viseme": "rest",
+        "openness": 0
+      },
+      {
+        "start": 43,
+        "end": 44,
+        "viseme": "rest",
+        "openness": 0
+      },
+      {
+        "start": 44,
+        "end": 45,
+        "viseme": "rest",
+        "openness": 0
+      },
+      {
+        "start": 45,
+        "end": 46,
+        "viseme": "rest",
+        "openness": 0
+      },
+      {
+        "start": 46,
+        "end": 47,
+        "viseme": "E",
+        "openness": 0.89
+      },
+      {
+        "start": 47,
+        "end": 48,
+        "viseme": "E",
+        "openness": 0.824
+      },
+      {
+        "start": 48,
+        "end": 49,
+        "viseme": "A",
+        "openness": 0.605
+      },
+      {
+        "start": 49,
+        "end": 50,
+        "viseme": "A",
+        "openness": 1
+      },
+      {
+        "start": 50,
+        "end": 51,
+        "viseme": "A",
+        "openness": 1
+      },
+      {
+        "start": 51,
+        "end": 52,
+        "viseme": "rest",
+        "openness": 0
+      },
+      {
+        "start": 52,
+        "end": 53,
+        "viseme": "A",
+        "openness": 1
+      },
+      {
+        "start": 53,
+        "end": 54,
+        "viseme": "A",
+        "openness": 1
+      },
+      {
+        "start": 54,
+        "end": 55,
+        "viseme": "A",
+        "openness": 0.686
+      },
+      {
+        "start": 55,
+        "end": 56,
+        "viseme": "A",
+        "openness": 1
+      },
+      {
+        "start": 56,
+        "end": 57,
+        "viseme": "E",
+        "openness": 0.683
+      },
+      {
+        "start": 57,
+        "end": 58,
+        "viseme": "rest",
+        "openness": 0
+      },
+      {
+        "start": 58,
+        "end": 59,
+        "viseme": "E",
+        "openness": 0.949
+      },
+      {
+        "start": 59,
+        "end": 60,
+        "viseme": "E",
+        "openness": 0.786
+      },
+      {
+        "start": 60,
+        "end": 61,
+        "viseme": "A",
+        "openness": 0.694
+      },
+      {
+        "start": 61,
+        "end": 62,
+        "viseme": "E",
+        "openness": 0.693
+      },
+      {
+        "start": 62,
+        "end": 63,
+        "viseme": "E",
+        "openness": 0.902
+      },
+      {
+        "start": 63,
+        "end": 64,
+        "viseme": "rest",
+        "openness": 0
+      },
+      {
+        "start": 64,
+        "end": 65,
+        "viseme": "A",
+        "openness": 1
+      },
+      {
+        "start": 65,
+        "end": 66,
+        "viseme": "A",
+        "openness": 0.855
+      },
+      {
+        "start": 66,
+        "end": 67,
+        "viseme": "MBP",
+        "openness": 0.212
+      },
+      {
+        "start": 67,
+        "end": 68,
+        "viseme": "U",
+        "openness": 1
+      },
+      {
+        "start": 68,
+        "end": 69,
+        "viseme": "A",
+        "openness": 0.546
+      },
+      {
+        "start": 69,
+        "end": 70,
+        "viseme": "rest",
+        "openness": 0
+      },
+      {
+        "start": 70,
+        "end": 71,
+        "viseme": "A",
+        "openness": 0.724
+      },
+      {
+        "start": 71,
+        "end": 72,
+        "viseme": "A",
+        "openness": 0.844
+      },
+      {
+        "start": 72,
+        "end": 73,
+        "viseme": "MBP",
+        "openness": 0.796
+      },
+      {
+        "start": 73,
+        "end": 74,
+        "viseme": "E",
+        "openness": 0.831
+      },
+      {
+        "start": 74,
+        "end": 75,
+        "viseme": "rest",
+        "openness": 0
+      },
+      {
+        "start": 75,
+        "end": 76,
+        "viseme": "A",
+        "openness": 0.777
+      },
+      {
+        "start": 76,
+        "end": 77,
+        "viseme": "A",
+        "openness": 0.813
+      },
+      {
+        "start": 77,
+        "end": 78,
+        "viseme": "A",
+        "openness": 0.577
+      },
+      {
+        "start": 78,
+        "end": 79,
+        "viseme": "rest",
+        "openness": 0
+      },
+      {
+        "start": 79,
+        "end": 80,
+        "viseme": "A",
+        "openness": 0.967
+      },
+      {
+        "start": 80,
+        "end": 81,
+        "viseme": "A",
+        "openness": 1
+      },
+      {
+        "start": 81,
+        "end": 82,
+        "viseme": "E",
+        "openness": 0.638
+      },
+      {
+        "start": 82,
+        "end": 83,
+        "viseme": "MBP",
+        "openness": 0.524
+      },
+      {
+        "start": 83,
+        "end": 84,
+        "viseme": "U",
+        "openness": 1
+      },
+      {
+        "start": 84,
+        "end": 85,
+        "viseme": "U",
+        "openness": 1
+      },
+      {
+        "start": 85,
+        "end": 86,
+        "viseme": "U",
+        "openness": 0.896
+      },
+      {
+        "start": 86,
+        "end": 87,
+        "viseme": "L",
+        "openness": 0.685
+      },
+      {
+        "start": 87,
+        "end": 88,
+        "viseme": "L",
+        "openness": 0.515
+      },
+      {
+        "start": 88,
+        "end": 89,
+        "viseme": "rest",
+        "openness": 0
+      },
+      {
+        "start": 89,
+        "end": 90,
+        "viseme": "rest",
+        "openness": 0
+      },
+      {
+        "start": 90,
+        "end": 91,
+        "viseme": "rest",
+        "openness": 0
+      },
+      {
+        "start": 91,
+        "end": 92,
+        "viseme": "rest",
+        "openness": 0
+      },
+      {
+        "start": 92,
+        "end": 93,
+        "viseme": "rest",
+        "openness": 0
+      },
+      {
+        "start": 93,
+        "end": 94,
+        "viseme": "rest",
+        "openness": 0
+      },
+      {
+        "start": 94,
+        "end": 95,
+        "viseme": "rest",
+        "openness": 0
+      }
+    ]
+  },
+  {
+    "id": "ep01-02",
+    "shot": 1,
+    "speaker": "PETUGAS",
+    "text": "Kendaraan ada?",
+    "start": 149,
+    "end": 175,
+    "audio": "audio/episode01-elevenlabs/ep01-02.mp3",
+    "alignment": "audio-energy-text-estimate",
+    "timingSource": "elevenlabs-character-timestamps-plus-measured-energy",
+    "visemes": [
+      {
+        "start": 0,
+        "end": 1,
+        "viseme": "rest",
+        "openness": 0
+      },
+      {
+        "start": 1,
+        "end": 2,
+        "viseme": "rest",
+        "openness": 0
+      },
+      {
+        "start": 2,
+        "end": 3,
+        "viseme": "A",
+        "openness": 0.274
+      },
+      {
+        "start": 3,
+        "end": 4,
+        "viseme": "E",
+        "openness": 0.962
+      },
+      {
+        "start": 4,
+        "end": 5,
+        "viseme": "A",
+        "openness": 1
+      },
+      {
+        "start": 5,
+        "end": 6,
+        "viseme": "A",
+        "openness": 1
+      },
+      {
+        "start": 6,
+        "end": 7,
+        "viseme": "A",
+        "openness": 1
+      },
+      {
+        "start": 7,
+        "end": 8,
+        "viseme": "A",
+        "openness": 1
+      },
+      {
+        "start": 8,
+        "end": 9,
+        "viseme": "A",
+        "openness": 1
+      },
+      {
+        "start": 9,
+        "end": 10,
+        "viseme": "A",
+        "openness": 0.689
+      },
+      {
+        "start": 10,
+        "end": 11,
+        "viseme": "A",
+        "openness": 0.858
+      },
+      {
+        "start": 11,
+        "end": 12,
+        "viseme": "A",
+        "openness": 1
+      },
+      {
+        "start": 12,
+        "end": 13,
+        "viseme": "A",
+        "openness": 0.976
+      },
+      {
+        "start": 13,
+        "end": 14,
+        "viseme": "rest",
+        "openness": 0
+      },
+      {
+        "start": 14,
+        "end": 15,
+        "viseme": "A",
+        "openness": 1
+      },
+      {
+        "start": 15,
+        "end": 16,
+        "viseme": "A",
+        "openness": 0.641
+      },
+      {
+        "start": 16,
+        "end": 17,
+        "viseme": "A",
+        "openness": 1
+      },
+      {
+        "start": 17,
+        "end": 18,
+        "viseme": "A",
+        "openness": 1
+      },
+      {
+        "start": 18,
+        "end": 19,
+        "viseme": "A",
+        "openness": 0.368
+      },
+      {
+        "start": 19,
+        "end": 20,
+        "viseme": "rest",
+        "openness": 0
+      },
+      {
+        "start": 20,
+        "end": 21,
+        "viseme": "rest",
+        "openness": 0
+      },
+      {
+        "start": 21,
+        "end": 22,
+        "viseme": "rest",
+        "openness": 0
+      },
+      {
+        "start": 22,
+        "end": 23,
+        "viseme": "rest",
+        "openness": 0
+      },
+      {
+        "start": 23,
+        "end": 24,
+        "viseme": "rest",
+        "openness": 0
+      },
+      {
+        "start": 24,
+        "end": 25,
+        "viseme": "rest",
+        "openness": 0
+      },
+      {
+        "start": 25,
+        "end": 26,
+        "viseme": "rest",
+        "openness": 0
+      }
+    ]
+  },
+  {
+    "id": "ep01-03",
+    "shot": 1,
+    "speaker": "DARTO",
+    "text": "Motor tua. Kalau hujan, dia ikut mogok.",
+    "start": 202,
+    "end": 258,
+    "audio": "audio/episode01-elevenlabs/ep01-03.mp3",
+    "alignment": "audio-energy-text-estimate",
+    "timingSource": "elevenlabs-character-timestamps-plus-measured-energy",
+    "visemes": [
+      {
+        "start": 0,
+        "end": 1,
+        "viseme": "rest",
+        "openness": 0
+      },
+      {
+        "start": 1,
+        "end": 2,
+        "viseme": "MBP",
+        "openness": 0.213
+      },
+      {
+        "start": 2,
+        "end": 3,
+        "viseme": "O",
+        "openness": 1
+      },
+      {
+        "start": 3,
+        "end": 4,
+        "viseme": "O",
+        "openness": 1
+      },
+      {
+        "start": 4,
+        "end": 5,
+        "viseme": "O",
+        "openness": 1
+      },
+      {
+        "start": 5,
+        "end": 6,
+        "viseme": "A",
+        "openness": 0.216
+      },
+      {
+        "start": 6,
+        "end": 7,
+        "viseme": "A",
+        "openness": 0.518
+      },
+      {
+        "start": 7,
+        "end": 8,
+        "viseme": "O",
+        "openness": 1
+      },
+      {
+        "start": 8,
+        "end": 9,
+        "viseme": "O",
+        "openness": 0.751
+      },
+      {
+        "start": 9,
+        "end": 10,
+        "viseme": "rest",
+        "openness": 0
+      },
+      {
+        "start": 10,
+        "end": 11,
+        "viseme": "rest",
+        "openness": 0
+      },
+      {
+        "start": 11,
+        "end": 12,
+        "viseme": "A",
+        "openness": 0.555
+      },
+      {
+        "start": 12,
+        "end": 13,
+        "viseme": "U",
+        "openness": 1
+      },
+      {
+        "start": 13,
+        "end": 14,
+        "viseme": "U",
+        "openness": 1
+      },
+      {
+        "start": 14,
+        "end": 15,
+        "viseme": "U",
+        "openness": 1
+      },
+      {
+        "start": 15,
+        "end": 16,
+        "viseme": "A",
+        "openness": 1
+      },
+      {
+        "start": 16,
+        "end": 17,
+        "viseme": "A",
+        "openness": 0.901
+      },
+      {
+        "start": 17,
+        "end": 18,
+        "viseme": "A",
+        "openness": 0.549
+      },
+      {
+        "start": 18,
+        "end": 19,
+        "viseme": "rest",
+        "openness": 0
+      },
+      {
+        "start": 19,
+        "end": 20,
+        "viseme": "rest",
+        "openness": 0
+      },
+      {
+        "start": 20,
+        "end": 21,
+        "viseme": "rest",
+        "openness": 0
+      },
+      {
+        "start": 21,
+        "end": 22,
+        "viseme": "rest",
+        "openness": 0
+      },
+      {
+        "start": 22,
+        "end": 23,
+        "viseme": "A",
+        "openness": 0.585
+      },
+      {
+        "start": 23,
+        "end": 24,
+        "viseme": "A",
+        "openness": 1
+      },
+      {
+        "start": 24,
+        "end": 25,
+        "viseme": "L",
+        "openness": 1
+      },
+      {
+        "start": 25,
+        "end": 26,
+        "viseme": "A",
+        "openness": 1
+      },
+      {
+        "start": 26,
+        "end": 27,
+        "viseme": "rest",
+        "openness": 0
+      },
+      {
+        "start": 27,
+        "end": 28,
+        "viseme": "A",
+        "openness": 0.962
+      },
+      {
+        "start": 28,
+        "end": 29,
+        "viseme": "U",
+        "openness": 0.978
+      },
+      {
+        "start": 29,
+        "end": 30,
+        "viseme": "A",
+        "openness": 0.494
+      },
+      {
+        "start": 30,
+        "end": 31,
+        "viseme": "A",
+        "openness": 1
+      },
+      {
+        "start": 31,
+        "end": 32,
+        "viseme": "A",
+        "openness": 1
+      },
+      {
+        "start": 32,
+        "end": 33,
+        "viseme": "A",
+        "openness": 1
+      },
+      {
+        "start": 33,
+        "end": 34,
+        "viseme": "rest",
+        "openness": 0
+      },
+      {
+        "start": 34,
+        "end": 35,
+        "viseme": "rest",
+        "openness": 0
+      },
+      {
+        "start": 35,
+        "end": 36,
+        "viseme": "E",
+        "openness": 1
+      },
+      {
+        "start": 36,
+        "end": 37,
+        "viseme": "rest",
+        "openness": 0
+      },
+      {
+        "start": 37,
+        "end": 38,
+        "viseme": "E",
+        "openness": 1
+      },
+      {
+        "start": 38,
+        "end": 39,
+        "viseme": "E",
+        "openness": 0.209
+      },
+      {
+        "start": 39,
+        "end": 40,
+        "viseme": "A",
+        "openness": 0.5
+      },
+      {
+        "start": 40,
+        "end": 41,
+        "viseme": "U",
+        "openness": 1
+      },
+      {
+        "start": 41,
+        "end": 42,
+        "viseme": "rest",
+        "openness": 0
+      },
+      {
+        "start": 42,
+        "end": 43,
+        "viseme": "rest",
+        "openness": 0
+      },
+      {
+        "start": 43,
+        "end": 44,
+        "viseme": "MBP",
+        "openness": 1
+      },
+      {
+        "start": 44,
+        "end": 45,
+        "viseme": "O",
+        "openness": 1
+      },
+      {
+        "start": 45,
+        "end": 46,
+        "viseme": "O",
+        "openness": 0.917
+      },
+      {
+        "start": 46,
+        "end": 47,
+        "viseme": "A",
+        "openness": 0.448
+      },
+      {
+        "start": 47,
+        "end": 48,
+        "viseme": "A",
+        "openness": 1
+      },
+      {
+        "start": 48,
+        "end": 49,
+        "viseme": "O",
+        "openness": 1
+      },
+      {
+        "start": 49,
+        "end": 50,
+        "viseme": "O",
+        "openness": 0.448
+      },
+      {
+        "start": 50,
+        "end": 51,
+        "viseme": "A",
+        "openness": 0.168
+      },
+      {
+        "start": 51,
+        "end": 52,
+        "viseme": "rest",
+        "openness": 0
+      },
+      {
+        "start": 52,
+        "end": 53,
+        "viseme": "rest",
+        "openness": 0
+      },
+      {
+        "start": 53,
+        "end": 54,
+        "viseme": "rest",
+        "openness": 0
+      },
+      {
+        "start": 54,
+        "end": 55,
+        "viseme": "rest",
+        "openness": 0
+      },
+      {
+        "start": 55,
+        "end": 56,
+        "viseme": "rest",
+        "openness": 0
+      }
+    ]
+  },
+  {
+    "id": "ep01-04",
+    "shot": 2,
+    "speaker": "PETUGAS",
+    "text": "Berarti punya aset. Belum memenuhi kriteria.",
+    "start": 316,
+    "end": 380,
+    "audio": "audio/episode01-elevenlabs/ep01-04.mp3",
+    "alignment": "audio-energy-text-estimate",
+    "timingSource": "elevenlabs-character-timestamps-plus-measured-energy",
+    "visemes": [
+      {
+        "start": 0,
+        "end": 1,
+        "viseme": "rest",
+        "openness": 0
+      },
+      {
+        "start": 1,
+        "end": 2,
+        "viseme": "rest",
+        "openness": 0
+      },
+      {
+        "start": 2,
+        "end": 3,
+        "viseme": "MBP",
+        "openness": 1
+      },
+      {
+        "start": 3,
+        "end": 4,
+        "viseme": "E",
+        "openness": 0.883
+      },
+      {
+        "start": 4,
+        "end": 5,
+        "viseme": "A",
+        "openness": 1
+      },
+      {
+        "start": 5,
+        "end": 6,
+        "viseme": "A",
+        "openness": 1
+      },
+      {
+        "start": 6,
+        "end": 7,
+        "viseme": "A",
+        "openness": 0.498
+      },
+      {
+        "start": 7,
+        "end": 8,
+        "viseme": "A",
+        "openness": 0.361
+      },
+      {
+        "start": 8,
+        "end": 9,
+        "viseme": "E",
+        "openness": 0.773
+      },
+      {
+        "start": 9,
+        "end": 10,
+        "viseme": "rest",
+        "openness": 0
+      },
+      {
+        "start": 10,
+        "end": 11,
+        "viseme": "rest",
+        "openness": 0
+      },
+      {
+        "start": 11,
+        "end": 12,
+        "viseme": "U",
+        "openness": 0.148
+      },
+      {
+        "start": 12,
+        "end": 13,
+        "viseme": "U",
+        "openness": 0.826
+      },
+      {
+        "start": 13,
+        "end": 14,
+        "viseme": "A",
+        "openness": 0.904
+      },
+      {
+        "start": 14,
+        "end": 15,
+        "viseme": "A",
+        "openness": 0.934
+      },
+      {
+        "start": 15,
+        "end": 16,
+        "viseme": "A",
+        "openness": 0.491
+      },
+      {
+        "start": 16,
+        "end": 17,
+        "viseme": "rest",
+        "openness": 0
+      },
+      {
+        "start": 17,
+        "end": 18,
+        "viseme": "A",
+        "openness": 0.831
+      },
+      {
+        "start": 18,
+        "end": 19,
+        "viseme": "A",
+        "openness": 0.85
+      },
+      {
+        "start": 19,
+        "end": 20,
+        "viseme": "A",
+        "openness": 0.35
+      },
+      {
+        "start": 20,
+        "end": 21,
+        "viseme": "A",
+        "openness": 0.188
+      },
+      {
+        "start": 21,
+        "end": 22,
+        "viseme": "E",
+        "openness": 0.209
+      },
+      {
+        "start": 22,
+        "end": 23,
+        "viseme": "E",
+        "openness": 0.768
+      },
+      {
+        "start": 23,
+        "end": 24,
+        "viseme": "E",
+        "openness": 0.636
+      },
+      {
+        "start": 24,
+        "end": 25,
+        "viseme": "A",
+        "openness": 0.227
+      },
+      {
+        "start": 25,
+        "end": 26,
+        "viseme": "rest",
+        "openness": 0
+      },
+      {
+        "start": 26,
+        "end": 27,
+        "viseme": "rest",
+        "openness": 0
+      },
+      {
+        "start": 27,
+        "end": 28,
+        "viseme": "rest",
+        "openness": 0
+      },
+      {
+        "start": 28,
+        "end": 29,
+        "viseme": "MBP",
+        "openness": 0.678
+      },
+      {
+        "start": 29,
+        "end": 30,
+        "viseme": "E",
+        "openness": 1
+      },
+      {
+        "start": 30,
+        "end": 31,
+        "viseme": "L",
+        "openness": 1
+      },
+      {
+        "start": 31,
+        "end": 32,
+        "viseme": "U",
+        "openness": 1
+      },
+      {
+        "start": 32,
+        "end": 33,
+        "viseme": "U",
+        "openness": 0.762
+      },
+      {
+        "start": 33,
+        "end": 34,
+        "viseme": "rest",
+        "openness": 0
+      },
+      {
+        "start": 34,
+        "end": 35,
+        "viseme": "E",
+        "openness": 0.845
+      },
+      {
+        "start": 35,
+        "end": 36,
+        "viseme": "E",
+        "openness": 0.768
+      },
+      {
+        "start": 36,
+        "end": 37,
+        "viseme": "MBP",
+        "openness": 0.782
+      },
+      {
+        "start": 37,
+        "end": 38,
+        "viseme": "E",
+        "openness": 0.68
+      },
+      {
+        "start": 38,
+        "end": 39,
+        "viseme": "A",
+        "openness": 0.706
+      },
+      {
+        "start": 39,
+        "end": 40,
+        "viseme": "U",
+        "openness": 0.97
+      },
+      {
+        "start": 40,
+        "end": 41,
+        "viseme": "A",
+        "openness": 1
+      },
+      {
+        "start": 41,
+        "end": 42,
+        "viseme": "E",
+        "openness": 0.713
+      },
+      {
+        "start": 42,
+        "end": 43,
+        "viseme": "rest",
+        "openness": 0
+      },
+      {
+        "start": 43,
+        "end": 44,
+        "viseme": "rest",
+        "openness": 0
+      },
+      {
+        "start": 44,
+        "end": 45,
+        "viseme": "A",
+        "openness": 0.589
+      },
+      {
+        "start": 45,
+        "end": 46,
+        "viseme": "E",
+        "openness": 0.602
+      },
+      {
+        "start": 46,
+        "end": 47,
+        "viseme": "A",
+        "openness": 0.225
+      },
+      {
+        "start": 47,
+        "end": 48,
+        "viseme": "A",
+        "openness": 0.566
+      },
+      {
+        "start": 48,
+        "end": 49,
+        "viseme": "E",
+        "openness": 0.832
+      },
+      {
+        "start": 49,
+        "end": 50,
+        "viseme": "A",
+        "openness": 0.715
+      },
+      {
+        "start": 50,
+        "end": 51,
+        "viseme": "A",
+        "openness": 0.52
+      },
+      {
+        "start": 51,
+        "end": 52,
+        "viseme": "E",
+        "openness": 0.515
+      },
+      {
+        "start": 52,
+        "end": 53,
+        "viseme": "E",
+        "openness": 0.553
+      },
+      {
+        "start": 53,
+        "end": 54,
+        "viseme": "A",
+        "openness": 0.68
+      },
+      {
+        "start": 54,
+        "end": 55,
+        "viseme": "A",
+        "openness": 0.49
+      },
+      {
+        "start": 55,
+        "end": 56,
+        "viseme": "A",
+        "openness": 0.212
+      },
+      {
+        "start": 56,
+        "end": 57,
+        "viseme": "rest",
+        "openness": 0
+      },
+      {
+        "start": 57,
+        "end": 58,
+        "viseme": "rest",
+        "openness": 0
+      },
+      {
+        "start": 58,
+        "end": 59,
+        "viseme": "rest",
+        "openness": 0
+      },
+      {
+        "start": 59,
+        "end": 60,
+        "viseme": "rest",
+        "openness": 0
+      },
+      {
+        "start": 60,
+        "end": 61,
+        "viseme": "rest",
+        "openness": 0
+      },
+      {
+        "start": 61,
+        "end": 62,
+        "viseme": "rest",
+        "openness": 0
+      },
+      {
+        "start": 62,
+        "end": 63,
+        "viseme": "rest",
+        "openness": 0
+      },
+      {
+        "start": 63,
+        "end": 64,
+        "viseme": "rest",
+        "openness": 0
+      }
+    ]
+  },
+  {
+    "id": "ep01-05",
+    "shot": 2,
+    "speaker": "DARTO",
+    "text": "Motor itu buat cari kerja, Bu.",
+    "start": 408,
+    "end": 446,
+    "audio": "audio/episode01-elevenlabs/ep01-05.mp3",
+    "alignment": "audio-energy-text-estimate",
+    "timingSource": "elevenlabs-character-timestamps-plus-measured-energy",
+    "visemes": [
+      {
+        "start": 0,
+        "end": 1,
+        "viseme": "rest",
+        "openness": 0
+      },
+      {
+        "start": 1,
+        "end": 2,
+        "viseme": "rest",
+        "openness": 0
+      },
+      {
+        "start": 2,
+        "end": 3,
+        "viseme": "O",
+        "openness": 0.792
+      },
+      {
+        "start": 3,
+        "end": 4,
+        "viseme": "O",
+        "openness": 1
+      },
+      {
+        "start": 4,
+        "end": 5,
+        "viseme": "A",
+        "openness": 1
+      },
+      {
+        "start": 5,
+        "end": 6,
+        "viseme": "A",
+        "openness": 0.394
+      },
+      {
+        "start": 6,
+        "end": 7,
+        "viseme": "O",
+        "openness": 1
+      },
+      {
+        "start": 7,
+        "end": 8,
+        "viseme": "A",
+        "openness": 1
+      },
+      {
+        "start": 8,
+        "end": 9,
+        "viseme": "rest",
+        "openness": 0
+      },
+      {
+        "start": 9,
+        "end": 10,
+        "viseme": "E",
+        "openness": 0.667
+      },
+      {
+        "start": 10,
+        "end": 11,
+        "viseme": "A",
+        "openness": 0.209
+      },
+      {
+        "start": 11,
+        "end": 12,
+        "viseme": "U",
+        "openness": 1
+      },
+      {
+        "start": 12,
+        "end": 13,
+        "viseme": "rest",
+        "openness": 0
+      },
+      {
+        "start": 13,
+        "end": 14,
+        "viseme": "MBP",
+        "openness": 1
+      },
+      {
+        "start": 14,
+        "end": 15,
+        "viseme": "A",
+        "openness": 1
+      },
+      {
+        "start": 15,
+        "end": 16,
+        "viseme": "A",
+        "openness": 0.672
+      },
+      {
+        "start": 16,
+        "end": 17,
+        "viseme": "rest",
+        "openness": 0
+      },
+      {
+        "start": 17,
+        "end": 18,
+        "viseme": "A",
+        "openness": 0.763
+      },
+      {
+        "start": 18,
+        "end": 19,
+        "viseme": "A",
+        "openness": 1
+      },
+      {
+        "start": 19,
+        "end": 20,
+        "viseme": "A",
+        "openness": 0.854
+      },
+      {
+        "start": 20,
+        "end": 21,
+        "viseme": "E",
+        "openness": 1
+      },
+      {
+        "start": 21,
+        "end": 22,
+        "viseme": "rest",
+        "openness": 0
+      },
+      {
+        "start": 22,
+        "end": 23,
+        "viseme": "A",
+        "openness": 0.22
+      },
+      {
+        "start": 23,
+        "end": 24,
+        "viseme": "E",
+        "openness": 0.969
+      },
+      {
+        "start": 24,
+        "end": 25,
+        "viseme": "A",
+        "openness": 0.717
+      },
+      {
+        "start": 25,
+        "end": 26,
+        "viseme": "A",
+        "openness": 0.78
+      },
+      {
+        "start": 26,
+        "end": 27,
+        "viseme": "A",
+        "openness": 1
+      },
+      {
+        "start": 27,
+        "end": 28,
+        "viseme": "A",
+        "openness": 1
+      },
+      {
+        "start": 28,
+        "end": 29,
+        "viseme": "A",
+        "openness": 1
+      },
+      {
+        "start": 29,
+        "end": 30,
+        "viseme": "rest",
+        "openness": 0
+      },
+      {
+        "start": 30,
+        "end": 31,
+        "viseme": "MBP",
+        "openness": 0.942
+      },
+      {
+        "start": 31,
+        "end": 32,
+        "viseme": "U",
+        "openness": 1
+      },
+      {
+        "start": 32,
+        "end": 33,
+        "viseme": "U",
+        "openness": 0.351
+      },
+      {
+        "start": 33,
+        "end": 34,
+        "viseme": "rest",
+        "openness": 0
+      },
+      {
+        "start": 34,
+        "end": 35,
+        "viseme": "rest",
+        "openness": 0
+      },
+      {
+        "start": 35,
+        "end": 36,
+        "viseme": "rest",
+        "openness": 0
+      },
+      {
+        "start": 36,
+        "end": 37,
+        "viseme": "rest",
+        "openness": 0
+      },
+      {
+        "start": 37,
+        "end": 38,
+        "viseme": "rest",
+        "openness": 0
+      }
+    ]
+  },
+  {
+    "id": "ep01-06",
+    "shot": 2,
+    "speaker": "PETUGAS",
+    "text": "Sistemnya begitu.",
+    "start": 474,
+    "end": 507,
+    "audio": "audio/episode01-elevenlabs/ep01-06.mp3",
+    "alignment": "audio-energy-text-estimate",
+    "timingSource": "elevenlabs-character-timestamps-plus-measured-energy",
+    "visemes": [
+      {
+        "start": 0,
+        "end": 1,
+        "viseme": "rest",
+        "openness": 0
+      },
+      {
+        "start": 1,
+        "end": 2,
+        "viseme": "A",
+        "openness": 0.249
+      },
+      {
+        "start": 2,
+        "end": 3,
+        "viseme": "E",
+        "openness": 0.269
+      },
+      {
+        "start": 3,
+        "end": 4,
+        "viseme": "E",
+        "openness": 1
+      },
+      {
+        "start": 4,
+        "end": 5,
+        "viseme": "E",
+        "openness": 1
+      },
+      {
+        "start": 5,
+        "end": 6,
+        "viseme": "A",
+        "openness": 0.501
+      },
+      {
+        "start": 6,
+        "end": 7,
+        "viseme": "rest",
+        "openness": 0
+      },
+      {
+        "start": 7,
+        "end": 8,
+        "viseme": "A",
+        "openness": 0.143
+      },
+      {
+        "start": 8,
+        "end": 9,
+        "viseme": "E",
+        "openness": 1
+      },
+      {
+        "start": 9,
+        "end": 10,
+        "viseme": "MBP",
+        "openness": 0.87
+      },
+      {
+        "start": 10,
+        "end": 11,
+        "viseme": "A",
+        "openness": 0.766
+      },
+      {
+        "start": 11,
+        "end": 12,
+        "viseme": "A",
+        "openness": 0.789
+      },
+      {
+        "start": 12,
+        "end": 13,
+        "viseme": "A",
+        "openness": 0.827
+      },
+      {
+        "start": 13,
+        "end": 14,
+        "viseme": "rest",
+        "openness": 0
+      },
+      {
+        "start": 14,
+        "end": 15,
+        "viseme": "MBP",
+        "openness": 0.657
+      },
+      {
+        "start": 15,
+        "end": 16,
+        "viseme": "E",
+        "openness": 1
+      },
+      {
+        "start": 16,
+        "end": 17,
+        "viseme": "E",
+        "openness": 0.655
+      },
+      {
+        "start": 17,
+        "end": 18,
+        "viseme": "A",
+        "openness": 0.56
+      },
+      {
+        "start": 18,
+        "end": 19,
+        "viseme": "E",
+        "openness": 1
+      },
+      {
+        "start": 19,
+        "end": 20,
+        "viseme": "E",
+        "openness": 0.309
+      },
+      {
+        "start": 20,
+        "end": 21,
+        "viseme": "rest",
+        "openness": 0
+      },
+      {
+        "start": 21,
+        "end": 22,
+        "viseme": "A",
+        "openness": 0.223
+      },
+      {
+        "start": 22,
+        "end": 23,
+        "viseme": "U",
+        "openness": 0.801
+      },
+      {
+        "start": 23,
+        "end": 24,
+        "viseme": "U",
+        "openness": 0.714
+      },
+      {
+        "start": 24,
+        "end": 25,
+        "viseme": "U",
+        "openness": 0.246
+      },
+      {
+        "start": 25,
+        "end": 26,
+        "viseme": "rest",
+        "openness": 0
+      },
+      {
+        "start": 26,
+        "end": 27,
+        "viseme": "rest",
+        "openness": 0
+      },
+      {
+        "start": 27,
+        "end": 28,
+        "viseme": "rest",
+        "openness": 0
+      },
+      {
+        "start": 28,
+        "end": 29,
+        "viseme": "rest",
+        "openness": 0
+      },
+      {
+        "start": 29,
+        "end": 30,
+        "viseme": "rest",
+        "openness": 0
+      },
+      {
+        "start": 30,
+        "end": 31,
+        "viseme": "rest",
+        "openness": 0
+      },
+      {
+        "start": 31,
+        "end": 32,
+        "viseme": "rest",
+        "openness": 0
+      },
+      {
+        "start": 32,
+        "end": 33,
+        "viseme": "rest",
+        "openness": 0
+      }
+    ]
+  },
+  {
+    "id": "ep01-07",
+    "shot": 3,
+    "speaker": "PEMBELI",
+    "text": "Kalau dijual, kerja naik apa?",
+    "start": 652,
+    "end": 694,
+    "audio": "audio/episode01-elevenlabs/ep01-07.mp3",
+    "alignment": "audio-energy-text-estimate",
+    "timingSource": "elevenlabs-character-timestamps-plus-measured-energy",
+    "visemes": [
+      {
+        "start": 0,
+        "end": 1,
+        "viseme": "rest",
+        "openness": 0
+      },
+      {
+        "start": 1,
+        "end": 2,
+        "viseme": "rest",
+        "openness": 0
+      },
+      {
+        "start": 2,
+        "end": 3,
+        "viseme": "A",
+        "openness": 0.408
+      },
+      {
+        "start": 3,
+        "end": 4,
+        "viseme": "A",
+        "openness": 1
+      },
+      {
+        "start": 4,
+        "end": 5,
+        "viseme": "L",
+        "openness": 1
+      },
+      {
+        "start": 5,
+        "end": 6,
+        "viseme": "A",
+        "openness": 1
+      },
+      {
+        "start": 6,
+        "end": 7,
+        "viseme": "rest",
+        "openness": 0
+      },
+      {
+        "start": 7,
+        "end": 8,
+        "viseme": "A",
+        "openness": 1
+      },
+      {
+        "start": 8,
+        "end": 9,
+        "viseme": "E",
+        "openness": 1
+      },
+      {
+        "start": 9,
+        "end": 10,
+        "viseme": "A",
+        "openness": 0.544
+      },
+      {
+        "start": 10,
+        "end": 11,
+        "viseme": "A",
+        "openness": 0.507
+      },
+      {
+        "start": 11,
+        "end": 12,
+        "viseme": "A",
+        "openness": 1
+      },
+      {
+        "start": 12,
+        "end": 13,
+        "viseme": "U",
+        "openness": 1
+      },
+      {
+        "start": 13,
+        "end": 14,
+        "viseme": "U",
+        "openness": 1
+      },
+      {
+        "start": 14,
+        "end": 15,
+        "viseme": "U",
+        "openness": 1
+      },
+      {
+        "start": 15,
+        "end": 16,
+        "viseme": "A",
+        "openness": 1
+      },
+      {
+        "start": 16,
+        "end": 17,
+        "viseme": "L",
+        "openness": 1
+      },
+      {
+        "start": 17,
+        "end": 18,
+        "viseme": "L",
+        "openness": 0.878
+      },
+      {
+        "start": 18,
+        "end": 19,
+        "viseme": "rest",
+        "openness": 0
+      },
+      {
+        "start": 19,
+        "end": 20,
+        "viseme": "A",
+        "openness": 0.234
+      },
+      {
+        "start": 20,
+        "end": 21,
+        "viseme": "E",
+        "openness": 1
+      },
+      {
+        "start": 21,
+        "end": 22,
+        "viseme": "A",
+        "openness": 0.73
+      },
+      {
+        "start": 22,
+        "end": 23,
+        "viseme": "A",
+        "openness": 1
+      },
+      {
+        "start": 23,
+        "end": 24,
+        "viseme": "A",
+        "openness": 1
+      },
+      {
+        "start": 24,
+        "end": 25,
+        "viseme": "rest",
+        "openness": 0
+      },
+      {
+        "start": 25,
+        "end": 26,
+        "viseme": "A",
+        "openness": 1
+      },
+      {
+        "start": 26,
+        "end": 27,
+        "viseme": "A",
+        "openness": 1.0
+      },
+      {
+        "start": 27,
+        "end": 28,
+        "viseme": "E",
+        "openness": 0.627
+      },
+      {
+        "start": 28,
+        "end": 29,
+        "viseme": "A",
+        "openness": 0.49
+      },
+      {
+        "start": 29,
+        "end": 30,
+        "viseme": "rest",
+        "openness": 0
+      },
+      {
+        "start": 30,
+        "end": 31,
+        "viseme": "A",
+        "openness": 0.506
+      },
+      {
+        "start": 31,
+        "end": 32,
+        "viseme": "MBP",
+        "openness": 0.457
+      },
+      {
+        "start": 32,
+        "end": 33,
+        "viseme": "A",
+        "openness": 1
+      },
+      {
+        "start": 33,
+        "end": 34,
+        "viseme": "A",
+        "openness": 0.558
+      },
+      {
+        "start": 34,
+        "end": 35,
+        "viseme": "rest",
+        "openness": 0
+      },
+      {
+        "start": 35,
+        "end": 36,
+        "viseme": "rest",
+        "openness": 0
+      },
+      {
+        "start": 36,
+        "end": 37,
+        "viseme": "rest",
+        "openness": 0
+      },
+      {
+        "start": 37,
+        "end": 38,
+        "viseme": "rest",
+        "openness": 0
+      },
+      {
+        "start": 38,
+        "end": 39,
+        "viseme": "rest",
+        "openness": 0
+      },
+      {
+        "start": 39,
+        "end": 40,
+        "viseme": "rest",
+        "openness": 0
+      },
+      {
+        "start": 40,
+        "end": 41,
+        "viseme": "rest",
+        "openness": 0
+      },
+      {
+        "start": 41,
+        "end": 42,
+        "viseme": "rest",
+        "openness": 0
+      }
+    ]
+  },
+  {
+    "id": "ep01-08",
+    "shot": 3,
+    "speaker": "DARTO",
+    "text": "Jalan kaki. Yang penting anak saya makan.",
+    "start": 722,
+    "end": 777,
+    "audio": "audio/episode01-elevenlabs/ep01-08.mp3",
+    "alignment": "audio-energy-text-estimate",
+    "timingSource": "elevenlabs-character-timestamps-plus-measured-energy",
+    "visemes": [
+      {
+        "start": 0,
+        "end": 1,
+        "viseme": "rest",
+        "openness": 0
+      },
+      {
+        "start": 1,
+        "end": 2,
+        "viseme": "A",
+        "openness": 0.262
+      },
+      {
+        "start": 2,
+        "end": 3,
+        "viseme": "A",
+        "openness": 0.825
+      },
+      {
+        "start": 3,
+        "end": 4,
+        "viseme": "A",
+        "openness": 1
+      },
+      {
+        "start": 4,
+        "end": 5,
+        "viseme": "L",
+        "openness": 1
+      },
+      {
+        "start": 5,
+        "end": 6,
+        "viseme": "L",
+        "openness": 1
+      },
+      {
+        "start": 6,
+        "end": 7,
+        "viseme": "A",
+        "openness": 0.782
+      },
+      {
+        "start": 7,
+        "end": 8,
+        "viseme": "A",
+        "openness": 0.595
+      },
+      {
+        "start": 8,
+        "end": 9,
+        "viseme": "rest",
+        "openness": 0
+      },
+      {
+        "start": 9,
+        "end": 10,
+        "viseme": "A",
+        "openness": 0.712
+      },
+      {
+        "start": 10,
+        "end": 11,
+        "viseme": "A",
+        "openness": 0.764
+      },
+      {
+        "start": 11,
+        "end": 12,
+        "viseme": "A",
+        "openness": 0.521
+      },
+      {
+        "start": 12,
+        "end": 13,
+        "viseme": "A",
+        "openness": 0.163
+      },
+      {
+        "start": 13,
+        "end": 14,
+        "viseme": "rest",
+        "openness": 0
+      },
+      {
+        "start": 14,
+        "end": 15,
+        "viseme": "E",
+        "openness": 0.154
+      },
+      {
+        "start": 15,
+        "end": 16,
+        "viseme": "E",
+        "openness": 0.397
+      },
+      {
+        "start": 16,
+        "end": 17,
+        "viseme": "E",
+        "openness": 0.262
+      },
+      {
+        "start": 17,
+        "end": 18,
+        "viseme": "E",
+        "openness": 0.15
+      },
+      {
+        "start": 18,
+        "end": 19,
+        "viseme": "rest",
+        "openness": 0
+      },
+      {
+        "start": 19,
+        "end": 20,
+        "viseme": "rest",
+        "openness": 0
+      },
+      {
+        "start": 20,
+        "end": 21,
+        "viseme": "A",
+        "openness": 0.21
+      },
+      {
+        "start": 21,
+        "end": 22,
+        "viseme": "A",
+        "openness": 0.637
+      },
+      {
+        "start": 22,
+        "end": 23,
+        "viseme": "A",
+        "openness": 0.888
+      },
+      {
+        "start": 23,
+        "end": 24,
+        "viseme": "A",
+        "openness": 0.78
+      },
+      {
+        "start": 24,
+        "end": 25,
+        "viseme": "MBP",
+        "openness": 0.548
+      },
+      {
+        "start": 25,
+        "end": 26,
+        "viseme": "E",
+        "openness": 0.762
+      },
+      {
+        "start": 26,
+        "end": 27,
+        "viseme": "A",
+        "openness": 0.172
+      },
+      {
+        "start": 27,
+        "end": 28,
+        "viseme": "A",
+        "openness": 0.853
+      },
+      {
+        "start": 28,
+        "end": 29,
+        "viseme": "E",
+        "openness": 0.686
+      },
+      {
+        "start": 29,
+        "end": 30,
+        "viseme": "A",
+        "openness": 0.343
+      },
+      {
+        "start": 30,
+        "end": 31,
+        "viseme": "rest",
+        "openness": 0
+      },
+      {
+        "start": 31,
+        "end": 32,
+        "viseme": "A",
+        "openness": 0.805
+      },
+      {
+        "start": 32,
+        "end": 33,
+        "viseme": "A",
+        "openness": 0.696
+      },
+      {
+        "start": 33,
+        "end": 34,
+        "viseme": "A",
+        "openness": 0.391
+      },
+      {
+        "start": 34,
+        "end": 35,
+        "viseme": "A",
+        "openness": 0.35
+      },
+      {
+        "start": 35,
+        "end": 36,
+        "viseme": "rest",
+        "openness": 0
+      },
+      {
+        "start": 36,
+        "end": 37,
+        "viseme": "A",
+        "openness": 0.544
+      },
+      {
+        "start": 37,
+        "end": 38,
+        "viseme": "A",
+        "openness": 0.679
+      },
+      {
+        "start": 38,
+        "end": 39,
+        "viseme": "A",
+        "openness": 0.685
+      },
+      {
+        "start": 39,
+        "end": 40,
+        "viseme": "rest",
+        "openness": 0
+      },
+      {
+        "start": 40,
+        "end": 41,
+        "viseme": "MBP",
+        "openness": 0.743
+      },
+      {
+        "start": 41,
+        "end": 42,
+        "viseme": "A",
+        "openness": 0.861
+      },
+      {
+        "start": 42,
+        "end": 43,
+        "viseme": "A",
+        "openness": 0.526
+      },
+      {
+        "start": 43,
+        "end": 44,
+        "viseme": "A",
+        "openness": 0.198
+      },
+      {
+        "start": 44,
+        "end": 45,
+        "viseme": "A",
+        "openness": 0.344
+      },
+      {
+        "start": 45,
+        "end": 46,
+        "viseme": "A",
+        "openness": 0.541
+      },
+      {
+        "start": 46,
+        "end": 47,
+        "viseme": "A",
+        "openness": 0.594
+      },
+      {
+        "start": 47,
+        "end": 48,
+        "viseme": "A",
+        "openness": 0.388
+      },
+      {
+        "start": 48,
+        "end": 49,
+        "viseme": "rest",
+        "openness": 0
+      },
+      {
+        "start": 49,
+        "end": 50,
+        "viseme": "rest",
+        "openness": 0
+      },
+      {
+        "start": 50,
+        "end": 51,
+        "viseme": "rest",
+        "openness": 0
+      },
+      {
+        "start": 51,
+        "end": 52,
+        "viseme": "rest",
+        "openness": 0
+      },
+      {
+        "start": 52,
+        "end": 53,
+        "viseme": "rest",
+        "openness": 0
+      },
+      {
+        "start": 53,
+        "end": 54,
+        "viseme": "rest",
+        "openness": 0
+      },
+      {
+        "start": 54,
+        "end": 55,
+        "viseme": "rest",
+        "openness": 0
+      }
+    ]
+  },
+  {
+    "id": "ep01-09",
+    "shot": 4,
+    "speaker": "DARTO",
+    "text": "Motor sudah nggak ada, Bu.",
+    "start": 988,
+    "end": 1022,
+    "audio": "audio/episode01-elevenlabs/ep01-09.mp3",
+    "alignment": "audio-energy-text-estimate",
+    "timingSource": "elevenlabs-character-timestamps-plus-measured-energy",
+    "visemes": [
+      {
+        "start": 0,
+        "end": 1,
+        "viseme": "rest",
+        "openness": 0
+      },
+      {
+        "start": 1,
+        "end": 2,
+        "viseme": "rest",
+        "openness": 0
+      },
+      {
+        "start": 2,
+        "end": 3,
+        "viseme": "MBP",
+        "openness": 0.491
+      },
+      {
+        "start": 3,
+        "end": 4,
+        "viseme": "O",
+        "openness": 1
+      },
+      {
+        "start": 4,
+        "end": 5,
+        "viseme": "A",
+        "openness": 0.523
+      },
+      {
+        "start": 5,
+        "end": 6,
+        "viseme": "A",
+        "openness": 0.393
+      },
+      {
+        "start": 6,
+        "end": 7,
+        "viseme": "O",
+        "openness": 1
+      },
+      {
+        "start": 7,
+        "end": 8,
+        "viseme": "A",
+        "openness": 0.864
+      },
+      {
+        "start": 8,
+        "end": 9,
+        "viseme": "rest",
+        "openness": 0
+      },
+      {
+        "start": 9,
+        "end": 10,
+        "viseme": "A",
+        "openness": 0.271
+      },
+      {
+        "start": 10,
+        "end": 11,
+        "viseme": "U",
+        "openness": 1
+      },
+      {
+        "start": 11,
+        "end": 12,
+        "viseme": "A",
+        "openness": 1
+      },
+      {
+        "start": 12,
+        "end": 13,
+        "viseme": "A",
+        "openness": 1
+      },
+      {
+        "start": 13,
+        "end": 14,
+        "viseme": "A",
+        "openness": 1
+      },
+      {
+        "start": 14,
+        "end": 15,
+        "viseme": "rest",
+        "openness": 0
+      },
+      {
+        "start": 15,
+        "end": 16,
+        "viseme": "A",
+        "openness": 0.793
+      },
+      {
+        "start": 16,
+        "end": 17,
+        "viseme": "A",
+        "openness": 0.875
+      },
+      {
+        "start": 17,
+        "end": 18,
+        "viseme": "A",
+        "openness": 0.894
+      },
+      {
+        "start": 18,
+        "end": 19,
+        "viseme": "A",
+        "openness": 0.674
+      },
+      {
+        "start": 19,
+        "end": 20,
+        "viseme": "rest",
+        "openness": 0
+      },
+      {
+        "start": 20,
+        "end": 21,
+        "viseme": "A",
+        "openness": 0.699
+      },
+      {
+        "start": 21,
+        "end": 22,
+        "viseme": "A",
+        "openness": 0.594
+      },
+      {
+        "start": 22,
+        "end": 23,
+        "viseme": "A",
+        "openness": 0.812
+      },
+      {
+        "start": 23,
+        "end": 24,
+        "viseme": "A",
+        "openness": 0.907
+      },
+      {
+        "start": 24,
+        "end": 25,
+        "viseme": "rest",
+        "openness": 0
+      },
+      {
+        "start": 25,
+        "end": 26,
+        "viseme": "rest",
+        "openness": 0
+      },
+      {
+        "start": 26,
+        "end": 27,
+        "viseme": "U",
+        "openness": 0.562
+      },
+      {
+        "start": 27,
+        "end": 28,
+        "viseme": "U",
+        "openness": 0.562
+      },
+      {
+        "start": 28,
+        "end": 29,
+        "viseme": "U",
+        "openness": 0.355
+      },
+      {
+        "start": 29,
+        "end": 30,
+        "viseme": "rest",
+        "openness": 0
+      },
+      {
+        "start": 30,
+        "end": 31,
+        "viseme": "rest",
+        "openness": 0
+      },
+      {
+        "start": 31,
+        "end": 32,
+        "viseme": "rest",
+        "openness": 0
+      },
+      {
+        "start": 32,
+        "end": 33,
+        "viseme": "rest",
+        "openness": 0
+      },
+      {
+        "start": 33,
+        "end": 34,
+        "viseme": "rest",
+        "openness": 0
+      }
+    ]
+  },
+  {
+    "id": "ep01-10",
+    "shot": 4,
+    "speaker": "PETUGAS",
+    "text": "Tapi Bapak pegang uang?",
+    "start": 1050,
+    "end": 1082,
+    "audio": "audio/episode01-elevenlabs/ep01-10.mp3",
+    "alignment": "audio-energy-text-estimate",
+    "timingSource": "elevenlabs-character-timestamps-plus-measured-energy",
+    "visemes": [
+      {
+        "start": 0,
+        "end": 1,
+        "viseme": "rest",
+        "openness": 0
+      },
+      {
+        "start": 1,
+        "end": 2,
+        "viseme": "rest",
+        "openness": 0
+      },
+      {
+        "start": 2,
+        "end": 3,
+        "viseme": "A",
+        "openness": 0.172
+      },
+      {
+        "start": 3,
+        "end": 4,
+        "viseme": "A",
+        "openness": 0.94
+      },
+      {
+        "start": 4,
+        "end": 5,
+        "viseme": "MBP",
+        "openness": 0.367
+      },
+      {
+        "start": 5,
+        "end": 6,
+        "viseme": "MBP",
+        "openness": 1
+      },
+      {
+        "start": 6,
+        "end": 7,
+        "viseme": "E",
+        "openness": 1
+      },
+      {
+        "start": 7,
+        "end": 8,
+        "viseme": "rest",
+        "openness": 0
+      },
+      {
+        "start": 8,
+        "end": 9,
+        "viseme": "MBP",
+        "openness": 1
+      },
+      {
+        "start": 9,
+        "end": 10,
+        "viseme": "A",
+        "openness": 1
+      },
+      {
+        "start": 10,
+        "end": 11,
+        "viseme": "A",
+        "openness": 0.725
+      },
+      {
+        "start": 11,
+        "end": 12,
+        "viseme": "MBP",
+        "openness": 0.91
+      },
+      {
+        "start": 12,
+        "end": 13,
+        "viseme": "A",
+        "openness": 0.654
+      },
+      {
+        "start": 13,
+        "end": 14,
+        "viseme": "A",
+        "openness": 0.406
+      },
+      {
+        "start": 14,
+        "end": 15,
+        "viseme": "MBP",
+        "openness": 0.748
+      },
+      {
+        "start": 15,
+        "end": 16,
+        "viseme": "E",
+        "openness": 1
+      },
+      {
+        "start": 16,
+        "end": 17,
+        "viseme": "A",
+        "openness": 1
+      },
+      {
+        "start": 17,
+        "end": 18,
+        "viseme": "A",
+        "openness": 1
+      },
+      {
+        "start": 18,
+        "end": 19,
+        "viseme": "A",
+        "openness": 1
+      },
+      {
+        "start": 19,
+        "end": 20,
+        "viseme": "A",
+        "openness": 1
+      },
+      {
+        "start": 20,
+        "end": 21,
+        "viseme": "A",
+        "openness": 1
+      },
+      {
+        "start": 21,
+        "end": 22,
+        "viseme": "rest",
+        "openness": 0
+      },
+      {
+        "start": 22,
+        "end": 23,
+        "viseme": "U",
+        "openness": 1
+      },
+      {
+        "start": 23,
+        "end": 24,
+        "viseme": "A",
+        "openness": 1
+      },
+      {
+        "start": 24,
+        "end": 25,
+        "viseme": "A",
+        "openness": 0.792
+      },
+      {
+        "start": 25,
+        "end": 26,
+        "viseme": "A",
+        "openness": 0.421
+      },
+      {
+        "start": 26,
+        "end": 27,
+        "viseme": "rest",
+        "openness": 0
+      },
+      {
+        "start": 27,
+        "end": 28,
+        "viseme": "rest",
+        "openness": 0
+      },
+      {
+        "start": 28,
+        "end": 29,
+        "viseme": "rest",
+        "openness": 0
+      },
+      {
+        "start": 29,
+        "end": 30,
+        "viseme": "rest",
+        "openness": 0
+      },
+      {
+        "start": 30,
+        "end": 31,
+        "viseme": "rest",
+        "openness": 0
+      },
+      {
+        "start": 31,
+        "end": 32,
+        "viseme": "rest",
+        "openness": 0
+      }
+    ]
+  },
+  {
+    "id": "ep01-11",
+    "shot": 4,
+    "speaker": "DARTO",
+    "text": "Buat beras.",
+    "start": 1110,
+    "end": 1136,
+    "audio": "audio/episode01-elevenlabs/ep01-11.mp3",
+    "alignment": "audio-energy-text-estimate",
+    "timingSource": "elevenlabs-character-timestamps-plus-measured-energy",
+    "visemes": [
+      {
+        "start": 0,
+        "end": 1,
+        "viseme": "rest",
+        "openness": 0
+      },
+      {
+        "start": 1,
+        "end": 2,
+        "viseme": "MBP",
+        "openness": 0.393
+      },
+      {
+        "start": 2,
+        "end": 3,
+        "viseme": "U",
+        "openness": 0.552
+      },
+      {
+        "start": 3,
+        "end": 4,
+        "viseme": "U",
+        "openness": 0.877
+      },
+      {
+        "start": 4,
+        "end": 5,
+        "viseme": "A",
+        "openness": 0.681
+      },
+      {
+        "start": 5,
+        "end": 6,
+        "viseme": "A",
+        "openness": 0.309
+      },
+      {
+        "start": 6,
+        "end": 7,
+        "viseme": "rest",
+        "openness": 0
+      },
+      {
+        "start": 7,
+        "end": 8,
+        "viseme": "MBP",
+        "openness": 0.577
+      },
+      {
+        "start": 8,
+        "end": 9,
+        "viseme": "E",
+        "openness": 1
+      },
+      {
+        "start": 9,
+        "end": 10,
+        "viseme": "A",
+        "openness": 0.63
+      },
+      {
+        "start": 10,
+        "end": 11,
+        "viseme": "A",
+        "openness": 0.724
+      },
+      {
+        "start": 11,
+        "end": 12,
+        "viseme": "A",
+        "openness": 0.706
+      },
+      {
+        "start": 12,
+        "end": 13,
+        "viseme": "A",
+        "openness": 0.61
+      },
+      {
+        "start": 13,
+        "end": 14,
+        "viseme": "A",
+        "openness": 0.573
+      },
+      {
+        "start": 14,
+        "end": 15,
+        "viseme": "A",
+        "openness": 1
+      },
+      {
+        "start": 15,
+        "end": 16,
+        "viseme": "A",
+        "openness": 0.724
+      },
+      {
+        "start": 16,
+        "end": 17,
+        "viseme": "A",
+        "openness": 0.572
+      },
+      {
+        "start": 17,
+        "end": 18,
+        "viseme": "A",
+        "openness": 0.152
+      },
+      {
+        "start": 18,
+        "end": 19,
+        "viseme": "rest",
+        "openness": 0
+      },
+      {
+        "start": 19,
+        "end": 20,
+        "viseme": "rest",
+        "openness": 0
+      },
+      {
+        "start": 20,
+        "end": 21,
+        "viseme": "rest",
+        "openness": 0
+      },
+      {
+        "start": 21,
+        "end": 22,
+        "viseme": "rest",
+        "openness": 0
+      },
+      {
+        "start": 22,
+        "end": 23,
+        "viseme": "rest",
+        "openness": 0
+      },
+      {
+        "start": 23,
+        "end": 24,
+        "viseme": "rest",
+        "openness": 0
+      },
+      {
+        "start": 24,
+        "end": 25,
+        "viseme": "rest",
+        "openness": 0
+      },
+      {
+        "start": 25,
+        "end": 26,
+        "viseme": "rest",
+        "openness": 0
+      }
+    ]
+  },
+  {
+    "id": "ep01-12",
+    "shot": 4,
+    "speaker": "PETUGAS",
+    "text": "Berarti masih punya simpanan.",
+    "start": 1164,
+    "end": 1205,
+    "audio": "audio/episode01-elevenlabs/ep01-12.mp3",
+    "alignment": "audio-energy-text-estimate",
+    "timingSource": "elevenlabs-character-timestamps-plus-measured-energy",
+    "visemes": [
+      {
+        "start": 0,
+        "end": 1,
+        "viseme": "rest",
+        "openness": 0
+      },
+      {
+        "start": 1,
+        "end": 2,
+        "viseme": "MBP",
+        "openness": 0.19
+      },
+      {
+        "start": 2,
+        "end": 3,
+        "viseme": "E",
+        "openness": 1
+      },
+      {
+        "start": 3,
+        "end": 4,
+        "viseme": "A",
+        "openness": 1
+      },
+      {
+        "start": 4,
+        "end": 5,
+        "viseme": "A",
+        "openness": 1
+      },
+      {
+        "start": 5,
+        "end": 6,
+        "viseme": "A",
+        "openness": 1
+      },
+      {
+        "start": 6,
+        "end": 7,
+        "viseme": "A",
+        "openness": 0.689
+      },
+      {
+        "start": 7,
+        "end": 8,
+        "viseme": "A",
+        "openness": 0.237
+      },
+      {
+        "start": 8,
+        "end": 9,
+        "viseme": "E",
+        "openness": 0.956
+      },
+      {
+        "start": 9,
+        "end": 10,
+        "viseme": "rest",
+        "openness": 0
+      },
+      {
+        "start": 10,
+        "end": 11,
+        "viseme": "rest",
+        "openness": 0
+      },
+      {
+        "start": 11,
+        "end": 12,
+        "viseme": "A",
+        "openness": 0.846
+      },
+      {
+        "start": 12,
+        "end": 13,
+        "viseme": "A",
+        "openness": 0.697
+      },
+      {
+        "start": 13,
+        "end": 14,
+        "viseme": "A",
+        "openness": 0.198
+      },
+      {
+        "start": 14,
+        "end": 15,
+        "viseme": "E",
+        "openness": 0.873
+      },
+      {
+        "start": 15,
+        "end": 16,
+        "viseme": "A",
+        "openness": 0.662
+      },
+      {
+        "start": 16,
+        "end": 17,
+        "viseme": "MBP",
+        "openness": 0.137
+      },
+      {
+        "start": 17,
+        "end": 18,
+        "viseme": "U",
+        "openness": 0.672
+      },
+      {
+        "start": 18,
+        "end": 19,
+        "viseme": "A",
+        "openness": 0.703
+      },
+      {
+        "start": 19,
+        "end": 20,
+        "viseme": "A",
+        "openness": 0.662
+      },
+      {
+        "start": 20,
+        "end": 21,
+        "viseme": "A",
+        "openness": 0.543
+      },
+      {
+        "start": 21,
+        "end": 22,
+        "viseme": "A",
+        "openness": 0.283
+      },
+      {
+        "start": 22,
+        "end": 23,
+        "viseme": "E",
+        "openness": 0.277
+      },
+      {
+        "start": 23,
+        "end": 24,
+        "viseme": "E",
+        "openness": 0.773
+      },
+      {
+        "start": 24,
+        "end": 25,
+        "viseme": "MBP",
+        "openness": 0.715
+      },
+      {
+        "start": 25,
+        "end": 26,
+        "viseme": "MBP",
+        "openness": 0.449
+      },
+      {
+        "start": 26,
+        "end": 27,
+        "viseme": "MBP",
+        "openness": 0.492
+      },
+      {
+        "start": 27,
+        "end": 28,
+        "viseme": "A",
+        "openness": 0.596
+      },
+      {
+        "start": 28,
+        "end": 29,
+        "viseme": "A",
+        "openness": 0.547
+      },
+      {
+        "start": 29,
+        "end": 30,
+        "viseme": "A",
+        "openness": 0.53
+      },
+      {
+        "start": 30,
+        "end": 31,
+        "viseme": "A",
+        "openness": 0.512
+      },
+      {
+        "start": 31,
+        "end": 32,
+        "viseme": "A",
+        "openness": 0.434
+      },
+      {
+        "start": 32,
+        "end": 33,
+        "viseme": "A",
+        "openness": 0.252
+      },
+      {
+        "start": 33,
+        "end": 34,
+        "viseme": "rest",
+        "openness": 0
+      },
+      {
+        "start": 34,
+        "end": 35,
+        "viseme": "rest",
+        "openness": 0
+      },
+      {
+        "start": 35,
+        "end": 36,
+        "viseme": "rest",
+        "openness": 0
+      },
+      {
+        "start": 36,
+        "end": 37,
+        "viseme": "rest",
+        "openness": 0
+      },
+      {
+        "start": 37,
+        "end": 38,
+        "viseme": "rest",
+        "openness": 0
+      },
+      {
+        "start": 38,
+        "end": 39,
+        "viseme": "rest",
+        "openness": 0
+      },
+      {
+        "start": 39,
+        "end": 40,
+        "viseme": "rest",
+        "openness": 0
+      },
+      {
+        "start": 40,
+        "end": 41,
+        "viseme": "rest",
+        "openness": 0
+      }
+    ]
+  },
+  {
+    "id": "ep01-13",
+    "shot": 5,
+    "speaker": "DARTO",
+    "text": "Uangnya sudah habis. Sekarang saya nggak punya motor, nggak punya kerja.",
+    "start": 1372,
+    "end": 1471,
+    "audio": "audio/episode01-elevenlabs/ep01-13.mp3",
+    "alignment": "audio-energy-text-estimate",
+    "timingSource": "elevenlabs-character-timestamps-plus-measured-energy",
+    "visemes": [
+      {
+        "start": 0,
+        "end": 1,
+        "viseme": "U",
+        "openness": 0.498
+      },
+      {
+        "start": 1,
+        "end": 2,
+        "viseme": "U",
+        "openness": 1
+      },
+      {
+        "start": 2,
+        "end": 3,
+        "viseme": "U",
+        "openness": 1
+      },
+      {
+        "start": 3,
+        "end": 4,
+        "viseme": "U",
+        "openness": 1
+      },
+      {
+        "start": 4,
+        "end": 5,
+        "viseme": "A",
+        "openness": 1
+      },
+      {
+        "start": 5,
+        "end": 6,
+        "viseme": "A",
+        "openness": 1
+      },
+      {
+        "start": 6,
+        "end": 7,
+        "viseme": "A",
+        "openness": 0.931
+      },
+      {
+        "start": 7,
+        "end": 8,
+        "viseme": "A",
+        "openness": 0.867
+      },
+      {
+        "start": 8,
+        "end": 9,
+        "viseme": "A",
+        "openness": 0.797
+      },
+      {
+        "start": 9,
+        "end": 10,
+        "viseme": "A",
+        "openness": 0.97
+      },
+      {
+        "start": 10,
+        "end": 11,
+        "viseme": "A",
+        "openness": 1
+      },
+      {
+        "start": 11,
+        "end": 12,
+        "viseme": "A",
+        "openness": 0.555
+      },
+      {
+        "start": 12,
+        "end": 13,
+        "viseme": "U",
+        "openness": 0.165
+      },
+      {
+        "start": 13,
+        "end": 14,
+        "viseme": "U",
+        "openness": 1
+      },
+      {
+        "start": 14,
+        "end": 15,
+        "viseme": "A",
+        "openness": 1
+      },
+      {
+        "start": 15,
+        "end": 16,
+        "viseme": "A",
+        "openness": 1
+      },
+      {
+        "start": 16,
+        "end": 17,
+        "viseme": "A",
+        "openness": 0.774
+      },
+      {
+        "start": 17,
+        "end": 18,
+        "viseme": "A",
+        "openness": 0.929
+      },
+      {
+        "start": 18,
+        "end": 19,
+        "viseme": "A",
+        "openness": 0.982
+      },
+      {
+        "start": 19,
+        "end": 20,
+        "viseme": "MBP",
+        "openness": 0.736
+      },
+      {
+        "start": 20,
+        "end": 21,
+        "viseme": "MBP",
+        "openness": 0.705
+      },
+      {
+        "start": 21,
+        "end": 22,
+        "viseme": "MBP",
+        "openness": 0.648
+      },
+      {
+        "start": 22,
+        "end": 23,
+        "viseme": "E",
+        "openness": 1
+      },
+      {
+        "start": 23,
+        "end": 24,
+        "viseme": "E",
+        "openness": 0.877
+      },
+      {
+        "start": 24,
+        "end": 25,
+        "viseme": "E",
+        "openness": 0.274
+      },
+      {
+        "start": 25,
+        "end": 26,
+        "viseme": "A",
+        "openness": 0.146
+      },
+      {
+        "start": 26,
+        "end": 27,
+        "viseme": "A",
+        "openness": 0.145
+      },
+      {
+        "start": 27,
+        "end": 28,
+        "viseme": "rest",
+        "openness": 0
+      },
+      {
+        "start": 28,
+        "end": 29,
+        "viseme": "rest",
+        "openness": 0
+      },
+      {
+        "start": 29,
+        "end": 30,
+        "viseme": "rest",
+        "openness": 0
+      },
+      {
+        "start": 30,
+        "end": 31,
+        "viseme": "rest",
+        "openness": 0
+      },
+      {
+        "start": 31,
+        "end": 32,
+        "viseme": "rest",
+        "openness": 0
+      },
+      {
+        "start": 32,
+        "end": 33,
+        "viseme": "rest",
+        "openness": 0
+      },
+      {
+        "start": 33,
+        "end": 34,
+        "viseme": "rest",
+        "openness": 0
+      },
+      {
+        "start": 34,
+        "end": 35,
+        "viseme": "rest",
+        "openness": 0
+      },
+      {
+        "start": 35,
+        "end": 36,
+        "viseme": "rest",
+        "openness": 0
+      },
+      {
+        "start": 36,
+        "end": 37,
+        "viseme": "rest",
+        "openness": 0
+      },
+      {
+        "start": 37,
+        "end": 38,
+        "viseme": "E",
+        "openness": 0.151
+      },
+      {
+        "start": 38,
+        "end": 39,
+        "viseme": "rest",
+        "openness": 0
+      },
+      {
+        "start": 39,
+        "end": 40,
+        "viseme": "A",
+        "openness": 0.176
+      },
+      {
+        "start": 40,
+        "end": 41,
+        "viseme": "A",
+        "openness": 1
+      },
+      {
+        "start": 41,
+        "end": 42,
+        "viseme": "A",
+        "openness": 0.885
+      },
+      {
+        "start": 42,
+        "end": 43,
+        "viseme": "A",
+        "openness": 1
+      },
+      {
+        "start": 43,
+        "end": 44,
+        "viseme": "A",
+        "openness": 0.809
+      },
+      {
+        "start": 44,
+        "end": 45,
+        "viseme": "rest",
+        "openness": 0
+      },
+      {
+        "start": 45,
+        "end": 46,
+        "viseme": "A",
+        "openness": 0.191
+      },
+      {
+        "start": 46,
+        "end": 47,
+        "viseme": "A",
+        "openness": 0.897
+      },
+      {
+        "start": 47,
+        "end": 48,
+        "viseme": "A",
+        "openness": 0.942
+      },
+      {
+        "start": 48,
+        "end": 49,
+        "viseme": "A",
+        "openness": 0.851
+      },
+      {
+        "start": 49,
+        "end": 50,
+        "viseme": "A",
+        "openness": 0.826
+      },
+      {
+        "start": 50,
+        "end": 51,
+        "viseme": "A",
+        "openness": 0.736
+      },
+      {
+        "start": 51,
+        "end": 52,
+        "viseme": "A",
+        "openness": 0.761
+      },
+      {
+        "start": 52,
+        "end": 53,
+        "viseme": "A",
+        "openness": 0.452
+      },
+      {
+        "start": 53,
+        "end": 54,
+        "viseme": "MBP",
+        "openness": 0.343
+      },
+      {
+        "start": 54,
+        "end": 55,
+        "viseme": "U",
+        "openness": 0.438
+      },
+      {
+        "start": 55,
+        "end": 56,
+        "viseme": "A",
+        "openness": 0.795
+      },
+      {
+        "start": 56,
+        "end": 57,
+        "viseme": "A",
+        "openness": 0.779
+      },
+      {
+        "start": 57,
+        "end": 58,
+        "viseme": "A",
+        "openness": 0.721
+      },
+      {
+        "start": 58,
+        "end": 59,
+        "viseme": "rest",
+        "openness": 0
+      },
+      {
+        "start": 59,
+        "end": 60,
+        "viseme": "MBP",
+        "openness": 0.746
+      },
+      {
+        "start": 60,
+        "end": 61,
+        "viseme": "O",
+        "openness": 0.97
+      },
+      {
+        "start": 61,
+        "end": 62,
+        "viseme": "O",
+        "openness": 1
+      },
+      {
+        "start": 62,
+        "end": 63,
+        "viseme": "O",
+        "openness": 0.963
+      },
+      {
+        "start": 63,
+        "end": 64,
+        "viseme": "A",
+        "openness": 0.342
+      },
+      {
+        "start": 64,
+        "end": 65,
+        "viseme": "A",
+        "openness": 0.149
+      },
+      {
+        "start": 65,
+        "end": 66,
+        "viseme": "A",
+        "openness": 0.142
+      },
+      {
+        "start": 66,
+        "end": 67,
+        "viseme": "O",
+        "openness": 0.742
+      },
+      {
+        "start": 67,
+        "end": 68,
+        "viseme": "O",
+        "openness": 0.947
+      },
+      {
+        "start": 68,
+        "end": 69,
+        "viseme": "O",
+        "openness": 0.875
+      },
+      {
+        "start": 69,
+        "end": 70,
+        "viseme": "A",
+        "openness": 0.378
+      },
+      {
+        "start": 70,
+        "end": 71,
+        "viseme": "rest",
+        "openness": 0
+      },
+      {
+        "start": 71,
+        "end": 72,
+        "viseme": "A",
+        "openness": 0.751
+      },
+      {
+        "start": 72,
+        "end": 73,
+        "viseme": "A",
+        "openness": 0.813
+      },
+      {
+        "start": 73,
+        "end": 74,
+        "viseme": "A",
+        "openness": 0.55
+      },
+      {
+        "start": 74,
+        "end": 75,
+        "viseme": "A",
+        "openness": 0.435
+      },
+      {
+        "start": 75,
+        "end": 76,
+        "viseme": "rest",
+        "openness": 0
+      },
+      {
+        "start": 76,
+        "end": 77,
+        "viseme": "U",
+        "openness": 0.647
+      },
+      {
+        "start": 77,
+        "end": 78,
+        "viseme": "A",
+        "openness": 0.82
+      },
+      {
+        "start": 78,
+        "end": 79,
+        "viseme": "A",
+        "openness": 0.857
+      },
+      {
+        "start": 79,
+        "end": 80,
+        "viseme": "A",
+        "openness": 0.679
+      },
+      {
+        "start": 80,
+        "end": 81,
+        "viseme": "rest",
+        "openness": 0
+      },
+      {
+        "start": 81,
+        "end": 82,
+        "viseme": "rest",
+        "openness": 0
+      },
+      {
+        "start": 82,
+        "end": 83,
+        "viseme": "E",
+        "openness": 0.778
+      },
+      {
+        "start": 83,
+        "end": 84,
+        "viseme": "A",
+        "openness": 0.501
+      },
+      {
+        "start": 84,
+        "end": 85,
+        "viseme": "A",
+        "openness": 0.588
+      },
+      {
+        "start": 85,
+        "end": 86,
+        "viseme": "A",
+        "openness": 0.657
+      },
+      {
+        "start": 86,
+        "end": 87,
+        "viseme": "A",
+        "openness": 0.545
+      },
+      {
+        "start": 87,
+        "end": 88,
+        "viseme": "A",
+        "openness": 0.687
+      },
+      {
+        "start": 88,
+        "end": 89,
+        "viseme": "A",
+        "openness": 1
+      },
+      {
+        "start": 89,
+        "end": 90,
+        "viseme": "A",
+        "openness": 0.92
+      },
+      {
+        "start": 90,
+        "end": 91,
+        "viseme": "A",
+        "openness": 0.637
+      },
+      {
+        "start": 91,
+        "end": 92,
+        "viseme": "A",
+        "openness": 0.325
+      },
+      {
+        "start": 92,
+        "end": 93,
+        "viseme": "rest",
+        "openness": 0
+      },
+      {
+        "start": 93,
+        "end": 94,
+        "viseme": "rest",
+        "openness": 0
+      },
+      {
+        "start": 94,
+        "end": 95,
+        "viseme": "rest",
+        "openness": 0
+      },
+      {
+        "start": 95,
+        "end": 96,
+        "viseme": "rest",
+        "openness": 0
+      },
+      {
+        "start": 96,
+        "end": 97,
+        "viseme": "rest",
+        "openness": 0
+      },
+      {
+        "start": 97,
+        "end": 98,
+        "viseme": "rest",
+        "openness": 0
+      },
+      {
+        "start": 98,
+        "end": 99,
+        "viseme": "rest",
+        "openness": 0
+      }
+    ]
+  },
+  {
+    "id": "ep01-14",
+    "shot": 5,
+    "speaker": "PETUGAS",
+    "text": "Harus ada bukti usaha mandiri.",
+    "start": 1499,
+    "end": 1543,
+    "audio": "audio/episode01-elevenlabs/ep01-14.mp3",
+    "alignment": "audio-energy-text-estimate",
+    "timingSource": "elevenlabs-character-timestamps-plus-measured-energy",
+    "visemes": [
+      {
+        "start": 0,
+        "end": 1,
+        "viseme": "rest",
+        "openness": 0
+      },
+      {
+        "start": 1,
+        "end": 2,
+        "viseme": "rest",
+        "openness": 0
+      },
+      {
+        "start": 2,
+        "end": 3,
+        "viseme": "rest",
+        "openness": 0
+      },
+      {
+        "start": 3,
+        "end": 4,
+        "viseme": "A",
+        "openness": 0.59
+      },
+      {
+        "start": 4,
+        "end": 5,
+        "viseme": "A",
+        "openness": 1
+      },
+      {
+        "start": 5,
+        "end": 6,
+        "viseme": "A",
+        "openness": 1
+      },
+      {
+        "start": 6,
+        "end": 7,
+        "viseme": "U",
+        "openness": 1
+      },
+      {
+        "start": 7,
+        "end": 8,
+        "viseme": "rest",
+        "openness": 0
+      },
+      {
+        "start": 8,
+        "end": 9,
+        "viseme": "rest",
+        "openness": 0
+      },
+      {
+        "start": 9,
+        "end": 10,
+        "viseme": "A",
+        "openness": 0.909
+      },
+      {
+        "start": 10,
+        "end": 11,
+        "viseme": "A",
+        "openness": 1
+      },
+      {
+        "start": 11,
+        "end": 12,
+        "viseme": "rest",
+        "openness": 0
+      },
+      {
+        "start": 12,
+        "end": 13,
+        "viseme": "rest",
+        "openness": 0
+      },
+      {
+        "start": 13,
+        "end": 14,
+        "viseme": "MBP",
+        "openness": 0.811
+      },
+      {
+        "start": 14,
+        "end": 15,
+        "viseme": "U",
+        "openness": 0.404
+      },
+      {
+        "start": 15,
+        "end": 16,
+        "viseme": "A",
+        "openness": 0.139
+      },
+      {
+        "start": 16,
+        "end": 17,
+        "viseme": "A",
+        "openness": 0.183
+      },
+      {
+        "start": 17,
+        "end": 18,
+        "viseme": "E",
+        "openness": 0.933
+      },
+      {
+        "start": 18,
+        "end": 19,
+        "viseme": "rest",
+        "openness": 0
+      },
+      {
+        "start": 19,
+        "end": 20,
+        "viseme": "U",
+        "openness": 0.571
+      },
+      {
+        "start": 20,
+        "end": 21,
+        "viseme": "A",
+        "openness": 0.476
+      },
+      {
+        "start": 21,
+        "end": 22,
+        "viseme": "A",
+        "openness": 0.402
+      },
+      {
+        "start": 22,
+        "end": 23,
+        "viseme": "A",
+        "openness": 1
+      },
+      {
+        "start": 23,
+        "end": 24,
+        "viseme": "A",
+        "openness": 1
+      },
+      {
+        "start": 24,
+        "end": 25,
+        "viseme": "rest",
+        "openness": 0
+      },
+      {
+        "start": 25,
+        "end": 26,
+        "viseme": "MBP",
+        "openness": 0.902
+      },
+      {
+        "start": 26,
+        "end": 27,
+        "viseme": "A",
+        "openness": 1
+      },
+      {
+        "start": 27,
+        "end": 28,
+        "viseme": "A",
+        "openness": 0.842
+      },
+      {
+        "start": 28,
+        "end": 29,
+        "viseme": "A",
+        "openness": 0.713
+      },
+      {
+        "start": 29,
+        "end": 30,
+        "viseme": "A",
+        "openness": 0.698
+      },
+      {
+        "start": 30,
+        "end": 31,
+        "viseme": "E",
+        "openness": 0.935
+      },
+      {
+        "start": 31,
+        "end": 32,
+        "viseme": "A",
+        "openness": 0.76
+      },
+      {
+        "start": 32,
+        "end": 33,
+        "viseme": "A",
+        "openness": 0.619
+      },
+      {
+        "start": 33,
+        "end": 34,
+        "viseme": "E",
+        "openness": 0.836
+      },
+      {
+        "start": 34,
+        "end": 35,
+        "viseme": "E",
+        "openness": 0.568
+      },
+      {
+        "start": 35,
+        "end": 36,
+        "viseme": "E",
+        "openness": 0.301
+      },
+      {
+        "start": 36,
+        "end": 37,
+        "viseme": "rest",
+        "openness": 0
+      },
+      {
+        "start": 37,
+        "end": 38,
+        "viseme": "rest",
+        "openness": 0
+      },
+      {
+        "start": 38,
+        "end": 39,
+        "viseme": "rest",
+        "openness": 0
+      },
+      {
+        "start": 39,
+        "end": 40,
+        "viseme": "rest",
+        "openness": 0
+      },
+      {
+        "start": 40,
+        "end": 41,
+        "viseme": "rest",
+        "openness": 0
+      },
+      {
+        "start": 41,
+        "end": 42,
+        "viseme": "rest",
+        "openness": 0
+      },
+      {
+        "start": 42,
+        "end": 43,
+        "viseme": "rest",
+        "openness": 0
+      },
+      {
+        "start": 43,
+        "end": 44,
+        "viseme": "rest",
+        "openness": 0
+      }
+    ]
+  },
+  {
+    "id": "ep01-15",
+    "shot": 5,
+    "speaker": "DARTO",
+    "text": "Motor saya itu bukti usaha saya, Bu.",
+    "start": 1571,
+    "end": 1624,
+    "audio": "audio/episode01-elevenlabs/ep01-15.mp3",
+    "alignment": "audio-energy-text-estimate",
+    "timingSource": "elevenlabs-character-timestamps-plus-measured-energy",
+    "visemes": [
+      {
+        "start": 0,
+        "end": 1,
+        "viseme": "rest",
+        "openness": 0
+      },
+      {
+        "start": 1,
+        "end": 2,
+        "viseme": "rest",
+        "openness": 0
+      },
+      {
+        "start": 2,
+        "end": 3,
+        "viseme": "O",
+        "openness": 0.988
+      },
+      {
+        "start": 3,
+        "end": 4,
+        "viseme": "O",
+        "openness": 1
+      },
+      {
+        "start": 4,
+        "end": 5,
+        "viseme": "A",
+        "openness": 0.794
+      },
+      {
+        "start": 5,
+        "end": 6,
+        "viseme": "A",
+        "openness": 0.281
+      },
+      {
+        "start": 6,
+        "end": 7,
+        "viseme": "O",
+        "openness": 1
+      },
+      {
+        "start": 7,
+        "end": 8,
+        "viseme": "A",
+        "openness": 0.72
+      },
+      {
+        "start": 8,
+        "end": 9,
+        "viseme": "rest",
+        "openness": 0
+      },
+      {
+        "start": 9,
+        "end": 10,
+        "viseme": "A",
+        "openness": 0.439
+      },
+      {
+        "start": 10,
+        "end": 11,
+        "viseme": "A",
+        "openness": 1
+      },
+      {
+        "start": 11,
+        "end": 12,
+        "viseme": "A",
+        "openness": 1
+      },
+      {
+        "start": 12,
+        "end": 13,
+        "viseme": "A",
+        "openness": 1
+      },
+      {
+        "start": 13,
+        "end": 14,
+        "viseme": "A",
+        "openness": 1
+      },
+      {
+        "start": 14,
+        "end": 15,
+        "viseme": "A",
+        "openness": 1
+      },
+      {
+        "start": 15,
+        "end": 16,
+        "viseme": "rest",
+        "openness": 0
+      },
+      {
+        "start": 16,
+        "end": 17,
+        "viseme": "E",
+        "openness": 1
+      },
+      {
+        "start": 17,
+        "end": 18,
+        "viseme": "rest",
+        "openness": 0
+      },
+      {
+        "start": 18,
+        "end": 19,
+        "viseme": "A",
+        "openness": 0.555
+      },
+      {
+        "start": 19,
+        "end": 20,
+        "viseme": "U",
+        "openness": 1
+      },
+      {
+        "start": 20,
+        "end": 21,
+        "viseme": "rest",
+        "openness": 0
+      },
+      {
+        "start": 21,
+        "end": 22,
+        "viseme": "MBP",
+        "openness": 0.583
+      },
+      {
+        "start": 22,
+        "end": 23,
+        "viseme": "U",
+        "openness": 0.356
+      },
+      {
+        "start": 23,
+        "end": 24,
+        "viseme": "A",
+        "openness": 0.136
+      },
+      {
+        "start": 24,
+        "end": 25,
+        "viseme": "A",
+        "openness": 0.173
+      },
+      {
+        "start": 25,
+        "end": 26,
+        "viseme": "E",
+        "openness": 0.762
+      },
+      {
+        "start": 26,
+        "end": 27,
+        "viseme": "rest",
+        "openness": 0
+      },
+      {
+        "start": 27,
+        "end": 28,
+        "viseme": "U",
+        "openness": 0.573
+      },
+      {
+        "start": 28,
+        "end": 29,
+        "viseme": "A",
+        "openness": 0.391
+      },
+      {
+        "start": 29,
+        "end": 30,
+        "viseme": "A",
+        "openness": 0.346
+      },
+      {
+        "start": 30,
+        "end": 31,
+        "viseme": "A",
+        "openness": 0.899
+      },
+      {
+        "start": 31,
+        "end": 32,
+        "viseme": "A",
+        "openness": 1
+      },
+      {
+        "start": 32,
+        "end": 33,
+        "viseme": "A",
+        "openness": 0.976
+      },
+      {
+        "start": 33,
+        "end": 34,
+        "viseme": "rest",
+        "openness": 0
+      },
+      {
+        "start": 34,
+        "end": 35,
+        "viseme": "rest",
+        "openness": 0
+      },
+      {
+        "start": 35,
+        "end": 36,
+        "viseme": "A",
+        "openness": 0.852
+      },
+      {
+        "start": 36,
+        "end": 37,
+        "viseme": "A",
+        "openness": 0.87
+      },
+      {
+        "start": 37,
+        "end": 38,
+        "viseme": "A",
+        "openness": 0.807
+      },
+      {
+        "start": 38,
+        "end": 39,
+        "viseme": "A",
+        "openness": 0.819
+      },
+      {
+        "start": 39,
+        "end": 40,
+        "viseme": "A",
+        "openness": 0.907
+      },
+      {
+        "start": 40,
+        "end": 41,
+        "viseme": "rest",
+        "openness": 0
+      },
+      {
+        "start": 41,
+        "end": 42,
+        "viseme": "rest",
+        "openness": 0
+      },
+      {
+        "start": 42,
+        "end": 43,
+        "viseme": "U",
+        "openness": 1
+      },
+      {
+        "start": 43,
+        "end": 44,
+        "viseme": "U",
+        "openness": 0.97
+      },
+      {
+        "start": 44,
+        "end": 45,
+        "viseme": "U",
+        "openness": 0.394
+      },
+      {
+        "start": 45,
+        "end": 46,
+        "viseme": "rest",
+        "openness": 0
+      },
+      {
+        "start": 46,
+        "end": 47,
+        "viseme": "rest",
+        "openness": 0
+      },
+      {
+        "start": 47,
+        "end": 48,
+        "viseme": "rest",
+        "openness": 0
+      },
+      {
+        "start": 48,
+        "end": 49,
+        "viseme": "rest",
+        "openness": 0
+      },
+      {
+        "start": 49,
+        "end": 50,
+        "viseme": "rest",
+        "openness": 0
+      },
+      {
+        "start": 50,
+        "end": 51,
+        "viseme": "rest",
+        "openness": 0
+      },
+      {
+        "start": 51,
+        "end": 52,
+        "viseme": "rest",
+        "openness": 0
+      },
+      {
+        "start": 52,
+        "end": 53,
+        "viseme": "rest",
+        "openness": 0
+      }
+    ]
+  },
+  {
+    "id": "ep01-16",
+    "shot": 6,
+    "speaker": "ANAK (telepon)",
+    "text": "Pak, hari ini kita makan apa?",
+    "start": 1756,
+    "end": 1794,
+    "audio": "audio/episode01-elevenlabs/ep01-16.mp3",
+    "alignment": "audio-energy-text-estimate",
+    "timingSource": "elevenlabs-character-timestamps-plus-measured-energy",
+    "visemes": [
+      {
+        "start": 0,
+        "end": 1,
+        "viseme": "rest",
+        "openness": 0
+      },
+      {
+        "start": 1,
+        "end": 2,
+        "viseme": "rest",
+        "openness": 0
+      },
+      {
+        "start": 2,
+        "end": 3,
+        "viseme": "MBP",
+        "openness": 0.855
+      },
+      {
+        "start": 3,
+        "end": 4,
+        "viseme": "A",
+        "openness": 1
+      },
+      {
+        "start": 4,
+        "end": 5,
+        "viseme": "A",
+        "openness": 0.925
+      },
+      {
+        "start": 5,
+        "end": 6,
+        "viseme": "A",
+        "openness": 0.174
+      },
+      {
+        "start": 6,
+        "end": 7,
+        "viseme": "rest",
+        "openness": 0
+      },
+      {
+        "start": 7,
+        "end": 8,
+        "viseme": "rest",
+        "openness": 0
+      },
+      {
+        "start": 8,
+        "end": 9,
+        "viseme": "rest",
+        "openness": 0
+      },
+      {
+        "start": 9,
+        "end": 10,
+        "viseme": "A",
+        "openness": 0.678
+      },
+      {
+        "start": 10,
+        "end": 11,
+        "viseme": "A",
+        "openness": 1
+      },
+      {
+        "start": 11,
+        "end": 12,
+        "viseme": "A",
+        "openness": 1
+      },
+      {
+        "start": 12,
+        "end": 13,
+        "viseme": "A",
+        "openness": 1
+      },
+      {
+        "start": 13,
+        "end": 14,
+        "viseme": "rest",
+        "openness": 0
+      },
+      {
+        "start": 14,
+        "end": 15,
+        "viseme": "E",
+        "openness": 0.863
+      },
+      {
+        "start": 15,
+        "end": 16,
+        "viseme": "A",
+        "openness": 1
+      },
+      {
+        "start": 16,
+        "end": 17,
+        "viseme": "E",
+        "openness": 1
+      },
+      {
+        "start": 17,
+        "end": 18,
+        "viseme": "rest",
+        "openness": 0
+      },
+      {
+        "start": 18,
+        "end": 19,
+        "viseme": "A",
+        "openness": 1
+      },
+      {
+        "start": 19,
+        "end": 20,
+        "viseme": "E",
+        "openness": 0.309
+      },
+      {
+        "start": 20,
+        "end": 21,
+        "viseme": "A",
+        "openness": 1
+      },
+      {
+        "start": 21,
+        "end": 22,
+        "viseme": "rest",
+        "openness": 0
+      },
+      {
+        "start": 22,
+        "end": 23,
+        "viseme": "MBP",
+        "openness": 1
+      },
+      {
+        "start": 23,
+        "end": 24,
+        "viseme": "A",
+        "openness": 1
+      },
+      {
+        "start": 24,
+        "end": 25,
+        "viseme": "A",
+        "openness": 0.952
+      },
+      {
+        "start": 25,
+        "end": 26,
+        "viseme": "A",
+        "openness": 1
+      },
+      {
+        "start": 26,
+        "end": 27,
+        "viseme": "A",
+        "openness": 1
+      },
+      {
+        "start": 27,
+        "end": 28,
+        "viseme": "rest",
+        "openness": 0
+      },
+      {
+        "start": 28,
+        "end": 29,
+        "viseme": "A",
+        "openness": 1
+      },
+      {
+        "start": 29,
+        "end": 30,
+        "viseme": "MBP",
+        "openness": 0.148
+      },
+      {
+        "start": 30,
+        "end": 31,
+        "viseme": "MBP",
+        "openness": 1
+      },
+      {
+        "start": 31,
+        "end": 32,
+        "viseme": "A",
+        "openness": 1
+      },
+      {
+        "start": 32,
+        "end": 33,
+        "viseme": "A",
+        "openness": 0.584
+      },
+      {
+        "start": 33,
+        "end": 34,
+        "viseme": "rest",
+        "openness": 0
+      },
+      {
+        "start": 34,
+        "end": 35,
+        "viseme": "rest",
+        "openness": 0
+      },
+      {
+        "start": 35,
+        "end": 36,
+        "viseme": "rest",
+        "openness": 0
+      },
+      {
+        "start": 36,
+        "end": 37,
+        "viseme": "rest",
+        "openness": 0
+      },
+      {
+        "start": 37,
+        "end": 38,
+        "viseme": "rest",
+        "openness": 0
+      }
+    ]
+  },
+  {
+    "id": "ep01-17",
+    "shot": 6,
+    "speaker": "DARTO",
+    "text": "...Bapak usahakan, Nak.",
+    "start": 1822,
+    "end": 1856,
+    "audio": "audio/episode01-elevenlabs/ep01-17.mp3",
+    "alignment": "audio-energy-text-estimate",
+    "timingSource": "elevenlabs-character-timestamps-plus-measured-energy",
+    "visemes": [
+      {
+        "start": 0,
+        "end": 1,
+        "viseme": "rest",
+        "openness": 0
+      },
+      {
+        "start": 1,
+        "end": 2,
+        "viseme": "rest",
+        "openness": 0
+      },
+      {
+        "start": 2,
+        "end": 3,
+        "viseme": "rest",
+        "openness": 0
+      },
+      {
+        "start": 3,
+        "end": 4,
+        "viseme": "rest",
+        "openness": 0
+      },
+      {
+        "start": 4,
+        "end": 5,
+        "viseme": "MBP",
+        "openness": 0.871
+      },
+      {
+        "start": 5,
+        "end": 6,
+        "viseme": "A",
+        "openness": 1
+      },
+      {
+        "start": 6,
+        "end": 7,
+        "viseme": "A",
+        "openness": 1
+      },
+      {
+        "start": 7,
+        "end": 8,
+        "viseme": "A",
+        "openness": 0.691
+      },
+      {
+        "start": 8,
+        "end": 9,
+        "viseme": "MBP",
+        "openness": 0.5
+      },
+      {
+        "start": 9,
+        "end": 10,
+        "viseme": "A",
+        "openness": 1
+      },
+      {
+        "start": 10,
+        "end": 11,
+        "viseme": "A",
+        "openness": 0.844
+      },
+      {
+        "start": 11,
+        "end": 12,
+        "viseme": "rest",
+        "openness": 0
+      },
+      {
+        "start": 12,
+        "end": 13,
+        "viseme": "U",
+        "openness": 0.97
+      },
+      {
+        "start": 13,
+        "end": 14,
+        "viseme": "A",
+        "openness": 0.685
+      },
+      {
+        "start": 14,
+        "end": 15,
+        "viseme": "A",
+        "openness": 0.47
+      },
+      {
+        "start": 15,
+        "end": 16,
+        "viseme": "A",
+        "openness": 1
+      },
+      {
+        "start": 16,
+        "end": 17,
+        "viseme": "A",
+        "openness": 1
+      },
+      {
+        "start": 17,
+        "end": 18,
+        "viseme": "A",
+        "openness": 1
+      },
+      {
+        "start": 18,
+        "end": 19,
+        "viseme": "A",
+        "openness": 1
+      },
+      {
+        "start": 19,
+        "end": 20,
+        "viseme": "A",
+        "openness": 0.67
+      },
+      {
+        "start": 20,
+        "end": 21,
+        "viseme": "A",
+        "openness": 0.263
+      },
+      {
+        "start": 21,
+        "end": 22,
+        "viseme": "A",
+        "openness": 1
+      },
+      {
+        "start": 22,
+        "end": 23,
+        "viseme": "A",
+        "openness": 0.817
+      },
+      {
+        "start": 23,
+        "end": 24,
+        "viseme": "rest",
+        "openness": 0
+      },
+      {
+        "start": 24,
+        "end": 25,
+        "viseme": "A",
+        "openness": 1
+      },
+      {
+        "start": 25,
+        "end": 26,
+        "viseme": "A",
+        "openness": 1
+      },
+      {
+        "start": 26,
+        "end": 27,
+        "viseme": "A",
+        "openness": 0.364
+      },
+      {
+        "start": 27,
+        "end": 28,
+        "viseme": "A",
+        "openness": 0.179
+      },
+      {
+        "start": 28,
+        "end": 29,
+        "viseme": "rest",
+        "openness": 0
+      },
+      {
+        "start": 29,
+        "end": 30,
+        "viseme": "rest",
+        "openness": 0
+      },
+      {
+        "start": 30,
+        "end": 31,
+        "viseme": "rest",
+        "openness": 0
+      },
+      {
+        "start": 31,
+        "end": 32,
+        "viseme": "rest",
+        "openness": 0
+      },
+      {
+        "start": 32,
+        "end": 33,
+        "viseme": "rest",
+        "openness": 0
+      },
+      {
+        "start": 33,
+        "end": 34,
+        "viseme": "rest",
+        "openness": 0
+      }
+    ]
+  },
+  {
+    "id": "ep01-18",
+    "shot": 6,
+    "speaker": "PENGERAS SUARA",
+    "text": "Tidak ada warga yang tertinggal.",
+    "start": 1884,
+    "end": 1928,
+    "audio": "audio/episode01-elevenlabs/ep01-18.mp3",
+    "alignment": "audio-energy-text-estimate",
+    "timingSource": "elevenlabs-character-timestamps-plus-measured-energy",
+    "visemes": [
+      {
+        "start": 0,
+        "end": 1,
+        "viseme": "rest",
+        "openness": 0
+      },
+      {
+        "start": 1,
+        "end": 2,
+        "viseme": "rest",
+        "openness": 0
+      },
+      {
+        "start": 2,
+        "end": 3,
+        "viseme": "rest",
+        "openness": 0
+      },
+      {
+        "start": 3,
+        "end": 4,
+        "viseme": "E",
+        "openness": 0.878
+      },
+      {
+        "start": 4,
+        "end": 5,
+        "viseme": "A",
+        "openness": 0.941
+      },
+      {
+        "start": 5,
+        "end": 6,
+        "viseme": "A",
+        "openness": 1
+      },
+      {
+        "start": 6,
+        "end": 7,
+        "viseme": "A",
+        "openness": 1
+      },
+      {
+        "start": 7,
+        "end": 8,
+        "viseme": "A",
+        "openness": 0.819
+      },
+      {
+        "start": 8,
+        "end": 9,
+        "viseme": "A",
+        "openness": 0.942
+      },
+      {
+        "start": 9,
+        "end": 10,
+        "viseme": "A",
+        "openness": 1
+      },
+      {
+        "start": 10,
+        "end": 11,
+        "viseme": "A",
+        "openness": 1
+      },
+      {
+        "start": 11,
+        "end": 12,
+        "viseme": "rest",
+        "openness": 0
+      },
+      {
+        "start": 12,
+        "end": 13,
+        "viseme": "A",
+        "openness": 1
+      },
+      {
+        "start": 13,
+        "end": 14,
+        "viseme": "A",
+        "openness": 1
+      },
+      {
+        "start": 14,
+        "end": 15,
+        "viseme": "A",
+        "openness": 0.622
+      },
+      {
+        "start": 15,
+        "end": 16,
+        "viseme": "A",
+        "openness": 0.684
+      },
+      {
+        "start": 16,
+        "end": 17,
+        "viseme": "A",
+        "openness": 0.809
+      },
+      {
+        "start": 17,
+        "end": 18,
+        "viseme": "A",
+        "openness": 1
+      },
+      {
+        "start": 18,
+        "end": 19,
+        "viseme": "rest",
+        "openness": 0
+      },
+      {
+        "start": 19,
+        "end": 20,
+        "viseme": "A",
+        "openness": 0.836
+      },
+      {
+        "start": 20,
+        "end": 21,
+        "viseme": "A",
+        "openness": 0.743
+      },
+      {
+        "start": 21,
+        "end": 22,
+        "viseme": "rest",
+        "openness": 0
+      },
+      {
+        "start": 22,
+        "end": 23,
+        "viseme": "A",
+        "openness": 0.467
+      },
+      {
+        "start": 23,
+        "end": 24,
+        "viseme": "E",
+        "openness": 0.502
+      },
+      {
+        "start": 24,
+        "end": 25,
+        "viseme": "rest",
+        "openness": 0
+      },
+      {
+        "start": 25,
+        "end": 26,
+        "viseme": "rest",
+        "openness": 0
+      },
+      {
+        "start": 26,
+        "end": 27,
+        "viseme": "E",
+        "openness": 0.681
+      },
+      {
+        "start": 27,
+        "end": 28,
+        "viseme": "E",
+        "openness": 0.749
+      },
+      {
+        "start": 28,
+        "end": 29,
+        "viseme": "A",
+        "openness": 0.686
+      },
+      {
+        "start": 29,
+        "end": 30,
+        "viseme": "A",
+        "openness": 0.776
+      },
+      {
+        "start": 30,
+        "end": 31,
+        "viseme": "A",
+        "openness": 0.823
+      },
+      {
+        "start": 31,
+        "end": 32,
+        "viseme": "A",
+        "openness": 1
+      },
+      {
+        "start": 32,
+        "end": 33,
+        "viseme": "A",
+        "openness": 0.892
+      },
+      {
+        "start": 33,
+        "end": 34,
+        "viseme": "L",
+        "openness": 0.811
+      },
+      {
+        "start": 34,
+        "end": 35,
+        "viseme": "L",
+        "openness": 0.69
+      },
+      {
+        "start": 35,
+        "end": 36,
+        "viseme": "L",
+        "openness": 0.588
+      },
+      {
+        "start": 36,
+        "end": 37,
+        "viseme": "rest",
+        "openness": 0
+      },
+      {
+        "start": 37,
+        "end": 38,
+        "viseme": "rest",
+        "openness": 0
+      },
+      {
+        "start": 38,
+        "end": 39,
+        "viseme": "rest",
+        "openness": 0
+      },
+      {
+        "start": 39,
+        "end": 40,
+        "viseme": "rest",
+        "openness": 0
+      },
+      {
+        "start": 40,
+        "end": 41,
+        "viseme": "rest",
+        "openness": 0
+      },
+      {
+        "start": 41,
+        "end": 42,
+        "viseme": "rest",
+        "openness": 0
+      },
+      {
+        "start": 42,
+        "end": 43,
+        "viseme": "rest",
+        "openness": 0
+      },
+      {
+        "start": 43,
+        "end": 44,
+        "viseme": "rest",
+        "openness": 0
+      }
+    ]
+  }
+]
