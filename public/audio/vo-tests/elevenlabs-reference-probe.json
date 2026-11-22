@@ -1,0 +1,10 @@
+{
+  "voice_id": "ojz6ro9PB1xDu44lymdM",
+  "name": "Explicit voice (metadata unavailable)",
+  "model": "eleven_multilingual_v2",
+  "language": "id",
+  "text": "Pak Darto, besok wawancara pukul sembilan pagi. Jangan lupa membawa KTP dan surat lamaran. Baik, Bu. Terima kasih atas informasinya.",
+  "bytes": 135461,
+  "selection": "explicit",
+  "note": "Audio test only; not a locked cast voice or approved phoneme alignment."
+}
