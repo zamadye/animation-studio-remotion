@@ -17,5 +17,16 @@ try{
  assert.ok(!(await fs.readFile(path.join(dir,'take.json'),'utf8')).includes(env.ELEVENLABS_API_KEY));
  await assert.rejects(run({env,dir,request:async()=>new Response('',{status:401})}),/HTTP 401/);
  await assert.rejects(run({env,dir,request:async()=>new Response(JSON.stringify({voices:[{voice_id:'clone',category:'cloned'}]}))}),/No eligible voice/);
+ let sentKey;
+ await run({env:{ELEVENLABS_KEY:'  alias-mock  ',VO_MODE:'discover'},dir,request:async(url,options)=>{sentKey=options.headers['xi-api-key'];return new Response(JSON.stringify(voices));}});
+ assert.equal(sentKey,'alias-mock');
+ let paidCalls=0;
+ await run({env:{...env,ELEVENLABS_VOICE_ID:'explicit_test'},dir,request:async(url,options)=>{
+  if(options.method==='POST'){paidCalls++;assert.equal(options.headers.Accept,'audio/mpeg');assert.ok(url.includes('/explicit_test?'));return new Response(new Uint8Array(1024),{headers:{'content-type':'audio/mpeg'}});}
+  return new Response(JSON.stringify({detail:{status:'missing_permissions',message:'Not logged'}}),{status:401});
+ }});
+ assert.equal(paidCalls,1);
+ await assert.rejects(run({env,dir,request:async()=>new Response(JSON.stringify({detail:{status:'invalid_api_key',message:env.ELEVENLABS_API_KEY}}),{status:401})}),error=>error.message.includes('code=invalid_api_key')&&!error.message.includes(env.ELEVENLABS_API_KEY));
+ await assert.rejects(run({env,dir,request:async()=>new Response(JSON.stringify({detail:{status:'detected_unusual_activity'}}),{status:401})}),/network security restriction/);
  console.log('ELEVENLABS CLIENT VALIDATED: mock only; discovery, one synthesis, no auto-clone, length limit, missing-secret/error handling and output metadata. No live API credit used.');
 }finally{await fs.rm(dir,{recursive:true,force:true});}

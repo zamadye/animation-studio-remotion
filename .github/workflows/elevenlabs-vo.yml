@@ -37,8 +37,8 @@ jobs:
           node-version: '22'
       - name: Discover voices and generate one review take
         env:
-          ELEVENLABS_API_KEY: ${{ secrets.ELEVENLABS_API_KEY }}
-          ELEVENLABS_VOICE_ID: ${{ inputs.voice_id }}
+          ELEVENLABS_API_KEY: ${{ secrets.ELEVENLABS_API_KEY || secrets.ELEVENLABS_KEY }}
+          ELEVENLABS_VOICE_ID: ${{ inputs.voice_id || vars.ELEVENLABS_VOICE_ID }}
           VO_MODE: ${{ inputs.mode || 'probe' }}
           VO_TEXT: ${{ inputs.text }}
         run: node scripts/elevenlabs-vo.mjs
