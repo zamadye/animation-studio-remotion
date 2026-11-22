@@ -1,0 +1,38 @@
+name: Gajian contextual two-voice dialogue
+on:
+  push:
+    branches: ['arena/68a76170-animation-studio-remotion']
+    paths: ['src/episodes/gajian/script.json', 'scripts/elevenlabs-gajian.mjs', '.github/workflows/gajian-vo.yml']
+permissions:
+  contents: write
+concurrency:
+  group: gajian-dialogue
+  cancel-in-progress: false
+jobs:
+  dialogue:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: arena/68a76170-animation-studio-remotion
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Contextual scene dialogue (not isolated-word synthesis)
+        env:
+          ELEVENLABS_API_KEY: ${{ secrets.ELEVENLABS_API_KEY || secrets.ELEVENLABS_KEY }}
+          RAKA_VOICE_ID: ${{ vars.RAKA_VOICE_ID }}
+          NISA_VOICE_ID: ${{ vars.NISA_VOICE_ID }}
+        run: node scripts/elevenlabs-gajian.mjs
+      - name: Preserve takes on current session branch
+        if: always()
+        run: |
+          set -euo pipefail
+          test -d public/audio/gajian || exit 0
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add public/audio/gajian
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m "Save contextual Raka Nisa dialogue takes"
+          git push origin HEAD:refs/heads/arena/68a76170-animation-studio-remotion

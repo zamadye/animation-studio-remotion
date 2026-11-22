@@ -1,0 +1,38 @@
+{
+  "id":"EP-001-GAJIAN","title":"Baru Gajian, Udah Habis?","location":"Kontrakan","targetSeconds":[60,90],
+  "scenes":[
+    {"id":"gajian","title":"Gajian","lines":[
+      {"speaker":"raka","text":"Alhamdulillah! Gajian juga. Tiga juta dua ratus!"},
+      {"speaker":"raka","text":"Oke... dipotong delapan ratus lima puluh."},
+      {"speaker":"raka","text":"Lah, empat ratus dua puluh juga hari ini?"},
+      {"speaker":"nisa","text":"Mas, udah gajian?"},
+      {"speaker":"raka","text":"Udah, Sayang."},
+      {"speaker":"nisa","text":"Bagus. Kontrakan satu juta, listrik sama air dua ratus lima puluh, belanja dapur tujuh ratus."},
+      {"speaker":"raka","text":"Nis..."},
+      {"speaker":"nisa","text":"Kenapa?"},
+      {"speaker":"raka","text":"Kalau bulan ini kita nggak makan dulu, gimana?"},
+      {"speaker":"nisa","text":"Mas! Ini baru tanggal satu!"}
+    ]},
+    {"id":"uang-ke-mana","title":"Uangnya ke Mana?","lines":[
+      {"speaker":"nisa","text":"Kamu boros apa gimana sih? Gaji baru masuk udah habis!"},
+      {"speaker":"raka","text":"Aku nggak jajan, nggak nongkrong. Makan siang aja bawa bekal."},
+      {"speaker":"nisa","text":"Terus uangnya ke mana?"},
+      {"speaker":"raka","text":"Aku juga kirim lima ratus ribu buat Ibu."},
+      {"speaker":"nisa","text":"Kenapa nggak bilang?"},
+      {"speaker":"raka","text":"Takut kamu marah."},
+      {"speaker":"nisa","text":"Aku bukan marah karena kamu bantu Ibu. Aku marah karena kamu bohong soal uang kita."}
+    ]},
+    {"id":"hitungan-terakhir","title":"Hitungan Terakhir","lines":[
+      {"speaker":"raka","text":"Jadi... kalau semuanya dibayar, kita malah minus."},
+      {"speaker":"nisa","text":"Berarti selama ini masalahnya bukan cuma kita boros."},
+      {"speaker":"raka","text":"Iya. Uangnya memang nggak cukup."},
+      {"speaker":"nisa","text":"Terus gimana sekarang?"},
+      {"speaker":"raka","text":"Mulai sekarang kita hitung bareng. Nggak ada yang disembunyiin lagi."},
+      {"speaker":"nisa","text":"Oke. Tapi sekarang kita makan apa?"},
+      {"speaker":"raka","text":"Kita masih punya telur, kan?"},
+      {"speaker":"nisa","text":"Satu."},
+      {"speaker":"raka","text":"Bagus. Berarti masing-masing setengah."},
+      {"speaker":"nisa","text":"Mas... itu telur buat besok."}
+    ]}
+  ]
+}
