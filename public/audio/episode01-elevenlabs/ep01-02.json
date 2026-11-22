@@ -1,0 +1,61 @@
+{
+  "id": "ep01-02",
+  "shot": 1,
+  "speaker": "PETUGAS",
+  "text": "Kendaraan ada?",
+  "voice_id": "ojz6ro9PB1xDu44lymdM",
+  "model": "eleven_multilingual_v2",
+  "alignment": {
+    "characters": [
+      "K",
+      "e",
+      "n",
+      "d",
+      "a",
+      "r",
+      "a",
+      "a",
+      "n",
+      " ",
+      "a",
+      "d",
+      "a",
+      "?"
+    ],
+    "character_start_times_seconds": [
+      0,
+      0.116,
+      0.174,
+      0.209,
+      0.255,
+      0.325,
+      0.372,
+      0.43,
+      0.476,
+      0.522,
+      0.592,
+      0.639,
+      0.685,
+      0.801
+    ],
+    "character_end_times_seconds": [
+      0.116,
+      0.174,
+      0.209,
+      0.255,
+      0.325,
+      0.372,
+      0.43,
+      0.476,
+      0.522,
+      0.592,
+      0.639,
+      0.685,
+      0.801,
+      1.068
+    ]
+  },
+  "audio": "audio/episode01-elevenlabs/ep01-02.mp3",
+  "bytes": 18015,
+  "note": "Single-voice review dub; not final per-character voice casting. Character alignment is not phoneme forced alignment."
+}

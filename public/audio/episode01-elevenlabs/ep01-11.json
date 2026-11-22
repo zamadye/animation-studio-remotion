@@ -1,0 +1,52 @@
+{
+  "id": "ep01-11",
+  "shot": 4,
+  "speaker": "DARTO",
+  "text": "Buat beras.",
+  "voice_id": "ojz6ro9PB1xDu44lymdM",
+  "model": "eleven_multilingual_v2",
+  "alignment": {
+    "characters": [
+      "B",
+      "u",
+      "a",
+      "t",
+      " ",
+      "b",
+      "e",
+      "r",
+      "a",
+      "s",
+      "."
+    ],
+    "character_start_times_seconds": [
+      0,
+      0.104,
+      0.151,
+      0.209,
+      0.244,
+      0.302,
+      0.337,
+      0.395,
+      0.464,
+      0.58,
+      0.731
+    ],
+    "character_end_times_seconds": [
+      0.104,
+      0.151,
+      0.209,
+      0.244,
+      0.302,
+      0.337,
+      0.395,
+      0.464,
+      0.58,
+      0.731,
+      1.068
+    ]
+  },
+  "audio": "audio/episode01-elevenlabs/ep01-11.mp3",
+  "bytes": 18015,
+  "note": "Single-voice review dub; not final per-character voice casting. Character alignment is not phoneme forced alignment."
+}
