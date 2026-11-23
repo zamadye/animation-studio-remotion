@@ -53,12 +53,16 @@ export const WorldArt:React.FC<{world:WorldLocation;layer?:'background'|'foregro
     {f==='school'?<><rect x="500" y="650" width="390" height="30" fill="#927951"/><path d="M530 680v90m325-90v90" strokeWidth="12"/></>:<>{[0,1,2].map(i=><g key={i}><rect x={500+i*380} y="670" width="280" height="24" fill="#ad8f60"/><path d={`M${520+i*380} 694v95m235-95v95`} strokeWidth="10"/></g>)}</>}
    </>}
    {f==='home'&&<>
-    <Sign x={710} y={185} w={470} text={world.episodeId==='06'?'RUMAH KELUARGA':'RUMAH WARGA'} color="#947650"/>
+    <Sign x={710} y={185} w={470} text={world.episodeId==='06'?'RUMAH KELUARGA':world.location==='Kontrakan'?'KONTRAKAN • TANGGAL 1':'RUMAH WARGA'} color={world.location==='Kontrakan'?'#5c786f':'#947650'}/>
     <path d="M600 610q-60-70-95 0v130h490V610q-50-70-85 0Z" fill="#8a9b7b"/><rect x="545" y="535" width="178" height="152" rx="24" fill="#9ea98b"/><rect x="735" y="535" width="178" height="152" rx="24" fill="#9ea98b"/><rect x="565" y="570" width="85" height="70" rx="8" fill="#c6ab7b"/>
     <rect x="1190" y="510" width="370" height="205" fill="#8d7555"/><rect x="1220" y="350" width="290" height="160" rx="8" fill="#4b5d59"/><rect x="1235" y="365" width="260" height="126" fill="#92aaa0"/>
     <path d="M1030 390v320m-75-300h150l-28-90h-94Z" fill="#d8bd84" strokeWidth="6"/><Clock x={1440} y={220}/>
     <rect x="605" y="315" width="150" height="120" fill="#a48861"/><rect x="620" y="330" width="120" height="90" fill="#c9c6a9"/><path d="M640 400q38-70 80 0" fill="#8b9c82"/>
     <path d="M1030 745h-520l-85 190h690Z" fill="#b68a65" opacity=".7"/><path d="M555 778h435m-470 32h470" stroke="#d5b590" strokeWidth="5"/>
+    {world.location==='Kontrakan'&&<>
+      <rect x="1590" y="255" width="125" height="155" rx="6" fill="#fff7e3"/><rect x="1590" y="255" width="125" height="42" rx="4" fill="#b25742"/><text x="1652" y="284" textAnchor="middle" fill="#fff6e2" stroke="none" fontFamily="Arial" fontWeight="700" fontSize="20">TGL</text><text x="1652" y="372" textAnchor="middle" fill="#3a4542" stroke="none" fontFamily="Arial" fontWeight="900" fontSize="64">1</text>
+      <rect x="750" y="705" width="260" height="18" rx="4" fill="#8e6c4e"/><path d="M775 723v95m210-95v95" stroke="#6f533a" strokeWidth="10"/><rect x="835" y="675" width="38" height="30" rx="5" fill="#e8ddc2"/><ellipse cx="920" cy="700" rx="34" ry="8" fill="#f3ebd6"/>
+    </>}
     {world.location==='Meja makan'&&<Desk x={1120} y={715}/>}
    </>}
    {(f==='shop'||f==='stockroom')&&<>

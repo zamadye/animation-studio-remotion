@@ -1023,5 +1023,30 @@
       "x": 1320,
       "y": 690
     }
+  },
+  {
+    "id": "world-gajian-01",
+    "episodeId": "gajian",
+    "location": "Kontrakan",
+    "family": "home",
+    "night": false,
+    "closeup": false,
+    "floorY": 900,
+    "actorZones": [
+      {
+        "id": "actor-left",
+        "x": 520,
+        "y": 900
+      },
+      {
+        "id": "actor-right",
+        "x": 1120,
+        "y": 900
+      }
+    ],
+    "interaction": {
+      "x": 860,
+      "y": 700
+    }
   }
 ]

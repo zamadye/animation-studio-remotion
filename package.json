@@ -8,7 +8,7 @@
     "remotion": "remotion studio src/remotion-entry.ts",
     "typecheck": "tsc --noEmit",
     "build": "vite build",
-    "test": "node scripts/validate-project.mjs && node scripts/test-character-rig.mjs && npm run test:face && npm run test:story && npm run test:world && npm run test:props && npm run test:vo && npm run test:episode01",
+    "test": "node scripts/validate-project.mjs && node scripts/test-character-rig.mjs && npm run test:face && npm run test:story && npm run test:world && npm run test:props && npm run test:vo && npm run test:episode01 && npm run test:engine && npm run test:gajian && npm run test:biometrics",
     "build:docs": "node scripts/build-docs.mjs",
     "extract:scripts": "python3 scripts/extract-episodes.py && node scripts/enrich-episodes.mjs && node scripts/build-docs.mjs",
     "generate:assets": "node scripts/generate-character-sheets.mjs",
@@ -30,7 +30,13 @@
     "test:props": "node scripts/test-held-props.mjs",
     "test:vo": "node scripts/test-elevenlabs-vo.mjs",
     "test:episode01": "node scripts/test-episode01.mjs",
-    "render:episode01-review": "remotion render src/remotion-entry.ts Episode01-Complete-Review episode01-complete-review.mp4 --codec h264 --crf 21 --public-dir public"
+    "test:engine": "node scripts/test-animation-engine.mjs",
+    "test:gajian": "node scripts/test-gajian.mjs",
+    "test:biometrics": "node scripts/test-biometrics.mjs",
+    "build:gajian:timeline": "python3 scripts/build-gajian-timeline.py",
+    "render:episode01-review": "remotion render src/remotion-entry.ts Episode01-Complete-Review episode01-complete-review.mp4 --codec h264 --crf 21 --public-dir public",
+    "render:gajian-review": "remotion render src/remotion-entry.ts Gajian-Complete-Review gajian-complete-review.mp4 --codec h264 --crf 21 --public-dir public",
+    "render:biometric-showcase": "remotion render src/remotion-entry.ts Biometric-Cast-Showcase biometric-cast-showcase.mp4 --codec h264 --crf 21 --public-dir public"
   },
   "dependencies": {
     "@remotion/player": "4.0.545",

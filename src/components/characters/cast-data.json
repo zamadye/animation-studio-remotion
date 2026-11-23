@@ -7,12 +7,46 @@
       "hair": "#292824",
       "outfit": "#426d72",
       "accent": "#c28b4b",
-      "hairShape": "short",
+      "hairShape": "crop",
       "bodyShape": "average",
       "presentation": "masculine",
       "costume": "workwear",
       "lowerGarment": "trousers",
-      "lowerGarmentColor": "#414342"
+      "lowerGarmentColor": "#414342",
+      "biometrics": {
+        "face": {
+          "ageGroup": "adult",
+          "faceShape": "square",
+          "headWidth": 1.02,
+          "headHeight": 1.0,
+          "jawWidth": 1.08,
+          "cheekbone": 1.0,
+          "chinLength": 2,
+          "eyeShape": "hooded",
+          "eyeSpacing": 1.0,
+          "eyeScale": 0.96,
+          "eyelashes": false,
+          "browStyle": "thick",
+          "noseShape": "broad",
+          "lipStyle": "medium",
+          "facialHair": "stubble",
+          "wrinkles": 0.42,
+          "eyeBags": 0.55,
+          "grayHair": 0.08,
+          "frecklesOrMoles": "none"
+        },
+        "body": {
+          "neckWidth": 38,
+          "neckLength": 0.98,
+          "hipRatio": 0.94,
+          "bellyCurve": 2,
+          "limbThickness": 1.06,
+          "handScale": 1.04,
+          "footwear": "boots",
+          "postureSlouch": 2.5,
+          "motionTempo": 0.92
+        }
+      }
     },
     "foil": {
       "name": "Petugas",
@@ -27,7 +61,42 @@
       "costume": "service-uniform",
       "lowerGarment": "skirt",
       "lowerGarmentColor": "#473c42",
-      "glasses": false
+      "glasses": false,
+      "biometrics": {
+        "face": {
+          "ageGroup": "adult",
+          "faceShape": "oval",
+          "headWidth": 0.94,
+          "headHeight": 1.02,
+          "jawWidth": 0.80,
+          "cheekbone": 1.02,
+          "chinLength": 1,
+          "eyeShape": "almond",
+          "eyeSpacing": 0.98,
+          "eyeScale": 0.98,
+          "eyelashes": true,
+          "browStyle": "arched",
+          "noseShape": "straight",
+          "lipStyle": "medium",
+          "lipColor": "#b76d63",
+          "facialHair": "none",
+          "wrinkles": 0.24,
+          "eyeBags": 0.15,
+          "grayHair": 0.05,
+          "frecklesOrMoles": "none"
+        },
+        "body": {
+          "neckWidth": 26,
+          "neckLength": 1.06,
+          "hipRatio": 1.14,
+          "bellyCurve": 0,
+          "limbThickness": 0.88,
+          "handScale": 0.92,
+          "footwear": "flats",
+          "postureSlouch": -1.5,
+          "motionTempo": 0.98
+        }
+      }
     }
   },
   "02": {
@@ -38,11 +107,46 @@
       "hair": "#332725",
       "outfit": "#a6b6aa",
       "accent": "#cc795d",
-      "hairShape": "bun",
+      "hairShape": "bob",
       "presentation": "feminine",
       "bodyShape": "slim",
       "heightScale": 1.02,
-      "child": false
+      "child": false,
+      "biometrics": {
+        "face": {
+          "ageGroup": "young",
+          "faceShape": "oval",
+          "headWidth": 0.95,
+          "headHeight": 0.98,
+          "jawWidth": 0.78,
+          "cheekbone": 1.03,
+          "chinLength": -1,
+          "eyeShape": "round",
+          "eyeSpacing": 1.04,
+          "eyeScale": 1.12,
+          "eyelashes": true,
+          "browStyle": "soft",
+          "noseShape": "soft",
+          "lipStyle": "full",
+          "lipColor": "#c87c72",
+          "facialHair": "none",
+          "wrinkles": 0,
+          "eyeBags": 0,
+          "grayHair": 0,
+          "frecklesOrMoles": "none"
+        },
+        "body": {
+          "neckWidth": 25,
+          "neckLength": 1.08,
+          "hipRatio": 1.12,
+          "bellyCurve": 0,
+          "limbThickness": 0.86,
+          "handScale": 0.9,
+          "footwear": "flats",
+          "postureSlouch": 0,
+          "motionTempo": 1.12
+        }
+      }
     },
     "foil": {
       "name": "HR",
@@ -51,12 +155,46 @@
       "hair": "#39302c",
       "outfit": "#394d57",
       "accent": "#c1a264",
-      "hairShape": "short",
+      "hairShape": "parted",
       "glasses": true,
       "presentation": "androgynous",
       "bodyShape": "average",
       "heightScale": 0.98,
-      "child": false
+      "child": false,
+      "biometrics": {
+        "face": {
+          "ageGroup": "adult",
+          "faceShape": "oblong",
+          "headWidth": 0.89,
+          "headHeight": 1.11,
+          "jawWidth": 0.88,
+          "cheekbone": 0.96,
+          "chinLength": 7,
+          "eyeShape": "narrow",
+          "eyeSpacing": 0.94,
+          "eyeScale": 0.92,
+          "eyelashes": false,
+          "browStyle": "straight",
+          "noseShape": "aquiline",
+          "lipStyle": "thin",
+          "facialHair": "none",
+          "wrinkles": 0.44,
+          "eyeBags": 0.25,
+          "grayHair": 0.12,
+          "frecklesOrMoles": "mole-right"
+        },
+        "body": {
+          "neckWidth": 31,
+          "neckLength": 1.04,
+          "hipRatio": 0.98,
+          "bellyCurve": 0,
+          "limbThickness": 0.92,
+          "handScale": 0.96,
+          "footwear": "loafers",
+          "postureSlouch": -1.5,
+          "motionTempo": 0.94
+        }
+      }
     }
   },
   "03": {
@@ -71,7 +209,41 @@
       "presentation": "masculine",
       "bodyShape": "broad",
       "heightScale": 1.04,
-      "child": false
+      "child": false,
+      "biometrics": {
+        "face": {
+          "ageGroup": "middle",
+          "faceShape": "square",
+          "headWidth": 1.08,
+          "headHeight": 1.01,
+          "jawWidth": 1.10,
+          "cheekbone": 1.04,
+          "chinLength": 2,
+          "eyeShape": "hooded",
+          "eyeSpacing": 1.04,
+          "eyeScale": 0.95,
+          "eyelashes": false,
+          "browStyle": "bushy",
+          "noseShape": "broad",
+          "lipStyle": "medium",
+          "facialHair": "mustache",
+          "wrinkles": 0.55,
+          "eyeBags": 0.45,
+          "grayHair": 0.18,
+          "frecklesOrMoles": "none"
+        },
+        "body": {
+          "neckWidth": 42,
+          "neckLength": 0.92,
+          "hipRatio": 0.98,
+          "bellyCurve": 7,
+          "limbThickness": 1.14,
+          "handScale": 1.08,
+          "footwear": "boots",
+          "postureSlouch": 2,
+          "motionTempo": 0.88
+        }
+      }
     },
     "foil": {
       "name": "Influencer",
@@ -84,7 +256,41 @@
       "presentation": "androgynous",
       "bodyShape": "slim",
       "heightScale": 0.96,
-      "child": false
+      "child": false,
+      "biometrics": {
+        "face": {
+          "ageGroup": "young",
+          "faceShape": "heart",
+          "headWidth": 0.93,
+          "headHeight": 0.99,
+          "jawWidth": 0.75,
+          "cheekbone": 1.08,
+          "chinLength": 2,
+          "eyeShape": "wide",
+          "eyeSpacing": 1.02,
+          "eyeScale": 1.08,
+          "eyelashes": true,
+          "browStyle": "arched",
+          "noseShape": "straight",
+          "lipStyle": "full",
+          "facialHair": "none",
+          "wrinkles": 0,
+          "eyeBags": 0,
+          "grayHair": 0,
+          "frecklesOrMoles": "none"
+        },
+        "body": {
+          "neckWidth": 27,
+          "neckLength": 1.08,
+          "hipRatio": 0.98,
+          "bellyCurve": 0,
+          "limbThickness": 0.84,
+          "handScale": 0.92,
+          "footwear": "sneakers",
+          "postureSlouch": 0,
+          "motionTempo": 1.18
+        }
+      }
     }
   },
   "04": {
@@ -99,7 +305,42 @@
       "presentation": "feminine",
       "bodyShape": "average",
       "heightScale": 1,
-      "child": false
+      "child": false,
+      "biometrics": {
+        "face": {
+          "ageGroup": "middle",
+          "faceShape": "round",
+          "headWidth": 1.06,
+          "headHeight": 0.95,
+          "jawWidth": 0.94,
+          "cheekbone": 1.06,
+          "chinLength": -2,
+          "eyeShape": "round",
+          "eyeSpacing": 1.02,
+          "eyeScale": 1.0,
+          "eyelashes": true,
+          "browStyle": "soft",
+          "noseShape": "soft",
+          "lipStyle": "medium",
+          "lipColor": "#ad675e",
+          "facialHair": "none",
+          "wrinkles": 0.65,
+          "eyeBags": 0.4,
+          "grayHair": 0.35,
+          "frecklesOrMoles": "mole-left"
+        },
+        "body": {
+          "neckWidth": 29,
+          "neckLength": 0.96,
+          "hipRatio": 1.18,
+          "bellyCurve": 5,
+          "limbThickness": 0.98,
+          "handScale": 0.94,
+          "footwear": "flats",
+          "postureSlouch": 1.5,
+          "motionTempo": 0.9
+        }
+      }
     },
     "foil": {
       "name": "Bendahara",
@@ -108,12 +349,46 @@
       "hair": "#39322d",
       "outfit": "#7f6554",
       "accent": "#d1b66f",
-      "hairShape": "bun",
+      "hairShape": "low-bun",
       "glasses": true,
       "presentation": "feminine",
       "bodyShape": "broad",
       "heightScale": 1.03,
-      "child": false
+      "child": false,
+      "biometrics": {
+        "face": {
+          "ageGroup": "senior",
+          "faceShape": "pear",
+          "headWidth": 1.07,
+          "headHeight": 1.0,
+          "jawWidth": 1.04,
+          "cheekbone": 1.0,
+          "chinLength": 1,
+          "eyeShape": "narrow",
+          "eyeSpacing": 0.96,
+          "eyeScale": 0.9,
+          "eyelashes": true,
+          "browStyle": "thin",
+          "noseShape": "straight",
+          "lipStyle": "thin",
+          "facialHair": "none",
+          "wrinkles": 0.82,
+          "eyeBags": 0.5,
+          "grayHair": 0.55,
+          "frecklesOrMoles": "none"
+        },
+        "body": {
+          "neckWidth": 33,
+          "neckLength": 0.92,
+          "hipRatio": 1.16,
+          "bellyCurve": 8,
+          "limbThickness": 1.08,
+          "handScale": 0.98,
+          "footwear": "loafers",
+          "postureSlouch": 1,
+          "motionTempo": 0.82
+        }
+      }
     }
   },
   "05": {
@@ -124,11 +399,45 @@
       "hair": "#302824",
       "outfit": "#637a65",
       "accent": "#d3a04e",
-      "hairShape": "bun",
+      "hairShape": "ponytail",
       "presentation": "feminine",
       "bodyShape": "average",
       "heightScale": 0.98,
-      "child": false
+      "child": false,
+      "biometrics": {
+        "face": {
+          "ageGroup": "adult",
+          "faceShape": "diamond",
+          "headWidth": 0.98,
+          "headHeight": 1.01,
+          "jawWidth": 0.83,
+          "cheekbone": 1.08,
+          "chinLength": 2,
+          "eyeShape": "almond",
+          "eyeSpacing": 1.01,
+          "eyeScale": 1.04,
+          "eyelashes": true,
+          "browStyle": "arched",
+          "noseShape": "soft",
+          "lipStyle": "medium",
+          "facialHair": "none",
+          "wrinkles": 0.15,
+          "eyeBags": 0.1,
+          "grayHair": 0,
+          "frecklesOrMoles": "none"
+        },
+        "body": {
+          "neckWidth": 26,
+          "neckLength": 1.04,
+          "hipRatio": 1.12,
+          "bellyCurve": 0,
+          "limbThickness": 0.94,
+          "handScale": 0.92,
+          "footwear": "sneakers",
+          "postureSlouch": 0,
+          "motionTempo": 1.08
+        }
+      }
     },
     "foil": {
       "name": "Humas",
@@ -137,12 +446,46 @@
       "hair": "#38302c",
       "outfit": "#586f78",
       "accent": "#d8b257",
-      "hairShape": "short",
+      "hairShape": "parted",
       "glasses": true,
       "presentation": "androgynous",
       "bodyShape": "slim",
       "heightScale": 1.02,
-      "child": false
+      "child": false,
+      "biometrics": {
+        "face": {
+          "ageGroup": "adult",
+          "faceShape": "oblong",
+          "headWidth": 0.88,
+          "headHeight": 1.12,
+          "jawWidth": 0.85,
+          "cheekbone": 0.96,
+          "chinLength": 8,
+          "eyeShape": "narrow",
+          "eyeSpacing": 0.95,
+          "eyeScale": 0.94,
+          "eyelashes": false,
+          "browStyle": "arched",
+          "noseShape": "aquiline",
+          "lipStyle": "thin",
+          "facialHair": "none",
+          "wrinkles": 0.30,
+          "eyeBags": 0.15,
+          "grayHair": 0.08,
+          "frecklesOrMoles": "none"
+        },
+        "body": {
+          "neckWidth": 29,
+          "neckLength": 1.08,
+          "hipRatio": 0.95,
+          "bellyCurve": 0,
+          "limbThickness": 0.88,
+          "handScale": 0.95,
+          "footwear": "loafers",
+          "postureSlouch": -2,
+          "motionTempo": 1.02
+        }
+      }
     }
   },
   "06": {
@@ -153,11 +496,45 @@
       "hair": "#302927",
       "outfit": "#82684f",
       "accent": "#d2b77c",
-      "hairShape": "short",
+      "hairShape": "receding",
       "presentation": "masculine",
       "bodyShape": "broad",
       "heightScale": 1.04,
-      "child": false
+      "child": false,
+      "biometrics": {
+        "face": {
+          "ageGroup": "middle",
+          "faceShape": "pear",
+          "headWidth": 1.08,
+          "headHeight": 1.02,
+          "jawWidth": 1.08,
+          "cheekbone": 1.02,
+          "chinLength": 1,
+          "eyeShape": "hooded",
+          "eyeSpacing": 1.02,
+          "eyeScale": 0.94,
+          "eyelashes": false,
+          "browStyle": "thick",
+          "noseShape": "broad",
+          "lipStyle": "medium",
+          "facialHair": "mustache",
+          "wrinkles": 0.62,
+          "eyeBags": 0.4,
+          "grayHair": 0.35,
+          "frecklesOrMoles": "none"
+        },
+        "body": {
+          "neckWidth": 41,
+          "neckLength": 0.90,
+          "hipRatio": 1.02,
+          "bellyCurve": 10,
+          "limbThickness": 1.12,
+          "handScale": 1.06,
+          "footwear": "loafers",
+          "postureSlouch": 2,
+          "motionTempo": 0.88
+        }
+      }
     },
     "foil": {
       "name": "Dini",
@@ -166,11 +543,45 @@
       "hair": "#302521",
       "outfit": "#9e6a67",
       "accent": "#d7b15f",
-      "hairShape": "bun",
+      "hairShape": "pigtails",
       "presentation": "feminine",
       "bodyShape": "slim",
       "heightScale": 1,
-      "child": true
+      "child": true,
+      "biometrics": {
+        "face": {
+          "ageGroup": "child",
+          "faceShape": "round",
+          "headWidth": 1.07,
+          "headHeight": 0.90,
+          "jawWidth": 0.86,
+          "cheekbone": 1.05,
+          "chinLength": -5,
+          "eyeShape": "wide",
+          "eyeSpacing": 1.08,
+          "eyeScale": 1.24,
+          "eyelashes": true,
+          "browStyle": "soft",
+          "noseShape": "button",
+          "lipStyle": "medium",
+          "facialHair": "none",
+          "wrinkles": 0,
+          "eyeBags": 0,
+          "grayHair": 0,
+          "frecklesOrMoles": "freckles"
+        },
+        "body": {
+          "neckWidth": 22,
+          "neckLength": 0.84,
+          "hipRatio": 0.95,
+          "bellyCurve": 0,
+          "limbThickness": 0.72,
+          "handScale": 0.78,
+          "footwear": "school",
+          "postureSlouch": 0,
+          "motionTempo": 1.2
+        }
+      }
     }
   },
   "07": {
@@ -181,11 +592,45 @@
       "hair": "#302824",
       "outfit": "#617354",
       "accent": "#d2a053",
-      "hairShape": "short",
+      "hairShape": "receding",
       "presentation": "masculine",
       "bodyShape": "broad",
       "heightScale": 0.94,
-      "child": false
+      "child": false,
+      "biometrics": {
+        "face": {
+          "ageGroup": "senior",
+          "faceShape": "round",
+          "headWidth": 1.04,
+          "headHeight": 1.02,
+          "jawWidth": 1.02,
+          "cheekbone": 1.0,
+          "chinLength": 2,
+          "eyeShape": "hooded",
+          "eyeSpacing": 0.98,
+          "eyeScale": 0.88,
+          "eyelashes": false,
+          "browStyle": "bushy",
+          "noseShape": "broad",
+          "lipStyle": "thin",
+          "facialHair": "short-beard",
+          "wrinkles": 0.95,
+          "eyeBags": 0.75,
+          "grayHair": 0.75,
+          "frecklesOrMoles": "none"
+        },
+        "body": {
+          "neckWidth": 39,
+          "neckLength": 0.88,
+          "hipRatio": 1.0,
+          "bellyCurve": 7,
+          "limbThickness": 1.1,
+          "handScale": 1.06,
+          "footwear": "boots",
+          "postureSlouch": 4.5,
+          "motionTempo": 0.78
+        }
+      }
     },
     "foil": {
       "name": "Koordinator",
@@ -194,11 +639,45 @@
       "hair": "#382f2a",
       "outfit": "#4f6d59",
       "accent": "#d6bb61",
-      "hairShape": "short",
+      "hairShape": "cap",
       "presentation": "androgynous",
       "bodyShape": "slim",
       "heightScale": 0.98,
-      "child": false
+      "child": false,
+      "biometrics": {
+        "face": {
+          "ageGroup": "adult",
+          "faceShape": "oblong",
+          "headWidth": 0.94,
+          "headHeight": 1.06,
+          "jawWidth": 0.96,
+          "cheekbone": 0.98,
+          "chinLength": 4,
+          "eyeShape": "almond",
+          "eyeSpacing": 1.0,
+          "eyeScale": 0.98,
+          "eyelashes": false,
+          "browStyle": "straight",
+          "noseShape": "straight",
+          "lipStyle": "medium",
+          "facialHair": "stubble",
+          "wrinkles": 0.25,
+          "eyeBags": 0.15,
+          "grayHair": 0.05,
+          "frecklesOrMoles": "none"
+        },
+        "body": {
+          "neckWidth": 33,
+          "neckLength": 1.02,
+          "hipRatio": 0.96,
+          "bellyCurve": 0,
+          "limbThickness": 0.94,
+          "handScale": 0.98,
+          "footwear": "boots",
+          "postureSlouch": -1,
+          "motionTempo": 1.04
+        }
+      }
     }
   },
   "08": {
@@ -209,12 +688,47 @@
       "hair": "#342724",
       "outfit": "#765d69",
       "accent": "#dda454",
-      "hairShape": "bun",
+      "hairShape": "ponytail",
       "apron": true,
       "presentation": "feminine",
       "bodyShape": "average",
       "heightScale": 1,
-      "child": false
+      "child": false,
+      "biometrics": {
+        "face": {
+          "ageGroup": "adult",
+          "faceShape": "heart",
+          "headWidth": 0.96,
+          "headHeight": 0.99,
+          "jawWidth": 0.79,
+          "cheekbone": 1.04,
+          "chinLength": 0,
+          "eyeShape": "almond",
+          "eyeSpacing": 1.0,
+          "eyeScale": 1.02,
+          "eyelashes": true,
+          "browStyle": "arched",
+          "noseShape": "soft",
+          "lipStyle": "full",
+          "lipColor": "#bd7268",
+          "facialHair": "none",
+          "wrinkles": 0.18,
+          "eyeBags": 0.35,
+          "grayHair": 0,
+          "frecklesOrMoles": "none"
+        },
+        "body": {
+          "neckWidth": 26,
+          "neckLength": 1.04,
+          "hipRatio": 1.13,
+          "bellyCurve": 1,
+          "limbThickness": 0.92,
+          "handScale": 0.92,
+          "footwear": "flats",
+          "postureSlouch": 0.5,
+          "motionTempo": 1.0
+        }
+      }
     },
     "foil": {
       "name": "Manajer",
@@ -223,12 +737,46 @@
       "hair": "#38302b",
       "outfit": "#53636c",
       "accent": "#c3a15f",
-      "hairShape": "short",
+      "hairShape": "parted",
       "glasses": true,
       "presentation": "androgynous",
       "bodyShape": "broad",
       "heightScale": 1.06,
-      "child": false
+      "child": false,
+      "biometrics": {
+        "face": {
+          "ageGroup": "middle",
+          "faceShape": "square",
+          "headWidth": 1.09,
+          "headHeight": 1.05,
+          "jawWidth": 1.14,
+          "cheekbone": 1.04,
+          "chinLength": 3,
+          "eyeShape": "narrow",
+          "eyeSpacing": 0.96,
+          "eyeScale": 0.92,
+          "eyelashes": false,
+          "browStyle": "thick",
+          "noseShape": "aquiline",
+          "lipStyle": "thin",
+          "facialHair": "goatee",
+          "wrinkles": 0.78,
+          "eyeBags": 0.55,
+          "grayHair": 0.45,
+          "frecklesOrMoles": "none"
+        },
+        "body": {
+          "neckWidth": 43,
+          "neckLength": 0.9,
+          "hipRatio": 0.98,
+          "bellyCurve": 11,
+          "limbThickness": 1.16,
+          "handScale": 1.08,
+          "footwear": "loafers",
+          "postureSlouch": -1,
+          "motionTempo": 0.86
+        }
+      }
     }
   }
 }
