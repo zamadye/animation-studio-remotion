@@ -12,12 +12,13 @@ assert.ok(!JSON.stringify(source).includes('clockScale'));console.log('PART1 PAS
 
 const {evaluateActor}=await import(load('src/story/evaluate.ts'));
 const {raka,nisa,ayah,mira}=await import(load('src/components/characters/registry.ts'));
-assert.deepEqual(raka,ayah);assert.deepEqual(nisa,mira);
+assert.equal(raka.name,'Raka');assert.equal(nisa.name,'Nisa');assert.equal(raka.costume,'workwear');assert.equal(nisa.hairShape,'hijab');assert.equal(nisa.lowerGarment,'skirt');
 const costumeMarkup=design=>renderToStaticMarkup(React.createElement(CharacterRig,{design,frame:0,fps:24,cue:'hold'}));
 const {CharacterRig}=await import(load('src/components/characters/CharacterRig.tsx'));
-assert.equal(costumeMarkup(raka),costumeMarkup(ayah));assert.equal(costumeMarkup(nisa),costumeMarkup(mira));
+const {characterRegistry}=await import(load('src/components/characters/registry.ts'));
+assert.equal(costumeMarkup(raka),costumeMarkup(characterRegistry.raka));assert.equal(costumeMarkup(nisa),costumeMarkup(characterRegistry.nisa));
 let active=0,closed=0;
 for(let f=108;f<source.duration;f++){const {scene,local}=partOneScene(f);for(const a of scene.actors){const state=evaluateActor(scene,a,local);if(a.id==='nisa')assert.equal(state.face.viseme,'rest');if(a.id==='raka'){if(state.face.viseme!=='rest')active++;else closed++;if((source.energy[f]??0)<.09)assert.equal(state.face.viseme,'rest');}}}
-assert.ok(active>400);assert.ok(closed>0);console.log('CORRECTION PASS: physical design equals catalog; Raka has '+active+' active mouth frames; quiet frames and Nisa stay closed.');
+assert.ok(active>400);assert.ok(closed>0);console.log('CORRECTION PASS: user Rig V4 character identity retained; Raka has '+active+' active mouth frames; quiet frames and Nisa stay closed.');
 
 const work=partOneScene(22*24);assert.equal(work.shot.set,'office');assert.equal(work.actor.props[0].content.id,'lembar-kerja');assert.equal(work.actor.body[0].motion.index,10);assert.ok(work.scene.duration>=60);console.log('WORK SHOT PASS: practical workstation, held work document, approved motion 10, >=2.5 seconds.');

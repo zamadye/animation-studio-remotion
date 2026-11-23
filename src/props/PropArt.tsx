@@ -28,7 +28,7 @@ export const PropArt:React.FC<{content:HeldContent}>=({content:p})=>{
  </>:<>
   <rect width="640" height="800" rx="4" fill="#fff8e6" stroke="#89785e" strokeWidth="5"/>
   <path d="M580 0v60h60" fill="#e4d8ba" stroke="#89785e" strokeWidth="3"/>
-  <text x="48" y="65" fontSize="19" fill="#6d6e5c">{p.layout==='notebook'?'CATATAN RUMAH':'KANTOR PELAYANAN WARGA'}</text>
+  <text x="48" y="65" fontSize="19" fill="#6d6e5c">{p.headerTag??(p.layout==='notebook'?'CATATAN RUMAH':'KANTOR PELAYANAN WARGA')}</text>
   <path d="M48 86h544" stroke="#43695d" strokeWidth="5"/>
   <text x="48" y="143" fontSize="32" fontWeight="bold" fill="#2e4c43">{p.heading}</text>
   <text x="48" y="182" fontSize="21" fill="#605b4b">{p.number}</text>

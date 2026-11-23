@@ -1,5 +1,5 @@
 export type PhoneContent={kind:'phone';mode?:'chat'|'call'|'bank'|'video';video?:{frame:number;openness:number};bank?:{label:string;amount:string;notices:readonly string[]};id:string;contact:string;messages:readonly {from:'them'|'me';lines:readonly string[]}[]};
-export type LetterContent={kind:'letter';layout?:'letter'|'notebook';id:string;heading:string;number:string;lines:readonly string[];struckLines?:readonly number[];signatureLabel?:string;signature:string};
+export type LetterContent={kind:'letter';layout?:'letter'|'notebook';headerTag?:string;id:string;heading:string;number:string;lines:readonly string[];struckLines?:readonly number[];signatureLabel?:string;signature:string};
 export type WalletContent={kind:'wallet';id:string};
 export type LunchboxContent={kind:'lunchbox';id:string;open?:boolean};
 export type HeldContent=PhoneContent|LetterContent|WalletContent|LunchboxContent;
@@ -12,7 +12,7 @@ export const validateContent=(p:HeldContent)=>{
  if(p.kind==='phone'){
   check(p.contact,22);if(p.mode==='video'){if(!p.video)throw new Error('Video data missing');return p;}if(p.mode==='bank'){if(!p.bank)throw new Error('Bank screen data missing');check(p.bank.label,24);check(p.bank.amount,18);if(p.bank.notices.length>4)throw new Error('Too many bank notices');p.bank.notices.forEach(s=>check(s,28));return p;}if(!p.messages.length||p.messages.length>3)throw new Error(`${p.id}: use 1–3 messages`);
   for(const m of p.messages){if(!m.lines.length||m.lines.length>3)throw new Error(`${p.id}: use 1–3 lines per message`);m.lines.forEach(s=>check(s,22));}
- }else{check(p.heading,24);check(p.number,32);check(p.signature,26);if(p.signatureLabel)check(p.signatureLabel,28);if(!p.lines.length||p.lines.length>10)throw new Error(`${p.id}: use 1–10 letter lines`);p.lines.filter(s=>s.length>0).forEach(s=>check(s,34));}
+ }else{if(p.headerTag)check(p.headerTag,32);check(p.heading,24);check(p.number,32);check(p.signature,26);if(p.signatureLabel)check(p.signatureLabel,28);if(!p.lines.length||p.lines.length>10)throw new Error(`${p.id}: use 1–10 letter lines`);p.lines.filter(s=>s.length>0).forEach(s=>check(s,34));}
  return p;
 };
 

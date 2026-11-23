@@ -37,3 +37,6 @@ Build source manifest without speech generation: `.venv/bin/python scripts/build
 - Full 1786-frame MP4 re-rendered with corrected catalog identity and speech tracks. Existing npm test suite, added Part1 tests, typecheck and body lock pass. Entire video decoded without errors. Inspected 16 extracted actual-output samples including work entrance/midpoint/exit, both characters, phone, ledger, close-up and ending.
 - Uploaded full revised video to source Drive folder: https://drive.google.com/file/d/1kZy2SCpHe5jYVmBQFXqEmsrIDvH6dKgC/view
 - This is the current full Part1 delivery, superseding the earlier full render and excerpt proof. Mouth shape timing remains SRT/text estimated and energy gated, not phoneme-accurate alignment.
+
+## Rig V4 sync supersedes historical casting notes
+User commit a905201 supplies dedicated Raka/Nisa character designs. Current production uses these exact identities, not the historical Ayah/Mira aliases documented above. Original VO and timing retained. See docs/sync/rig-v4-part-production.md. Prior Drive videos have not been re-rendered by code synchronization.

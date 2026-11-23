@@ -27,3 +27,6 @@ Typecheck, entire npm test suite and body-lock pass. All1344 scene frames valida
 
 Build source: `.venv/bin/python scripts/build-gajian-part2.py` (local PCM analysis only, no API).
 Render: `npm run render:part2`.
+
+## Rig V4 sync supersedes historical casting notes
+User commit a905201 supplies dedicated Raka/Nisa character designs. Current production uses these exact identities, not the historical Ayah/Mira aliases documented above. Original VO and timing retained. See docs/sync/rig-v4-part-production.md. Prior Drive videos have not been re-rendered by code synchronization.
