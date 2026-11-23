@@ -17,5 +17,9 @@ export const pakBeni=cast['07'].hero;
 export const koordinator=cast['07'].foil;
 export const rika=cast['08'].hero;
 export const manajer=cast['08'].foil;
-export const characterRegistry={darto,petugas,nina,hr,pria,influencer,ibuSari,bendahara,mira,humas,ayah,dini,pakBeni,koordinator,rika,manajer} as const;
+// Story IDs must preserve the catalog design identity: costume artwork keys on design.name.
+// Raka/Nisa are story IDs, not replacements for the visual identity Ayah/Mira.
+export const raka=ayah;
+export const nisa=mira;
+export const characterRegistry={raka,nisa,darto,petugas,nina,hr,pria,influencer,ibuSari,bendahara,mira,humas,ayah,dini,pakBeni,koordinator,rika,manajer} as const;
 export type CharacterId=keyof typeof characterRegistry;

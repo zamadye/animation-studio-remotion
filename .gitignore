@@ -33,3 +33,6 @@ qa-frames/
 /*.png
 /*.jpg
 /*.pdf
+
+# Connector downloads (production source copied to documented asset paths)
+/google_drive/

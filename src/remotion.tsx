@@ -1,3 +1,8 @@
+import {PartTwo,PART_TWO_DURATION} from './episodes/gajian-part2/PartTwo';
+import {CorrectionProof,CatalogIdentityProof} from './episodes/gajian-part1/CorrectionProof';
+import {PartOne,PART_ONE_DURATION} from './episodes/gajian-part1/PartOne';
+import {GajianEpisode} from './episodes/gajian/GajianEpisode';
+import {GAJIAN_DURATION} from './episodes/gajian/scene';
 import {Episode01Review} from './episodes/Episode01Review';
 import {PropCameraProof} from './props/PropCameraProof';
 import React from 'react';
@@ -32,8 +37,14 @@ export const RemotionRoot: React.FC = () => <>
   <Composition id="Proof-01-Opening-Scene" component={ProofScene} durationInFrames={PROOF_DURATION} fps={30} width={1080} height={1920}/>
   <Composition id="Character-Variation-Concepts-1" component={CharacterVariationSheet} durationInFrames={90} fps={30} width={1080} height={1920} defaultProps={{page:0}}/>
   <Composition id="Character-Variation-Concepts-2" component={CharacterVariationSheet} durationInFrames={90} fps={30} width={1080} height={1920} defaultProps={{page:1}}/>
-  <Composition id="Episode01-Complete-Review" component={Episode01Review} durationInFrames={2160} fps={24} width={1080} height={1920} defaultProps={{portrait:true}}/>
-  <Composition id="Episode01-Complete-Landscape" component={Episode01Review} durationInFrames={2160} fps={24} width={1920} height={1080}/>
+  <Composition id="EP001-Part1-Correction-Proof" component={CorrectionProof} durationInFrames={576} fps={24} width={1080} height={1920}/>
+  <Composition id="EP001-Part1-Catalog-Identity" component={CatalogIdentityProof} durationInFrames={1} fps={24} width={1080} height={1920}/>
+  <Composition id="EP001-Part2-DriveVO" component={PartTwo} durationInFrames={PART_TWO_DURATION} fps={24} width={1080} height={1920}/>
+  <Composition id="EP001-Part1-DriveVO" component={PartOne} durationInFrames={PART_ONE_DURATION} fps={24} width={1080} height={1920}/>
+  <Composition id="EP001-Gajian" component={GajianEpisode} durationInFrames={GAJIAN_DURATION} fps={24} width={1080} height={1920}/>
+  <Composition id="EP001-Gajian-Opening" component={GajianEpisode} durationInFrames={360} fps={24} width={1080} height={1920}/>
+  <Composition id="Archive-Episode01-Complete-Review" component={Episode01Review} durationInFrames={2160} fps={24} width={1080} height={1920} defaultProps={{portrait:true}}/>
+  <Composition id="Archive-Episode01-Complete-Landscape" component={Episode01Review} durationInFrames={2160} fps={24} width={1920} height={1080}/>
   <Composition id="Held-Prop-Camera-Proof" component={PropCameraProof} durationInFrames={624} fps={24} width={1920} height={1080}/>
   <Composition id="World-Dialogue-Proof" component={WorldDialogueProof} durationInFrames={288} fps={24} width={1920} height={1080}/>
   <Composition id="World-Character-Scale-Check" component={WorldScaleCheck} durationInFrames={1} fps={24} width={1920} height={1080}/>

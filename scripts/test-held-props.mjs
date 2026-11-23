@@ -39,7 +39,7 @@ for(const design of Object.values(characterRegistry))for(let index=0;index<13;in
  const shifted=handSocket(design,{...pose,rootX:(pose.rootX??0)+17,rootY:(pose.rootY??0)-11},hand);
  assert.ok(Math.abs(shifted.x-point.x-17)<1e-8&&Math.abs(shifted.y-point.y+11)<1e-8,'socket preserves root translation');sockets++;
 }
-console.log(`HELD PROPS VALIDATED: ${sockets} FK samples; both hands/all 16 cast/all 13 motions, content reuse, grip layer, visibility, invalid-content rejection and camera boundaries.`);
+console.log(`HELD PROPS VALIDATED: ${sockets} FK samples; both hands/all registered identities/all 13 motions, content reuse, grip layer, visibility, invalid-content rejection and camera boundaries.`);
 const {plugAndPlayScene}=await import(load('src/story/examples/plugAndPlay.ts'));
 assert.equal(validateStoryScene(plugAndPlayScene).actors.length,1);
 assert.deepEqual(plugAndPlayScene.actors[0].body.map(c=>c.motion.index),[6,2,0]);
@@ -54,4 +54,4 @@ for(const design of Object.values(characterRegistry))for(let index=0;index<13;in
  const m=chain.reduce(multiply,[1,0,0,1,0,0]),s=handSocket(design,p,hand);
  assert.ok(Math.abs(s.x-(m[2]*12+m[4]))<1e-8&&Math.abs(s.y-(m[3]*12+m[5]))<1e-8,'FK socket matches locked SVG matrix chain');
 }
-console.log('ATTACHMENT MATRIX VALIDATED: 1664 samples against independent SVG transform matrices; plug-and-play example uses approved motion indices.');
+console.log('ATTACHMENT MATRIX VALIDATED: all registered identities against independent SVG transform matrices; plug-and-play example uses approved motion indices.');
